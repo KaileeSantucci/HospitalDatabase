@@ -141,3 +141,64 @@ JOIN ClinicalNotes n ON a.admission_id = n.admission_id -- retrieve clinical not
 WHERE n.note_type = 'Discharge Summary' -- include only discharge-summary notes
     AND n.note_content ILIKE '%recovery%' -- search for "recovery" regardless of capitalization
 ORDER BY p.last_name, p.first_name; -- sort patients alphabetically
+
+
+-- query 17
+-- display the patient's name, the admission identifier, the number of distinct codes that the patient has 
+SELECT p.first_name, p.last_name, d.admission_id, COUNT(*) AS number_of_icd9_codes FROM patients p
+RIGHT JOIN diagnosis d 
+ON p.patient_id = d.patient_id -- find and only include patients in the second table 
+GROUP BY p.patient_id, d.admission_id 
+HAVING COUNT(icd9_code) > 1 -- include only patients that have more than 1 code 
+ORDER BY p.first_name, p.last_name ASC ; -- order the set alphabetically 
+
+-- query 18
+display the patient's name, the date and time the note was written, the note type and the note content 
+SELECT table1.first_name, table1.last_name, table1.note_datetime, table2.note_type, table2.note_content
+FROM ( 
+	-- select the patient's name, the date and time the note was written 
+	SELECT p.first_name, p.last_name, temp_table.note_datetime
+	FROM patients p
+	INNER JOIN (
+			-- select the patient identifier and the latest note in the specified format 
+			SELECT a.patient_id, MAX(TO_CHAR(note_datetime, 'HH24:MI:SS DD-MM-YYYY')) AS note_datetime
+			FROM admissions a 
+			INNER JOIN clinicalnotes c
+			ON a.admission_id = c.admission_id -- find all admission identifers that are in the second table 
+			GROUP BY a.patient_id -- group by patient id to then find the latest clinical note 
+		) temp_table
+	ON p.patient_id = temp_table.patient_id -- find all matching patients 
+) table1
+INNER JOIN clinicalnotes table2 
+ON table1.note_datetime = TO_CHAR(table2.note_datetime, 'HH24:MI:SS DD-MM-YYYY') ; -- find the corresponding date and time 
+
+-- query 19 
+SELECT table1.first_name, table1.last_name, table2.admission_datetime, table2.icd9_code, table2.diagnosis_type -- select the patient's name, the date and time of the admission, the code and the type 
+FROM patients table1
+LEFT JOIN (
+	SELECT a.admission_id, a.patient_id, a.admission_datetime, a.final_status, d.icd9_code, d.diagnosis_type 
+	FROM admissions a
+	LEFT JOIN diagnosis d
+	ON a.admission_id = d.admission_id AND d.diagnosis_type = 'Primary' -- find all matching admission identifers and primary types 
+	WHERE a.final_status = 'Discharged'
+	) table2
+ON table1.patient_id = table2.patient_id ; -- include all matching patients 
+
+-- query 20
+-- list the patient's name, the admission identifier, the procedure name, the examination type and the datetime 
+SELECT p.first_name, p.last_name, table1.admission_id, table1.procedure_type, table1.exam_type, table1.datetime
+FROM patients p
+INNER JOIN 
+(
+	SELECT a.admission_id, a.patient_id, temp_table.procedure_type, temp_table.exam_type, temp_table.datetime
+	FROM admissions a
+	INNER JOIN (
+		-- select the admission identifier, the procedure name, the examination type and the datetime in the specified format 
+		SELECT s.admission_id, s.procedure_name AS procedure_type, r.exam_type, TO_CHAR(s.procedure_datetime, 'YYYY-MM-DD') AS datetime
+		FROM surgicalprocedures s
+		INNER JOIN radiologyexaminations r
+		ON s.admission_id = r.admission_id AND TO_CHAR(s.procedure_datetime, 'YYYY-MM-DD') = TO_CHAR(r.exam_datetime, 'YYYY-MM-DD') -- include all matching admission identifiers and datetime
+	) temp_table 
+	ON a.admission_id = temp_table.admission_id -- find all matching admission identifiers in the admissions table 
+) table1
+ON p.patient_id = table1.patient_id -- find all corresponding patients 
