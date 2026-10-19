@@ -83,3 +83,61 @@ WHERE d.diagnosis_type = 'Primary'  -- keeping only 'Primary' diagnosis
 GROUP BY i.icd9_code, i.official_title -- putting every row with the same code into the same pile
 ORDER BY diagnosis_count DESC -- go by the highest count
 LIMIT 1; -- keeping the most frequent one 'Retrieving the most frequently assigned primary ICD-9 diagnosis'
+
+
+-- Query 9: Calculate the average length of stay for each critical care unit type
+-- Uses `AVG()` to calculate the average stay duration, `GROUP BY` to separate unit types, and `WHERE` to filter critical care units and incomplete stays.
+
+SELECT
+    unit_type, -- display the critical care unit type
+    JUSTIFY_HOURS(AVG(exit_datetime - entry_datetime)) AS average_length_of_stay -- calculates and formats the average length of the stay
+FROM UnitStays -- retrieves unit stay records
+WHERE unit_type IN ('MICU', 'SICU', 'ICU', 'CCU') -- includes only critical care units (MICU, SICU, ICU, CCU)
+    AND exit_datetime IS NOT NULL -- excludes any stays that have not yet ended
+GROUP BY unit_type -- calculates a seperate ADD
+ORDER BY unit_type; -- displays the results in alphabetical order by unit type
+
+
+-- Query 10: Patients who have underwent surgey before entering the ICU/CCU unit
+-- Uses `JOIN` to connect patients, admissions, surgeries and unit stays, and `WHERE` to filter surgeries performed before ICU/CCU entry
+
+SELECT
+    p.first_name, -- display patient's first name
+    p.last_name, -- display patient's last name
+    s.procedure_datetime, -- display surgery date and time
+    u.unit_type, -- display critical care unit type
+    u.entry_datetime AS unit_entry_time -- display unit entry time
+FROM Patients p -- retrieve patient information
+JOIN Admissions a ON p.patient_id = a.patient_id -- matches patients to admissions
+JOIN SurgicalProcedures s ON a.admission_id = s.admission_id -- to find surgeries during admission
+JOIN UnitStays u ON a.admission_id = u.admission_id -- find unit stays during the same admission
+WHERE u.unit_type IN ('ICU', 'CCU') -- include only ICU and CCU
+    AND s.procedure_datetime < u.entry_datetime -- ensure surgery occurred before unit entry
+ORDER BY p.last_name, p.first_name, s.procedure_datetime; -- sort by patient and surgery date
+
+-- Query 11: Count the radiology examinations performed for each patient across all admissions
+-- Uses `LEFT JOIN` to include all patients and `COUNT()` with `GROUP BY` to total radiology examinations per patient
+
+SELECT
+    p.first_name, -- display patient's first name
+    p.last_name, -- display patient's last name
+    COUNT(r.radiology_exam_id) AS total_examinations -- count radiology exams, including zero
+FROM Patients p -- start with all patients
+LEFT JOIN Admissions a ON p.patient_id = a.patient_id -- include patients without admissions
+LEFT JOIN RadiologyExaminations r ON a.admission_id = r.admission_id -- include admissions without radiology exams
+GROUP BY p.patient_id, p.first_name, p.last_name -- calculate one total per patient
+ORDER BY p.last_name, p.first_name; -- sort results alphabetically
+
+-- Query 12: Find all patients whose discharge-summary clinical note contains the keyword 'recovery'
+-- Uses `JOIN` to connect patients to clinical notes, `WHERE` with `ILIKE` to find discharge summaries containing “recovery” for case-insensitive matching
+-- and `DISTINCT` to avoid duplicates
+
+SELECT DISTINCT
+    p.first_name, -- display patient's first name
+    p.last_name -- display patient's last name
+FROM Patients p -- retrieve patient information
+JOIN Admissions a ON p.patient_id = a.patient_id -- match patients to admissions
+JOIN ClinicalNotes n ON a.admission_id = n.admission_id -- retrieve clinical notes for each admission
+WHERE n.note_type = 'Discharge Summary' -- include only discharge-summary notes
+    AND n.note_content ILIKE '%recovery%' -- search for "recovery" regardless of capitalization
+ORDER BY p.last_name, p.first_name; -- sort patients alphabetically
