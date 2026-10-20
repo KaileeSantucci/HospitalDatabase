@@ -143,46 +143,58 @@ WHERE n.note_type = 'Discharge Summary' -- include only discharge-summary notes
 ORDER BY p.last_name, p.first_name; -- sort patients alphabetically
 
 
--- query 17
--- display the patient's name, the admission identifier, the number of distinct codes that the patient has 
-SELECT p.first_name, p.last_name, d.admission_id, COUNT(*) AS number_of_icd9_codes FROM patients p
-RIGHT JOIN diagnosis d 
-ON p.patient_id = d.patient_id -- find and only include patients in the second table 
-GROUP BY p.patient_id, d.admission_id 
-HAVING COUNT(icd9_code) > 1 -- include only patients that have more than 1 code 
-ORDER BY p.first_name, p.last_name ASC ; -- order the set alphabetically 
+-- Query 17: Find all admissions which the patient has recieved more than one distinct ICD-9 diagnosis
+SELECT
+    p.first_name,
+    p.last_name,
+    d.admission_id,
+    COUNT(DISTINCT d.icd9_code) AS number_of_icd9_codes -- Count unique ICD-9 codes for each admission
+FROM Patients p
+JOIN Diagnosis d ON p.patient_id = d.patient_id -- Match patients to their diagnoses
+GROUP BY p.patient_id, p.first_name, p.last_name, d.admission_id -- Group diagnoses by patient and admission
+HAVING COUNT(DISTINCT d.icd9_code) > 1 -- Include only admissions with more than one distinct diagnosis
+ORDER BY p.first_name, p.last_name; -- Sort patients alphabetically
 
--- query 18
-display the patient's name, the date and time the note was written, the note type and the note content 
-SELECT table1.first_name, table1.last_name, table1.note_datetime, table2.note_type, table2.note_content
-FROM ( 
-	-- select the patient's name, the date and time the note was written 
-	SELECT p.first_name, p.last_name, temp_table.note_datetime
-	FROM patients p
-	INNER JOIN (
-			-- select the patient identifier and the latest note in the specified format 
-			SELECT a.patient_id, MAX(TO_CHAR(note_datetime, 'HH24:MI:SS DD-MM-YYYY')) AS note_datetime
-			FROM admissions a 
-			INNER JOIN clinicalnotes c
-			ON a.admission_id = c.admission_id -- find all admission identifers that are in the second table 
-			GROUP BY a.patient_id -- group by patient id to then find the latest clinical note 
-		) temp_table
-	ON p.patient_id = temp_table.patient_id -- find all matching patients 
-) table1
-INNER JOIN clinicalnotes table2 
-ON table1.note_datetime = TO_CHAR(table2.note_datetime, 'HH24:MI:SS DD-MM-YYYY') ; -- find the corresponding date and time 
+-- Query 18: Retrieve the latest clinical note for each patient
+-- Retrieve the most recent clinical note for each patient.
+-- Display the patient's name, note type, creation date and time, and note contents.
 
--- query 19 
-SELECT table1.first_name, table1.last_name, table2.admission_datetime, table2.icd9_code, table2.diagnosis_type -- select the patient's name, the date and time of the admission, the code and the type 
+SELECT DISTINCT ON (p.patient_id) -- Return only one note per patient
+    p.first_name,
+    p.last_name,
+    c.note_type,
+    c.note_datetime,
+    c.note_content
+FROM Patients p
+JOIN Admissions a ON p.patient_id = a.patient_id -- Match patients to their admissions
+JOIN ClinicalNotes c ON a.admission_id = c.admission_id -- Retrieve clinical notes for each admission
+ORDER BY p.patient_id, c.note_datetime DESC, c.note_id DESC; -- Select the most recent note for each patient and order by note ID to break ties if multiple notes have the same datetime.
+
+-- Query 19
+-- Find all admissions where the patient died during their hospital stay.
+-- Display the patient's name, admission date, date of death and primary ICD-9 diagnosis.
+SELECT
+    table1.first_name,
+    table1.last_name,
+    table2.admission_datetime,
+    table1.death_datetime,
+    table2.icd9_code
 FROM patients table1
-LEFT JOIN (
-	SELECT a.admission_id, a.patient_id, a.admission_datetime, a.final_status, d.icd9_code, d.diagnosis_type 
-	FROM admissions a
-	LEFT JOIN diagnosis d
-	ON a.admission_id = d.admission_id AND d.diagnosis_type = 'Primary' -- find all matching admission identifers and primary types 
-	WHERE a.final_status = 'Discharged'
-	) table2
-ON table1.patient_id = table2.patient_id ; -- include all matching patients 
+INNER JOIN (
+    -- Retrieve admissions with a primary diagnosis
+    SELECT
+        a.admission_id,
+        a.patient_id,
+        a.admission_datetime,
+        a.final_status,
+        d.icd9_code
+    FROM admissions a
+    INNER JOIN diagnosis d
+        ON a.admission_id = d.admission_id
+        AND d.diagnosis_type = 'Primary' -- Include only primary diagnoses
+    WHERE a.final_status = 'Deceased' -- Include only admissions where the patient died
+) table2
+    ON table1.patient_id = table2.patient_id; -- Match deceased admissions to their patients
 
 -- query 20
 -- list the patient's name, the admission identifier, the procedure name, the examination type and the datetime 
@@ -201,4 +213,4 @@ INNER JOIN
 	) temp_table 
 	ON a.admission_id = temp_table.admission_id -- find all matching admission identifiers in the admissions table 
 ) table1
-ON p.patient_id = table1.patient_id -- find all corresponding patients 
+ON p.patient_id = table1.patient_id; -- find all corresponding patients 
