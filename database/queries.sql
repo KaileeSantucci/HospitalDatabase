@@ -142,6 +142,87 @@ WHERE n.note_type = 'Discharge Summary' -- include only discharge-summary notes
     AND n.note_content ILIKE '%recovery%' -- search for "recovery" regardless of capitalization
 ORDER BY p.last_name, p.first_name; -- sort patients alphabetically
 
+-- Query 13: List all admissions with at least one radiology examination but no recorded ICU or CCU stay
+-- Uses `EXISTS` to keep admissions with a radiology exam and `NOT EXISTS` to exclude admissions with an ICU or CCU stay, so each admission appears only once
+
+SELECT
+    a.admission_id, -- display the admission number
+    p.first_name, -- display patient's first name
+    p.last_name, -- display patient's last name
+    a.admission_datetime, -- display when the admission started
+    a.admission_type -- display the type of admission
+FROM Admissions a -- start from all admissions
+JOIN Patients p ON p.patient_id = a.patient_id -- look up the patient to get their name
+WHERE EXISTS ( -- keep the admission only if it had at least one radiology exam
+        SELECT 1
+        FROM RadiologyExaminations r
+        WHERE r.admission_id = a.admission_id
+    )
+    AND NOT EXISTS ( -- and only if no ICU or CCU stay was recorded for that same admission
+        SELECT 1
+        FROM UnitStays u
+        WHERE u.admission_id = a.admission_id
+            AND u.unit_type IN ('ICU', 'CCU')
+    )
+ORDER BY a.admission_id; -- sort by admission number
+
+-- Query 14: Retrieve the patient(s) with the longest completed hospital stay, from admission time to discharge time
+-- Uses a subquery with `MAX()` to find the longest completed stay and `WHERE` to return every admission equal to it, so ties are all displayed
+
+SELECT
+    p.patient_id, -- display patient's id
+    p.first_name, -- display patient's first name
+    p.last_name, -- display patient's last name
+    a.admission_datetime, -- display admission time
+    a.discharge_datetime, -- display discharge time
+    a.discharge_datetime - a.admission_datetime AS length_of_stay -- calculate how long the stay lasted
+FROM Admissions a -- start from all admissions
+JOIN Patients p ON p.patient_id = a.patient_id -- look up the patient to get their name
+WHERE a.discharge_datetime IS NOT NULL -- only completed stays
+    AND a.discharge_datetime - a.admission_datetime = ( -- keep the stay only if its length equals the maximum
+        SELECT MAX(discharge_datetime - admission_datetime) -- longest completed stay in the whole table
+        FROM Admissions
+        WHERE discharge_datetime IS NOT NULL
+    )
+ORDER BY p.last_name, p.first_name; -- sort alphabetically if there is a tie
+
+-- Query 15: Count the total number of transfers between hospital units for each patient
+-- Uses a subquery with `COUNT(*) - 1` to get transfers per admission (the first unit placement is not a transfer), then `SUM()` with `GROUP BY` to total them per patient
+
+SELECT
+    p.patient_id, -- display patient's id
+    p.first_name, -- display patient's first name
+    p.last_name, -- display patient's last name
+    COALESCE(SUM(t.transfers), 0) AS total_transfers -- sum the transfers of every admission, 0 if there are none
+FROM Patients p -- start from all patients
+LEFT JOIN Admissions a ON a.patient_id = p.patient_id -- match each patient to their admissions
+LEFT JOIN ( -- transfers per admission
+        SELECT
+            admission_id,
+            COUNT(*) - 1 AS transfers -- every stay after the first one is a transfer
+        FROM UnitStays
+        GROUP BY admission_id -- one row per admission
+    ) t ON t.admission_id = a.admission_id -- attach the transfer count to its admission
+GROUP BY p.patient_id, p.first_name, p.last_name -- one total per patient
+ORDER BY total_transfers DESC, p.last_name, p.first_name; -- most transfers first
+
+-- Query 16: List all patients who stayed in more than one type of critical care unit during the same admission
+-- Uses `GROUP BY` with `HAVING COUNT(DISTINCT unit_type) > 1` to find admissions with at least two different critical care units (ICU, CCU, MICU, SICU) and `DISTINCT` to list each patient once
+
+SELECT DISTINCT
+    p.patient_id, -- display patient's id
+    p.first_name, -- display patient's first name
+    p.last_name -- display patient's last name
+FROM Patients p -- start from all patients
+JOIN Admissions a ON a.patient_id = p.patient_id -- match patients to their admissions
+WHERE a.admission_id IN ( -- keep only admissions from the list below
+        SELECT admission_id
+        FROM UnitStays
+        WHERE unit_type IN ('ICU', 'CCU', 'MICU', 'SICU') -- only critical care stays
+        GROUP BY admission_id -- one group per admission
+        HAVING COUNT(DISTINCT unit_type) > 1 -- at least two different critical care unit types
+    )
+ORDER BY p.last_name, p.first_name; -- sort patients alphabetically
 
 -- Query 17: Find all admissions which the patient has recieved more than one distinct ICD-9 diagnosis
 SELECT
