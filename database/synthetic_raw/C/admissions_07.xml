@@ -1,0 +1,4201 @@
+<?xml version='1.0' encoding='utf-8'?>
+<hospitalSystem source="C">
+  <admissions>
+    <admission>
+      <admission_id>A00601</admission_id>
+      <patient_id>P00281</patient_id>
+      <admission_datetime>2022-10-03T19:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician01</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00601</diagnosis_id>
+          <patient_id>P00281</patient_id>
+          <admission_id>A00601</admission_id>
+          <icd9_code>038.9</icd9_code>
+          <diagnosis_datetime>2022-10-03T22:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician01</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00601</triage_id>
+          <admission_id>A00601</admission_id>
+          <assessment_datetime>2022-10-03T20:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse01</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>73</heart_rate>
+          <respiratory_rate>15</respiratory_rate>
+          <body_temperature>36.6</body_temperature>
+          <oxygen_saturation>97</oxygen_saturation>
+          <pain_level>7</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P2</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00602</admission_id>
+      <patient_id>P00282</patient_id>
+      <admission_datetime>2022-10-04T06:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician02</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00602</diagnosis_id>
+          <patient_id>P00282</patient_id>
+          <admission_id>A00602</admission_id>
+          <icd9_code>250.00</icd9_code>
+          <diagnosis_datetime>2022-10-04T09:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician02</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00602</triage_id>
+          <admission_id>A00602</admission_id>
+          <assessment_datetime>2022-10-04T07:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse02</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>74</heart_rate>
+          <respiratory_rate>16</respiratory_rate>
+          <body_temperature>36.7</body_temperature>
+          <oxygen_saturation>98</oxygen_saturation>
+          <pain_level>8</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00603</admission_id>
+      <patient_id>P00283</patient_id>
+      <admission_datetime>2022-10-04T17:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician03</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00603</diagnosis_id>
+          <patient_id>P00283</patient_id>
+          <admission_id>A00603</admission_id>
+          <icd9_code>272.4</icd9_code>
+          <diagnosis_datetime>2022-10-04T20:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician03</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00603</triage_id>
+          <admission_id>A00603</admission_id>
+          <assessment_datetime>2022-10-04T18:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse03</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>75</heart_rate>
+          <respiratory_rate>17</respiratory_rate>
+          <body_temperature>36.8</body_temperature>
+          <oxygen_saturation>99</oxygen_saturation>
+          <pain_level>9</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00604</admission_id>
+      <patient_id>P00284</patient_id>
+      <admission_datetime>2022-10-05T04:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician04</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00604</diagnosis_id>
+          <patient_id>P00284</patient_id>
+          <admission_id>A00604</admission_id>
+          <icd9_code>276.1</icd9_code>
+          <diagnosis_datetime>2022-10-05T07:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician04</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00604</triage_id>
+          <admission_id>A00604</admission_id>
+          <assessment_datetime>2022-10-05T05:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse04</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>76</heart_rate>
+          <respiratory_rate>18</respiratory_rate>
+          <body_temperature>36.9</body_temperature>
+          <oxygen_saturation>100</oxygen_saturation>
+          <pain_level>10</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level> p2 </priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00605</admission_id>
+      <patient_id>P00285</patient_id>
+      <admission_datetime>2022-10-05T15:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician05</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00605</diagnosis_id>
+          <patient_id>P00285</patient_id>
+          <admission_id>A00605</admission_id>
+          <icd9_code>276.8</icd9_code>
+          <diagnosis_datetime>2022-10-05T18:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician05</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00605</triage_id>
+          <admission_id>A00605</admission_id>
+          <assessment_datetime>2022-10-05T16:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse05</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>not-a-number</heart_rate>
+          <respiratory_rate>19</respiratory_rate>
+          <body_temperature>37.0</body_temperature>
+          <oxygen_saturation>96</oxygen_saturation>
+          <pain_level>0</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00606</admission_id>
+      <patient_id>P00286</patient_id>
+      <admission_datetime>2022-10-06T02:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician06</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00606</diagnosis_id>
+          <patient_id>P00286</patient_id>
+          <admission_id>A00606</admission_id>
+          <icd9_code>285.9</icd9_code>
+          <diagnosis_datetime>2022-10-06T05:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician06</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00606</triage_id>
+          <admission_id>A00606</admission_id>
+          <assessment_datetime>2022-10-06T03:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse06</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>78</heart_rate>
+          <respiratory_rate>14</respiratory_rate>
+          <body_temperature>37.1</body_temperature>
+          <oxygen_saturation>97</oxygen_saturation>
+          <pain_level>1</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00607</admission_id>
+      <patient_id>P00287</patient_id>
+      <admission_datetime>2022-10-06T13:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician07</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00607</diagnosis_id>
+          <patient_id>P00287</patient_id>
+          <admission_id>A00607</admission_id>
+          <icd9_code>401.9</icd9_code>
+          <diagnosis_datetime>2022-10-06T16:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician07</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00607</triage_id>
+          <admission_id>A00607</admission_id>
+          <assessment_datetime>2022-10-06T14:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse07</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>79</heart_rate>
+          <respiratory_rate>15</respiratory_rate>
+          <body_temperature>37.2</body_temperature>
+          <oxygen_saturation>98</oxygen_saturation>
+          <pain_level>2</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P2</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00608</admission_id>
+      <patient_id>P00288</patient_id>
+      <admission_datetime>2022-10-07T00:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician08</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00608</diagnosis_id>
+          <patient_id>P00288</patient_id>
+          <admission_id>A00608</admission_id>
+          <icd9_code>414.01</icd9_code>
+          <diagnosis_datetime>2022-10-07T03:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician08</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00608</triage_id>
+          <admission_id>A00608</admission_id>
+          <assessment_datetime>2022-10-07T01:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse08</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>80</heart_rate>
+          <respiratory_rate>16</respiratory_rate>
+          <body_temperature>36.5</body_temperature>
+          <oxygen_saturation>99</oxygen_saturation>
+          <pain_level>3</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00609</admission_id>
+      <patient_id>P00289</patient_id>
+      <admission_datetime>2022-10-07T11:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician09</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00609</diagnosis_id>
+          <patient_id>P00289</patient_id>
+          <admission_id>A00609</admission_id>
+          <icd9_code>427.31</icd9_code>
+          <diagnosis_datetime>2022-10-07T14:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician09</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00609</triage_id>
+          <admission_id>A00609</admission_id>
+          <assessment_datetime>2022-10-07T12:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse09</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>81</heart_rate>
+          <respiratory_rate>17</respiratory_rate>
+          <body_temperature>36.6</body_temperature>
+          <oxygen_saturation>100</oxygen_saturation>
+          <pain_level>4</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00610</admission_id>
+      <patient_id>P00290</patient_id>
+      <admission_datetime>2022-10-07T22:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician10</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00610</diagnosis_id>
+          <patient_id>P00290</patient_id>
+          <admission_id>A00610</admission_id>
+          <icd9_code>428.0</icd9_code>
+          <diagnosis_datetime>2022-10-08T01:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician10</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00610</triage_id>
+          <admission_id>A00610</admission_id>
+          <assessment_datetime>2022-10-07T23:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse10</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>82</heart_rate>
+          <respiratory_rate>18</respiratory_rate>
+          <body_temperature>36.7</body_temperature>
+          <oxygen_saturation>96</oxygen_saturation>
+          <pain_level>5</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P2</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00611</admission_id>
+      <patient_id>P00291</patient_id>
+      <admission_datetime>2022-10-08T09:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician11</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00611</diagnosis_id>
+          <patient_id>P00291</patient_id>
+          <admission_id>A00611</admission_id>
+          <icd9_code>486</icd9_code>
+          <diagnosis_datetime>2022-10-08T12:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician11</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00611</triage_id>
+          <admission_id>A00611</admission_id>
+          <assessment_datetime>2022-10-08T10:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse11</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>83</heart_rate>
+          <respiratory_rate>19</respiratory_rate>
+          <body_temperature>36.8</body_temperature>
+          <oxygen_saturation>97</oxygen_saturation>
+          <pain_level>6</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00612</admission_id>
+      <patient_id>P00292</patient_id>
+      <admission_datetime>2022-10-08T20:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician12</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00612</diagnosis_id>
+          <patient_id>P00292</patient_id>
+          <admission_id>A00612</admission_id>
+          <icd9_code>493.90</icd9_code>
+          <diagnosis_datetime>2022-10-08T23:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician12</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00612</triage_id>
+          <admission_id>A00612</admission_id>
+          <assessment_datetime>2022-10-08T21:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse12</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>84</heart_rate>
+          <respiratory_rate>14</respiratory_rate>
+          <body_temperature>36.9</body_temperature>
+          <oxygen_saturation>98</oxygen_saturation>
+          <pain_level>7</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00613</admission_id>
+      <patient_id>P00293</patient_id>
+      <admission_datetime>2022-10-09T07:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician13</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00613</diagnosis_id>
+          <patient_id>P00293</patient_id>
+          <admission_id>A00613</admission_id>
+          <icd9_code>518.81</icd9_code>
+          <diagnosis_datetime>2022-10-09T10:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician13</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00613</triage_id>
+          <admission_id>A00613</admission_id>
+          <assessment_datetime>2022-10-09T08:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse13</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>85</heart_rate>
+          <respiratory_rate>15</respiratory_rate>
+          <body_temperature>37.0</body_temperature>
+          <oxygen_saturation>99</oxygen_saturation>
+          <pain_level>8</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level> p2 </priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00614</admission_id>
+      <patient_id>P00294</patient_id>
+      <admission_datetime>2022-10-09T18:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician14</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00614</diagnosis_id>
+          <patient_id>P00294</patient_id>
+          <admission_id>A00614</admission_id>
+          <icd9_code>530.81</icd9_code>
+          <diagnosis_datetime>2022-10-09T21:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician14</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00614</triage_id>
+          <admission_id>A00614</admission_id>
+          <assessment_datetime>2022-10-09T19:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse14</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>86</heart_rate>
+          <respiratory_rate>16</respiratory_rate>
+          <body_temperature>37.1</body_temperature>
+          <oxygen_saturation>100</oxygen_saturation>
+          <pain_level>9</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00615</admission_id>
+      <patient_id>P00295</patient_id>
+      <admission_datetime>2022-10-10T05:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician15</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00615</diagnosis_id>
+          <patient_id>P00295</patient_id>
+          <admission_id>A00615</admission_id>
+          <icd9_code>584.9</icd9_code>
+          <diagnosis_datetime>2022-10-10T08:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician15</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00615</triage_id>
+          <admission_id>A00615</admission_id>
+          <assessment_datetime>2022-10-10T06:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse15</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>87</heart_rate>
+          <respiratory_rate>17</respiratory_rate>
+          <body_temperature>37.2</body_temperature>
+          <oxygen_saturation>96</oxygen_saturation>
+          <pain_level>10</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00616</admission_id>
+      <patient_id>P00296</patient_id>
+      <admission_datetime>2022-10-10T16:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician16</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00616</diagnosis_id>
+          <patient_id>P00296</patient_id>
+          <admission_id>A00616</admission_id>
+          <icd9_code>599.0</icd9_code>
+          <diagnosis_datetime>2022-10-10T19:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician16</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00616</triage_id>
+          <admission_id>A00616</admission_id>
+          <assessment_datetime>2022-10-10T17:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse16</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>88</heart_rate>
+          <respiratory_rate>18</respiratory_rate>
+          <body_temperature>36.5</body_temperature>
+          <oxygen_saturation>97</oxygen_saturation>
+          <pain_level>0</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P2</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00617</admission_id>
+      <patient_id>P00297</patient_id>
+      <admission_datetime>2022-10-11T03:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician17</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00617</diagnosis_id>
+          <patient_id>P00297</patient_id>
+          <admission_id>A00617</admission_id>
+          <icd9_code>599.70</icd9_code>
+          <diagnosis_datetime>2022-10-11T06:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician17</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00617</triage_id>
+          <admission_id>A00617</admission_id>
+          <assessment_datetime>2022-10-11T04:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse17</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>89</heart_rate>
+          <respiratory_rate>19</respiratory_rate>
+          <body_temperature>36.6</body_temperature>
+          <oxygen_saturation>98</oxygen_saturation>
+          <pain_level>1</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00618</admission_id>
+      <patient_id>P00298</patient_id>
+      <admission_datetime>2022-10-11T14:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician18</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00618</diagnosis_id>
+          <patient_id>P00298</patient_id>
+          <admission_id>A00618</admission_id>
+          <icd9_code>715.90</icd9_code>
+          <diagnosis_datetime>2022-10-11T17:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician18</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00618</triage_id>
+          <admission_id>A00618</admission_id>
+          <assessment_datetime>2022-10-11T15:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse18</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>90</heart_rate>
+          <respiratory_rate>14</respiratory_rate>
+          <body_temperature>36.7</body_temperature>
+          <oxygen_saturation>99</oxygen_saturation>
+          <pain_level>2</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00619</admission_id>
+      <patient_id>P00299</patient_id>
+      <admission_datetime>2022-10-12T01:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician19</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00619</diagnosis_id>
+          <patient_id>P00299</patient_id>
+          <admission_id>A00619</admission_id>
+          <icd9_code>719.46</icd9_code>
+          <diagnosis_datetime>2022-10-12T04:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician19</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00619</triage_id>
+          <admission_id>A00619</admission_id>
+          <assessment_datetime>2022-10-12T02:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse19</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>91</heart_rate>
+          <respiratory_rate>15</respiratory_rate>
+          <body_temperature>36.8</body_temperature>
+          <oxygen_saturation>100</oxygen_saturation>
+          <pain_level>3</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level> p2 </priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00620</admission_id>
+      <patient_id>P00300</patient_id>
+      <admission_datetime>2022-10-12T12:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician20</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00620</diagnosis_id>
+          <patient_id>P00300</patient_id>
+          <admission_id>A00620</admission_id>
+          <icd9_code>724.2</icd9_code>
+          <diagnosis_datetime>2022-10-12T15:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician20</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00620</triage_id>
+          <admission_id>A00620</admission_id>
+          <assessment_datetime>2022-10-12T13:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse20</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>92</heart_rate>
+          <respiratory_rate>16</respiratory_rate>
+          <body_temperature>36.9</body_temperature>
+          <oxygen_saturation>96</oxygen_saturation>
+          <pain_level>4</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00621</admission_id>
+      <patient_id>P00301</patient_id>
+      <admission_datetime>2022-10-12T23:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician21</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00621</diagnosis_id>
+          <patient_id>P00301</patient_id>
+          <admission_id>A00621</admission_id>
+          <icd9_code>724.5</icd9_code>
+          <diagnosis_datetime>2022-10-13T02:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician21</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00621</triage_id>
+          <admission_id>A00621</admission_id>
+          <assessment_datetime>2022-10-13T00:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse21</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>93</heart_rate>
+          <respiratory_rate>17</respiratory_rate>
+          <body_temperature>37.0</body_temperature>
+          <oxygen_saturation>97</oxygen_saturation>
+          <pain_level>5</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00622</admission_id>
+      <patient_id>P00302</patient_id>
+      <admission_datetime>2022-10-13T10:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician22</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00622</diagnosis_id>
+          <patient_id>P00302</patient_id>
+          <admission_id>A00622</admission_id>
+          <icd9_code>729.5</icd9_code>
+          <diagnosis_datetime>2022-10-13T13:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician22</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00622</triage_id>
+          <admission_id>A00622</admission_id>
+          <assessment_datetime>2022-10-13T11:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse22</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>94</heart_rate>
+          <respiratory_rate>18</respiratory_rate>
+          <body_temperature>37.1</body_temperature>
+          <oxygen_saturation>98</oxygen_saturation>
+          <pain_level>6</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P2</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00623</admission_id>
+      <patient_id>P00303</patient_id>
+      <admission_datetime>2022-10-13T21:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician23</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00623</diagnosis_id>
+          <patient_id>P00303</patient_id>
+          <admission_id>A00623</admission_id>
+          <icd9_code>780.2</icd9_code>
+          <diagnosis_datetime>2022-10-14T00:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician23</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00623</triage_id>
+          <admission_id>A00623</admission_id>
+          <assessment_datetime>2022-10-13T22:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse23</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>not-a-number</heart_rate>
+          <respiratory_rate>19</respiratory_rate>
+          <body_temperature>37.2</body_temperature>
+          <oxygen_saturation>99</oxygen_saturation>
+          <pain_level>7</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00624</admission_id>
+      <patient_id>P00304</patient_id>
+      <admission_datetime>2022-10-14T08:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician24</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00624</diagnosis_id>
+          <patient_id>P00304</patient_id>
+          <admission_id>A00624</admission_id>
+          <icd9_code>780.79</icd9_code>
+          <diagnosis_datetime>2022-10-14T11:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician24</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00624</triage_id>
+          <admission_id>A00624</admission_id>
+          <assessment_datetime>2022-10-14T09:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse24</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>96</heart_rate>
+          <respiratory_rate>14</respiratory_rate>
+          <body_temperature>36.5</body_temperature>
+          <oxygen_saturation>100</oxygen_saturation>
+          <pain_level>8</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00625</admission_id>
+      <patient_id>P00305</patient_id>
+      <admission_datetime>2022-10-14T19:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician25</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00625</diagnosis_id>
+          <patient_id>P00305</patient_id>
+          <admission_id>A00625</admission_id>
+          <icd9_code>786.05</icd9_code>
+          <diagnosis_datetime>2022-10-14T22:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician25</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00625</triage_id>
+          <admission_id>A00625</admission_id>
+          <assessment_datetime>2022-10-14T20:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse25</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>72</heart_rate>
+          <respiratory_rate>15</respiratory_rate>
+          <body_temperature>36.6</body_temperature>
+          <oxygen_saturation>96</oxygen_saturation>
+          <pain_level>9</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P2</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00626</admission_id>
+      <patient_id>P00306</patient_id>
+      <admission_datetime>2022-10-15T06:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician26</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00626</diagnosis_id>
+          <patient_id>P00306</patient_id>
+          <admission_id>A00626</admission_id>
+          <icd9_code>786.09</icd9_code>
+          <diagnosis_datetime>2022-10-15T09:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician26</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00626</triage_id>
+          <admission_id>A00626</admission_id>
+          <assessment_datetime>2022-10-15T07:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse26</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>73</heart_rate>
+          <respiratory_rate>16</respiratory_rate>
+          <body_temperature>36.7</body_temperature>
+          <oxygen_saturation>97</oxygen_saturation>
+          <pain_level>10</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00627</admission_id>
+      <patient_id>P00307</patient_id>
+      <admission_datetime>2022-10-15T17:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician27</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00627</diagnosis_id>
+          <patient_id>P00307</patient_id>
+          <admission_id>A00627</admission_id>
+          <icd9_code>786.50</icd9_code>
+          <diagnosis_datetime>2022-10-15T20:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician27</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00627</triage_id>
+          <admission_id>A00627</admission_id>
+          <assessment_datetime>2022-10-15T18:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse27</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>74</heart_rate>
+          <respiratory_rate>17</respiratory_rate>
+          <body_temperature>36.8</body_temperature>
+          <oxygen_saturation>98</oxygen_saturation>
+          <pain_level>0</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00628</admission_id>
+      <patient_id>P00308</patient_id>
+      <admission_datetime>2022-10-16T04:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician28</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00628</diagnosis_id>
+          <patient_id>P00308</patient_id>
+          <admission_id>A00628</admission_id>
+          <icd9_code>789.00</icd9_code>
+          <diagnosis_datetime>2022-10-16T07:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician28</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00628</triage_id>
+          <admission_id>A00628</admission_id>
+          <assessment_datetime>2022-10-16T05:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse28</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>75</heart_rate>
+          <respiratory_rate>18</respiratory_rate>
+          <body_temperature>36.9</body_temperature>
+          <oxygen_saturation>99</oxygen_saturation>
+          <pain_level>1</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level> p2 </priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00629</admission_id>
+      <patient_id>P00309</patient_id>
+      <admission_datetime>2022-10-16T15:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician29</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00629</diagnosis_id>
+          <patient_id>P00309</patient_id>
+          <admission_id>A00629</admission_id>
+          <icd9_code>995.91</icd9_code>
+          <diagnosis_datetime>2022-10-16T18:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician29</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00629</triage_id>
+          <admission_id>A00629</admission_id>
+          <assessment_datetime>2022-10-16T16:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse29</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>76</heart_rate>
+          <respiratory_rate>19</respiratory_rate>
+          <body_temperature>37.0</body_temperature>
+          <oxygen_saturation>100</oxygen_saturation>
+          <pain_level>2</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00630</admission_id>
+      <patient_id>P00310</patient_id>
+      <admission_datetime>2022-10-17T02:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician30</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00630</diagnosis_id>
+          <patient_id>P00310</patient_id>
+          <admission_id>A00630</admission_id>
+          <icd9_code>995.92</icd9_code>
+          <diagnosis_datetime>2022-10-17T05:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician30</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00630</triage_id>
+          <admission_id>A00630</admission_id>
+          <assessment_datetime>2022-10-17T03:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse00</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>77</heart_rate>
+          <respiratory_rate>14</respiratory_rate>
+          <body_temperature>37.1</body_temperature>
+          <oxygen_saturation>96</oxygen_saturation>
+          <pain_level>3</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00631</admission_id>
+      <patient_id>P00311</patient_id>
+      <admission_datetime>2022-10-17T13:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician31</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00631</diagnosis_id>
+          <patient_id>P00311</patient_id>
+          <admission_id>A00631</admission_id>
+          <icd9_code>V15.82</icd9_code>
+          <diagnosis_datetime>2022-10-17T16:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician31</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00631</triage_id>
+          <admission_id>A00631</admission_id>
+          <assessment_datetime>2022-10-17T14:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse01</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>78</heart_rate>
+          <respiratory_rate>15</respiratory_rate>
+          <body_temperature>37.2</body_temperature>
+          <oxygen_saturation>97</oxygen_saturation>
+          <pain_level>4</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P2</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00632</admission_id>
+      <patient_id>P00312</patient_id>
+      <admission_datetime>2022-10-18T00:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician32</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00632</diagnosis_id>
+          <patient_id>P00312</patient_id>
+          <admission_id>A00632</admission_id>
+          <icd9_code>V43.3</icd9_code>
+          <diagnosis_datetime>2022-10-18T03:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician32</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00632</triage_id>
+          <admission_id>A00632</admission_id>
+          <assessment_datetime>2022-10-18T01:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse02</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>79</heart_rate>
+          <respiratory_rate>16</respiratory_rate>
+          <body_temperature>36.5</body_temperature>
+          <oxygen_saturation>98</oxygen_saturation>
+          <pain_level>5</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00633</admission_id>
+      <patient_id>P00313</patient_id>
+      <admission_datetime>2022-10-18T11:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician33</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00633</diagnosis_id>
+          <patient_id>P00313</patient_id>
+          <admission_id>A00633</admission_id>
+          <icd9_code>V45.81</icd9_code>
+          <diagnosis_datetime>2022-10-18T14:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician33</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00633</triage_id>
+          <admission_id>A00633</admission_id>
+          <assessment_datetime>2022-10-18T12:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse03</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>80</heart_rate>
+          <respiratory_rate>17</respiratory_rate>
+          <body_temperature>36.6</body_temperature>
+          <oxygen_saturation>99</oxygen_saturation>
+          <pain_level>6</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00634</admission_id>
+      <patient_id>P00314</patient_id>
+      <admission_datetime>2022-10-18T22:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician34</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00634</diagnosis_id>
+          <patient_id>P00314</patient_id>
+          <admission_id>A00634</admission_id>
+          <icd9_code>V58.61</icd9_code>
+          <diagnosis_datetime>2022-10-19T01:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician34</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00634</triage_id>
+          <admission_id>A00634</admission_id>
+          <assessment_datetime>2022-10-18T23:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse04</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>81</heart_rate>
+          <respiratory_rate>18</respiratory_rate>
+          <body_temperature>36.7</body_temperature>
+          <oxygen_saturation>100</oxygen_saturation>
+          <pain_level>7</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level> p2 </priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00635</admission_id>
+      <patient_id>P00315</patient_id>
+      <admission_datetime>2022-10-19T09:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician35</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00635</diagnosis_id>
+          <patient_id>P00315</patient_id>
+          <admission_id>A00635</admission_id>
+          <icd9_code>V58.67</icd9_code>
+          <diagnosis_datetime>2022-10-19T12:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician35</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00635</triage_id>
+          <admission_id>A00635</admission_id>
+          <assessment_datetime>2022-10-19T10:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse05</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>82</heart_rate>
+          <respiratory_rate>19</respiratory_rate>
+          <body_temperature>36.8</body_temperature>
+          <oxygen_saturation>96</oxygen_saturation>
+          <pain_level>8</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00636</admission_id>
+      <patient_id>P00316</patient_id>
+      <admission_datetime>2022-10-19T20:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician36</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00636</diagnosis_id>
+          <patient_id>P00316</patient_id>
+          <admission_id>A00636</admission_id>
+          <icd9_code>244.9</icd9_code>
+          <diagnosis_datetime>2022-10-19T23:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician36</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00636</triage_id>
+          <admission_id>A00636</admission_id>
+          <assessment_datetime>2022-10-19T21:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse06</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>83</heart_rate>
+          <respiratory_rate>14</respiratory_rate>
+          <body_temperature>36.9</body_temperature>
+          <oxygen_saturation>97</oxygen_saturation>
+          <pain_level>9</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00637</admission_id>
+      <patient_id>P00317</patient_id>
+      <admission_datetime>2022-10-20T07:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician37</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00637</diagnosis_id>
+          <patient_id>P00317</patient_id>
+          <admission_id>A00637</admission_id>
+          <icd9_code>250.02</icd9_code>
+          <diagnosis_datetime>2022-10-20T10:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician37</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00637</triage_id>
+          <admission_id>A00637</admission_id>
+          <assessment_datetime>2022-10-20T08:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse07</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>not-a-number</heart_rate>
+          <respiratory_rate>15</respiratory_rate>
+          <body_temperature>37.0</body_temperature>
+          <oxygen_saturation>98</oxygen_saturation>
+          <pain_level>10</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P2</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00638</admission_id>
+      <patient_id>P00318</patient_id>
+      <admission_datetime>2022-10-20T18:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician38</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00638</diagnosis_id>
+          <patient_id>P00318</patient_id>
+          <admission_id>A00638</admission_id>
+          <icd9_code>272.0</icd9_code>
+          <diagnosis_datetime>2022-10-20T21:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician38</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00638</triage_id>
+          <admission_id>A00638</admission_id>
+          <assessment_datetime>2022-10-20T19:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse08</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>85</heart_rate>
+          <respiratory_rate>16</respiratory_rate>
+          <body_temperature>37.1</body_temperature>
+          <oxygen_saturation>99</oxygen_saturation>
+          <pain_level>0</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00639</admission_id>
+      <patient_id>P00319</patient_id>
+      <admission_datetime>2022-10-21T05:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician39</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00639</diagnosis_id>
+          <patient_id>P00319</patient_id>
+          <admission_id>A00639</admission_id>
+          <icd9_code>278.00</icd9_code>
+          <diagnosis_datetime>2022-10-21T08:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician39</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00639</triage_id>
+          <admission_id>A00639</admission_id>
+          <assessment_datetime>2022-10-21T06:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse09</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>86</heart_rate>
+          <respiratory_rate>17</respiratory_rate>
+          <body_temperature>37.2</body_temperature>
+          <oxygen_saturation>100</oxygen_saturation>
+          <pain_level>1</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00640</admission_id>
+      <patient_id>P00320</patient_id>
+      <admission_datetime>2022-10-21T16:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician00</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00640</diagnosis_id>
+          <patient_id>P00320</patient_id>
+          <admission_id>A00640</admission_id>
+          <icd9_code>285.1</icd9_code>
+          <diagnosis_datetime>2022-10-21T19:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician00</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00640</triage_id>
+          <admission_id>A00640</admission_id>
+          <assessment_datetime>2022-10-21T17:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse10</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>87</heart_rate>
+          <respiratory_rate>18</respiratory_rate>
+          <body_temperature>36.5</body_temperature>
+          <oxygen_saturation>96</oxygen_saturation>
+          <pain_level>2</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P2</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00641</admission_id>
+      <patient_id>P00321</patient_id>
+      <admission_datetime>2022-10-22T03:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician01</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00641</diagnosis_id>
+          <patient_id>P00321</patient_id>
+          <admission_id>A00641</admission_id>
+          <icd9_code>311</icd9_code>
+          <diagnosis_datetime>2022-10-22T06:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician01</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00641</triage_id>
+          <admission_id>A00641</admission_id>
+          <assessment_datetime>2022-10-22T04:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse11</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>88</heart_rate>
+          <respiratory_rate>19</respiratory_rate>
+          <body_temperature>36.6</body_temperature>
+          <oxygen_saturation>97</oxygen_saturation>
+          <pain_level>3</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00642</admission_id>
+      <patient_id>P00322</patient_id>
+      <admission_datetime>2022-10-22T14:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician02</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00642</diagnosis_id>
+          <patient_id>P00322</patient_id>
+          <admission_id>A00642</admission_id>
+          <icd9_code>331.0</icd9_code>
+          <diagnosis_datetime>2022-10-22T17:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician02</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00642</triage_id>
+          <admission_id>A00642</admission_id>
+          <assessment_datetime>2022-10-22T15:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse12</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>89</heart_rate>
+          <respiratory_rate>14</respiratory_rate>
+          <body_temperature>36.7</body_temperature>
+          <oxygen_saturation>98</oxygen_saturation>
+          <pain_level>4</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00643</admission_id>
+      <patient_id>P00323</patient_id>
+      <admission_datetime>2022-10-23T01:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician03</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00643</diagnosis_id>
+          <patient_id>P00323</patient_id>
+          <admission_id>A00643</admission_id>
+          <icd9_code>345.90</icd9_code>
+          <diagnosis_datetime>2022-10-23T04:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician03</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00643</triage_id>
+          <admission_id>A00643</admission_id>
+          <assessment_datetime>2022-10-23T02:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse13</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>90</heart_rate>
+          <respiratory_rate>15</respiratory_rate>
+          <body_temperature>36.8</body_temperature>
+          <oxygen_saturation>99</oxygen_saturation>
+          <pain_level>5</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P2</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00644</admission_id>
+      <patient_id>P00324</patient_id>
+      <admission_datetime>2022-10-23T12:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician04</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00644</diagnosis_id>
+          <patient_id>P00324</patient_id>
+          <admission_id>A00644</admission_id>
+          <icd9_code>346.90</icd9_code>
+          <diagnosis_datetime>2022-10-23T15:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician04</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00644</triage_id>
+          <admission_id>A00644</admission_id>
+          <assessment_datetime>2022-10-23T13:00:00+08:00</assessment_datetime>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>91</heart_rate>
+          <respiratory_rate>16</respiratory_rate>
+          <body_temperature>36.9</body_temperature>
+          <oxygen_saturation>100</oxygen_saturation>
+          <pain_level>6</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00645</admission_id>
+      <patient_id>P00325</patient_id>
+      <admission_datetime>2022-10-23T23:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician05</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00645</diagnosis_id>
+          <patient_id>P00325</patient_id>
+          <admission_id>A00645</admission_id>
+          <icd9_code>401.1</icd9_code>
+          <diagnosis_datetime>2022-10-24T02:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician05</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00645</triage_id>
+          <admission_id>A00645</admission_id>
+          <assessment_datetime>2022-10-24T00:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse15</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>92</heart_rate>
+          <respiratory_rate>17</respiratory_rate>
+          <body_temperature>37.0</body_temperature>
+          <oxygen_saturation>96</oxygen_saturation>
+          <pain_level>7</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00646</admission_id>
+      <patient_id>P00326</patient_id>
+      <admission_datetime>2022-10-24T10:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician06</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00646</diagnosis_id>
+          <patient_id>P00326</patient_id>
+          <admission_id>A00646</admission_id>
+          <icd9_code>410.90</icd9_code>
+          <diagnosis_datetime>2022-10-24T13:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician06</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00646</triage_id>
+          <admission_id>A00646</admission_id>
+          <assessment_datetime>2022-10-24T11:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse16</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>93</heart_rate>
+          <respiratory_rate>18</respiratory_rate>
+          <body_temperature>37.1</body_temperature>
+          <oxygen_saturation>97</oxygen_saturation>
+          <pain_level>8</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P2</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00647</admission_id>
+      <patient_id>P00327</patient_id>
+      <admission_datetime>2022-10-24T21:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician07</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00647</diagnosis_id>
+          <patient_id>P00327</patient_id>
+          <admission_id>A00647</admission_id>
+          <icd9_code>412</icd9_code>
+          <diagnosis_datetime>2022-10-25T00:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician07</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00647</triage_id>
+          <admission_id>A00647</admission_id>
+          <assessment_datetime>2022-10-24T22:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse17</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>94</heart_rate>
+          <respiratory_rate>19</respiratory_rate>
+          <body_temperature>37.2</body_temperature>
+          <oxygen_saturation>98</oxygen_saturation>
+          <pain_level>9</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00648</admission_id>
+      <patient_id>P00328</patient_id>
+      <admission_datetime>2022-10-25T08:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician08</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00648</diagnosis_id>
+          <patient_id>P00328</patient_id>
+          <admission_id>A00648</admission_id>
+          <icd9_code>414.00</icd9_code>
+          <diagnosis_datetime>2022-10-25T11:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician08</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00648</triage_id>
+          <admission_id>A00648</admission_id>
+          <assessment_datetime>2022-10-25T09:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse18</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>95</heart_rate>
+          <respiratory_rate>14</respiratory_rate>
+          <body_temperature>36.5</body_temperature>
+          <oxygen_saturation>99</oxygen_saturation>
+          <pain_level>10</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00649</admission_id>
+      <patient_id>P00329</patient_id>
+      <admission_datetime>2022-10-25T19:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician09</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00649</diagnosis_id>
+          <patient_id>P00329</patient_id>
+          <admission_id>A00649</admission_id>
+          <icd9_code>466.0</icd9_code>
+          <diagnosis_datetime>2022-10-25T22:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician09</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00649</triage_id>
+          <admission_id>A00649</admission_id>
+          <assessment_datetime>2022-10-25T20:00:00+08:00</assessment_datetime>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>not-a-number</heart_rate>
+          <respiratory_rate>15</respiratory_rate>
+          <body_temperature>36.6</body_temperature>
+          <oxygen_saturation>100</oxygen_saturation>
+          <pain_level>0</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P2</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00650</admission_id>
+      <patient_id>P00330</patient_id>
+      <admission_datetime>2022-10-26T06:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician10</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00650</diagnosis_id>
+          <patient_id>P00330</patient_id>
+          <admission_id>A00650</admission_id>
+          <icd9_code>585.3</icd9_code>
+          <diagnosis_datetime>2022-10-26T09:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician10</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00650</triage_id>
+          <admission_id>A00650</admission_id>
+          <assessment_datetime>2022-10-26T07:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse20</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>not-a-number</heart_rate>
+          <respiratory_rate>16</respiratory_rate>
+          <body_temperature>36.7</body_temperature>
+          <oxygen_saturation>96</oxygen_saturation>
+          <pain_level>1</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00651</admission_id>
+      <patient_id>P00331</patient_id>
+      <admission_datetime>2022-10-26T17:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician11</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00651</diagnosis_id>
+          <patient_id>P00331</patient_id>
+          <admission_id>A00651</admission_id>
+          <icd9_code>038.9</icd9_code>
+          <diagnosis_datetime>2022-10-26T20:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician11</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00651</triage_id>
+          <admission_id>A00651</admission_id>
+          <assessment_datetime>2022-10-26T18:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse21</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>73</heart_rate>
+          <respiratory_rate>17</respiratory_rate>
+          <body_temperature>36.8</body_temperature>
+          <oxygen_saturation>97</oxygen_saturation>
+          <pain_level>2</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00652</admission_id>
+      <patient_id>P00332</patient_id>
+      <admission_datetime>2022-10-27T04:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician12</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00652</diagnosis_id>
+          <patient_id>P00332</patient_id>
+          <admission_id>A00652</admission_id>
+          <icd9_code>250.00</icd9_code>
+          <diagnosis_datetime>2022-10-27T07:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician12</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00652</triage_id>
+          <admission_id>A00652</admission_id>
+          <assessment_datetime>2022-10-27T05:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse22</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>74</heart_rate>
+          <respiratory_rate>18</respiratory_rate>
+          <body_temperature>36.9</body_temperature>
+          <oxygen_saturation>98</oxygen_saturation>
+          <pain_level>3</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P2</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00653</admission_id>
+      <patient_id>P00333</patient_id>
+      <admission_datetime>2022-10-27T15:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician13</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00653</diagnosis_id>
+          <patient_id>P00333</patient_id>
+          <admission_id>A00653</admission_id>
+          <icd9_code>272.4</icd9_code>
+          <diagnosis_datetime>2022-10-27T18:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician13</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00653</triage_id>
+          <admission_id>A00653</admission_id>
+          <assessment_datetime>2022-10-27T16:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse23</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>75</heart_rate>
+          <respiratory_rate>19</respiratory_rate>
+          <body_temperature>37.0</body_temperature>
+          <oxygen_saturation>99</oxygen_saturation>
+          <pain_level>4</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level> p3 </priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00654</admission_id>
+      <patient_id>P00334</patient_id>
+      <admission_datetime>2022-10-28T02:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician14</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00654</diagnosis_id>
+          <patient_id>P00334</patient_id>
+          <admission_id>A00654</admission_id>
+          <icd9_code>276.1</icd9_code>
+          <diagnosis_datetime>2022-10-28T05:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician14</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00654</triage_id>
+          <admission_id>A00654</admission_id>
+          <assessment_datetime>2022-10-28T03:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse24</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>76</heart_rate>
+          <respiratory_rate>14</respiratory_rate>
+          <body_temperature>37.1</body_temperature>
+          <oxygen_saturation>100</oxygen_saturation>
+          <pain_level>5</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00655</admission_id>
+      <patient_id>P00335</patient_id>
+      <admission_datetime>2022-10-28T13:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician15</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00655</diagnosis_id>
+          <patient_id>P00335</patient_id>
+          <admission_id>A00655</admission_id>
+          <icd9_code>276.8</icd9_code>
+          <diagnosis_datetime>2022-10-28T16:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician15</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00655</triage_id>
+          <admission_id>A00655</admission_id>
+          <assessment_datetime>2022-10-28T14:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse25</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>77</heart_rate>
+          <respiratory_rate>15</respiratory_rate>
+          <body_temperature>37.2</body_temperature>
+          <oxygen_saturation>96</oxygen_saturation>
+          <pain_level>6</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P2</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00656</admission_id>
+      <patient_id>P00336</patient_id>
+      <admission_datetime>2022-10-29T00:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician16</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00656</diagnosis_id>
+          <patient_id>P00336</patient_id>
+          <admission_id>A00656</admission_id>
+          <icd9_code>285.9</icd9_code>
+          <diagnosis_datetime>2022-10-29T03:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician16</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00656</triage_id>
+          <admission_id>A00656</admission_id>
+          <assessment_datetime>2022-10-29T01:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse26</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>78</heart_rate>
+          <respiratory_rate>16</respiratory_rate>
+          <body_temperature>36.5</body_temperature>
+          <oxygen_saturation>97</oxygen_saturation>
+          <pain_level>7</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00657</admission_id>
+      <patient_id>P00337</patient_id>
+      <admission_datetime>2022-10-29T11:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician17</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00657</diagnosis_id>
+          <patient_id>P00337</patient_id>
+          <admission_id>A00657</admission_id>
+          <icd9_code>401.9</icd9_code>
+          <diagnosis_datetime>2022-10-29T14:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician17</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00657</triage_id>
+          <admission_id>A00657</admission_id>
+          <assessment_datetime>2022-10-29T12:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse27</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>79</heart_rate>
+          <respiratory_rate>17</respiratory_rate>
+          <body_temperature>36.6</body_temperature>
+          <oxygen_saturation>98</oxygen_saturation>
+          <pain_level>8</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00658</admission_id>
+      <patient_id>P00338</patient_id>
+      <admission_datetime>2022-10-29T22:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician18</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00658</diagnosis_id>
+          <patient_id>P00338</patient_id>
+          <admission_id>A00658</admission_id>
+          <icd9_code>414.01</icd9_code>
+          <diagnosis_datetime>2022-10-30T01:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician18</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00658</triage_id>
+          <admission_id>A00658</admission_id>
+          <assessment_datetime>2022-10-29T23:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse28</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>80</heart_rate>
+          <respiratory_rate>18</respiratory_rate>
+          <body_temperature>36.7</body_temperature>
+          <oxygen_saturation>99</oxygen_saturation>
+          <pain_level>9</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P2</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00659</admission_id>
+      <patient_id>P00339</patient_id>
+      <admission_datetime>2022-10-30T09:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician19</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00659</diagnosis_id>
+          <patient_id>P00339</patient_id>
+          <admission_id>A00659</admission_id>
+          <icd9_code>427.31</icd9_code>
+          <diagnosis_datetime>2022-10-30T12:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician19</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00659</triage_id>
+          <admission_id>A00659</admission_id>
+          <assessment_datetime>2022-10-30T10:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse29</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>81</heart_rate>
+          <respiratory_rate>19</respiratory_rate>
+          <body_temperature>36.8</body_temperature>
+          <oxygen_saturation>100</oxygen_saturation>
+          <pain_level>10</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00660</admission_id>
+      <patient_id>P00340</patient_id>
+      <admission_datetime>2022-10-30T20:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician20</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00660</diagnosis_id>
+          <patient_id>P00340</patient_id>
+          <admission_id>A00660</admission_id>
+          <icd9_code>428.0</icd9_code>
+          <diagnosis_datetime>2022-10-30T23:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician20</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00660</triage_id>
+          <admission_id>A00660</admission_id>
+          <assessment_datetime>2022-10-30T21:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse00</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>82</heart_rate>
+          <respiratory_rate>14</respiratory_rate>
+          <body_temperature>36.9</body_temperature>
+          <oxygen_saturation>96</oxygen_saturation>
+          <pain_level>0</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00661</admission_id>
+      <patient_id>P00341</patient_id>
+      <admission_datetime>2022-10-31T07:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician21</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00661</diagnosis_id>
+          <patient_id>P00341</patient_id>
+          <admission_id>A00661</admission_id>
+          <icd9_code>486</icd9_code>
+          <diagnosis_datetime>2022-10-31T10:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician21</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00661</triage_id>
+          <admission_id>A00661</admission_id>
+          <assessment_datetime>2022-10-31T08:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse01</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>83</heart_rate>
+          <respiratory_rate>15</respiratory_rate>
+          <body_temperature>37.0</body_temperature>
+          <oxygen_saturation>97</oxygen_saturation>
+          <pain_level>1</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P2</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00662</admission_id>
+      <patient_id>P00342</patient_id>
+      <admission_datetime>2022-10-31T18:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician22</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00662</diagnosis_id>
+          <patient_id>P00342</patient_id>
+          <admission_id>A00662</admission_id>
+          <icd9_code>493.90</icd9_code>
+          <diagnosis_datetime>2022-10-31T21:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician22</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00662</triage_id>
+          <admission_id>A00662</admission_id>
+          <assessment_datetime>2022-10-31T19:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse02</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>84</heart_rate>
+          <respiratory_rate>16</respiratory_rate>
+          <body_temperature>37.1</body_temperature>
+          <oxygen_saturation>98</oxygen_saturation>
+          <pain_level>2</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00663</admission_id>
+      <patient_id>P00343</patient_id>
+      <admission_datetime>2022-11-01T05:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician23</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00663</diagnosis_id>
+          <patient_id>P00343</patient_id>
+          <admission_id>A00663</admission_id>
+          <icd9_code>518.81</icd9_code>
+          <diagnosis_datetime>2022-11-01T08:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician23</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00663</triage_id>
+          <admission_id>A00663</admission_id>
+          <assessment_datetime>2022-11-01T06:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse03</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>85</heart_rate>
+          <respiratory_rate>17</respiratory_rate>
+          <body_temperature>37.2</body_temperature>
+          <oxygen_saturation>99</oxygen_saturation>
+          <pain_level>3</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00664</admission_id>
+      <patient_id>P00344</patient_id>
+      <admission_datetime>2022-11-01T16:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician24</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00664</diagnosis_id>
+          <patient_id>P00344</patient_id>
+          <admission_id>A00664</admission_id>
+          <icd9_code>530.81</icd9_code>
+          <diagnosis_datetime>2022-11-01T19:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician24</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00664</triage_id>
+          <admission_id>A00664</admission_id>
+          <assessment_datetime>2022-11-01T17:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse04</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>86</heart_rate>
+          <respiratory_rate>18</respiratory_rate>
+          <body_temperature>36.5</body_temperature>
+          <oxygen_saturation>100</oxygen_saturation>
+          <pain_level>4</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P2</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00665</admission_id>
+      <patient_id>P00345</patient_id>
+      <admission_datetime>2022-11-02T03:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician25</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00665</diagnosis_id>
+          <patient_id>P00345</patient_id>
+          <admission_id>A00665</admission_id>
+          <icd9_code>584.9</icd9_code>
+          <diagnosis_datetime>2022-11-02T06:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician25</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00665</triage_id>
+          <admission_id>A00665</admission_id>
+          <assessment_datetime>2022-11-02T04:00:00+08:00</assessment_datetime>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>87</heart_rate>
+          <respiratory_rate>19</respiratory_rate>
+          <body_temperature>36.6</body_temperature>
+          <oxygen_saturation>96</oxygen_saturation>
+          <pain_level>5</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00666</admission_id>
+      <patient_id>P00346</patient_id>
+      <admission_datetime>2022-11-02T14:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician26</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00666</diagnosis_id>
+          <patient_id>P00346</patient_id>
+          <admission_id>A00666</admission_id>
+          <icd9_code>599.0</icd9_code>
+          <diagnosis_datetime>2022-11-02T17:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician26</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00666</triage_id>
+          <admission_id>A00666</admission_id>
+          <assessment_datetime>2022-11-02T15:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse06</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>88</heart_rate>
+          <respiratory_rate>14</respiratory_rate>
+          <body_temperature>36.7</body_temperature>
+          <oxygen_saturation>97</oxygen_saturation>
+          <pain_level>6</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00667</admission_id>
+      <patient_id>P00347</patient_id>
+      <admission_datetime>2022-11-03T01:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician27</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00667</diagnosis_id>
+          <patient_id>P00347</patient_id>
+          <admission_id>A00667</admission_id>
+          <icd9_code>599.70</icd9_code>
+          <diagnosis_datetime>2022-11-03T04:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician27</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00667</triage_id>
+          <admission_id>A00667</admission_id>
+          <assessment_datetime>2022-11-03T02:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse07</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>89</heart_rate>
+          <respiratory_rate>15</respiratory_rate>
+          <body_temperature>36.8</body_temperature>
+          <oxygen_saturation>98</oxygen_saturation>
+          <pain_level>7</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P2</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00668</admission_id>
+      <patient_id>P00348</patient_id>
+      <admission_datetime>2022-11-03T12:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician28</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00668</diagnosis_id>
+          <patient_id>P00348</patient_id>
+          <admission_id>A00668</admission_id>
+          <icd9_code>715.90</icd9_code>
+          <diagnosis_datetime>2022-11-03T15:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician28</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00668</triage_id>
+          <admission_id>A00668</admission_id>
+          <assessment_datetime>2022-11-03T13:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse08</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>90</heart_rate>
+          <respiratory_rate>16</respiratory_rate>
+          <body_temperature>36.9</body_temperature>
+          <oxygen_saturation>99</oxygen_saturation>
+          <pain_level>8</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00669</admission_id>
+      <patient_id>P00349</patient_id>
+      <admission_datetime>2022-11-03T23:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician29</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00669</diagnosis_id>
+          <patient_id>P00349</patient_id>
+          <admission_id>A00669</admission_id>
+          <icd9_code>719.46</icd9_code>
+          <diagnosis_datetime>2022-11-04T02:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician29</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00669</triage_id>
+          <admission_id>A00669</admission_id>
+          <assessment_datetime>2022-11-04T00:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse09</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>not-a-number</heart_rate>
+          <respiratory_rate>17</respiratory_rate>
+          <body_temperature>37.0</body_temperature>
+          <oxygen_saturation>100</oxygen_saturation>
+          <pain_level>9</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00670</admission_id>
+      <patient_id>P00350</patient_id>
+      <admission_datetime>2022-11-04T10:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician30</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00670</diagnosis_id>
+          <patient_id>P00350</patient_id>
+          <admission_id>A00670</admission_id>
+          <icd9_code>724.2</icd9_code>
+          <diagnosis_datetime>2022-11-04T13:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician30</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00670</triage_id>
+          <admission_id>A00670</admission_id>
+          <assessment_datetime>2022-11-04T11:00:00+08:00</assessment_datetime>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>92</heart_rate>
+          <respiratory_rate>18</respiratory_rate>
+          <body_temperature>37.1</body_temperature>
+          <oxygen_saturation>96</oxygen_saturation>
+          <pain_level>10</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P2</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00671</admission_id>
+      <patient_id>P00351</patient_id>
+      <admission_datetime>2022-11-04T21:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician31</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00671</diagnosis_id>
+          <patient_id>P00351</patient_id>
+          <admission_id>A00671</admission_id>
+          <icd9_code>724.5</icd9_code>
+          <diagnosis_datetime>2022-11-05T00:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician31</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00671</triage_id>
+          <admission_id>A00671</admission_id>
+          <assessment_datetime>2022-11-04T22:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse11</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>not-a-number</heart_rate>
+          <respiratory_rate>19</respiratory_rate>
+          <body_temperature>37.2</body_temperature>
+          <oxygen_saturation>97</oxygen_saturation>
+          <pain_level>0</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00672</admission_id>
+      <patient_id>P00352</patient_id>
+      <admission_datetime>2022-11-05T08:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician32</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00672</diagnosis_id>
+          <patient_id>P00352</patient_id>
+          <admission_id>A00672</admission_id>
+          <icd9_code>729.5</icd9_code>
+          <diagnosis_datetime>2022-11-05T11:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician32</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00672</triage_id>
+          <admission_id>A00672</admission_id>
+          <assessment_datetime>2022-11-05T09:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse12</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>94</heart_rate>
+          <respiratory_rate>14</respiratory_rate>
+          <body_temperature>36.5</body_temperature>
+          <oxygen_saturation>98</oxygen_saturation>
+          <pain_level>1</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00673</admission_id>
+      <patient_id>P00353</patient_id>
+      <admission_datetime>2022-11-05T19:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician33</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00673</diagnosis_id>
+          <patient_id>P00353</patient_id>
+          <admission_id>A00673</admission_id>
+          <icd9_code>780.2</icd9_code>
+          <diagnosis_datetime>2022-11-05T22:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician33</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00673</triage_id>
+          <admission_id>A00673</admission_id>
+          <assessment_datetime>2022-11-05T20:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse13</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>95</heart_rate>
+          <respiratory_rate>15</respiratory_rate>
+          <body_temperature>36.6</body_temperature>
+          <oxygen_saturation>99</oxygen_saturation>
+          <pain_level>2</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P2</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00674</admission_id>
+      <patient_id>P00354</patient_id>
+      <admission_datetime>2022-11-06T06:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician34</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00674</diagnosis_id>
+          <patient_id>P00354</patient_id>
+          <admission_id>A00674</admission_id>
+          <icd9_code>780.79</icd9_code>
+          <diagnosis_datetime>2022-11-06T09:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician34</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00674</triage_id>
+          <admission_id>A00674</admission_id>
+          <assessment_datetime>2022-11-06T07:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse14</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>96</heart_rate>
+          <respiratory_rate>16</respiratory_rate>
+          <body_temperature>36.7</body_temperature>
+          <oxygen_saturation>100</oxygen_saturation>
+          <pain_level>3</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00675</admission_id>
+      <patient_id>P00355</patient_id>
+      <admission_datetime>2022-11-06T17:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician35</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00675</diagnosis_id>
+          <patient_id>P00355</patient_id>
+          <admission_id>A00675</admission_id>
+          <icd9_code>786.05</icd9_code>
+          <diagnosis_datetime>2022-11-06T20:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician35</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00675</triage_id>
+          <admission_id>A00675</admission_id>
+          <assessment_datetime>2022-11-06T18:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse15</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>72</heart_rate>
+          <respiratory_rate>17</respiratory_rate>
+          <body_temperature>36.8</body_temperature>
+          <oxygen_saturation>96</oxygen_saturation>
+          <pain_level>4</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00676</admission_id>
+      <patient_id>P00356</patient_id>
+      <admission_datetime>2022-11-07T04:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician36</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00676</diagnosis_id>
+          <patient_id>P00356</patient_id>
+          <admission_id>A00676</admission_id>
+          <icd9_code>786.09</icd9_code>
+          <diagnosis_datetime>2022-11-07T07:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician36</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00676</triage_id>
+          <admission_id>A00676</admission_id>
+          <assessment_datetime>2022-11-07T05:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse16</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>73</heart_rate>
+          <respiratory_rate>18</respiratory_rate>
+          <body_temperature>36.9</body_temperature>
+          <oxygen_saturation>97</oxygen_saturation>
+          <pain_level>5</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P2</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00677</admission_id>
+      <patient_id>P00357</patient_id>
+      <admission_datetime>2022-11-07T15:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician37</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00677</diagnosis_id>
+          <patient_id>P00357</patient_id>
+          <admission_id>A00677</admission_id>
+          <icd9_code>786.50</icd9_code>
+          <diagnosis_datetime>2022-11-07T18:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician37</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00677</triage_id>
+          <admission_id>A00677</admission_id>
+          <assessment_datetime>2022-11-07T16:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse17</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>74</heart_rate>
+          <respiratory_rate>19</respiratory_rate>
+          <body_temperature>37.0</body_temperature>
+          <oxygen_saturation>98</oxygen_saturation>
+          <pain_level>6</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00678</admission_id>
+      <patient_id>P00358</patient_id>
+      <admission_datetime>2022-11-08T02:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician38</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00678</diagnosis_id>
+          <patient_id>P00358</patient_id>
+          <admission_id>A00678</admission_id>
+          <icd9_code>789.00</icd9_code>
+          <diagnosis_datetime>2022-11-08T05:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician38</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00678</triage_id>
+          <admission_id>A00678</admission_id>
+          <assessment_datetime>2022-11-08T03:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse18</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>75</heart_rate>
+          <respiratory_rate>14</respiratory_rate>
+          <body_temperature>37.1</body_temperature>
+          <oxygen_saturation>99</oxygen_saturation>
+          <pain_level>7</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00679</admission_id>
+      <patient_id>P00359</patient_id>
+      <admission_datetime>2022-11-08T13:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician39</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00679</diagnosis_id>
+          <patient_id>P00359</patient_id>
+          <admission_id>A00679</admission_id>
+          <icd9_code>995.91</icd9_code>
+          <diagnosis_datetime>2022-11-08T16:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician39</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00679</triage_id>
+          <admission_id>A00679</admission_id>
+          <assessment_datetime>2022-11-08T14:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse19</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>76</heart_rate>
+          <respiratory_rate>15</respiratory_rate>
+          <body_temperature>37.2</body_temperature>
+          <oxygen_saturation>100</oxygen_saturation>
+          <pain_level>8</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P2</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00680</admission_id>
+      <patient_id>P00360</patient_id>
+      <admission_datetime>2022-11-09T00:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician00</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00680</diagnosis_id>
+          <patient_id>P00360</patient_id>
+          <admission_id>A00680</admission_id>
+          <icd9_code>995.92</icd9_code>
+          <diagnosis_datetime>2022-11-09T03:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician00</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00680</triage_id>
+          <admission_id>A00680</admission_id>
+          <assessment_datetime>2022-11-09T01:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse20</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>77</heart_rate>
+          <respiratory_rate>16</respiratory_rate>
+          <body_temperature>36.5</body_temperature>
+          <oxygen_saturation>96</oxygen_saturation>
+          <pain_level>9</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00681</admission_id>
+      <patient_id>P00361</patient_id>
+      <admission_datetime>2022-11-09T11:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician01</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00681</diagnosis_id>
+          <patient_id>P00361</patient_id>
+          <admission_id>A00681</admission_id>
+          <icd9_code>V15.82</icd9_code>
+          <diagnosis_datetime>2022-11-09T14:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician01</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00681</triage_id>
+          <admission_id>A00681</admission_id>
+          <assessment_datetime>2022-11-09T12:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse21</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>78</heart_rate>
+          <respiratory_rate>17</respiratory_rate>
+          <body_temperature>36.6</body_temperature>
+          <oxygen_saturation>97</oxygen_saturation>
+          <pain_level>10</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00682</admission_id>
+      <patient_id>P00362</patient_id>
+      <admission_datetime>2022-11-09T22:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician02</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00682</diagnosis_id>
+          <patient_id>P00362</patient_id>
+          <admission_id>A00682</admission_id>
+          <icd9_code>V43.3</icd9_code>
+          <diagnosis_datetime>2022-11-10T01:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician02</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00682</triage_id>
+          <admission_id>A00682</admission_id>
+          <assessment_datetime>2022-11-09T23:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse22</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>79</heart_rate>
+          <respiratory_rate>18</respiratory_rate>
+          <body_temperature>36.7</body_temperature>
+          <oxygen_saturation>98</oxygen_saturation>
+          <pain_level>0</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P2</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00683</admission_id>
+      <patient_id>P00363</patient_id>
+      <admission_datetime>2022-11-10T09:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician03</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00683</diagnosis_id>
+          <patient_id>P00363</patient_id>
+          <admission_id>A00683</admission_id>
+          <icd9_code>V45.81</icd9_code>
+          <diagnosis_datetime>2022-11-10T12:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician03</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00683</triage_id>
+          <admission_id>A00683</admission_id>
+          <assessment_datetime>2022-11-10T10:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse23</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>80</heart_rate>
+          <respiratory_rate>19</respiratory_rate>
+          <body_temperature>36.8</body_temperature>
+          <oxygen_saturation>99</oxygen_saturation>
+          <pain_level>1</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00684</admission_id>
+      <patient_id>P00364</patient_id>
+      <admission_datetime>2022-11-10T20:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician04</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00684</diagnosis_id>
+          <patient_id>P00364</patient_id>
+          <admission_id>A00684</admission_id>
+          <icd9_code>V58.61</icd9_code>
+          <diagnosis_datetime>2022-11-10T23:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician04</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00684</triage_id>
+          <admission_id>A00684</admission_id>
+          <assessment_datetime>2022-11-10T21:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse24</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>81</heart_rate>
+          <respiratory_rate>14</respiratory_rate>
+          <body_temperature>36.9</body_temperature>
+          <oxygen_saturation>100</oxygen_saturation>
+          <pain_level>2</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00685</admission_id>
+      <patient_id>P00365</patient_id>
+      <admission_datetime>2022-11-11T07:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician05</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00685</diagnosis_id>
+          <patient_id>P00365</patient_id>
+          <admission_id>A00685</admission_id>
+          <icd9_code>V58.67</icd9_code>
+          <diagnosis_datetime>2022-11-11T10:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician05</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00685</triage_id>
+          <admission_id>A00685</admission_id>
+          <assessment_datetime>2022-11-11T08:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse25</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>82</heart_rate>
+          <respiratory_rate>15</respiratory_rate>
+          <body_temperature>37.0</body_temperature>
+          <oxygen_saturation>96</oxygen_saturation>
+          <pain_level>3</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P2</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00686</admission_id>
+      <patient_id>P00366</patient_id>
+      <admission_datetime>2022-11-11T18:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician06</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00686</diagnosis_id>
+          <patient_id>P00366</patient_id>
+          <admission_id>A00686</admission_id>
+          <icd9_code>244.9</icd9_code>
+          <diagnosis_datetime>2022-11-11T21:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician06</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00686</triage_id>
+          <admission_id>A00686</admission_id>
+          <assessment_datetime>2022-11-11T19:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse26</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>83</heart_rate>
+          <respiratory_rate>16</respiratory_rate>
+          <body_temperature>37.1</body_temperature>
+          <oxygen_saturation>97</oxygen_saturation>
+          <pain_level>4</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00687</admission_id>
+      <patient_id>P00367</patient_id>
+      <admission_datetime>2022-11-12T05:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician07</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00687</diagnosis_id>
+          <patient_id>P00367</patient_id>
+          <admission_id>A00687</admission_id>
+          <icd9_code>250.02</icd9_code>
+          <diagnosis_datetime>2022-11-12T08:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician07</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00687</triage_id>
+          <admission_id>A00687</admission_id>
+          <assessment_datetime>2022-11-12T06:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse27</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>84</heart_rate>
+          <respiratory_rate>17</respiratory_rate>
+          <body_temperature>37.2</body_temperature>
+          <oxygen_saturation>98</oxygen_saturation>
+          <pain_level>5</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00688</admission_id>
+      <patient_id>P00368</patient_id>
+      <admission_datetime>2022-11-12T16:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician08</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00688</diagnosis_id>
+          <patient_id>P00368</patient_id>
+          <admission_id>A00688</admission_id>
+          <icd9_code>272.0</icd9_code>
+          <diagnosis_datetime>2022-11-12T19:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician08</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00688</triage_id>
+          <admission_id>A00688</admission_id>
+          <assessment_datetime>2022-11-12T17:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse28</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>85</heart_rate>
+          <respiratory_rate>18</respiratory_rate>
+          <body_temperature>36.5</body_temperature>
+          <oxygen_saturation>99</oxygen_saturation>
+          <pain_level>6</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level> p2 </priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00689</admission_id>
+      <patient_id>P00369</patient_id>
+      <admission_datetime>2022-11-13T03:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician09</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00689</diagnosis_id>
+          <patient_id>P00369</patient_id>
+          <admission_id>A00689</admission_id>
+          <icd9_code>278.00</icd9_code>
+          <diagnosis_datetime>2022-11-13T06:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician09</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00689</triage_id>
+          <admission_id>A00689</admission_id>
+          <assessment_datetime>2022-11-13T04:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse29</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>86</heart_rate>
+          <respiratory_rate>19</respiratory_rate>
+          <body_temperature>36.6</body_temperature>
+          <oxygen_saturation>100</oxygen_saturation>
+          <pain_level>7</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00690</admission_id>
+      <patient_id>P00370</patient_id>
+      <admission_datetime>2022-11-13T14:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician10</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00690</diagnosis_id>
+          <patient_id>P00370</patient_id>
+          <admission_id>A00690</admission_id>
+          <icd9_code>285.1</icd9_code>
+          <diagnosis_datetime>2022-11-13T17:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician10</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00690</triage_id>
+          <admission_id>A00690</admission_id>
+          <assessment_datetime>2022-11-13T15:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse00</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>87</heart_rate>
+          <respiratory_rate>14</respiratory_rate>
+          <body_temperature>36.7</body_temperature>
+          <oxygen_saturation>96</oxygen_saturation>
+          <pain_level>8</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00691</admission_id>
+      <patient_id>P00371</patient_id>
+      <admission_datetime>2022-11-14T01:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician11</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00691</diagnosis_id>
+          <patient_id>P00371</patient_id>
+          <admission_id>A00691</admission_id>
+          <icd9_code>311</icd9_code>
+          <diagnosis_datetime>2022-11-14T04:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician11</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00691</triage_id>
+          <admission_id>A00691</admission_id>
+          <assessment_datetime>2022-11-14T02:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse01</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>not-a-number</heart_rate>
+          <respiratory_rate>15</respiratory_rate>
+          <body_temperature>36.8</body_temperature>
+          <oxygen_saturation>97</oxygen_saturation>
+          <pain_level>9</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P2</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00692</admission_id>
+      <patient_id>P00372</patient_id>
+      <admission_datetime>2022-11-14T12:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician12</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00692</diagnosis_id>
+          <patient_id>P00372</patient_id>
+          <admission_id>A00692</admission_id>
+          <icd9_code>331.0</icd9_code>
+          <diagnosis_datetime>2022-11-14T15:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician12</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00692</triage_id>
+          <admission_id>A00692</admission_id>
+          <assessment_datetime>2022-11-14T13:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse02</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>89</heart_rate>
+          <respiratory_rate>16</respiratory_rate>
+          <body_temperature>36.9</body_temperature>
+          <oxygen_saturation>98</oxygen_saturation>
+          <pain_level>10</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00693</admission_id>
+      <patient_id>P00373</patient_id>
+      <admission_datetime>2022-11-14T23:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician13</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00693</diagnosis_id>
+          <patient_id>P00373</patient_id>
+          <admission_id>A00693</admission_id>
+          <icd9_code>345.90</icd9_code>
+          <diagnosis_datetime>2022-11-15T02:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician13</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00693</triage_id>
+          <admission_id>A00693</admission_id>
+          <assessment_datetime>2022-11-15T00:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse03</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>90</heart_rate>
+          <respiratory_rate>17</respiratory_rate>
+          <body_temperature>37.0</body_temperature>
+          <oxygen_saturation>99</oxygen_saturation>
+          <pain_level>0</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00694</admission_id>
+      <patient_id>P00374</patient_id>
+      <admission_datetime>2022-11-15T10:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician14</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00694</diagnosis_id>
+          <patient_id>P00374</patient_id>
+          <admission_id>A00694</admission_id>
+          <icd9_code>346.90</icd9_code>
+          <diagnosis_datetime>2022-11-15T13:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician14</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00694</triage_id>
+          <admission_id>A00694</admission_id>
+          <assessment_datetime>2022-11-15T11:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse04</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>91</heart_rate>
+          <respiratory_rate>18</respiratory_rate>
+          <body_temperature>37.1</body_temperature>
+          <oxygen_saturation>100</oxygen_saturation>
+          <pain_level>1</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P2</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00695</admission_id>
+      <patient_id>P00375</patient_id>
+      <admission_datetime>2022-11-15T21:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician15</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00695</diagnosis_id>
+          <patient_id>P00375</patient_id>
+          <admission_id>A00695</admission_id>
+          <icd9_code>401.1</icd9_code>
+          <diagnosis_datetime>2022-11-16T00:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician15</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00695</triage_id>
+          <admission_id>A00695</admission_id>
+          <assessment_datetime>2022-11-15T22:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse05</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>92</heart_rate>
+          <respiratory_rate>19</respiratory_rate>
+          <body_temperature>37.2</body_temperature>
+          <oxygen_saturation>96</oxygen_saturation>
+          <pain_level>2</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00696</admission_id>
+      <patient_id>P00376</patient_id>
+      <admission_datetime>2022-11-16T08:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician16</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00696</diagnosis_id>
+          <patient_id>P00376</patient_id>
+          <admission_id>A00696</admission_id>
+          <icd9_code>410.90</icd9_code>
+          <diagnosis_datetime>2022-11-16T11:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician16</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00696</triage_id>
+          <admission_id>A00696</admission_id>
+          <assessment_datetime>2022-11-16T09:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse06</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>93</heart_rate>
+          <respiratory_rate>14</respiratory_rate>
+          <body_temperature>36.5</body_temperature>
+          <oxygen_saturation>97</oxygen_saturation>
+          <pain_level>3</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00697</admission_id>
+      <patient_id>P00377</patient_id>
+      <admission_datetime>2022-11-16T19:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician17</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00697</diagnosis_id>
+          <patient_id>P00377</patient_id>
+          <admission_id>A00697</admission_id>
+          <icd9_code>412</icd9_code>
+          <diagnosis_datetime>2022-11-16T22:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician17</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00697</triage_id>
+          <admission_id>A00697</admission_id>
+          <assessment_datetime>2022-11-16T20:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse07</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>94</heart_rate>
+          <respiratory_rate>15</respiratory_rate>
+          <body_temperature>36.6</body_temperature>
+          <oxygen_saturation>98</oxygen_saturation>
+          <pain_level>4</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P2</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00698</admission_id>
+      <patient_id>P00378</patient_id>
+      <admission_datetime>2022-11-17T06:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician18</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00698</diagnosis_id>
+          <patient_id>P00378</patient_id>
+          <admission_id>A00698</admission_id>
+          <icd9_code>414.00</icd9_code>
+          <diagnosis_datetime>2022-11-17T09:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician18</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00698</triage_id>
+          <admission_id>A00698</admission_id>
+          <assessment_datetime>2022-11-17T07:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse08</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>95</heart_rate>
+          <respiratory_rate>16</respiratory_rate>
+          <body_temperature>36.7</body_temperature>
+          <oxygen_saturation>99</oxygen_saturation>
+          <pain_level>5</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P3</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00699</admission_id>
+      <patient_id>P00379</patient_id>
+      <admission_datetime>2022-11-17T17:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician19</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00699</diagnosis_id>
+          <patient_id>P00379</patient_id>
+          <admission_id>A00699</admission_id>
+          <icd9_code>466.0</icd9_code>
+          <diagnosis_datetime>2022-11-17T20:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician19</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00699</triage_id>
+          <admission_id>A00699</admission_id>
+          <assessment_datetime>2022-11-17T18:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse09</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>96</heart_rate>
+          <respiratory_rate>17</respiratory_rate>
+          <body_temperature>36.8</body_temperature>
+          <oxygen_saturation>100</oxygen_saturation>
+          <pain_level>6</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P1</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A00700</admission_id>
+      <patient_id>P00380</patient_id>
+      <admission_datetime>2022-11-18T04:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician20</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D00700</diagnosis_id>
+          <patient_id>P00380</patient_id>
+          <admission_id>A00700</admission_id>
+          <icd9_code>585.3</icd9_code>
+          <diagnosis_datetime>2022-11-18T07:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician20</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments>
+        <triage_assessment>
+          <triage_id>T00700</triage_id>
+          <admission_id>A00700</admission_id>
+          <assessment_datetime>2022-11-18T05:00:00+08:00</assessment_datetime>
+          <triage_nurse>FictionalNurse10</triage_nurse>
+          <blood_pressure>120/80</blood_pressure>
+          <heart_rate>72</heart_rate>
+          <respiratory_rate>18</respiratory_rate>
+          <body_temperature>36.9</body_temperature>
+          <oxygen_saturation>96</oxygen_saturation>
+          <pain_level>7</pain_level>
+          <reported_symptoms>Fictional symptom description</reported_symptoms>
+          <priority_level>P2</priority_level>
+        </triage_assessment>
+      </triage_assessments>
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+  </admissions>
+</hospitalSystem>

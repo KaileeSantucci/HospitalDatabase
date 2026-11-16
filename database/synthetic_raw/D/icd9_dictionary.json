@@ -1,0 +1,307 @@
+{
+  "system": {
+    "source": "D"
+  },
+  "icd9_dictionary": [
+    {
+      "icd9_code": "038.9",
+      "official_title": "Unspecified septicemia",
+      "description": "Unspecified septicemia",
+      "disease_category": "Infectious and parasitic diseases"
+    },
+    {
+      "icd9_code": "250.00",
+      "official_title": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+      "description": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+      "disease_category": "Endocrine, nutritional, and metabolic diseases"
+    },
+    {
+      "icd9_code": "272.4",
+      "official_title": "Other and unspecified hyperlipidemia",
+      "description": "Other and unspecified hyperlipidemia",
+      "disease_category": "Endocrine, nutritional, and metabolic diseases"
+    },
+    {
+      "icd9_code": "276.1",
+      "official_title": "Hyposmolality and/or hyponatremia",
+      "description": "Hyposmolality and/or hyponatremia",
+      "disease_category": "Endocrine, nutritional, and metabolic diseases"
+    },
+    {
+      "icd9_code": "276.8",
+      "official_title": "Hypopotassemia",
+      "description": "Hypopotassemia",
+      "disease_category": "Endocrine, nutritional, and metabolic diseases"
+    },
+    {
+      "icd9_code": "285.9",
+      "official_title": "Anemia, unspecified",
+      "description": "Anemia, unspecified",
+      "disease_category": "Diseases of the blood and blood-forming organs"
+    },
+    {
+      "icd9_code": "401.9",
+      "official_title": "Unspecified essential hypertension",
+      "description": "Unspecified essential hypertension",
+      "disease_category": "Diseases of the circulatory system"
+    },
+    {
+      "icd9_code": "414.01",
+      "official_title": "Coronary atherosclerosis of native coronary artery",
+      "description": "Coronary atherosclerosis of native coronary artery",
+      "disease_category": "Diseases of the circulatory system"
+    },
+    {
+      "icd9_code": "427.31",
+      "official_title": "Atrial fibrillation",
+      "description": "Atrial fibrillation",
+      "disease_category": "Diseases of the circulatory system"
+    },
+    {
+      "icd9_code": "428.0",
+      "official_title": "Congestive heart failure, unspecified",
+      "description": "Congestive heart failure, unspecified",
+      "disease_category": "Diseases of the circulatory system"
+    },
+    {
+      "icd9_code": "486",
+      "official_title": "Pneumonia, organism unspecified",
+      "description": "Pneumonia, organism unspecified",
+      "disease_category": "Diseases of the respiratory system"
+    },
+    {
+      "icd9_code": "493.90",
+      "official_title": "Asthma, unspecified type, unspecified",
+      "description": "Asthma, unspecified type, unspecified",
+      "disease_category": "Diseases of the respiratory system"
+    },
+    {
+      "icd9_code": "518.81",
+      "official_title": "Acute respiratory failure",
+      "description": "Acute respiratory failure",
+      "disease_category": "Diseases of the respiratory system"
+    },
+    {
+      "icd9_code": "530.81",
+      "official_title": "Esophageal reflux",
+      "description": "Esophageal reflux",
+      "disease_category": "Diseases of the digestive system"
+    },
+    {
+      "icd9_code": "584.9",
+      "official_title": "Acute kidney failure, unspecified",
+      "description": "Acute kidney failure, unspecified",
+      "disease_category": "Diseases of the genitourinary system"
+    },
+    {
+      "icd9_code": "599.0",
+      "official_title": "Urinary tract infection, site not specified",
+      "description": "Urinary tract infection, site not specified",
+      "disease_category": "Diseases of the genitourinary system"
+    },
+    {
+      "icd9_code": "599.70",
+      "official_title": "Hematuria, unspecified",
+      "description": "Hematuria, unspecified",
+      "disease_category": "Diseases of the genitourinary system"
+    },
+    {
+      "icd9_code": "715.90",
+      "official_title": "Osteoarthrosis, unspecified whether generalized or localized, site unspecified",
+      "description": "Osteoarthrosis, unspecified whether generalized or localized, site unspecified",
+      "disease_category": "Diseases of the musculoskeletal system and connective tissue"
+    },
+    {
+      "icd9_code": "719.46",
+      "official_title": "Pain in joint, lower leg",
+      "description": "Pain in joint, lower leg",
+      "disease_category": "Diseases of the musculoskeletal system and connective tissue"
+    },
+    {
+      "icd9_code": "724.2",
+      "official_title": "Lumbago",
+      "description": "Lumbago",
+      "disease_category": "Diseases of the musculoskeletal system and connective tissue"
+    },
+    {
+      "icd9_code": "724.5",
+      "official_title": "Backache, unspecified",
+      "description": "Backache, unspecified",
+      "disease_category": "Diseases of the musculoskeletal system and connective tissue"
+    },
+    {
+      "icd9_code": "729.5",
+      "official_title": "Pain in limb",
+      "description": "Pain in limb",
+      "disease_category": "Diseases of the musculoskeletal system and connective tissue"
+    },
+    {
+      "icd9_code": "780.2",
+      "official_title": "Syncope and collapse",
+      "description": "Syncope and collapse",
+      "disease_category": "Symptoms, signs, and ill-defined conditions"
+    },
+    {
+      "icd9_code": "780.79",
+      "official_title": "Other malaise and fatigue",
+      "description": "Other malaise and fatigue",
+      "disease_category": "Symptoms, signs, and ill-defined conditions"
+    },
+    {
+      "icd9_code": "786.05",
+      "official_title": "Shortness of breath",
+      "description": "Shortness of breath",
+      "disease_category": "Symptoms, signs, and ill-defined conditions"
+    },
+    {
+      "icd9_code": "786.09",
+      "official_title": "Other respiratory abnormalities",
+      "description": "Other respiratory abnormalities",
+      "disease_category": "Symptoms, signs, and ill-defined conditions"
+    },
+    {
+      "icd9_code": "786.50",
+      "official_title": "Chest pain, unspecified",
+      "description": "Chest pain, unspecified",
+      "disease_category": "Symptoms, signs, and ill-defined conditions"
+    },
+    {
+      "icd9_code": "789.00",
+      "official_title": "Abdominal pain, unspecified site",
+      "description": "Abdominal pain, unspecified site",
+      "disease_category": "Symptoms, signs, and ill-defined conditions"
+    },
+    {
+      "icd9_code": "995.91",
+      "official_title": "Sepsis",
+      "description": "Sepsis",
+      "disease_category": "Injury and poisoning"
+    },
+    {
+      "icd9_code": "995.92",
+      "official_title": "Severe sepsis",
+      "description": "Severe sepsis",
+      "disease_category": "Injury and poisoning"
+    },
+    {
+      "icd9_code": "V15.82",
+      "official_title": "Personal history of tobacco use",
+      "description": "Personal history of tobacco use",
+      "disease_category": "Supplementary factors influencing health status"
+    },
+    {
+      "icd9_code": "V43.3",
+      "official_title": "Heart valve replaced by other means",
+      "description": "Heart valve replaced by other means",
+      "disease_category": "Supplementary factors influencing health status"
+    },
+    {
+      "icd9_code": "V45.81",
+      "official_title": "Aortocoronary bypass status",
+      "description": "Aortocoronary bypass status",
+      "disease_category": "Supplementary factors influencing health status"
+    },
+    {
+      "icd9_code": "V58.61",
+      "official_title": "Long-term (current) use of anticoagulants",
+      "description": "Long-term (current) use of anticoagulants",
+      "disease_category": "Supplementary factors influencing health status"
+    },
+    {
+      "icd9_code": "V58.67",
+      "official_title": "Long-term (current) use of insulin",
+      "description": "Long-term (current) use of insulin",
+      "disease_category": "Supplementary factors influencing health status"
+    },
+    {
+      "icd9_code": "244.9",
+      "official_title": "Unspecified acquired hypothyroidism",
+      "description": "Unspecified acquired hypothyroidism",
+      "disease_category": "Endocrine, nutritional, and metabolic diseases"
+    },
+    {
+      "icd9_code": "250.02",
+      "official_title": "Diabetes mellitus without mention of complication, type II or unspecified type, uncontrolled",
+      "description": "Diabetes mellitus without mention of complication, type II or unspecified type, uncontrolled",
+      "disease_category": "Endocrine, nutritional, and metabolic diseases"
+    },
+    {
+      "icd9_code": "272.0",
+      "official_title": "Pure hypercholesterolemia",
+      "description": "Pure hypercholesterolemia",
+      "disease_category": "Endocrine, nutritional, and metabolic diseases"
+    },
+    {
+      "icd9_code": "278.00",
+      "official_title": "Obesity, unspecified",
+      "description": "Obesity, unspecified",
+      "disease_category": "Endocrine, nutritional, and metabolic diseases"
+    },
+    {
+      "icd9_code": "285.1",
+      "official_title": "Acute posthemorrhagic anemia",
+      "description": "Acute posthemorrhagic anemia",
+      "disease_category": "Diseases of the blood and blood-forming organs"
+    },
+    {
+      "icd9_code": "311",
+      "official_title": "Depressive disorder, not elsewhere classified",
+      "description": "Depressive disorder, not elsewhere classified",
+      "disease_category": "Mental disorders"
+    },
+    {
+      "icd9_code": "331.0",
+      "official_title": "Alzheimer's disease",
+      "description": "Alzheimer's disease",
+      "disease_category": "Diseases of the nervous system and sense organs"
+    },
+    {
+      "icd9_code": "345.90",
+      "official_title": "Epilepsy, unspecified, without mention of intractable epilepsy",
+      "description": "Epilepsy, unspecified, without mention of intractable epilepsy",
+      "disease_category": "Diseases of the nervous system and sense organs"
+    },
+    {
+      "icd9_code": "346.90",
+      "official_title": "Migraine, unspecified, without mention of intractable migraine without mention of status migrainosus",
+      "description": "Migraine, unspecified, without mention of intractable migraine without mention of status migrainosus",
+      "disease_category": "Diseases of the nervous system and sense organs"
+    },
+    {
+      "icd9_code": "401.1",
+      "official_title": "Benign essential hypertension",
+      "description": "Benign essential hypertension",
+      "disease_category": "Diseases of the circulatory system"
+    },
+    {
+      "icd9_code": "410.90",
+      "official_title": "Acute myocardial infarction of unspecified site, episode of care unspecified",
+      "description": "Acute myocardial infarction of unspecified site, episode of care unspecified",
+      "disease_category": "Diseases of the circulatory system"
+    },
+    {
+      "icd9_code": "412",
+      "official_title": "Old myocardial infarction",
+      "description": "Old myocardial infarction",
+      "disease_category": "Diseases of the circulatory system"
+    },
+    {
+      "icd9_code": "414.00",
+      "official_title": "Coronary atherosclerosis of unspecified type of vessel, native or graft",
+      "description": "Coronary atherosclerosis of unspecified type of vessel, native or graft",
+      "disease_category": "Diseases of the circulatory system"
+    },
+    {
+      "icd9_code": "466.0",
+      "official_title": "Acute bronchitis",
+      "description": "Acute bronchitis",
+      "disease_category": "Diseases of the respiratory system"
+    },
+    {
+      "icd9_code": "585.3",
+      "official_title": "Chronic kidney disease, Stage III (moderate)",
+      "description": "Chronic kidney disease, Stage III (moderate)",
+      "disease_category": "Diseases of the genitourinary system"
+    }
+  ]
+}
