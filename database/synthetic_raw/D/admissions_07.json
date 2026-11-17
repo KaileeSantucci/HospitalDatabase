@@ -1,0 +1,4708 @@
+{
+  "system": {
+    "source": "D",
+    "chunk": 7
+  },
+  "admissions": [
+    {
+      "admission_id": "A00601",
+      "patient_id": "P00281",
+      "admission_datetime": "2022-10-03T19:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician01",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00601",
+          "patient_id": "P00281",
+          "admission_id": "A00601",
+          "icd9_code": "038.9",
+          "diagnosis_datetime": "2022-10-03T22:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician01"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00601",
+          "admission_id": "A00601",
+          "assessment_datetime": "2022-10-03T20:00:00+10:00",
+          "triage_nurse": "FictionalNurse01",
+          "blood_pressure": "120/80",
+          "heart_rate": 73,
+          "respiratory_rate": 15,
+          "body_temperature": 97.9,
+          "oxygen_saturation": 97,
+          "pain_level": 7,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "urgent"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00602",
+      "patient_id": "P00282",
+      "admission_datetime": "2022-10-04T06:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician02",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00602",
+          "patient_id": "P00282",
+          "admission_id": "A00602",
+          "icd9_code": "250.00",
+          "diagnosis_datetime": "2022-10-04T09:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician02"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00602",
+          "admission_id": "A00602",
+          "assessment_datetime": "2022-10-04T07:00:00+10:00",
+          "triage_nurse": "FictionalNurse02",
+          "blood_pressure": "120/80",
+          "heart_rate": 74,
+          "respiratory_rate": 16,
+          "body_temperature": 98.1,
+          "oxygen_saturation": 98,
+          "pain_level": 8,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "routine"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00603",
+      "patient_id": "P00283",
+      "admission_datetime": "2022-10-04T17:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician03",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00603",
+          "patient_id": "P00283",
+          "admission_id": "A00603",
+          "icd9_code": "272.4",
+          "diagnosis_datetime": "2022-10-04T20:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician03"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00603",
+          "admission_id": "A00603",
+          "assessment_datetime": "2022-10-04T18:00:00+10:00",
+          "triage_nurse": "FictionalNurse03",
+          "blood_pressure": "120/80",
+          "heart_rate": 75,
+          "respiratory_rate": 17,
+          "body_temperature": 98.2,
+          "oxygen_saturation": 99,
+          "pain_level": 9,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00604",
+      "patient_id": "P00284",
+      "admission_datetime": "2022-10-05T04:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician04",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00604",
+          "patient_id": "P00284",
+          "admission_id": "A00604",
+          "icd9_code": "276.1",
+          "diagnosis_datetime": "2022-10-05T07:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician04"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00604",
+          "admission_id": "A00604",
+          "assessment_datetime": "2022-10-05T05:00:00+10:00",
+          "triage_nurse": "FictionalNurse04",
+          "blood_pressure": "120/80",
+          "heart_rate": 76,
+          "respiratory_rate": 18,
+          "body_temperature": 98.4,
+          "oxygen_saturation": 100,
+          "pain_level": 10,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "urgent"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00605",
+      "patient_id": "P00285",
+      "admission_datetime": "2022-10-05T15:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician05",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00605",
+          "patient_id": "P00285",
+          "admission_id": "A00605",
+          "icd9_code": "276.8",
+          "diagnosis_datetime": "2022-10-05T18:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician05"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00605",
+          "admission_id": "A00605",
+          "assessment_datetime": "2022-10-05T16:00:00+10:00",
+          "triage_nurse": "FictionalNurse05",
+          "blood_pressure": "120/80",
+          "heart_rate": 77,
+          "respiratory_rate": 19,
+          "body_temperature": 98.6,
+          "oxygen_saturation": 96,
+          "pain_level": 0,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "routine"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00606",
+      "patient_id": "P00286",
+      "admission_datetime": "2022-10-06T02:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician06",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00606",
+          "patient_id": "P00286",
+          "admission_id": "A00606",
+          "icd9_code": "285.9",
+          "diagnosis_datetime": "2022-10-06T05:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician06"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00606",
+          "admission_id": "A00606",
+          "assessment_datetime": "2022-10-06T03:00:00+10:00",
+          "triage_nurse": "FictionalNurse06",
+          "blood_pressure": "120/80",
+          "heart_rate": 78,
+          "respiratory_rate": 14,
+          "body_temperature": 98.8,
+          "oxygen_saturation": 97,
+          "pain_level": 1,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00607",
+      "patient_id": "P00287",
+      "admission_datetime": "2022-10-06T13:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician07",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00607",
+          "patient_id": "P00287",
+          "admission_id": "A00607",
+          "icd9_code": "401.9",
+          "diagnosis_datetime": "2022-10-06T16:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician07"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00607",
+          "admission_id": "A00607",
+          "assessment_datetime": "2022-10-06T14:00:00+10:00",
+          "triage_nurse": "FictionalNurse07",
+          "blood_pressure": "120/80",
+          "heart_rate": 79,
+          "respiratory_rate": 15,
+          "body_temperature": 99.0,
+          "oxygen_saturation": 98,
+          "pain_level": 2,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "urgent"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00608",
+      "patient_id": "P00288",
+      "admission_datetime": "2022-10-07T00:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician08",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00608",
+          "patient_id": "P00288",
+          "admission_id": "A00608",
+          "icd9_code": "414.01",
+          "diagnosis_datetime": "2022-10-07T03:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician08"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00608",
+          "admission_id": "A00608",
+          "assessment_datetime": "2022-10-07T01:00:00+10:00",
+          "triage_nurse": "FictionalNurse08",
+          "blood_pressure": "120/80",
+          "heart_rate": 80,
+          "respiratory_rate": 16,
+          "body_temperature": 97.7,
+          "oxygen_saturation": 99,
+          "pain_level": 3,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "routine"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00609",
+      "patient_id": "P00289",
+      "admission_datetime": "2022-10-07T11:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician09",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00609",
+          "patient_id": "P00289",
+          "admission_id": "A00609",
+          "icd9_code": "427.31",
+          "diagnosis_datetime": "2022-10-07T14:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician09"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00609",
+          "admission_id": "A00609",
+          "assessment_datetime": "2022-10-07T12:00:00+10:00",
+          "triage_nurse": "FictionalNurse09",
+          "blood_pressure": "120/80",
+          "heart_rate": 81,
+          "respiratory_rate": 17,
+          "body_temperature": 97.9,
+          "oxygen_saturation": 100,
+          "pain_level": 4,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00610",
+      "patient_id": "P00290",
+      "admission_datetime": "2022-10-07T22:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician10",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00610",
+          "patient_id": "P00290",
+          "admission_id": "A00610",
+          "icd9_code": "428.0",
+          "diagnosis_datetime": "2022-10-08T01:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician10"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00610",
+          "admission_id": "A00610",
+          "assessment_datetime": "2022-10-07T23:00:00+10:00",
+          "triage_nurse": "FictionalNurse10",
+          "blood_pressure": "120/80",
+          "heart_rate": 82,
+          "respiratory_rate": 18,
+          "body_temperature": 98.1,
+          "oxygen_saturation": 96,
+          "pain_level": 5,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "urgent"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00611",
+      "patient_id": "P00291",
+      "admission_datetime": "2022-10-08T09:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician11",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00611",
+          "patient_id": "P00291",
+          "admission_id": "A00611",
+          "icd9_code": "486",
+          "diagnosis_datetime": "2022-10-08T12:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician11"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00611",
+          "admission_id": "A00611",
+          "assessment_datetime": "2022-10-08T10:00:00+10:00",
+          "triage_nurse": "FictionalNurse11",
+          "blood_pressure": "120/80",
+          "heart_rate": 83,
+          "respiratory_rate": 19,
+          "body_temperature": 98.2,
+          "oxygen_saturation": 97,
+          "pain_level": 6,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "routine"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00612",
+      "patient_id": "P00292",
+      "admission_datetime": "2022-10-08T20:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician12",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00612",
+          "patient_id": "P00292",
+          "admission_id": "A00612",
+          "icd9_code": "493.90",
+          "diagnosis_datetime": "2022-10-08T23:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician12"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00612",
+          "admission_id": "A00612",
+          "assessment_datetime": "2022-10-08T21:00:00+10:00",
+          "triage_nurse": "FictionalNurse12",
+          "blood_pressure": "120/80",
+          "heart_rate": 84,
+          "respiratory_rate": 14,
+          "body_temperature": 98.4,
+          "oxygen_saturation": 98,
+          "pain_level": 7,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00613",
+      "patient_id": "P00293",
+      "admission_datetime": "2022-10-09T07:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician13",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00613",
+          "patient_id": "P00293",
+          "admission_id": "A00613",
+          "icd9_code": "518.81",
+          "diagnosis_datetime": "2022-10-09T10:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician13"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00613",
+          "admission_id": "A00613",
+          "assessment_datetime": "2022-10-09T08:00:00+10:00",
+          "triage_nurse": "FictionalNurse13",
+          "blood_pressure": "120/80",
+          "heart_rate": 85,
+          "respiratory_rate": 15,
+          "body_temperature": 98.6,
+          "oxygen_saturation": 99,
+          "pain_level": 8,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "urgent"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00614",
+      "patient_id": "P00294",
+      "admission_datetime": "2022-10-09T18:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician14",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00614",
+          "patient_id": "P00294",
+          "admission_id": "A00614",
+          "icd9_code": "530.81",
+          "diagnosis_datetime": "2022-10-09T21:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician14"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00614",
+          "admission_id": "A00614",
+          "assessment_datetime": "2022-10-09T19:00:00+10:00",
+          "triage_nurse": null,
+          "blood_pressure": "120/80",
+          "heart_rate": 86,
+          "respiratory_rate": 16,
+          "body_temperature": 98.8,
+          "oxygen_saturation": 100,
+          "pain_level": 9,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "routine"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00615",
+      "patient_id": "P00295",
+      "admission_datetime": "2022-10-10T05:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician15",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00615",
+          "patient_id": "P00295",
+          "admission_id": "A00615",
+          "icd9_code": "584.9",
+          "diagnosis_datetime": "2022-10-10T08:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician15"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00615",
+          "admission_id": "A00615",
+          "assessment_datetime": "2022-10-10T06:00:00+10:00",
+          "triage_nurse": "FictionalNurse15",
+          "blood_pressure": "120/80",
+          "heart_rate": 87,
+          "respiratory_rate": 17,
+          "body_temperature": 99.0,
+          "oxygen_saturation": 96,
+          "pain_level": 10,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": " immediate "
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00616",
+      "patient_id": "P00296",
+      "admission_datetime": "2022-10-10T16:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician16",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00616",
+          "patient_id": "P00296",
+          "admission_id": "A00616",
+          "icd9_code": "599.0",
+          "diagnosis_datetime": "2022-10-10T19:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician16"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00616",
+          "admission_id": "A00616",
+          "assessment_datetime": "2022-10-10T17:00:00+10:00",
+          "triage_nurse": "FictionalNurse16",
+          "blood_pressure": "120/80",
+          "heart_rate": 88,
+          "respiratory_rate": 18,
+          "body_temperature": 97.7,
+          "oxygen_saturation": 97,
+          "pain_level": 0,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "urgent"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00617",
+      "patient_id": "P00297",
+      "admission_datetime": "2022-10-11T03:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician17",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00617",
+          "patient_id": "P00297",
+          "admission_id": "A00617",
+          "icd9_code": "599.70",
+          "diagnosis_datetime": "2022-10-11T06:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician17"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00617",
+          "admission_id": "A00617",
+          "assessment_datetime": "2022-10-11T04:00:00+10:00",
+          "triage_nurse": "FictionalNurse17",
+          "blood_pressure": "120/80",
+          "heart_rate": 89,
+          "respiratory_rate": 19,
+          "body_temperature": 97.9,
+          "oxygen_saturation": 98,
+          "pain_level": 1,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "routine"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00618",
+      "patient_id": "P00298",
+      "admission_datetime": "2022-10-11T14:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician18",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00618",
+          "patient_id": "P00298",
+          "admission_id": "A00618",
+          "icd9_code": "715.90",
+          "diagnosis_datetime": "2022-10-11T17:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician18"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00618",
+          "admission_id": "A00618",
+          "assessment_datetime": "2022-10-11T15:00:00+10:00",
+          "triage_nurse": "FictionalNurse18",
+          "blood_pressure": "120/80",
+          "heart_rate": 90,
+          "respiratory_rate": 14,
+          "body_temperature": 98.1,
+          "oxygen_saturation": 99,
+          "pain_level": 2,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00619",
+      "patient_id": "P00299",
+      "admission_datetime": "2022-10-12T01:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician19",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00619",
+          "patient_id": "P00299",
+          "admission_id": "A00619",
+          "icd9_code": "719.46",
+          "diagnosis_datetime": "2022-10-12T04:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician19"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00619",
+          "admission_id": "A00619",
+          "assessment_datetime": "2022-10-12T02:00:00+10:00",
+          "triage_nurse": "FictionalNurse19",
+          "blood_pressure": "120/80",
+          "heart_rate": 91,
+          "respiratory_rate": 15,
+          "body_temperature": 98.2,
+          "oxygen_saturation": 100,
+          "pain_level": 3,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "urgent"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00620",
+      "patient_id": "P00300",
+      "admission_datetime": "2022-10-12T12:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician20",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00620",
+          "patient_id": "P00300",
+          "admission_id": "A00620",
+          "icd9_code": "724.2",
+          "diagnosis_datetime": "2022-10-12T15:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician20"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00620",
+          "admission_id": "A00620",
+          "assessment_datetime": "2022-10-12T13:00:00+10:00",
+          "triage_nurse": "FictionalNurse20",
+          "blood_pressure": "120/80",
+          "heart_rate": 92,
+          "respiratory_rate": 16,
+          "body_temperature": 98.4,
+          "oxygen_saturation": 96,
+          "pain_level": 4,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "routine"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00621",
+      "patient_id": "P00301",
+      "admission_datetime": "2022-10-12T23:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician21",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00621",
+          "patient_id": "P00301",
+          "admission_id": "A00621",
+          "icd9_code": "724.5",
+          "diagnosis_datetime": "2022-10-13T02:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician21"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00621",
+          "admission_id": "A00621",
+          "assessment_datetime": "2022-10-13T00:00:00+10:00",
+          "triage_nurse": null,
+          "blood_pressure": "120/80",
+          "heart_rate": 93,
+          "respiratory_rate": 17,
+          "body_temperature": 98.6,
+          "oxygen_saturation": 97,
+          "pain_level": 5,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00622",
+      "patient_id": "P00302",
+      "admission_datetime": "2022-10-13T10:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician22",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00622",
+          "patient_id": "P00302",
+          "admission_id": "A00622",
+          "icd9_code": "729.5",
+          "diagnosis_datetime": "2022-10-13T13:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician22"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00622",
+          "admission_id": "A00622",
+          "assessment_datetime": "2022-10-13T11:00:00+10:00",
+          "triage_nurse": "FictionalNurse22",
+          "blood_pressure": "120/80",
+          "heart_rate": 94,
+          "respiratory_rate": 18,
+          "body_temperature": 98.8,
+          "oxygen_saturation": 98,
+          "pain_level": 6,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": " urgent "
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00623",
+      "patient_id": "P00303",
+      "admission_datetime": "2022-10-13T21:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician23",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00623",
+          "patient_id": "P00303",
+          "admission_id": "A00623",
+          "icd9_code": "780.2",
+          "diagnosis_datetime": "2022-10-14T00:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician23"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00623",
+          "admission_id": "A00623",
+          "assessment_datetime": "2022-10-13T22:00:00+10:00",
+          "triage_nurse": "FictionalNurse23",
+          "blood_pressure": "120/80",
+          "heart_rate": 95,
+          "respiratory_rate": 19,
+          "body_temperature": 99.0,
+          "oxygen_saturation": 99,
+          "pain_level": 7,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": " routine "
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00624",
+      "patient_id": "P00304",
+      "admission_datetime": "2022-10-14T08:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician24",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00624",
+          "patient_id": "P00304",
+          "admission_id": "A00624",
+          "icd9_code": "780.79",
+          "diagnosis_datetime": "2022-10-14T11:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician24"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00624",
+          "admission_id": "A00624",
+          "assessment_datetime": "2022-10-14T09:00:00+10:00",
+          "triage_nurse": "FictionalNurse24",
+          "blood_pressure": "120/80",
+          "heart_rate": 96,
+          "respiratory_rate": 14,
+          "body_temperature": 97.7,
+          "oxygen_saturation": 100,
+          "pain_level": 8,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00625",
+      "patient_id": "P00305",
+      "admission_datetime": "2022-10-14T19:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician25",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00625",
+          "patient_id": "P00305",
+          "admission_id": "A00625",
+          "icd9_code": "786.05",
+          "diagnosis_datetime": "2022-10-14T22:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician25"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00625",
+          "admission_id": "A00625",
+          "assessment_datetime": "2022-10-14T20:00:00+10:00",
+          "triage_nurse": "FictionalNurse25",
+          "blood_pressure": "120/80",
+          "heart_rate": 72,
+          "respiratory_rate": 15,
+          "body_temperature": 97.9,
+          "oxygen_saturation": 96,
+          "pain_level": 9,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "urgent"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00626",
+      "patient_id": "P00306",
+      "admission_datetime": "2022-10-15T06:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician26",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00626",
+          "patient_id": "P00306",
+          "admission_id": "A00626",
+          "icd9_code": "786.09",
+          "diagnosis_datetime": "2022-10-15T09:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician26"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00626",
+          "admission_id": "A00626",
+          "assessment_datetime": "2022-10-15T07:00:00+10:00",
+          "triage_nurse": "FictionalNurse26",
+          "blood_pressure": "120/80",
+          "heart_rate": "not-a-number",
+          "respiratory_rate": 16,
+          "body_temperature": 98.1,
+          "oxygen_saturation": 97,
+          "pain_level": 10,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "routine"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00627",
+      "patient_id": "P00307",
+      "admission_datetime": "2022-10-15T17:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician27",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00627",
+          "patient_id": "P00307",
+          "admission_id": "A00627",
+          "icd9_code": "786.50",
+          "diagnosis_datetime": "2022-10-15T20:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician27"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00627",
+          "admission_id": "A00627",
+          "assessment_datetime": "2022-10-15T18:00:00+10:00",
+          "triage_nurse": "FictionalNurse27",
+          "blood_pressure": "120/80",
+          "heart_rate": 74,
+          "respiratory_rate": 17,
+          "body_temperature": 98.2,
+          "oxygen_saturation": 98,
+          "pain_level": 0,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00628",
+      "patient_id": "P00308",
+      "admission_datetime": "2022-10-16T04:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician28",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00628",
+          "patient_id": "P00308",
+          "admission_id": "A00628",
+          "icd9_code": "789.00",
+          "diagnosis_datetime": "2022-10-16T07:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician28"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00628",
+          "admission_id": "A00628",
+          "assessment_datetime": "2022-10-16T05:00:00+10:00",
+          "triage_nurse": "FictionalNurse28",
+          "blood_pressure": "120/80",
+          "heart_rate": 75,
+          "respiratory_rate": 18,
+          "body_temperature": 98.4,
+          "oxygen_saturation": 99,
+          "pain_level": 1,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "urgent"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00629",
+      "patient_id": "P00309",
+      "admission_datetime": "2022-10-16T15:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician29",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00629",
+          "patient_id": "P00309",
+          "admission_id": "A00629",
+          "icd9_code": "995.91",
+          "diagnosis_datetime": "2022-10-16T18:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician29"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00629",
+          "admission_id": "A00629",
+          "assessment_datetime": "2022-10-16T16:00:00+10:00",
+          "triage_nurse": "FictionalNurse29",
+          "blood_pressure": "120/80",
+          "heart_rate": 76,
+          "respiratory_rate": 19,
+          "body_temperature": 98.6,
+          "oxygen_saturation": 100,
+          "pain_level": 2,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "routine"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00630",
+      "patient_id": "P00310",
+      "admission_datetime": "2022-10-17T02:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician30",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00630",
+          "patient_id": "P00310",
+          "admission_id": "A00630",
+          "icd9_code": "995.92",
+          "diagnosis_datetime": "2022-10-17T05:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician30"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00630",
+          "admission_id": "A00630",
+          "assessment_datetime": "2022-10-17T03:00:00+10:00",
+          "triage_nurse": "FictionalNurse00",
+          "blood_pressure": "120/80",
+          "heart_rate": 77,
+          "respiratory_rate": 14,
+          "body_temperature": 98.8,
+          "oxygen_saturation": 96,
+          "pain_level": 3,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00631",
+      "patient_id": "P00311",
+      "admission_datetime": "2022-10-17T13:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician31",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00631",
+          "patient_id": "P00311",
+          "admission_id": "A00631",
+          "icd9_code": "V15.82",
+          "diagnosis_datetime": "2022-10-17T16:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician31"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00631",
+          "admission_id": "A00631",
+          "assessment_datetime": "2022-10-17T14:00:00+10:00",
+          "triage_nurse": "FictionalNurse01",
+          "blood_pressure": "120/80",
+          "heart_rate": 78,
+          "respiratory_rate": 15,
+          "body_temperature": 99.0,
+          "oxygen_saturation": 97,
+          "pain_level": 4,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "urgent"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00632",
+      "patient_id": "P00312",
+      "admission_datetime": "2022-10-18T00:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician32",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00632",
+          "patient_id": "P00312",
+          "admission_id": "A00632",
+          "icd9_code": "V43.3",
+          "diagnosis_datetime": "2022-10-18T03:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician32"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00632",
+          "admission_id": "A00632",
+          "assessment_datetime": "2022-10-18T01:00:00+10:00",
+          "triage_nurse": "FictionalNurse02",
+          "blood_pressure": "120/80",
+          "heart_rate": 79,
+          "respiratory_rate": 16,
+          "body_temperature": 97.7,
+          "oxygen_saturation": 98,
+          "pain_level": 5,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "routine"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00633",
+      "patient_id": "P00313",
+      "admission_datetime": "2022-10-18T11:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician33",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00633",
+          "patient_id": "P00313",
+          "admission_id": "A00633",
+          "icd9_code": "V45.81",
+          "diagnosis_datetime": "2022-10-18T14:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician33"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00633",
+          "admission_id": "A00633",
+          "assessment_datetime": "2022-10-18T12:00:00+10:00",
+          "triage_nurse": "FictionalNurse03",
+          "blood_pressure": "120/80",
+          "heart_rate": 80,
+          "respiratory_rate": 17,
+          "body_temperature": 97.9,
+          "oxygen_saturation": 99,
+          "pain_level": 6,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00634",
+      "patient_id": "P00314",
+      "admission_datetime": "2022-10-18T22:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician34",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00634",
+          "patient_id": "P00314",
+          "admission_id": "A00634",
+          "icd9_code": "V58.61",
+          "diagnosis_datetime": "2022-10-19T01:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician34"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00634",
+          "admission_id": "A00634",
+          "assessment_datetime": "2022-10-18T23:00:00+10:00",
+          "triage_nurse": "FictionalNurse04",
+          "blood_pressure": "120/80",
+          "heart_rate": 81,
+          "respiratory_rate": 18,
+          "body_temperature": 98.1,
+          "oxygen_saturation": 100,
+          "pain_level": 7,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": " urgent "
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00635",
+      "patient_id": "P00315",
+      "admission_datetime": "2022-10-19T09:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician35",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00635",
+          "patient_id": "P00315",
+          "admission_id": "A00635",
+          "icd9_code": "V58.67",
+          "diagnosis_datetime": "2022-10-19T12:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician35"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00635",
+          "admission_id": "A00635",
+          "assessment_datetime": "2022-10-19T10:00:00+10:00",
+          "triage_nurse": "FictionalNurse05",
+          "blood_pressure": "120/80",
+          "heart_rate": 82,
+          "respiratory_rate": 19,
+          "body_temperature": 98.2,
+          "oxygen_saturation": 96,
+          "pain_level": 8,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "routine"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00636",
+      "patient_id": "P00316",
+      "admission_datetime": "2022-10-19T20:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician36",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00636",
+          "patient_id": "P00316",
+          "admission_id": "A00636",
+          "icd9_code": "244.9",
+          "diagnosis_datetime": "2022-10-19T23:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician36"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00636",
+          "admission_id": "A00636",
+          "assessment_datetime": "2022-10-19T21:00:00+10:00",
+          "triage_nurse": "FictionalNurse06",
+          "blood_pressure": "120/80",
+          "heart_rate": "not-a-number",
+          "respiratory_rate": 14,
+          "body_temperature": 98.4,
+          "oxygen_saturation": 97,
+          "pain_level": 9,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": " immediate "
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00637",
+      "patient_id": "P00317",
+      "admission_datetime": "2022-10-20T07:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician37",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00637",
+          "patient_id": "P00317",
+          "admission_id": "A00637",
+          "icd9_code": "250.02",
+          "diagnosis_datetime": "2022-10-20T10:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician37"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00637",
+          "admission_id": "A00637",
+          "assessment_datetime": "2022-10-20T08:00:00+10:00",
+          "triage_nurse": "FictionalNurse07",
+          "blood_pressure": "120/80",
+          "heart_rate": 84,
+          "respiratory_rate": 15,
+          "body_temperature": 98.6,
+          "oxygen_saturation": 98,
+          "pain_level": 10,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "urgent"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00638",
+      "patient_id": "P00318",
+      "admission_datetime": "2022-10-20T18:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician38",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00638",
+          "patient_id": "P00318",
+          "admission_id": "A00638",
+          "icd9_code": "272.0",
+          "diagnosis_datetime": "2022-10-20T21:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician38"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00638",
+          "admission_id": "A00638",
+          "assessment_datetime": "2022-10-20T19:00:00+10:00",
+          "triage_nurse": "FictionalNurse08",
+          "blood_pressure": "120/80",
+          "heart_rate": 85,
+          "respiratory_rate": 16,
+          "body_temperature": 98.8,
+          "oxygen_saturation": 99,
+          "pain_level": 0,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "routine"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00639",
+      "patient_id": "P00319",
+      "admission_datetime": "2022-10-21T05:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician39",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00639",
+          "patient_id": "P00319",
+          "admission_id": "A00639",
+          "icd9_code": "278.00",
+          "diagnosis_datetime": "2022-10-21T08:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician39"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00639",
+          "admission_id": "A00639",
+          "assessment_datetime": "2022-10-21T06:00:00+10:00",
+          "triage_nurse": "FictionalNurse09",
+          "blood_pressure": "120/80",
+          "heart_rate": 86,
+          "respiratory_rate": 17,
+          "body_temperature": 99.0,
+          "oxygen_saturation": 100,
+          "pain_level": 1,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00640",
+      "patient_id": "P00320",
+      "admission_datetime": "2022-10-21T16:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician00",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00640",
+          "patient_id": "P00320",
+          "admission_id": "A00640",
+          "icd9_code": "285.1",
+          "diagnosis_datetime": "2022-10-21T19:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician00"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00640",
+          "admission_id": "A00640",
+          "assessment_datetime": "2022-10-21T17:00:00+10:00",
+          "triage_nurse": "FictionalNurse10",
+          "blood_pressure": "120/80",
+          "heart_rate": 87,
+          "respiratory_rate": 18,
+          "body_temperature": 97.7,
+          "oxygen_saturation": 96,
+          "pain_level": 2,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "urgent"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00641",
+      "patient_id": "P00321",
+      "admission_datetime": "2022-10-22T03:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician01",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00641",
+          "patient_id": "P00321",
+          "admission_id": "A00641",
+          "icd9_code": "311",
+          "diagnosis_datetime": "2022-10-22T06:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician01"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00641",
+          "admission_id": "A00641",
+          "assessment_datetime": "2022-10-22T04:00:00+10:00",
+          "triage_nurse": "FictionalNurse11",
+          "blood_pressure": "120/80",
+          "heart_rate": 88,
+          "respiratory_rate": 19,
+          "body_temperature": 97.9,
+          "oxygen_saturation": 97,
+          "pain_level": 3,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "routine"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00642",
+      "patient_id": "P00322",
+      "admission_datetime": "2022-10-22T14:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician02",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00642",
+          "patient_id": "P00322",
+          "admission_id": "A00642",
+          "icd9_code": "331.0",
+          "diagnosis_datetime": "2022-10-22T17:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician02"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00642",
+          "admission_id": "A00642",
+          "assessment_datetime": "2022-10-22T15:00:00+10:00",
+          "triage_nurse": "FictionalNurse12",
+          "blood_pressure": "120/80",
+          "heart_rate": 89,
+          "respiratory_rate": 14,
+          "body_temperature": 98.1,
+          "oxygen_saturation": 98,
+          "pain_level": 4,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00643",
+      "patient_id": "P00323",
+      "admission_datetime": "2022-10-23T01:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician03",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00643",
+          "patient_id": "P00323",
+          "admission_id": "A00643",
+          "icd9_code": "345.90",
+          "diagnosis_datetime": "2022-10-23T04:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician03"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00643",
+          "admission_id": "A00643",
+          "assessment_datetime": "2022-10-23T02:00:00+10:00",
+          "triage_nurse": "FictionalNurse13",
+          "blood_pressure": "120/80",
+          "heart_rate": 90,
+          "respiratory_rate": 15,
+          "body_temperature": 98.2,
+          "oxygen_saturation": 99,
+          "pain_level": 5,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "urgent"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00644",
+      "patient_id": "P00324",
+      "admission_datetime": "2022-10-23T12:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician04",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00644",
+          "patient_id": "P00324",
+          "admission_id": "A00644",
+          "icd9_code": "346.90",
+          "diagnosis_datetime": "2022-10-23T15:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician04"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00644",
+          "admission_id": "A00644",
+          "assessment_datetime": "2022-10-23T13:00:00+10:00",
+          "triage_nurse": "FictionalNurse14",
+          "blood_pressure": "120/80",
+          "heart_rate": 91,
+          "respiratory_rate": 16,
+          "body_temperature": 98.4,
+          "oxygen_saturation": 100,
+          "pain_level": 6,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": " routine "
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00645",
+      "patient_id": "P00325",
+      "admission_datetime": "2022-10-23T23:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician05",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00645",
+          "patient_id": "P00325",
+          "admission_id": "A00645",
+          "icd9_code": "401.1",
+          "diagnosis_datetime": "2022-10-24T02:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician05"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00645",
+          "admission_id": "A00645",
+          "assessment_datetime": "2022-10-24T00:00:00+10:00",
+          "triage_nurse": "FictionalNurse15",
+          "blood_pressure": "120/80",
+          "heart_rate": 92,
+          "respiratory_rate": 17,
+          "body_temperature": 98.6,
+          "oxygen_saturation": 96,
+          "pain_level": 7,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00646",
+      "patient_id": "P00326",
+      "admission_datetime": "2022-10-24T10:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician06",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00646",
+          "patient_id": "P00326",
+          "admission_id": "A00646",
+          "icd9_code": "410.90",
+          "diagnosis_datetime": "2022-10-24T13:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician06"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00646",
+          "admission_id": "A00646",
+          "assessment_datetime": "2022-10-24T11:00:00+10:00",
+          "triage_nurse": "FictionalNurse16",
+          "blood_pressure": "120/80",
+          "heart_rate": 93,
+          "respiratory_rate": 18,
+          "body_temperature": 98.8,
+          "oxygen_saturation": 97,
+          "pain_level": 8,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "urgent"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00647",
+      "patient_id": "P00327",
+      "admission_datetime": "2022-10-24T21:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician07",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00647",
+          "patient_id": "P00327",
+          "admission_id": "A00647",
+          "icd9_code": "412",
+          "diagnosis_datetime": "2022-10-25T00:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician07"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00647",
+          "admission_id": "A00647",
+          "assessment_datetime": "2022-10-24T22:00:00+10:00",
+          "triage_nurse": "FictionalNurse17",
+          "blood_pressure": "120/80",
+          "heart_rate": 94,
+          "respiratory_rate": 19,
+          "body_temperature": 99.0,
+          "oxygen_saturation": 98,
+          "pain_level": 9,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "routine"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00648",
+      "patient_id": "P00328",
+      "admission_datetime": "2022-10-25T08:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician08",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00648",
+          "patient_id": "P00328",
+          "admission_id": "A00648",
+          "icd9_code": "414.00",
+          "diagnosis_datetime": "2022-10-25T11:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician08"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00648",
+          "admission_id": "A00648",
+          "assessment_datetime": "2022-10-25T09:00:00+10:00",
+          "triage_nurse": "FictionalNurse18",
+          "blood_pressure": "120/80",
+          "heart_rate": 95,
+          "respiratory_rate": 14,
+          "body_temperature": 97.7,
+          "oxygen_saturation": 99,
+          "pain_level": 10,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00649",
+      "patient_id": "P00329",
+      "admission_datetime": "2022-10-25T19:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician09",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00649",
+          "patient_id": "P00329",
+          "admission_id": "A00649",
+          "icd9_code": "466.0",
+          "diagnosis_datetime": "2022-10-25T22:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician09"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00649",
+          "admission_id": "A00649",
+          "assessment_datetime": "2022-10-25T20:00:00+10:00",
+          "triage_nurse": "FictionalNurse19",
+          "blood_pressure": "120/80",
+          "heart_rate": 96,
+          "respiratory_rate": 15,
+          "body_temperature": 97.9,
+          "oxygen_saturation": 100,
+          "pain_level": 0,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "urgent"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00650",
+      "patient_id": "P00330",
+      "admission_datetime": "2022-10-26T06:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician10",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00650",
+          "patient_id": "P00330",
+          "admission_id": "A00650",
+          "icd9_code": "585.3",
+          "diagnosis_datetime": "2022-10-26T09:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician10"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00650",
+          "admission_id": "A00650",
+          "assessment_datetime": "2022-10-26T07:00:00+10:00",
+          "triage_nurse": "FictionalNurse20",
+          "blood_pressure": "120/80",
+          "heart_rate": 72,
+          "respiratory_rate": 16,
+          "body_temperature": 98.1,
+          "oxygen_saturation": 96,
+          "pain_level": 1,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "routine"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00651",
+      "patient_id": "P00331",
+      "admission_datetime": "2022-10-26T17:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician11",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00651",
+          "patient_id": "P00331",
+          "admission_id": "A00651",
+          "icd9_code": "038.9",
+          "diagnosis_datetime": "2022-10-26T20:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician11"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00651",
+          "admission_id": "A00651",
+          "assessment_datetime": "2022-10-26T18:00:00+10:00",
+          "triage_nurse": "FictionalNurse21",
+          "blood_pressure": "120/80",
+          "heart_rate": 73,
+          "respiratory_rate": 17,
+          "body_temperature": 98.2,
+          "oxygen_saturation": 97,
+          "pain_level": 2,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00652",
+      "patient_id": "P00332",
+      "admission_datetime": "2022-10-27T04:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician12",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00652",
+          "patient_id": "P00332",
+          "admission_id": "A00652",
+          "icd9_code": "250.00",
+          "diagnosis_datetime": "2022-10-27T07:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician12"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00652",
+          "admission_id": "A00652",
+          "assessment_datetime": "2022-10-27T05:00:00+10:00",
+          "triage_nurse": "FictionalNurse22",
+          "blood_pressure": "120/80",
+          "heart_rate": 74,
+          "respiratory_rate": 18,
+          "body_temperature": 98.4,
+          "oxygen_saturation": 98,
+          "pain_level": 3,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": " urgent "
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00653",
+      "patient_id": "P00333",
+      "admission_datetime": "2022-10-27T15:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician13",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00653",
+          "patient_id": "P00333",
+          "admission_id": "A00653",
+          "icd9_code": "272.4",
+          "diagnosis_datetime": "2022-10-27T18:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician13"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00653",
+          "admission_id": "A00653",
+          "assessment_datetime": "2022-10-27T16:00:00+10:00",
+          "triage_nurse": "FictionalNurse23",
+          "blood_pressure": "120/80",
+          "heart_rate": 75,
+          "respiratory_rate": 19,
+          "body_temperature": 98.6,
+          "oxygen_saturation": 99,
+          "pain_level": 4,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": " routine "
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00654",
+      "patient_id": "P00334",
+      "admission_datetime": "2022-10-28T02:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician14",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00654",
+          "patient_id": "P00334",
+          "admission_id": "A00654",
+          "icd9_code": "276.1",
+          "diagnosis_datetime": "2022-10-28T05:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician14"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00654",
+          "admission_id": "A00654",
+          "assessment_datetime": "2022-10-28T03:00:00+10:00",
+          "triage_nurse": "FictionalNurse24",
+          "blood_pressure": "120/80",
+          "heart_rate": 76,
+          "respiratory_rate": 14,
+          "body_temperature": 98.8,
+          "oxygen_saturation": 100,
+          "pain_level": 5,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00655",
+      "patient_id": "P00335",
+      "admission_datetime": "2022-10-28T13:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician15",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00655",
+          "patient_id": "P00335",
+          "admission_id": "A00655",
+          "icd9_code": "276.8",
+          "diagnosis_datetime": "2022-10-28T16:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician15"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00655",
+          "admission_id": "A00655",
+          "assessment_datetime": "2022-10-28T14:00:00+10:00",
+          "triage_nurse": "FictionalNurse25",
+          "blood_pressure": "120/80",
+          "heart_rate": 77,
+          "respiratory_rate": 15,
+          "body_temperature": 99.0,
+          "oxygen_saturation": 96,
+          "pain_level": 6,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "urgent"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00656",
+      "patient_id": "P00336",
+      "admission_datetime": "2022-10-29T00:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician16",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00656",
+          "patient_id": "P00336",
+          "admission_id": "A00656",
+          "icd9_code": "285.9",
+          "diagnosis_datetime": "2022-10-29T03:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician16"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00656",
+          "admission_id": "A00656",
+          "assessment_datetime": "2022-10-29T01:00:00+10:00",
+          "triage_nurse": "FictionalNurse26",
+          "blood_pressure": "120/80",
+          "heart_rate": 78,
+          "respiratory_rate": 16,
+          "body_temperature": 97.7,
+          "oxygen_saturation": 97,
+          "pain_level": 7,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "routine"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00657",
+      "patient_id": "P00337",
+      "admission_datetime": "2022-10-29T11:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician17",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00657",
+          "patient_id": "P00337",
+          "admission_id": "A00657",
+          "icd9_code": "401.9",
+          "diagnosis_datetime": "2022-10-29T14:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician17"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00657",
+          "admission_id": "A00657",
+          "assessment_datetime": "2022-10-29T12:00:00+10:00",
+          "triage_nurse": "FictionalNurse27",
+          "blood_pressure": "120/80",
+          "heart_rate": 79,
+          "respiratory_rate": 17,
+          "body_temperature": 97.9,
+          "oxygen_saturation": 98,
+          "pain_level": 8,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00658",
+      "patient_id": "P00338",
+      "admission_datetime": "2022-10-29T22:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician18",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00658",
+          "patient_id": "P00338",
+          "admission_id": "A00658",
+          "icd9_code": "414.01",
+          "diagnosis_datetime": "2022-10-30T01:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician18"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00658",
+          "admission_id": "A00658",
+          "assessment_datetime": "2022-10-29T23:00:00+10:00",
+          "triage_nurse": "FictionalNurse28",
+          "blood_pressure": "120/80",
+          "heart_rate": 80,
+          "respiratory_rate": 18,
+          "body_temperature": 98.1,
+          "oxygen_saturation": 99,
+          "pain_level": 9,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "urgent"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00659",
+      "patient_id": "P00339",
+      "admission_datetime": "2022-10-30T09:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician19",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00659",
+          "patient_id": "P00339",
+          "admission_id": "A00659",
+          "icd9_code": "427.31",
+          "diagnosis_datetime": "2022-10-30T12:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician19"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00659",
+          "admission_id": "A00659",
+          "assessment_datetime": "2022-10-30T10:00:00+10:00",
+          "triage_nurse": "FictionalNurse29",
+          "blood_pressure": "120/80",
+          "heart_rate": 81,
+          "respiratory_rate": 19,
+          "body_temperature": 98.2,
+          "oxygen_saturation": 100,
+          "pain_level": 10,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "routine"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00660",
+      "patient_id": "P00340",
+      "admission_datetime": "2022-10-30T20:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician20",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00660",
+          "patient_id": "P00340",
+          "admission_id": "A00660",
+          "icd9_code": "428.0",
+          "diagnosis_datetime": "2022-10-30T23:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician20"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00660",
+          "admission_id": "A00660",
+          "assessment_datetime": "2022-10-30T21:00:00+10:00",
+          "triage_nurse": "FictionalNurse00",
+          "blood_pressure": "120/80",
+          "heart_rate": 82,
+          "respiratory_rate": 14,
+          "body_temperature": 98.4,
+          "oxygen_saturation": 96,
+          "pain_level": 0,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00661",
+      "patient_id": "P00341",
+      "admission_datetime": "2022-10-31T07:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician21",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00661",
+          "patient_id": "P00341",
+          "admission_id": "A00661",
+          "icd9_code": "486",
+          "diagnosis_datetime": "2022-10-31T10:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician21"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00661",
+          "admission_id": "A00661",
+          "assessment_datetime": "2022-10-31T08:00:00+10:00",
+          "triage_nurse": "FictionalNurse01",
+          "blood_pressure": "120/80",
+          "heart_rate": 83,
+          "respiratory_rate": 15,
+          "body_temperature": 98.6,
+          "oxygen_saturation": 97,
+          "pain_level": 1,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "urgent"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00662",
+      "patient_id": "P00342",
+      "admission_datetime": "2022-10-31T18:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician22",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00662",
+          "patient_id": "P00342",
+          "admission_id": "A00662",
+          "icd9_code": "493.90",
+          "diagnosis_datetime": "2022-10-31T21:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician22"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00662",
+          "admission_id": "A00662",
+          "assessment_datetime": "2022-10-31T19:00:00+10:00",
+          "triage_nurse": "FictionalNurse02",
+          "blood_pressure": "120/80",
+          "heart_rate": 84,
+          "respiratory_rate": 16,
+          "body_temperature": 98.8,
+          "oxygen_saturation": 98,
+          "pain_level": 2,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "routine"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00663",
+      "patient_id": "P00343",
+      "admission_datetime": "2022-11-01T05:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician23",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00663",
+          "patient_id": "P00343",
+          "admission_id": "A00663",
+          "icd9_code": "518.81",
+          "diagnosis_datetime": "2022-11-01T08:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician23"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00663",
+          "admission_id": "A00663",
+          "assessment_datetime": "2022-11-01T06:00:00+10:00",
+          "triage_nurse": "FictionalNurse03",
+          "blood_pressure": "120/80",
+          "heart_rate": 85,
+          "respiratory_rate": 17,
+          "body_temperature": 99.0,
+          "oxygen_saturation": 99,
+          "pain_level": 3,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00664",
+      "patient_id": "P00344",
+      "admission_datetime": "2022-11-01T16:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician24",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00664",
+          "patient_id": "P00344",
+          "admission_id": "A00664",
+          "icd9_code": "530.81",
+          "diagnosis_datetime": "2022-11-01T19:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician24"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00664",
+          "admission_id": "A00664",
+          "assessment_datetime": "2022-11-01T17:00:00+10:00",
+          "triage_nurse": "FictionalNurse04",
+          "blood_pressure": "120/80",
+          "heart_rate": 86,
+          "respiratory_rate": 18,
+          "body_temperature": 97.7,
+          "oxygen_saturation": 100,
+          "pain_level": 4,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "urgent"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00665",
+      "patient_id": "P00345",
+      "admission_datetime": "2022-11-02T03:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician25",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00665",
+          "patient_id": "P00345",
+          "admission_id": "A00665",
+          "icd9_code": "584.9",
+          "diagnosis_datetime": "2022-11-02T06:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician25"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00665",
+          "admission_id": "A00665",
+          "assessment_datetime": "2022-11-02T04:00:00+10:00",
+          "triage_nurse": "FictionalNurse05",
+          "blood_pressure": "120/80",
+          "heart_rate": 87,
+          "respiratory_rate": 19,
+          "body_temperature": 97.9,
+          "oxygen_saturation": 96,
+          "pain_level": 5,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": " routine "
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00666",
+      "patient_id": "P00346",
+      "admission_datetime": "2022-11-02T14:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician26",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00666",
+          "patient_id": "P00346",
+          "admission_id": "A00666",
+          "icd9_code": "599.0",
+          "diagnosis_datetime": "2022-11-02T17:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician26"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00666",
+          "admission_id": "A00666",
+          "assessment_datetime": "2022-11-02T15:00:00+10:00",
+          "triage_nurse": "FictionalNurse06",
+          "blood_pressure": "120/80",
+          "heart_rate": 88,
+          "respiratory_rate": 14,
+          "body_temperature": 98.1,
+          "oxygen_saturation": 97,
+          "pain_level": 6,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00667",
+      "patient_id": "P00347",
+      "admission_datetime": "2022-11-03T01:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician27",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00667",
+          "patient_id": "P00347",
+          "admission_id": "A00667",
+          "icd9_code": "599.70",
+          "diagnosis_datetime": "2022-11-03T04:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician27"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00667",
+          "admission_id": "A00667",
+          "assessment_datetime": "2022-11-03T02:00:00+10:00",
+          "triage_nurse": "FictionalNurse07",
+          "blood_pressure": "120/80",
+          "heart_rate": 89,
+          "respiratory_rate": 15,
+          "body_temperature": 98.2,
+          "oxygen_saturation": 98,
+          "pain_level": 7,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "urgent"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00668",
+      "patient_id": "P00348",
+      "admission_datetime": "2022-11-03T12:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician28",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00668",
+          "patient_id": "P00348",
+          "admission_id": "A00668",
+          "icd9_code": "715.90",
+          "diagnosis_datetime": "2022-11-03T15:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician28"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00668",
+          "admission_id": "A00668",
+          "assessment_datetime": "2022-11-03T13:00:00+10:00",
+          "triage_nurse": "FictionalNurse08",
+          "blood_pressure": "120/80",
+          "heart_rate": 90,
+          "respiratory_rate": 16,
+          "body_temperature": 98.4,
+          "oxygen_saturation": 99,
+          "pain_level": 8,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "routine"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00669",
+      "patient_id": "P00349",
+      "admission_datetime": "2022-11-03T23:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician29",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00669",
+          "patient_id": "P00349",
+          "admission_id": "A00669",
+          "icd9_code": "719.46",
+          "diagnosis_datetime": "2022-11-04T02:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician29"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00669",
+          "admission_id": "A00669",
+          "assessment_datetime": "2022-11-04T00:00:00+10:00",
+          "triage_nurse": "FictionalNurse09",
+          "blood_pressure": "120/80",
+          "heart_rate": 91,
+          "respiratory_rate": 17,
+          "body_temperature": 98.6,
+          "oxygen_saturation": 100,
+          "pain_level": 9,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00670",
+      "patient_id": "P00350",
+      "admission_datetime": "2022-11-04T10:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician30",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00670",
+          "patient_id": "P00350",
+          "admission_id": "A00670",
+          "icd9_code": "724.2",
+          "diagnosis_datetime": "2022-11-04T13:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician30"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00670",
+          "admission_id": "A00670",
+          "assessment_datetime": "2022-11-04T11:00:00+10:00",
+          "triage_nurse": "FictionalNurse10",
+          "blood_pressure": "120/80",
+          "heart_rate": 92,
+          "respiratory_rate": 18,
+          "body_temperature": 98.8,
+          "oxygen_saturation": 96,
+          "pain_level": 10,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "urgent"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00671",
+      "patient_id": "P00351",
+      "admission_datetime": "2022-11-04T21:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician31",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00671",
+          "patient_id": "P00351",
+          "admission_id": "A00671",
+          "icd9_code": "724.5",
+          "diagnosis_datetime": "2022-11-05T00:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician31"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00671",
+          "admission_id": "A00671",
+          "assessment_datetime": "2022-11-04T22:00:00+10:00",
+          "triage_nurse": "FictionalNurse11",
+          "blood_pressure": "120/80",
+          "heart_rate": 93,
+          "respiratory_rate": 19,
+          "body_temperature": 99.0,
+          "oxygen_saturation": 97,
+          "pain_level": 0,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "routine"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00672",
+      "patient_id": "P00352",
+      "admission_datetime": "2022-11-05T08:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician32",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00672",
+          "patient_id": "P00352",
+          "admission_id": "A00672",
+          "icd9_code": "729.5",
+          "diagnosis_datetime": "2022-11-05T11:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician32"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00672",
+          "admission_id": "A00672",
+          "assessment_datetime": "2022-11-05T09:00:00+10:00",
+          "triage_nurse": "FictionalNurse12",
+          "blood_pressure": "120/80",
+          "heart_rate": 94,
+          "respiratory_rate": 14,
+          "body_temperature": 97.7,
+          "oxygen_saturation": 98,
+          "pain_level": 1,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00673",
+      "patient_id": "P00353",
+      "admission_datetime": "2022-11-05T19:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician33",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00673",
+          "patient_id": "P00353",
+          "admission_id": "A00673",
+          "icd9_code": "780.2",
+          "diagnosis_datetime": "2022-11-05T22:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician33"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00673",
+          "admission_id": "A00673",
+          "assessment_datetime": "2022-11-05T20:00:00+10:00",
+          "triage_nurse": "FictionalNurse13",
+          "blood_pressure": "120/80",
+          "heart_rate": 95,
+          "respiratory_rate": 15,
+          "body_temperature": 97.9,
+          "oxygen_saturation": 99,
+          "pain_level": 2,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "urgent"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00674",
+      "patient_id": "P00354",
+      "admission_datetime": "2022-11-06T06:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician34",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00674",
+          "patient_id": "P00354",
+          "admission_id": "A00674",
+          "icd9_code": "780.79",
+          "diagnosis_datetime": "2022-11-06T09:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician34"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00674",
+          "admission_id": "A00674",
+          "assessment_datetime": "2022-11-06T07:00:00+10:00",
+          "triage_nurse": "FictionalNurse14",
+          "blood_pressure": "120/80",
+          "heart_rate": 96,
+          "respiratory_rate": 16,
+          "body_temperature": 98.1,
+          "oxygen_saturation": 100,
+          "pain_level": 3,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "routine"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00675",
+      "patient_id": "P00355",
+      "admission_datetime": "2022-11-06T17:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician35",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00675",
+          "patient_id": "P00355",
+          "admission_id": "A00675",
+          "icd9_code": "786.05",
+          "diagnosis_datetime": "2022-11-06T20:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician35"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00675",
+          "admission_id": "A00675",
+          "assessment_datetime": "2022-11-06T18:00:00+10:00",
+          "triage_nurse": "FictionalNurse15",
+          "blood_pressure": "120/80",
+          "heart_rate": 72,
+          "respiratory_rate": 17,
+          "body_temperature": 98.2,
+          "oxygen_saturation": 96,
+          "pain_level": 4,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00676",
+      "patient_id": "P00356",
+      "admission_datetime": "2022-11-07T04:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician36",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00676",
+          "patient_id": "P00356",
+          "admission_id": "A00676",
+          "icd9_code": "786.09",
+          "diagnosis_datetime": "2022-11-07T07:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician36"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00676",
+          "admission_id": "A00676",
+          "assessment_datetime": "2022-11-07T05:00:00+10:00",
+          "triage_nurse": "FictionalNurse16",
+          "blood_pressure": "120/80",
+          "heart_rate": "not-a-number",
+          "respiratory_rate": 18,
+          "body_temperature": 98.4,
+          "oxygen_saturation": 97,
+          "pain_level": 5,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "urgent"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00677",
+      "patient_id": "P00357",
+      "admission_datetime": "2022-11-07T15:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician37",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00677",
+          "patient_id": "P00357",
+          "admission_id": "A00677",
+          "icd9_code": "786.50",
+          "diagnosis_datetime": "2022-11-07T18:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician37"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00677",
+          "admission_id": "A00677",
+          "assessment_datetime": "2022-11-07T16:00:00+10:00",
+          "triage_nurse": "FictionalNurse17",
+          "blood_pressure": "120/80",
+          "heart_rate": 74,
+          "respiratory_rate": 19,
+          "body_temperature": 98.6,
+          "oxygen_saturation": 98,
+          "pain_level": 6,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "routine"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00678",
+      "patient_id": "P00358",
+      "admission_datetime": "2022-11-08T02:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician38",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00678",
+          "patient_id": "P00358",
+          "admission_id": "A00678",
+          "icd9_code": "789.00",
+          "diagnosis_datetime": "2022-11-08T05:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician38"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00678",
+          "admission_id": "A00678",
+          "assessment_datetime": "2022-11-08T03:00:00+10:00",
+          "triage_nurse": "FictionalNurse18",
+          "blood_pressure": "120/80",
+          "heart_rate": 75,
+          "respiratory_rate": 14,
+          "body_temperature": 98.8,
+          "oxygen_saturation": 99,
+          "pain_level": 7,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00679",
+      "patient_id": "P00359",
+      "admission_datetime": "2022-11-08T13:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician39",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00679",
+          "patient_id": "P00359",
+          "admission_id": "A00679",
+          "icd9_code": "995.91",
+          "diagnosis_datetime": "2022-11-08T16:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician39"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00679",
+          "admission_id": "A00679",
+          "assessment_datetime": "2022-11-08T14:00:00+10:00",
+          "triage_nurse": "FictionalNurse19",
+          "blood_pressure": "120/80",
+          "heart_rate": 76,
+          "respiratory_rate": 15,
+          "body_temperature": 99.0,
+          "oxygen_saturation": 100,
+          "pain_level": 8,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "urgent"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00680",
+      "patient_id": "P00360",
+      "admission_datetime": "2022-11-09T00:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician00",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00680",
+          "patient_id": "P00360",
+          "admission_id": "A00680",
+          "icd9_code": "995.92",
+          "diagnosis_datetime": "2022-11-09T03:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician00"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00680",
+          "admission_id": "A00680",
+          "assessment_datetime": "2022-11-09T01:00:00+10:00",
+          "triage_nurse": null,
+          "blood_pressure": "120/80",
+          "heart_rate": 77,
+          "respiratory_rate": 16,
+          "body_temperature": 97.7,
+          "oxygen_saturation": 96,
+          "pain_level": 9,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "routine"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00681",
+      "patient_id": "P00361",
+      "admission_datetime": "2022-11-09T11:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician01",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00681",
+          "patient_id": "P00361",
+          "admission_id": "A00681",
+          "icd9_code": "V15.82",
+          "diagnosis_datetime": "2022-11-09T14:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician01"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00681",
+          "admission_id": "A00681",
+          "assessment_datetime": "2022-11-09T12:00:00+10:00",
+          "triage_nurse": "FictionalNurse21",
+          "blood_pressure": "120/80",
+          "heart_rate": 78,
+          "respiratory_rate": 17,
+          "body_temperature": 97.9,
+          "oxygen_saturation": 97,
+          "pain_level": 10,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00682",
+      "patient_id": "P00362",
+      "admission_datetime": "2022-11-09T22:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician02",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00682",
+          "patient_id": "P00362",
+          "admission_id": "A00682",
+          "icd9_code": "V43.3",
+          "diagnosis_datetime": "2022-11-10T01:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician02"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00682",
+          "admission_id": "A00682",
+          "assessment_datetime": "2022-11-09T23:00:00+10:00",
+          "triage_nurse": "FictionalNurse22",
+          "blood_pressure": "120/80",
+          "heart_rate": 79,
+          "respiratory_rate": 18,
+          "body_temperature": 98.1,
+          "oxygen_saturation": 98,
+          "pain_level": 0,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": " urgent "
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00683",
+      "patient_id": "P00363",
+      "admission_datetime": "2022-11-10T09:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician03",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00683",
+          "patient_id": "P00363",
+          "admission_id": "A00683",
+          "icd9_code": "V45.81",
+          "diagnosis_datetime": "2022-11-10T12:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician03"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00683",
+          "admission_id": "A00683",
+          "assessment_datetime": "2022-11-10T10:00:00+10:00",
+          "triage_nurse": "FictionalNurse23",
+          "blood_pressure": "120/80",
+          "heart_rate": 80,
+          "respiratory_rate": 19,
+          "body_temperature": 98.2,
+          "oxygen_saturation": 99,
+          "pain_level": 1,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "routine"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00684",
+      "patient_id": "P00364",
+      "admission_datetime": "2022-11-10T20:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician04",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00684",
+          "patient_id": "P00364",
+          "admission_id": "A00684",
+          "icd9_code": "V58.61",
+          "diagnosis_datetime": "2022-11-10T23:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician04"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00684",
+          "admission_id": "A00684",
+          "assessment_datetime": "2022-11-10T21:00:00+10:00",
+          "triage_nurse": "FictionalNurse24",
+          "blood_pressure": "120/80",
+          "heart_rate": 81,
+          "respiratory_rate": 14,
+          "body_temperature": 98.4,
+          "oxygen_saturation": 100,
+          "pain_level": 2,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": " immediate "
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00685",
+      "patient_id": "P00365",
+      "admission_datetime": "2022-11-11T07:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician05",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00685",
+          "patient_id": "P00365",
+          "admission_id": "A00685",
+          "icd9_code": "V58.67",
+          "diagnosis_datetime": "2022-11-11T10:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician05"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00685",
+          "admission_id": "A00685",
+          "assessment_datetime": "2022-11-11T08:00:00+10:00",
+          "triage_nurse": "FictionalNurse25",
+          "blood_pressure": "120/80",
+          "heart_rate": 82,
+          "respiratory_rate": 15,
+          "body_temperature": 98.6,
+          "oxygen_saturation": 96,
+          "pain_level": 3,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "urgent"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00686",
+      "patient_id": "P00366",
+      "admission_datetime": "2022-11-11T18:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician06",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00686",
+          "patient_id": "P00366",
+          "admission_id": "A00686",
+          "icd9_code": "244.9",
+          "diagnosis_datetime": "2022-11-11T21:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician06"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00686",
+          "admission_id": "A00686",
+          "assessment_datetime": "2022-11-11T19:00:00+10:00",
+          "triage_nurse": "FictionalNurse26",
+          "blood_pressure": "120/80",
+          "heart_rate": 83,
+          "respiratory_rate": 16,
+          "body_temperature": 98.8,
+          "oxygen_saturation": 97,
+          "pain_level": 4,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "routine"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00687",
+      "patient_id": "P00367",
+      "admission_datetime": "2022-11-12T05:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician07",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00687",
+          "patient_id": "P00367",
+          "admission_id": "A00687",
+          "icd9_code": "250.02",
+          "diagnosis_datetime": "2022-11-12T08:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician07"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00687",
+          "admission_id": "A00687",
+          "assessment_datetime": "2022-11-12T06:00:00+10:00",
+          "triage_nurse": "FictionalNurse27",
+          "blood_pressure": "120/80",
+          "heart_rate": 84,
+          "respiratory_rate": 17,
+          "body_temperature": 99.0,
+          "oxygen_saturation": 98,
+          "pain_level": 5,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00688",
+      "patient_id": "P00368",
+      "admission_datetime": "2022-11-12T16:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician08",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00688",
+          "patient_id": "P00368",
+          "admission_id": "A00688",
+          "icd9_code": "272.0",
+          "diagnosis_datetime": "2022-11-12T19:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician08"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00688",
+          "admission_id": "A00688",
+          "assessment_datetime": "2022-11-12T17:00:00+10:00",
+          "triage_nurse": "FictionalNurse28",
+          "blood_pressure": "120/80",
+          "heart_rate": "not-a-number",
+          "respiratory_rate": 18,
+          "body_temperature": 97.7,
+          "oxygen_saturation": 99,
+          "pain_level": 6,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "urgent"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00689",
+      "patient_id": "P00369",
+      "admission_datetime": "2022-11-13T03:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician09",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00689",
+          "patient_id": "P00369",
+          "admission_id": "A00689",
+          "icd9_code": "278.00",
+          "diagnosis_datetime": "2022-11-13T06:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician09"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00689",
+          "admission_id": "A00689",
+          "assessment_datetime": "2022-11-13T04:00:00+10:00",
+          "triage_nurse": "FictionalNurse29",
+          "blood_pressure": "120/80",
+          "heart_rate": 86,
+          "respiratory_rate": 19,
+          "body_temperature": 97.9,
+          "oxygen_saturation": 100,
+          "pain_level": 7,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "routine"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00690",
+      "patient_id": "P00370",
+      "admission_datetime": "2022-11-13T14:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician10",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00690",
+          "patient_id": "P00370",
+          "admission_id": "A00690",
+          "icd9_code": "285.1",
+          "diagnosis_datetime": "2022-11-13T17:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician10"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00690",
+          "admission_id": "A00690",
+          "assessment_datetime": "2022-11-13T15:00:00+10:00",
+          "triage_nurse": "FictionalNurse00",
+          "blood_pressure": "120/80",
+          "heart_rate": 87,
+          "respiratory_rate": 14,
+          "body_temperature": 98.1,
+          "oxygen_saturation": 96,
+          "pain_level": 8,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00691",
+      "patient_id": "P00371",
+      "admission_datetime": "2022-11-14T01:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician11",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00691",
+          "patient_id": "P00371",
+          "admission_id": "A00691",
+          "icd9_code": "311",
+          "diagnosis_datetime": "2022-11-14T04:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician11"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00691",
+          "admission_id": "A00691",
+          "assessment_datetime": "2022-11-14T02:00:00+10:00",
+          "triage_nurse": "FictionalNurse01",
+          "blood_pressure": "120/80",
+          "heart_rate": 88,
+          "respiratory_rate": 15,
+          "body_temperature": 98.2,
+          "oxygen_saturation": 97,
+          "pain_level": 9,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": " urgent "
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00692",
+      "patient_id": "P00372",
+      "admission_datetime": "2022-11-14T12:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician12",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00692",
+          "patient_id": "P00372",
+          "admission_id": "A00692",
+          "icd9_code": "331.0",
+          "diagnosis_datetime": "2022-11-14T15:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician12"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00692",
+          "admission_id": "A00692",
+          "assessment_datetime": "2022-11-14T13:00:00+10:00",
+          "triage_nurse": "FictionalNurse02",
+          "blood_pressure": "120/80",
+          "heart_rate": 89,
+          "respiratory_rate": 16,
+          "body_temperature": 98.4,
+          "oxygen_saturation": 98,
+          "pain_level": 10,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "routine"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00693",
+      "patient_id": "P00373",
+      "admission_datetime": "2022-11-14T23:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician13",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00693",
+          "patient_id": "P00373",
+          "admission_id": "A00693",
+          "icd9_code": "345.90",
+          "diagnosis_datetime": "2022-11-15T02:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician13"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00693",
+          "admission_id": "A00693",
+          "assessment_datetime": "2022-11-15T00:00:00+10:00",
+          "triage_nurse": "FictionalNurse03",
+          "blood_pressure": "120/80",
+          "heart_rate": 90,
+          "respiratory_rate": 17,
+          "body_temperature": 98.6,
+          "oxygen_saturation": 99,
+          "pain_level": 0,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00694",
+      "patient_id": "P00374",
+      "admission_datetime": "2022-11-15T10:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician14",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00694",
+          "patient_id": "P00374",
+          "admission_id": "A00694",
+          "icd9_code": "346.90",
+          "diagnosis_datetime": "2022-11-15T13:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician14"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00694",
+          "admission_id": "A00694",
+          "assessment_datetime": "2022-11-15T11:00:00+10:00",
+          "triage_nurse": null,
+          "blood_pressure": "120/80",
+          "heart_rate": 91,
+          "respiratory_rate": 18,
+          "body_temperature": 98.8,
+          "oxygen_saturation": 100,
+          "pain_level": 1,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "urgent"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00695",
+      "patient_id": "P00375",
+      "admission_datetime": "2022-11-15T21:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician15",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00695",
+          "patient_id": "P00375",
+          "admission_id": "A00695",
+          "icd9_code": "401.1",
+          "diagnosis_datetime": "2022-11-16T00:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician15"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00695",
+          "admission_id": "A00695",
+          "assessment_datetime": "2022-11-15T22:00:00+10:00",
+          "triage_nurse": "FictionalNurse05",
+          "blood_pressure": "120/80",
+          "heart_rate": 92,
+          "respiratory_rate": 19,
+          "body_temperature": 99.0,
+          "oxygen_saturation": 96,
+          "pain_level": 2,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": " routine "
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00696",
+      "patient_id": "P00376",
+      "admission_datetime": "2022-11-16T08:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician16",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00696",
+          "patient_id": "P00376",
+          "admission_id": "A00696",
+          "icd9_code": "410.90",
+          "diagnosis_datetime": "2022-11-16T11:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician16"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00696",
+          "admission_id": "A00696",
+          "assessment_datetime": "2022-11-16T09:00:00+10:00",
+          "triage_nurse": null,
+          "blood_pressure": "120/80",
+          "heart_rate": "not-a-number",
+          "respiratory_rate": 14,
+          "body_temperature": 97.7,
+          "oxygen_saturation": 97,
+          "pain_level": 3,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00697",
+      "patient_id": "P00377",
+      "admission_datetime": "2022-11-16T19:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician17",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00697",
+          "patient_id": "P00377",
+          "admission_id": "A00697",
+          "icd9_code": "412",
+          "diagnosis_datetime": "2022-11-16T22:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician17"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00697",
+          "admission_id": "A00697",
+          "assessment_datetime": "2022-11-16T20:00:00+10:00",
+          "triage_nurse": "FictionalNurse07",
+          "blood_pressure": "120/80",
+          "heart_rate": 94,
+          "respiratory_rate": 15,
+          "body_temperature": 97.9,
+          "oxygen_saturation": 98,
+          "pain_level": 4,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": " urgent "
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00698",
+      "patient_id": "P00378",
+      "admission_datetime": "2022-11-17T06:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician18",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00698",
+          "patient_id": "P00378",
+          "admission_id": "A00698",
+          "icd9_code": "414.00",
+          "diagnosis_datetime": "2022-11-17T09:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician18"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00698",
+          "admission_id": "A00698",
+          "assessment_datetime": "2022-11-17T07:00:00+10:00",
+          "triage_nurse": "FictionalNurse08",
+          "blood_pressure": "120/80",
+          "heart_rate": 95,
+          "respiratory_rate": 16,
+          "body_temperature": 98.1,
+          "oxygen_saturation": 99,
+          "pain_level": 5,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "routine"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00699",
+      "patient_id": "P00379",
+      "admission_datetime": "2022-11-17T17:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician19",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00699",
+          "patient_id": "P00379",
+          "admission_id": "A00699",
+          "icd9_code": "466.0",
+          "diagnosis_datetime": "2022-11-17T20:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician19"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00699",
+          "admission_id": "A00699",
+          "assessment_datetime": "2022-11-17T18:00:00+10:00",
+          "triage_nurse": "FictionalNurse09",
+          "blood_pressure": "120/80",
+          "heart_rate": 96,
+          "respiratory_rate": 17,
+          "body_temperature": 98.2,
+          "oxygen_saturation": 100,
+          "pain_level": 6,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "immediate"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A00700",
+      "patient_id": "P00380",
+      "admission_datetime": "2022-11-18T04:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician20",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D00700",
+          "patient_id": "P00380",
+          "admission_id": "A00700",
+          "icd9_code": "585.3",
+          "diagnosis_datetime": "2022-11-18T07:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician20"
+        }
+      ],
+      "triage_assessments": [
+        {
+          "triage_id": "T00700",
+          "admission_id": "A00700",
+          "assessment_datetime": "2022-11-18T05:00:00+10:00",
+          "triage_nurse": "FictionalNurse10",
+          "blood_pressure": "120/80",
+          "heart_rate": "not-a-number",
+          "respiratory_rate": 18,
+          "body_temperature": 98.4,
+          "oxygen_saturation": 96,
+          "pain_level": 7,
+          "reported_symptoms": "Fictional symptom description",
+          "known_allergies": null,
+          "current_medications": null,
+          "priority_level": "urgent"
+        }
+      ],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    }
+  ]
+}

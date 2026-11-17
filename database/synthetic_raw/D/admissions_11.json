@@ -1,0 +1,3008 @@
+{
+  "system": {
+    "source": "D",
+    "chunk": 11
+  },
+  "admissions": [
+    {
+      "admission_id": "A01001",
+      "patient_id": "P00681",
+      "admission_datetime": "2023-04-05T03:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician01",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01001",
+          "patient_id": "P00681",
+          "admission_id": "A01001",
+          "icd9_code": "038.9",
+          "diagnosis_datetime": "2023-04-05T06:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician01"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01002",
+      "patient_id": "P00682",
+      "admission_datetime": "2023-04-05T14:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician02",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01002",
+          "patient_id": "P00682",
+          "admission_id": "A01002",
+          "icd9_code": "250.00",
+          "diagnosis_datetime": "2023-04-05T17:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician02"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01003",
+      "patient_id": "P00683",
+      "admission_datetime": "2023-04-06T01:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician03",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01003",
+          "patient_id": "P00683",
+          "admission_id": "A01003",
+          "icd9_code": "272.4",
+          "diagnosis_datetime": "2023-04-06T04:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician03"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01004",
+      "patient_id": "P00684",
+      "admission_datetime": "2023-04-06T12:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician04",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01004",
+          "patient_id": "P00684",
+          "admission_id": "A01004",
+          "icd9_code": "276.1",
+          "diagnosis_datetime": "2023-04-06T15:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician04"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01005",
+      "patient_id": "P00685",
+      "admission_datetime": "2023-04-06T23:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician05",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01005",
+          "patient_id": "P00685",
+          "admission_id": "A01005",
+          "icd9_code": "276.8",
+          "diagnosis_datetime": "2023-04-07T02:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician05"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01006",
+      "patient_id": "P00686",
+      "admission_datetime": "2023-04-07T10:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician06",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01006",
+          "patient_id": "P00686",
+          "admission_id": "A01006",
+          "icd9_code": "285.9",
+          "diagnosis_datetime": "2023-04-07T13:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician06"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01007",
+      "patient_id": "P00687",
+      "admission_datetime": "2023-04-07T21:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician07",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01007",
+          "patient_id": "P00687",
+          "admission_id": "A01007",
+          "icd9_code": "401.9",
+          "diagnosis_datetime": "2023-04-08T00:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician07"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01008",
+      "patient_id": "P00688",
+      "admission_datetime": "2023-04-08T08:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician08",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01008",
+          "patient_id": "P00688",
+          "admission_id": "A01008",
+          "icd9_code": "414.01",
+          "diagnosis_datetime": "2023-04-08T11:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician08"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01009",
+      "patient_id": "P00689",
+      "admission_datetime": "2023-04-08T19:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician09",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01009",
+          "patient_id": "P00689",
+          "admission_id": "A01009",
+          "icd9_code": "427.31",
+          "diagnosis_datetime": "2023-04-08T22:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician09"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01010",
+      "patient_id": "P00690",
+      "admission_datetime": "2023-04-09T06:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician10",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01010",
+          "patient_id": "P00690",
+          "admission_id": "A01010",
+          "icd9_code": "428.0",
+          "diagnosis_datetime": "2023-04-09T09:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician10"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01011",
+      "patient_id": "P00691",
+      "admission_datetime": "2023-04-09T17:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician11",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01011",
+          "patient_id": "P00691",
+          "admission_id": "A01011",
+          "icd9_code": "486",
+          "diagnosis_datetime": "2023-04-09T20:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician11"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01012",
+      "patient_id": "P00692",
+      "admission_datetime": "2023-04-10T04:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician12",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01012",
+          "patient_id": "P00692",
+          "admission_id": "A01012",
+          "icd9_code": "493.90",
+          "diagnosis_datetime": "2023-04-10T07:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician12"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01013",
+      "patient_id": "P00693",
+      "admission_datetime": "2023-04-10T15:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician13",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01013",
+          "patient_id": "P00693",
+          "admission_id": "A01013",
+          "icd9_code": "518.81",
+          "diagnosis_datetime": "2023-04-10T18:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician13"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01014",
+      "patient_id": "P00694",
+      "admission_datetime": "2023-04-11T02:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician14",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01014",
+          "patient_id": "P00694",
+          "admission_id": "A01014",
+          "icd9_code": "530.81",
+          "diagnosis_datetime": "2023-04-11T05:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician14"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01015",
+      "patient_id": "P00695",
+      "admission_datetime": "2023-04-11T13:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician15",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01015",
+          "patient_id": "P00695",
+          "admission_id": "A01015",
+          "icd9_code": "584.9",
+          "diagnosis_datetime": "2023-04-11T16:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician15"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01016",
+      "patient_id": "P00696",
+      "admission_datetime": "2023-04-12T00:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician16",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01016",
+          "patient_id": "P00696",
+          "admission_id": "A01016",
+          "icd9_code": "599.0",
+          "diagnosis_datetime": "2023-04-12T03:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician16"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01017",
+      "patient_id": "P00697",
+      "admission_datetime": "2023-04-12T11:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician17",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01017",
+          "patient_id": "P00697",
+          "admission_id": "A01017",
+          "icd9_code": "599.70",
+          "diagnosis_datetime": "2023-04-12T14:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician17"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01018",
+      "patient_id": "P00698",
+      "admission_datetime": "2023-04-12T22:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician18",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01018",
+          "patient_id": "P00698",
+          "admission_id": "A01018",
+          "icd9_code": "715.90",
+          "diagnosis_datetime": "2023-04-13T01:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician18"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01019",
+      "patient_id": "P00699",
+      "admission_datetime": "2023-04-13T09:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician19",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01019",
+          "patient_id": "P00699",
+          "admission_id": "A01019",
+          "icd9_code": "719.46",
+          "diagnosis_datetime": "2023-04-13T12:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician19"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01020",
+      "patient_id": "P00081",
+      "admission_datetime": "2023-04-13T20:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician20",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01020",
+          "patient_id": "P00081",
+          "admission_id": "A01020",
+          "icd9_code": "724.2",
+          "diagnosis_datetime": "2023-04-13T23:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician20"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01021",
+      "patient_id": "P00082",
+      "admission_datetime": "2023-04-14T07:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician21",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01021",
+          "patient_id": "P00082",
+          "admission_id": "A01021",
+          "icd9_code": "724.5",
+          "diagnosis_datetime": "2023-04-14T10:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician21"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01022",
+      "patient_id": "P00083",
+      "admission_datetime": "2023-04-14T18:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician22",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01022",
+          "patient_id": "P00083",
+          "admission_id": "A01022",
+          "icd9_code": "729.5",
+          "diagnosis_datetime": "2023-04-14T21:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician22"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01023",
+      "patient_id": "P00084",
+      "admission_datetime": "2023-04-15T05:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician23",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01023",
+          "patient_id": "P00084",
+          "admission_id": "A01023",
+          "icd9_code": "780.2",
+          "diagnosis_datetime": "2023-04-15T08:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician23"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01024",
+      "patient_id": "P00085",
+      "admission_datetime": "2023-04-15T16:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician24",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01024",
+          "patient_id": "P00085",
+          "admission_id": "A01024",
+          "icd9_code": "780.79",
+          "diagnosis_datetime": "2023-04-15T19:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician24"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01025",
+      "patient_id": "P00086",
+      "admission_datetime": "2023-04-16T03:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician25",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01025",
+          "patient_id": "P00086",
+          "admission_id": "A01025",
+          "icd9_code": "786.05",
+          "diagnosis_datetime": "2023-04-16T06:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician25"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01026",
+      "patient_id": "P00087",
+      "admission_datetime": "2023-04-16T14:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician26",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01026",
+          "patient_id": "P00087",
+          "admission_id": "A01026",
+          "icd9_code": "786.09",
+          "diagnosis_datetime": "2023-04-16T17:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician26"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01027",
+      "patient_id": "P00088",
+      "admission_datetime": "2023-04-17T01:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician27",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01027",
+          "patient_id": "P00088",
+          "admission_id": "A01027",
+          "icd9_code": "786.50",
+          "diagnosis_datetime": "2023-04-17T04:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician27"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01028",
+      "patient_id": "P00089",
+      "admission_datetime": "2023-04-17T12:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician28",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01028",
+          "patient_id": "P00089",
+          "admission_id": "A01028",
+          "icd9_code": "789.00",
+          "diagnosis_datetime": "2023-04-17T15:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician28"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01029",
+      "patient_id": "P00090",
+      "admission_datetime": "2023-04-17T23:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician29",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01029",
+          "patient_id": "P00090",
+          "admission_id": "A01029",
+          "icd9_code": "995.91",
+          "diagnosis_datetime": "2023-04-18T02:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician29"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01030",
+      "patient_id": "P00091",
+      "admission_datetime": "2023-04-18T10:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician30",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01030",
+          "patient_id": "P00091",
+          "admission_id": "A01030",
+          "icd9_code": "995.92",
+          "diagnosis_datetime": "2023-04-18T13:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician30"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01031",
+      "patient_id": "P00092",
+      "admission_datetime": "2023-04-18T21:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician31",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01031",
+          "patient_id": "P00092",
+          "admission_id": "A01031",
+          "icd9_code": "V15.82",
+          "diagnosis_datetime": "2023-04-19T00:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician31"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01032",
+      "patient_id": "P00093",
+      "admission_datetime": "2023-04-19T08:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician32",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01032",
+          "patient_id": "P00093",
+          "admission_id": "A01032",
+          "icd9_code": "V43.3",
+          "diagnosis_datetime": "2023-04-19T11:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician32"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01033",
+      "patient_id": "P00094",
+      "admission_datetime": "2023-04-19T19:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician33",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01033",
+          "patient_id": "P00094",
+          "admission_id": "A01033",
+          "icd9_code": "V45.81",
+          "diagnosis_datetime": "2023-04-19T22:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician33"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01034",
+      "patient_id": "P00095",
+      "admission_datetime": "2023-04-20T06:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician34",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01034",
+          "patient_id": "P00095",
+          "admission_id": "A01034",
+          "icd9_code": "V58.61",
+          "diagnosis_datetime": "2023-04-20T09:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician34"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01035",
+      "patient_id": "P00096",
+      "admission_datetime": "2023-04-20T17:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician35",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01035",
+          "patient_id": "P00096",
+          "admission_id": "A01035",
+          "icd9_code": "V58.67",
+          "diagnosis_datetime": "2023-04-20T20:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician35"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01036",
+      "patient_id": "P00097",
+      "admission_datetime": "2023-04-21T04:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician36",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01036",
+          "patient_id": "P00097",
+          "admission_id": "A01036",
+          "icd9_code": "244.9",
+          "diagnosis_datetime": "2023-04-21T07:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician36"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01037",
+      "patient_id": "P00098",
+      "admission_datetime": "2023-04-21T15:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician37",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01037",
+          "patient_id": "P00098",
+          "admission_id": "A01037",
+          "icd9_code": "250.02",
+          "diagnosis_datetime": "2023-04-21T18:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician37"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01038",
+      "patient_id": "P00099",
+      "admission_datetime": "2023-04-22T02:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician38",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01038",
+          "patient_id": "P00099",
+          "admission_id": "A01038",
+          "icd9_code": "272.0",
+          "diagnosis_datetime": "2023-04-22T05:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician38"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01039",
+      "patient_id": "P00100",
+      "admission_datetime": "2023-04-22T13:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician39",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01039",
+          "patient_id": "P00100",
+          "admission_id": "A01039",
+          "icd9_code": "278.00",
+          "diagnosis_datetime": "2023-04-22T16:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician39"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01040",
+      "patient_id": "P00101",
+      "admission_datetime": "2023-04-23T00:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician00",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01040",
+          "patient_id": "P00101",
+          "admission_id": "A01040",
+          "icd9_code": "285.1",
+          "diagnosis_datetime": "2023-04-23T03:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician00"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01041",
+      "patient_id": "P00102",
+      "admission_datetime": "2023-04-23T11:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician01",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01041",
+          "patient_id": "P00102",
+          "admission_id": "A01041",
+          "icd9_code": "311",
+          "diagnosis_datetime": "2023-04-23T14:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician01"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01042",
+      "patient_id": "P00103",
+      "admission_datetime": "2023-04-23T22:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician02",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01042",
+          "patient_id": "P00103",
+          "admission_id": "A01042",
+          "icd9_code": "331.0",
+          "diagnosis_datetime": "2023-04-24T01:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician02"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01043",
+      "patient_id": "P00104",
+      "admission_datetime": "2023-04-24T09:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician03",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01043",
+          "patient_id": "P00104",
+          "admission_id": "A01043",
+          "icd9_code": "345.90",
+          "diagnosis_datetime": "2023-04-24T12:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician03"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01044",
+      "patient_id": "P00105",
+      "admission_datetime": "2023-04-24T20:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician04",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01044",
+          "patient_id": "P00105",
+          "admission_id": "A01044",
+          "icd9_code": "346.90",
+          "diagnosis_datetime": "2023-04-24T23:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician04"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01045",
+      "patient_id": "P00106",
+      "admission_datetime": "2023-04-25T07:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician05",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01045",
+          "patient_id": "P00106",
+          "admission_id": "A01045",
+          "icd9_code": "401.1",
+          "diagnosis_datetime": "2023-04-25T10:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician05"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01046",
+      "patient_id": "P00107",
+      "admission_datetime": "2023-04-25T18:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician06",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01046",
+          "patient_id": "P00107",
+          "admission_id": "A01046",
+          "icd9_code": "410.90",
+          "diagnosis_datetime": "2023-04-25T21:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician06"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01047",
+      "patient_id": "P00108",
+      "admission_datetime": "2023-04-26T05:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician07",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01047",
+          "patient_id": "P00108",
+          "admission_id": "A01047",
+          "icd9_code": "412",
+          "diagnosis_datetime": "2023-04-26T08:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician07"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01048",
+      "patient_id": "P00109",
+      "admission_datetime": "2023-04-26T16:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician08",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01048",
+          "patient_id": "P00109",
+          "admission_id": "A01048",
+          "icd9_code": "414.00",
+          "diagnosis_datetime": "2023-04-26T19:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician08"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01049",
+      "patient_id": "P00110",
+      "admission_datetime": "2023-04-27T03:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician09",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01049",
+          "patient_id": "P00110",
+          "admission_id": "A01049",
+          "icd9_code": "466.0",
+          "diagnosis_datetime": "2023-04-27T06:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician09"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01050",
+      "patient_id": "P00111",
+      "admission_datetime": "2023-04-27T14:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician10",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01050",
+          "patient_id": "P00111",
+          "admission_id": "A01050",
+          "icd9_code": "585.3",
+          "diagnosis_datetime": "2023-04-27T17:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician10"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01051",
+      "patient_id": "P00112",
+      "admission_datetime": "2023-04-28T01:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician11",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01051",
+          "patient_id": "P00112",
+          "admission_id": "A01051",
+          "icd9_code": "038.9",
+          "diagnosis_datetime": "2023-04-28T04:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician11"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01052",
+      "patient_id": "P00113",
+      "admission_datetime": "2023-04-28T12:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician12",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01052",
+          "patient_id": "P00113",
+          "admission_id": "A01052",
+          "icd9_code": "250.00",
+          "diagnosis_datetime": "2023-04-28T15:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician12"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01053",
+      "patient_id": "P00114",
+      "admission_datetime": "2023-04-28T23:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician13",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01053",
+          "patient_id": "P00114",
+          "admission_id": "A01053",
+          "icd9_code": "272.4",
+          "diagnosis_datetime": "2023-04-29T02:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician13"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01054",
+      "patient_id": "P00115",
+      "admission_datetime": "2023-04-29T10:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician14",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01054",
+          "patient_id": "P00115",
+          "admission_id": "A01054",
+          "icd9_code": "276.1",
+          "diagnosis_datetime": "2023-04-29T13:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician14"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01055",
+      "patient_id": "P00116",
+      "admission_datetime": "2023-04-29T21:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician15",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01055",
+          "patient_id": "P00116",
+          "admission_id": "A01055",
+          "icd9_code": "276.8",
+          "diagnosis_datetime": "2023-04-30T00:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician15"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01056",
+      "patient_id": "P00117",
+      "admission_datetime": "2023-04-30T08:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician16",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01056",
+          "patient_id": "P00117",
+          "admission_id": "A01056",
+          "icd9_code": "285.9",
+          "diagnosis_datetime": "2023-04-30T11:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician16"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01057",
+      "patient_id": "P00118",
+      "admission_datetime": "2023-04-30T19:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician17",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01057",
+          "patient_id": "P00118",
+          "admission_id": "A01057",
+          "icd9_code": "401.9",
+          "diagnosis_datetime": "2023-04-30T22:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician17"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01058",
+      "patient_id": "P00119",
+      "admission_datetime": "2023-05-01T06:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician18",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01058",
+          "patient_id": "P00119",
+          "admission_id": "A01058",
+          "icd9_code": "414.01",
+          "diagnosis_datetime": "2023-05-01T09:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician18"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01059",
+      "patient_id": "P00120",
+      "admission_datetime": "2023-05-01T17:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician19",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01059",
+          "patient_id": "P00120",
+          "admission_id": "A01059",
+          "icd9_code": "427.31",
+          "diagnosis_datetime": "2023-05-01T20:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician19"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01060",
+      "patient_id": "P00121",
+      "admission_datetime": "2023-05-02T04:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician20",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01060",
+          "patient_id": "P00121",
+          "admission_id": "A01060",
+          "icd9_code": "428.0",
+          "diagnosis_datetime": "2023-05-02T07:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician20"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01061",
+      "patient_id": "P00122",
+      "admission_datetime": "2023-05-02T15:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician21",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01061",
+          "patient_id": "P00122",
+          "admission_id": "A01061",
+          "icd9_code": "486",
+          "diagnosis_datetime": "2023-05-02T18:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician21"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01062",
+      "patient_id": "P00123",
+      "admission_datetime": "2023-05-03T02:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician22",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01062",
+          "patient_id": "P00123",
+          "admission_id": "A01062",
+          "icd9_code": "493.90",
+          "diagnosis_datetime": "2023-05-03T05:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician22"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01063",
+      "patient_id": "P00124",
+      "admission_datetime": "2023-05-03T13:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician23",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01063",
+          "patient_id": "P00124",
+          "admission_id": "A01063",
+          "icd9_code": "518.81",
+          "diagnosis_datetime": "2023-05-03T16:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician23"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01064",
+      "patient_id": "P00125",
+      "admission_datetime": "2023-05-04T00:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician24",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01064",
+          "patient_id": "P00125",
+          "admission_id": "A01064",
+          "icd9_code": "530.81",
+          "diagnosis_datetime": "2023-05-04T03:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician24"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01065",
+      "patient_id": "P00126",
+      "admission_datetime": "2023-05-04T11:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician25",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01065",
+          "patient_id": "P00126",
+          "admission_id": "A01065",
+          "icd9_code": "584.9",
+          "diagnosis_datetime": "2023-05-04T14:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician25"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01066",
+      "patient_id": "P00127",
+      "admission_datetime": "2023-05-04T22:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician26",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01066",
+          "patient_id": "P00127",
+          "admission_id": "A01066",
+          "icd9_code": "599.0",
+          "diagnosis_datetime": "2023-05-05T01:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician26"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01067",
+      "patient_id": "P00128",
+      "admission_datetime": "2023-05-05T09:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician27",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01067",
+          "patient_id": "P00128",
+          "admission_id": "A01067",
+          "icd9_code": "599.70",
+          "diagnosis_datetime": "2023-05-05T12:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician27"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01068",
+      "patient_id": "P00129",
+      "admission_datetime": "2023-05-05T20:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician28",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01068",
+          "patient_id": "P00129",
+          "admission_id": "A01068",
+          "icd9_code": "715.90",
+          "diagnosis_datetime": "2023-05-05T23:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician28"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01069",
+      "patient_id": "P00130",
+      "admission_datetime": "2023-05-06T07:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician29",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01069",
+          "patient_id": "P00130",
+          "admission_id": "A01069",
+          "icd9_code": "719.46",
+          "diagnosis_datetime": "2023-05-06T10:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician29"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01070",
+      "patient_id": "P00131",
+      "admission_datetime": "2023-05-06T18:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician30",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01070",
+          "patient_id": "P00131",
+          "admission_id": "A01070",
+          "icd9_code": "724.2",
+          "diagnosis_datetime": "2023-05-06T21:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician30"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01071",
+      "patient_id": "P00132",
+      "admission_datetime": "2023-05-07T05:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician31",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01071",
+          "patient_id": "P00132",
+          "admission_id": "A01071",
+          "icd9_code": "724.5",
+          "diagnosis_datetime": "2023-05-07T08:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician31"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01072",
+      "patient_id": "P00133",
+      "admission_datetime": "2023-05-07T16:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician32",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01072",
+          "patient_id": "P00133",
+          "admission_id": "A01072",
+          "icd9_code": "729.5",
+          "diagnosis_datetime": "2023-05-07T19:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician32"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01073",
+      "patient_id": "P00134",
+      "admission_datetime": "2023-05-08T03:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician33",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01073",
+          "patient_id": "P00134",
+          "admission_id": "A01073",
+          "icd9_code": "780.2",
+          "diagnosis_datetime": "2023-05-08T06:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician33"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01074",
+      "patient_id": "P00135",
+      "admission_datetime": "2023-05-08T14:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician34",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01074",
+          "patient_id": "P00135",
+          "admission_id": "A01074",
+          "icd9_code": "780.79",
+          "diagnosis_datetime": "2023-05-08T17:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician34"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01075",
+      "patient_id": "P00136",
+      "admission_datetime": "2023-05-09T01:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician35",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01075",
+          "patient_id": "P00136",
+          "admission_id": "A01075",
+          "icd9_code": "786.05",
+          "diagnosis_datetime": "2023-05-09T04:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician35"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01076",
+      "patient_id": "P00137",
+      "admission_datetime": "2023-05-09T12:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician36",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01076",
+          "patient_id": "P00137",
+          "admission_id": "A01076",
+          "icd9_code": "786.09",
+          "diagnosis_datetime": "2023-05-09T15:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician36"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01077",
+      "patient_id": "P00138",
+      "admission_datetime": "2023-05-09T23:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician37",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01077",
+          "patient_id": "P00138",
+          "admission_id": "A01077",
+          "icd9_code": "786.50",
+          "diagnosis_datetime": "2023-05-10T02:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician37"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01078",
+      "patient_id": "P00139",
+      "admission_datetime": "2023-05-10T10:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician38",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01078",
+          "patient_id": "P00139",
+          "admission_id": "A01078",
+          "icd9_code": "789.00",
+          "diagnosis_datetime": "2023-05-10T13:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician38"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01079",
+      "patient_id": "P00140",
+      "admission_datetime": "2023-05-10T21:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician39",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01079",
+          "patient_id": "P00140",
+          "admission_id": "A01079",
+          "icd9_code": "995.91",
+          "diagnosis_datetime": "2023-05-11T00:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician39"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01080",
+      "patient_id": "P00141",
+      "admission_datetime": "2023-05-11T08:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician00",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01080",
+          "patient_id": "P00141",
+          "admission_id": "A01080",
+          "icd9_code": "995.92",
+          "diagnosis_datetime": "2023-05-11T11:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician00"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01081",
+      "patient_id": "P00142",
+      "admission_datetime": "2023-05-11T19:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician01",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01081",
+          "patient_id": "P00142",
+          "admission_id": "A01081",
+          "icd9_code": "V15.82",
+          "diagnosis_datetime": "2023-05-11T22:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician01"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01082",
+      "patient_id": "P00143",
+      "admission_datetime": "2023-05-12T06:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician02",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01082",
+          "patient_id": "P00143",
+          "admission_id": "A01082",
+          "icd9_code": "V43.3",
+          "diagnosis_datetime": "2023-05-12T09:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician02"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01083",
+      "patient_id": "P00144",
+      "admission_datetime": "2023-05-12T17:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician03",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01083",
+          "patient_id": "P00144",
+          "admission_id": "A01083",
+          "icd9_code": "V45.81",
+          "diagnosis_datetime": "2023-05-12T20:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician03"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01084",
+      "patient_id": "P00145",
+      "admission_datetime": "2023-05-13T04:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician04",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01084",
+          "patient_id": "P00145",
+          "admission_id": "A01084",
+          "icd9_code": "V58.61",
+          "diagnosis_datetime": "2023-05-13T07:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician04"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01085",
+      "patient_id": "P00146",
+      "admission_datetime": "2023-05-13T15:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician05",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01085",
+          "patient_id": "P00146",
+          "admission_id": "A01085",
+          "icd9_code": "V58.67",
+          "diagnosis_datetime": "2023-05-13T18:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician05"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01086",
+      "patient_id": "P00147",
+      "admission_datetime": "2023-05-14T02:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician06",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01086",
+          "patient_id": "P00147",
+          "admission_id": "A01086",
+          "icd9_code": "244.9",
+          "diagnosis_datetime": "2023-05-14T05:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician06"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01087",
+      "patient_id": "P00148",
+      "admission_datetime": "2023-05-14T13:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician07",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01087",
+          "patient_id": "P00148",
+          "admission_id": "A01087",
+          "icd9_code": "250.02",
+          "diagnosis_datetime": "2023-05-14T16:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician07"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01088",
+      "patient_id": "P00149",
+      "admission_datetime": "2023-05-15T00:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician08",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01088",
+          "patient_id": "P00149",
+          "admission_id": "A01088",
+          "icd9_code": "272.0",
+          "diagnosis_datetime": "2023-05-15T03:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician08"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01089",
+      "patient_id": "P00150",
+      "admission_datetime": "2023-05-15T11:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician09",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01089",
+          "patient_id": "P00150",
+          "admission_id": "A01089",
+          "icd9_code": "278.00",
+          "diagnosis_datetime": "2023-05-15T14:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician09"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01090",
+      "patient_id": "P00151",
+      "admission_datetime": "2023-05-15T22:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician10",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01090",
+          "patient_id": "P00151",
+          "admission_id": "A01090",
+          "icd9_code": "285.1",
+          "diagnosis_datetime": "2023-05-16T01:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician10"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01091",
+      "patient_id": "P00152",
+      "admission_datetime": "2023-05-16T09:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician11",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01091",
+          "patient_id": "P00152",
+          "admission_id": "A01091",
+          "icd9_code": "311",
+          "diagnosis_datetime": "2023-05-16T12:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician11"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01092",
+      "patient_id": "P00153",
+      "admission_datetime": "2023-05-16T20:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician12",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01092",
+          "patient_id": "P00153",
+          "admission_id": "A01092",
+          "icd9_code": "331.0",
+          "diagnosis_datetime": "2023-05-16T23:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician12"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01093",
+      "patient_id": "P00154",
+      "admission_datetime": "2023-05-17T07:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician13",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01093",
+          "patient_id": "P00154",
+          "admission_id": "A01093",
+          "icd9_code": "345.90",
+          "diagnosis_datetime": "2023-05-17T10:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician13"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01094",
+      "patient_id": "P00155",
+      "admission_datetime": "2023-05-17T18:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician14",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01094",
+          "patient_id": "P00155",
+          "admission_id": "A01094",
+          "icd9_code": "346.90",
+          "diagnosis_datetime": "2023-05-17T21:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician14"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01095",
+      "patient_id": "P00156",
+      "admission_datetime": "2023-05-18T05:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician15",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01095",
+          "patient_id": "P00156",
+          "admission_id": "A01095",
+          "icd9_code": "401.1",
+          "diagnosis_datetime": "2023-05-18T08:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician15"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01096",
+      "patient_id": "P00157",
+      "admission_datetime": "2023-05-18T16:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician16",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01096",
+          "patient_id": "P00157",
+          "admission_id": "A01096",
+          "icd9_code": "410.90",
+          "diagnosis_datetime": "2023-05-18T19:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician16"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01097",
+      "patient_id": "P00158",
+      "admission_datetime": "2023-05-19T03:00:00+10:00",
+      "admission_type": "urgent",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician17",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01097",
+          "patient_id": "P00158",
+          "admission_id": "A01097",
+          "icd9_code": "412",
+          "diagnosis_datetime": "2023-05-19T06:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician17"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01098",
+      "patient_id": "P00159",
+      "admission_datetime": "2023-05-19T14:00:00+10:00",
+      "admission_type": "scheduled",
+      "admission_source": "Emergency referral",
+      "reason_for_admission": "Fictional symptom review",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician18",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01098",
+          "patient_id": "P00159",
+          "admission_id": "A01098",
+          "icd9_code": "414.00",
+          "diagnosis_datetime": "2023-05-19T17:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician18"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01099",
+      "patient_id": "P00160",
+      "admission_datetime": "2023-05-20T01:00:00+10:00",
+      "admission_type": "clinic",
+      "admission_source": "Clinic referral",
+      "reason_for_admission": "Planned fictional procedure",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician19",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01099",
+          "patient_id": "P00160",
+          "admission_id": "A01099",
+          "icd9_code": "466.0",
+          "diagnosis_datetime": "2023-05-20T04:00:00+10:00",
+          "diagnosis_type": "Secondary",
+          "diagnosing_physician": "FictionalClinician19"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    },
+    {
+      "admission_id": "A01100",
+      "patient_id": "P00161",
+      "admission_datetime": "2023-05-20T12:00:00+10:00",
+      "admission_type": "ER",
+      "admission_source": "Transfer",
+      "reason_for_admission": "Observation",
+      "insurance_info": "Synthetic plan D",
+      "condition_on_admission": "Fictional educational scenario",
+      "admitting_professional": "FictionalClinician20",
+      "discharge_datetime": null,
+      "final_status": null,
+      "diagnoses": [
+        {
+          "diagnosis_id": "D01100",
+          "patient_id": "P00161",
+          "admission_id": "A01100",
+          "icd9_code": "585.3",
+          "diagnosis_datetime": "2023-05-20T15:00:00+10:00",
+          "diagnosis_type": "Preliminary",
+          "diagnosing_physician": "FictionalClinician20"
+        }
+      ],
+      "triage_assessments": [],
+      "unit_stays": [],
+      "clinical_notes": [],
+      "surgical_procedures": [],
+      "discharge_record": null,
+      "diagnostic_orders": []
+    }
+  ]
+}

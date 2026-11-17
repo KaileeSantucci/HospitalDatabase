@@ -1,0 +1,4334 @@
+{
+  "A": {
+    "format": "TXT",
+    "record_count": 7000,
+    "entities": {
+      "admissions": {
+        "record_count": 1300,
+        "field_names": [
+          "admission_datetime",
+          "admission_id",
+          "admission_source",
+          "admission_type",
+          "admitting_professional",
+          "condition_on_admission",
+          "discharge_datetime",
+          "final_status",
+          "insurance_info",
+          "patient_id",
+          "reason_for_admission"
+        ],
+        "inferred_types": {
+          "admission_datetime": "date/time",
+          "admission_id": "string",
+          "admission_source": "string",
+          "admission_type": "string",
+          "admitting_professional": "string",
+          "condition_on_admission": "string",
+          "discharge_datetime": "date/time",
+          "final_status": "string",
+          "insurance_info": "string",
+          "patient_id": "string",
+          "reason_for_admission": "string"
+        },
+        "missing_value_counts": {
+          "admission_datetime": 0,
+          "admission_id": 0,
+          "admission_source": 0,
+          "admission_type": 0,
+          "admitting_professional": 0,
+          "condition_on_admission": 0,
+          "discharge_datetime": 950,
+          "final_status": 950,
+          "insurance_info": 0,
+          "patient_id": 0,
+          "reason_for_admission": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "admission_datetime": [
+            "2022-01-01 19:00:00",
+            "2022-01-02 06:00:00",
+            "2022-01-02 17:00:00"
+          ],
+          "admission_id": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ],
+          "admission_source": [
+            "Clinic referral",
+            "Transfer",
+            "Emergency referral"
+          ],
+          "admission_type": [
+            "urgent",
+            "elective",
+            "outpatient"
+          ],
+          "admitting_professional": [
+            "FictionalClinician01",
+            "FictionalClinician02",
+            "FictionalClinician03"
+          ],
+          "condition_on_admission": [
+            "Fictional educational scenario"
+          ],
+          "discharge_datetime": [
+            "2022-01-05 02:00:00",
+            "2022-01-05 20:00:00",
+            "2022-01-06 14:00:00"
+          ],
+          "final_status": [
+            "Discharged",
+            "Deceased"
+          ],
+          "insurance_info": [
+            "Synthetic plan A"
+          ],
+          "patient_id": [
+            "P00001",
+            "P00002",
+            "P00003"
+          ],
+          "reason_for_admission": [
+            "Planned fictional procedure",
+            "Observation",
+            "Fictional symptom review"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "clinical_notes": {
+        "record_count": 500,
+        "field_names": [
+          "admission_id",
+          "author_physician",
+          "clinical_findings",
+          "note_content",
+          "note_datetime",
+          "note_id",
+          "note_type",
+          "physical_examination",
+          "planned_examinations",
+          "suspected_condition",
+          "symptoms",
+          "treatment_plan"
+        ],
+        "inferred_types": {
+          "admission_id": "string",
+          "author_physician": "string",
+          "clinical_findings": "string",
+          "note_content": "string",
+          "note_datetime": "date/time",
+          "note_id": "string",
+          "note_type": "string",
+          "physical_examination": "string",
+          "planned_examinations": "string",
+          "suspected_condition": "string",
+          "symptoms": "string",
+          "treatment_plan": "string"
+        },
+        "missing_value_counts": {
+          "admission_id": 0,
+          "author_physician": 16,
+          "clinical_findings": 0,
+          "note_content": 0,
+          "note_datetime": 0,
+          "note_id": 0,
+          "note_type": 0,
+          "physical_examination": 0,
+          "planned_examinations": 0,
+          "suspected_condition": 0,
+          "symptoms": 0,
+          "treatment_plan": 0
+        },
+        "exact_duplicate_count": 35,
+        "sample_values": {
+          "admission_id": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ],
+          "author_physician": [
+            "FictionalClinician01",
+            "FictionalClinician02",
+            "FictionalClinician04"
+          ],
+          "clinical_findings": [
+            "Fictional finding"
+          ],
+          "note_content": [
+            "Fictional recovery discussion and follow-up plan.",
+            "Entirely fictional educational note."
+          ],
+          "note_datetime": [
+            "2022-01-05 01:00:00",
+            "2020-01-01 00:00:00",
+            "2022-01-06 13:00:00"
+          ],
+          "note_id": [
+            "N00001",
+            "N00002",
+            "N00003"
+          ],
+          "note_type": [
+            "Discharge Summary",
+            "DISCHARGE SUMMARY ",
+            "Admission"
+          ],
+          "physical_examination": [
+            "Fictional examination"
+          ],
+          "planned_examinations": [
+            "Fictional examination"
+          ],
+          "suspected_condition": [
+            "Fictional condition"
+          ],
+          "symptoms": [
+            "Fictional symptom"
+          ],
+          "treatment_plan": [
+            "Fictional plan"
+          ]
+        },
+        "formatting_examples": {
+          "note_type": [
+            "DISCHARGE SUMMARY ",
+            "Discharge Summary",
+            "ADMISSION "
+          ]
+        },
+        "invalid_value_examples": {
+          "note_datetime": [
+            "not-a-date"
+          ]
+        }
+      },
+      "diagnoses": {
+        "record_count": 1500,
+        "field_names": [
+          "admission_id",
+          "diagnosing_physician",
+          "diagnosis_datetime",
+          "diagnosis_id",
+          "diagnosis_type",
+          "icd9_code",
+          "patient_id"
+        ],
+        "inferred_types": {
+          "admission_id": "string",
+          "diagnosing_physician": "string",
+          "diagnosis_datetime": "date/time",
+          "diagnosis_id": "string",
+          "diagnosis_type": "string",
+          "icd9_code": "string",
+          "patient_id": "string"
+        },
+        "missing_value_counts": {
+          "admission_id": 0,
+          "diagnosing_physician": 0,
+          "diagnosis_datetime": 0,
+          "diagnosis_id": 0,
+          "diagnosis_type": 0,
+          "icd9_code": 0,
+          "patient_id": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "admission_id": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ],
+          "diagnosing_physician": [
+            "FictionalClinician01",
+            "FictionalClinician02",
+            "FictionalClinician03"
+          ],
+          "diagnosis_datetime": [
+            "2022-01-01 22:00:00",
+            "2022-01-02 09:00:00",
+            "2022-01-02 20:00:00"
+          ],
+          "diagnosis_id": [
+            "D00001",
+            "D00002",
+            "D00003"
+          ],
+          "diagnosis_type": [
+            "Primary",
+            "Secondary",
+            "Preliminary"
+          ],
+          "icd9_code": [
+            "486",
+            "038.9",
+            "250.00"
+          ],
+          "patient_id": [
+            "P00001",
+            "P00002",
+            "P00003"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "diagnostic_examinations": {
+        "record_count": 250,
+        "field_names": [
+          "exam_datetime",
+          "exam_id",
+          "exam_result",
+          "exam_status",
+          "exam_type",
+          "order_id",
+          "performed_by"
+        ],
+        "inferred_types": {
+          "exam_datetime": "date/time",
+          "exam_id": "string",
+          "exam_result": "string",
+          "exam_status": "string",
+          "exam_type": "string",
+          "order_id": "string",
+          "performed_by": "string"
+        },
+        "missing_value_counts": {
+          "exam_datetime": 0,
+          "exam_id": 0,
+          "exam_result": 0,
+          "exam_status": 0,
+          "exam_type": 0,
+          "order_id": 0,
+          "performed_by": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "exam_datetime": [
+            "2022-01-01 23:00:00",
+            "2022-01-02 10:00:00",
+            "2022-01-02 21:00:00"
+          ],
+          "exam_id": [
+            "E00001",
+            "E00002",
+            "E00003"
+          ],
+          "exam_result": [
+            "Fictional result for educational use"
+          ],
+          "exam_status": [
+            "Completed"
+          ],
+          "exam_type": [
+            "Fictional imaging",
+            "Fictional screening",
+            "Fictional blood panel"
+          ],
+          "order_id": [
+            "O00001",
+            "O00002",
+            "O00003"
+          ],
+          "performed_by": [
+            "FictionalTechnician01",
+            "FictionalTechnician02",
+            "FictionalTechnician03"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "diagnostic_orders": {
+        "record_count": 450,
+        "field_names": [
+          "admission_id",
+          "clinical_reason",
+          "order_id",
+          "order_status",
+          "priority",
+          "request_datetime",
+          "requested_examination",
+          "requesting_physician"
+        ],
+        "inferred_types": {
+          "admission_id": "string",
+          "clinical_reason": "string",
+          "order_id": "string",
+          "order_status": "string",
+          "priority": "string",
+          "request_datetime": "date/time",
+          "requested_examination": "string",
+          "requesting_physician": "string"
+        },
+        "missing_value_counts": {
+          "admission_id": 0,
+          "clinical_reason": 0,
+          "order_id": 0,
+          "order_status": 0,
+          "priority": 0,
+          "request_datetime": 0,
+          "requested_examination": 0,
+          "requesting_physician": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "admission_id": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ],
+          "clinical_reason": [
+            "Fictional educational indication"
+          ],
+          "order_id": [
+            "O00001",
+            "O00002",
+            "O00003"
+          ],
+          "order_status": [
+            "Completed",
+            "Pending",
+            "Awaiting Results"
+          ],
+          "priority": [
+            "Medium",
+            "Low",
+            "High"
+          ],
+          "request_datetime": [
+            "2022-01-01 21:00:00",
+            "2022-01-02 08:00:00",
+            "2022-01-02 19:00:00"
+          ],
+          "requested_examination": [
+            "Fictional imaging",
+            "Fictional screening",
+            "Fictional blood panel"
+          ],
+          "requesting_physician": [
+            "FictionalClinician01",
+            "FictionalClinician02",
+            "FictionalClinician03"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "discharge_records": {
+        "record_count": 350,
+        "field_names": [
+          "admission_id",
+          "condition_at_discharge",
+          "discharge_datetime",
+          "discharge_destination",
+          "discharge_id",
+          "discharge_summary",
+          "follow_up_appointments",
+          "follow_up_instructions",
+          "prescribed_medications",
+          "responsible_physician"
+        ],
+        "inferred_types": {
+          "admission_id": "string",
+          "condition_at_discharge": "string",
+          "discharge_datetime": "date/time",
+          "discharge_destination": "string",
+          "discharge_id": "string",
+          "discharge_summary": "string",
+          "follow_up_appointments": "unknown",
+          "follow_up_instructions": "string",
+          "prescribed_medications": "unknown",
+          "responsible_physician": "string"
+        },
+        "missing_value_counts": {
+          "admission_id": 0,
+          "condition_at_discharge": 0,
+          "discharge_datetime": 0,
+          "discharge_destination": 0,
+          "discharge_id": 0,
+          "discharge_summary": 0,
+          "follow_up_appointments": 350,
+          "follow_up_instructions": 0,
+          "prescribed_medications": 350,
+          "responsible_physician": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "admission_id": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ],
+          "condition_at_discharge": [
+            "Fictional stable condition"
+          ],
+          "discharge_datetime": [
+            "2022-01-05 02:00:00",
+            "2022-01-05 20:00:00",
+            "2022-01-06 14:00:00"
+          ],
+          "discharge_destination": [
+            "Fictional residence"
+          ],
+          "discharge_id": [
+            "DC00001",
+            "DC00002",
+            "DC00003"
+          ],
+          "discharge_summary": [
+            "Fictional discharge summary."
+          ],
+          "follow_up_appointments": [],
+          "follow_up_instructions": [
+            "Fictional follow-up"
+          ],
+          "prescribed_medications": [],
+          "responsible_physician": [
+            "FictionalClinician01",
+            "FictionalClinician02",
+            "FictionalClinician03"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "icd9_dictionary": {
+        "record_count": 50,
+        "field_names": [
+          "description",
+          "disease_category",
+          "icd9_code",
+          "official_title"
+        ],
+        "inferred_types": {
+          "description": "string",
+          "disease_category": "string",
+          "icd9_code": "string",
+          "official_title": "string"
+        },
+        "missing_value_counts": {
+          "description": 0,
+          "disease_category": 0,
+          "icd9_code": 0,
+          "official_title": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "description": [
+            "Unspecified septicemia",
+            "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+            "Other and unspecified hyperlipidemia"
+          ],
+          "disease_category": [
+            "Infectious and parasitic diseases",
+            "Endocrine, nutritional, and metabolic diseases",
+            "Diseases of the blood and blood-forming organs"
+          ],
+          "icd9_code": [
+            "038.9",
+            "250.00",
+            "272.4"
+          ],
+          "official_title": [
+            "Unspecified septicemia",
+            "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+            "Other and unspecified hyperlipidemia"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "patients": {
+        "record_count": 800,
+        "field_names": [
+          "address",
+          "date_of_birth",
+          "death_datetime",
+          "emergency_contact_name",
+          "emergency_contact_phone",
+          "first_name",
+          "gender",
+          "health_insurance_number",
+          "last_name",
+          "life_status",
+          "patient_id",
+          "telephone_number"
+        ],
+        "inferred_types": {
+          "address": "string",
+          "date_of_birth": "date/time",
+          "death_datetime": "date/time",
+          "emergency_contact_name": "string",
+          "emergency_contact_phone": "string",
+          "first_name": "string",
+          "gender": "string",
+          "health_insurance_number": "string",
+          "last_name": "string",
+          "life_status": "string",
+          "patient_id": "string",
+          "telephone_number": "string"
+        },
+        "missing_value_counts": {
+          "address": 0,
+          "date_of_birth": 0,
+          "death_datetime": 780,
+          "emergency_contact_name": 0,
+          "emergency_contact_phone": 0,
+          "first_name": 0,
+          "gender": 0,
+          "health_insurance_number": 0,
+          "last_name": 0,
+          "life_status": 0,
+          "patient_id": 0,
+          "telephone_number": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "address": [
+            "Fictional Residence A-0001",
+            "Fictional Residence A-0002",
+            "Fictional Residence A-0003"
+          ],
+          "date_of_birth": [
+            "1940-05-17",
+            "1940-10-01",
+            "1941-02-15"
+          ],
+          "death_datetime": [
+            "2022-06-01 02:00:00",
+            "2022-06-01 20:00:00",
+            "2022-06-01 14:00:00"
+          ],
+          "emergency_contact_name": [
+            "FictionalContact0001",
+            "FictionalContact0002",
+            "FictionalContact0003"
+          ],
+          "emergency_contact_phone": [
+            "555-0201",
+            "555-0202",
+            "555-0203"
+          ],
+          "first_name": [
+            "FictionalPerson0001",
+            "FictionalPerson0002",
+            "FictionalPerson0003"
+          ],
+          "gender": [
+            "Male",
+            "Other",
+            "Female"
+          ],
+          "health_insurance_number": [
+            "A00000000001",
+            "A00000000002",
+            "A00000000003"
+          ],
+          "last_name": [
+            "ExampleA0001",
+            "ExampleA0002",
+            "ExampleA0003"
+          ],
+          "life_status": [
+            "Alive",
+            "Deceased"
+          ],
+          "patient_id": [
+            "P00001",
+            "P00002",
+            "P00003"
+          ],
+          "telephone_number": [
+            "555-0101",
+            "555-0102",
+            "555-0103"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "radiology_examinations": {
+        "record_count": 150,
+        "field_names": [
+          "admission_id",
+          "body_area",
+          "exam_datetime",
+          "exam_status",
+          "exam_type",
+          "image_link",
+          "order_id",
+          "radiology_exam_id",
+          "radiology_technician",
+          "referring_physician"
+        ],
+        "inferred_types": {
+          "admission_id": "string",
+          "body_area": "string",
+          "exam_datetime": "date/time",
+          "exam_status": "string",
+          "exam_type": "string",
+          "image_link": "unknown",
+          "order_id": "string",
+          "radiology_exam_id": "string",
+          "radiology_technician": "string",
+          "referring_physician": "string"
+        },
+        "missing_value_counts": {
+          "admission_id": 0,
+          "body_area": 0,
+          "exam_datetime": 0,
+          "exam_status": 0,
+          "exam_type": 0,
+          "image_link": 150,
+          "order_id": 0,
+          "radiology_exam_id": 0,
+          "radiology_technician": 0,
+          "referring_physician": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "admission_id": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ],
+          "body_area": [
+            "Abdomen",
+            "Extremity",
+            "Chest"
+          ],
+          "exam_datetime": [
+            "2022-01-02 01:00:00",
+            "2022-01-02 12:00:00",
+            "2022-01-02 23:00:00"
+          ],
+          "exam_status": [
+            "Completed"
+          ],
+          "exam_type": [
+            "Fictional radiograph"
+          ],
+          "image_link": [],
+          "order_id": [
+            "O00001",
+            "O00002",
+            "O00003"
+          ],
+          "radiology_exam_id": [
+            "R00001",
+            "R00002",
+            "R00003"
+          ],
+          "radiology_technician": [
+            "FictionalTechnician01",
+            "FictionalTechnician02",
+            "FictionalTechnician03"
+          ],
+          "referring_physician": [
+            "FictionalClinician01",
+            "FictionalClinician02",
+            "FictionalClinician03"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "radiology_reports": {
+        "record_count": 150,
+        "field_names": [
+          "clinical_conclusion",
+          "findings",
+          "interpretations",
+          "radiologist",
+          "radiology_exam_id",
+          "report_datetime",
+          "report_id"
+        ],
+        "inferred_types": {
+          "clinical_conclusion": "string",
+          "findings": "string",
+          "interpretations": "string",
+          "radiologist": "string",
+          "radiology_exam_id": "string",
+          "report_datetime": "date/time",
+          "report_id": "string"
+        },
+        "missing_value_counts": {
+          "clinical_conclusion": 0,
+          "findings": 0,
+          "interpretations": 0,
+          "radiologist": 0,
+          "radiology_exam_id": 0,
+          "report_datetime": 0,
+          "report_id": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "clinical_conclusion": [
+            "Fictional conclusion"
+          ],
+          "findings": [
+            "Fictional finding"
+          ],
+          "interpretations": [
+            "Fictional interpretation"
+          ],
+          "radiologist": [
+            "FictionalRadiologist01",
+            "FictionalRadiologist02",
+            "FictionalRadiologist03"
+          ],
+          "radiology_exam_id": [
+            "R00001",
+            "R00002",
+            "R00003"
+          ],
+          "report_datetime": [
+            "2022-01-02 02:00:00",
+            "2022-01-02 13:00:00",
+            "2022-01-03 00:00:00"
+          ],
+          "report_id": [
+            "RR00001",
+            "RR00002",
+            "RR00003"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "surgical_procedures": {
+        "record_count": 100,
+        "field_names": [
+          "admission_id",
+          "operating_room",
+          "outcome_notes",
+          "procedure_datetime",
+          "procedure_id",
+          "procedure_name",
+          "surgeon"
+        ],
+        "inferred_types": {
+          "admission_id": "string",
+          "operating_room": "string",
+          "outcome_notes": "string",
+          "procedure_datetime": "date/time",
+          "procedure_id": "string",
+          "procedure_name": "string",
+          "surgeon": "string"
+        },
+        "missing_value_counts": {
+          "admission_id": 0,
+          "operating_room": 0,
+          "outcome_notes": 0,
+          "procedure_datetime": 0,
+          "procedure_id": 0,
+          "procedure_name": 0,
+          "surgeon": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "admission_id": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ],
+          "operating_room": [
+            "F2",
+            "F3",
+            "F4"
+          ],
+          "outcome_notes": [
+            "Fictional outcome"
+          ],
+          "procedure_datetime": [
+            "2022-01-02 02:00:00",
+            "2022-01-02 13:00:00",
+            "2022-01-03 00:00:00"
+          ],
+          "procedure_id": [
+            "S00001",
+            "S00002",
+            "S00003"
+          ],
+          "procedure_name": [
+            "Fictional procedure"
+          ],
+          "surgeon": [
+            "FictionalSurgeon01",
+            "FictionalSurgeon02",
+            "FictionalSurgeon03"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "triage_assessments": {
+        "record_count": 700,
+        "field_names": [
+          "admission_id",
+          "assessment_datetime",
+          "blood_pressure",
+          "body_temperature",
+          "current_medications",
+          "heart_rate",
+          "known_allergies",
+          "oxygen_saturation",
+          "pain_level",
+          "priority_level",
+          "reported_symptoms",
+          "respiratory_rate",
+          "triage_id",
+          "triage_nurse"
+        ],
+        "inferred_types": {
+          "admission_id": "string",
+          "assessment_datetime": "date/time",
+          "blood_pressure": "string",
+          "body_temperature": "number",
+          "current_medications": "unknown",
+          "heart_rate": "number",
+          "known_allergies": "unknown",
+          "oxygen_saturation": "number",
+          "pain_level": "number",
+          "priority_level": "string",
+          "reported_symptoms": "string",
+          "respiratory_rate": "number",
+          "triage_id": "string",
+          "triage_nurse": "string"
+        },
+        "missing_value_counts": {
+          "admission_id": 0,
+          "assessment_datetime": 0,
+          "blood_pressure": 0,
+          "body_temperature": 0,
+          "current_medications": 700,
+          "heart_rate": 0,
+          "known_allergies": 700,
+          "oxygen_saturation": 0,
+          "pain_level": 0,
+          "priority_level": 0,
+          "reported_symptoms": 0,
+          "respiratory_rate": 0,
+          "triage_id": 0,
+          "triage_nurse": 17
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "admission_id": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ],
+          "assessment_datetime": [
+            "2022-01-01 20:00:00",
+            "2022-01-02 07:00:00",
+            "2022-01-02 18:00:00"
+          ],
+          "blood_pressure": [
+            "120/80"
+          ],
+          "body_temperature": [
+            "36.6",
+            "36.7",
+            "36.8"
+          ],
+          "current_medications": [],
+          "heart_rate": [
+            "73",
+            "74",
+            "75"
+          ],
+          "known_allergies": [],
+          "oxygen_saturation": [
+            "97",
+            "98",
+            "99"
+          ],
+          "pain_level": [
+            "1",
+            "2",
+            "3"
+          ],
+          "priority_level": [
+            "Moderate",
+            "Low",
+            "High"
+          ],
+          "reported_symptoms": [
+            "Fictional symptom description"
+          ],
+          "respiratory_rate": [
+            "15",
+            "16",
+            "17"
+          ],
+          "triage_id": [
+            "T00001",
+            "T00002",
+            "T00003"
+          ],
+          "triage_nurse": [
+            "FictionalNurse01",
+            "FictionalNurse02",
+            "FictionalNurse03"
+          ]
+        },
+        "formatting_examples": {
+          "priority_level": [
+            " moderate ",
+            "Moderate",
+            " low "
+          ]
+        },
+        "invalid_value_examples": {
+          "heart_rate": [
+            "not-a-number"
+          ]
+        }
+      },
+      "unit_stays": {
+        "record_count": 700,
+        "field_names": [
+          "admission_id",
+          "bed_number",
+          "entry_datetime",
+          "exit_datetime",
+          "responsible_physician",
+          "room",
+          "transfer_reason",
+          "unit_stay_id",
+          "unit_type",
+          "ward"
+        ],
+        "inferred_types": {
+          "admission_id": "string",
+          "bed_number": "number",
+          "entry_datetime": "date/time",
+          "exit_datetime": "date/time",
+          "responsible_physician": "string",
+          "room": "number",
+          "transfer_reason": "string",
+          "unit_stay_id": "string",
+          "unit_type": "string",
+          "ward": "string"
+        },
+        "missing_value_counts": {
+          "admission_id": 0,
+          "bed_number": 0,
+          "entry_datetime": 0,
+          "exit_datetime": 0,
+          "responsible_physician": 0,
+          "room": 0,
+          "transfer_reason": 0,
+          "unit_stay_id": 0,
+          "unit_type": 0,
+          "ward": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "admission_id": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ],
+          "bed_number": [
+            "2",
+            "3",
+            "4"
+          ],
+          "entry_datetime": [
+            "2022-01-01 20:00:00",
+            "2022-01-02 03:00:00",
+            "2022-01-02 15:00:00"
+          ],
+          "exit_datetime": [
+            "2022-01-02 01:00:00",
+            "2022-01-02 13:00:00",
+            "2022-01-03 15:00:00"
+          ],
+          "responsible_physician": [
+            "FictionalClinician01",
+            "FictionalClinician02",
+            "FictionalClinician03"
+          ],
+          "room": [
+            "02",
+            "03",
+            "04"
+          ],
+          "transfer_reason": [
+            "Initial placement",
+            "Fictional unit transfer"
+          ],
+          "unit_stay_id": [
+            "U00001",
+            "U00002",
+            "U00003"
+          ],
+          "unit_type": [
+            "Emergency Department",
+            "ICU",
+            "CCU"
+          ],
+          "ward": [
+            "Fictional Ward 01",
+            "Fictional Ward 02",
+            "Fictional Ward 03"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      }
+    }
+  },
+  "B": {
+    "format": "CSV",
+    "record_count": 7000,
+    "entities": {
+      "admissions": {
+        "record_count": 1300,
+        "field_names": [
+          "admission_condition",
+          "admitted_at",
+          "exit_status",
+          "origin",
+          "payer_details",
+          "person_ref",
+          "presenting_reason",
+          "released_at",
+          "responsible_clinician",
+          "visit_class",
+          "visit_ref"
+        ],
+        "inferred_types": {
+          "admission_condition": "string",
+          "admitted_at": "date/time",
+          "exit_status": "string",
+          "origin": "string",
+          "payer_details": "string",
+          "person_ref": "string",
+          "presenting_reason": "string",
+          "released_at": "date/time",
+          "responsible_clinician": "string",
+          "visit_class": "string",
+          "visit_ref": "string"
+        },
+        "missing_value_counts": {
+          "admission_condition": 0,
+          "admitted_at": 0,
+          "exit_status": 950,
+          "origin": 0,
+          "payer_details": 0,
+          "person_ref": 0,
+          "presenting_reason": 0,
+          "released_at": 950,
+          "responsible_clinician": 0,
+          "visit_class": 0,
+          "visit_ref": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "admission_condition": [
+            "Fictional educational scenario"
+          ],
+          "admitted_at": [
+            "01/01/2022 19:00",
+            "02/01/2022 06:00",
+            "02/01/2022 17:00"
+          ],
+          "exit_status": [
+            "Discharged",
+            "Deceased"
+          ],
+          "origin": [
+            "Clinic referral",
+            "Transfer",
+            "Emergency referral"
+          ],
+          "payer_details": [
+            "Synthetic plan B"
+          ],
+          "person_ref": [
+            "P00001",
+            "P00002",
+            "P00003"
+          ],
+          "presenting_reason": [
+            "Planned fictional procedure",
+            "Observation",
+            "Fictional symptom review"
+          ],
+          "released_at": [
+            "05/01/2022 02:00",
+            "05/01/2022 20:00",
+            "06/01/2022 14:00"
+          ],
+          "responsible_clinician": [
+            "FictionalClinician01",
+            "FictionalClinician02",
+            "FictionalClinician03"
+          ],
+          "visit_class": [
+            "urgent admission",
+            "routine",
+            "outpatient"
+          ],
+          "visit_ref": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "clinical_notes": {
+        "record_count": 500,
+        "field_names": [
+          "author",
+          "authored_at",
+          "clinical_findings",
+          "exam_findings",
+          "note_class",
+          "note_ref",
+          "plan",
+          "planned_tests",
+          "suspected_diagnosis",
+          "symptoms",
+          "text",
+          "visit_ref"
+        ],
+        "inferred_types": {
+          "author": "string",
+          "authored_at": "date/time",
+          "clinical_findings": "string",
+          "exam_findings": "string",
+          "note_class": "string",
+          "note_ref": "string",
+          "plan": "string",
+          "planned_tests": "string",
+          "suspected_diagnosis": "string",
+          "symptoms": "string",
+          "text": "string",
+          "visit_ref": "string"
+        },
+        "missing_value_counts": {
+          "author": 19,
+          "authored_at": 0,
+          "clinical_findings": 0,
+          "exam_findings": 0,
+          "note_class": 0,
+          "note_ref": 0,
+          "plan": 0,
+          "planned_tests": 0,
+          "suspected_diagnosis": 0,
+          "symptoms": 0,
+          "text": 0,
+          "visit_ref": 0
+        },
+        "exact_duplicate_count": 35,
+        "sample_values": {
+          "author": [
+            "FictionalClinician01",
+            "FictionalClinician02",
+            "FictionalClinician03"
+          ],
+          "authored_at": [
+            "05/01/2022 01:00",
+            "05/01/2022 19:00",
+            "06/01/2022 13:00"
+          ],
+          "clinical_findings": [
+            "Fictional finding"
+          ],
+          "exam_findings": [
+            "Fictional examination"
+          ],
+          "note_class": [
+            "Discharge Summary",
+            "DISCHARGE SUMMARY ",
+            "Admission"
+          ],
+          "note_ref": [
+            "N00001",
+            "N00002",
+            "N00003"
+          ],
+          "plan": [
+            "Fictional plan"
+          ],
+          "planned_tests": [
+            "Fictional examination"
+          ],
+          "suspected_diagnosis": [
+            "Fictional condition"
+          ],
+          "symptoms": [
+            "Fictional symptom"
+          ],
+          "text": [
+            "Fictional recovery discussion and follow-up plan.",
+            "Entirely fictional educational note."
+          ],
+          "visit_ref": [
+            "A99999",
+            "A00002",
+            "A00003"
+          ]
+        },
+        "formatting_examples": {
+          "note_class": [
+            "DISCHARGE SUMMARY ",
+            "Discharge Summary",
+            "ADMISSION "
+          ]
+        },
+        "invalid_value_examples": {
+          "authored_at": [
+            "not-a-date"
+          ]
+        }
+      },
+      "diagnoses": {
+        "record_count": 1500,
+        "field_names": [
+          "clinician",
+          "code",
+          "diagnosis_ref",
+          "person_ref",
+          "recorded_at",
+          "role",
+          "visit_ref"
+        ],
+        "inferred_types": {
+          "clinician": "string",
+          "code": "string",
+          "diagnosis_ref": "string",
+          "person_ref": "string",
+          "recorded_at": "date/time",
+          "role": "string",
+          "visit_ref": "string"
+        },
+        "missing_value_counts": {
+          "clinician": 0,
+          "code": 0,
+          "diagnosis_ref": 0,
+          "person_ref": 0,
+          "recorded_at": 0,
+          "role": 0,
+          "visit_ref": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "clinician": [
+            "FictionalClinician01",
+            "FictionalClinician02",
+            "FictionalClinician03"
+          ],
+          "code": [
+            "401.9",
+            "038.9",
+            "250.00"
+          ],
+          "diagnosis_ref": [
+            "D00001",
+            "D00002",
+            "D00003"
+          ],
+          "person_ref": [
+            "P00001",
+            "P00002",
+            "P00003"
+          ],
+          "recorded_at": [
+            "01/01/2022 22:00",
+            "02/01/2022 09:00",
+            "02/01/2022 20:00"
+          ],
+          "role": [
+            "Primary",
+            "Secondary",
+            "Preliminary"
+          ],
+          "visit_ref": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "diagnostic_examinations": {
+        "record_count": 250,
+        "field_names": [
+          "operator",
+          "performed_at",
+          "request_ref",
+          "result_text",
+          "test_class",
+          "test_ref",
+          "test_state"
+        ],
+        "inferred_types": {
+          "operator": "string",
+          "performed_at": "date/time",
+          "request_ref": "string",
+          "result_text": "string",
+          "test_class": "string",
+          "test_ref": "string",
+          "test_state": "string"
+        },
+        "missing_value_counts": {
+          "operator": 0,
+          "performed_at": 0,
+          "request_ref": 0,
+          "result_text": 0,
+          "test_class": 0,
+          "test_ref": 0,
+          "test_state": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "operator": [
+            "FictionalTechnician01",
+            "FictionalTechnician02",
+            "FictionalTechnician03"
+          ],
+          "performed_at": [
+            "01/01/2022 23:00",
+            "02/01/2022 10:00",
+            "02/01/2022 21:00"
+          ],
+          "request_ref": [
+            "O00001",
+            "O00002",
+            "O00003"
+          ],
+          "result_text": [
+            "Fictional result for educational use"
+          ],
+          "test_class": [
+            "Fictional imaging",
+            "Fictional screening",
+            "Fictional blood panel"
+          ],
+          "test_ref": [
+            "E00001",
+            "E00002",
+            "E00003"
+          ],
+          "test_state": [
+            "Completed"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "diagnostic_orders": {
+        "record_count": 450,
+        "field_names": [
+          "indication",
+          "ordered_at",
+          "ordered_by",
+          "request_ref",
+          "request_state",
+          "test_requested",
+          "urgency",
+          "visit_ref"
+        ],
+        "inferred_types": {
+          "indication": "string",
+          "ordered_at": "date/time",
+          "ordered_by": "string",
+          "request_ref": "string",
+          "request_state": "string",
+          "test_requested": "string",
+          "urgency": "string",
+          "visit_ref": "string"
+        },
+        "missing_value_counts": {
+          "indication": 0,
+          "ordered_at": 0,
+          "ordered_by": 0,
+          "request_ref": 0,
+          "request_state": 0,
+          "test_requested": 0,
+          "urgency": 0,
+          "visit_ref": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "indication": [
+            "Fictional educational indication"
+          ],
+          "ordered_at": [
+            "01/01/2022 21:00",
+            "02/01/2022 08:00",
+            "02/01/2022 19:00"
+          ],
+          "ordered_by": [
+            "FictionalClinician01",
+            "FictionalClinician02",
+            "FictionalClinician03"
+          ],
+          "request_ref": [
+            "O00001",
+            "O00002",
+            "O00003"
+          ],
+          "request_state": [
+            "Completed",
+            "Pending",
+            "Awaiting Results"
+          ],
+          "test_requested": [
+            "Fictional imaging",
+            "Fictional screening",
+            "Fictional blood panel"
+          ],
+          "urgency": [
+            "Medium",
+            "Low",
+            "High"
+          ],
+          "visit_ref": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "discharge_records": {
+        "record_count": 350,
+        "field_names": [
+          "condition_on_release",
+          "destination",
+          "followup_appointments",
+          "followup_instructions",
+          "medications_on_release",
+          "release_ref",
+          "released_at",
+          "responsible_clinician",
+          "summary",
+          "visit_ref"
+        ],
+        "inferred_types": {
+          "condition_on_release": "string",
+          "destination": "string",
+          "followup_appointments": "unknown",
+          "followup_instructions": "string",
+          "medications_on_release": "unknown",
+          "release_ref": "string",
+          "released_at": "date/time",
+          "responsible_clinician": "string",
+          "summary": "string",
+          "visit_ref": "string"
+        },
+        "missing_value_counts": {
+          "condition_on_release": 0,
+          "destination": 0,
+          "followup_appointments": 350,
+          "followup_instructions": 0,
+          "medications_on_release": 350,
+          "release_ref": 0,
+          "released_at": 0,
+          "responsible_clinician": 0,
+          "summary": 0,
+          "visit_ref": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "condition_on_release": [
+            "Fictional stable condition"
+          ],
+          "destination": [
+            "Fictional residence"
+          ],
+          "followup_appointments": [],
+          "followup_instructions": [
+            "Fictional follow-up"
+          ],
+          "medications_on_release": [],
+          "release_ref": [
+            "DC00001",
+            "DC00002",
+            "DC00003"
+          ],
+          "released_at": [
+            "05/01/2022 02:00",
+            "05/01/2022 20:00",
+            "06/01/2022 14:00"
+          ],
+          "responsible_clinician": [
+            "FictionalClinician01",
+            "FictionalClinician02",
+            "FictionalClinician03"
+          ],
+          "summary": [
+            "Fictional discharge summary."
+          ],
+          "visit_ref": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "icd9_dictionary": {
+        "record_count": 50,
+        "field_names": [
+          "category",
+          "code",
+          "long_description",
+          "official_name"
+        ],
+        "inferred_types": {
+          "category": "string",
+          "code": "string",
+          "long_description": "string",
+          "official_name": "string"
+        },
+        "missing_value_counts": {
+          "category": 0,
+          "code": 0,
+          "long_description": 0,
+          "official_name": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "category": [
+            "Infectious and parasitic diseases",
+            "Endocrine, nutritional, and metabolic diseases",
+            "Diseases of the blood and blood-forming organs"
+          ],
+          "code": [
+            "038.9",
+            "250.00",
+            "272.4"
+          ],
+          "long_description": [
+            "Unspecified septicemia",
+            "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+            "Other and unspecified hyperlipidemia"
+          ],
+          "official_name": [
+            "Unspecified septicemia",
+            "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+            "Other and unspecified hyperlipidemia"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "patients": {
+        "record_count": 800,
+        "field_names": [
+          "birth_date",
+          "coverage_id",
+          "death_time",
+          "emergency_name",
+          "emergency_phone",
+          "family_name",
+          "given_name",
+          "home_address",
+          "person_ref",
+          "phone",
+          "sex",
+          "vital_status"
+        ],
+        "inferred_types": {
+          "birth_date": "date/time",
+          "coverage_id": "string",
+          "death_time": "date/time",
+          "emergency_name": "string",
+          "emergency_phone": "string",
+          "family_name": "string",
+          "given_name": "string",
+          "home_address": "string",
+          "person_ref": "string",
+          "phone": "string",
+          "sex": "string",
+          "vital_status": "string"
+        },
+        "missing_value_counts": {
+          "birth_date": 0,
+          "coverage_id": 0,
+          "death_time": 780,
+          "emergency_name": 0,
+          "emergency_phone": 0,
+          "family_name": 0,
+          "given_name": 0,
+          "home_address": 0,
+          "person_ref": 0,
+          "phone": 0,
+          "sex": 0,
+          "vital_status": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "birth_date": [
+            "17/05/1940",
+            "01/10/1940",
+            "15/02/1941"
+          ],
+          "coverage_id": [
+            "B00000000001",
+            "B00000000002",
+            "B00000000003"
+          ],
+          "death_time": [
+            "01/06/2022 02:00",
+            "01/06/2022 20:00",
+            "01/06/2022 14:00"
+          ],
+          "emergency_name": [
+            "FictionalContact0001",
+            "FictionalContact0002",
+            "FictionalContact0003"
+          ],
+          "emergency_phone": [
+            "555-0201",
+            "555-0202",
+            "555-0203"
+          ],
+          "family_name": [
+            "ExampleB0001",
+            "ExampleB0002",
+            "ExampleB0003"
+          ],
+          "given_name": [
+            "FictionalPerson0001",
+            "FictionalPerson0002",
+            "FictionalPerson0003"
+          ],
+          "home_address": [
+            "Fictional Residence B-0001",
+            "Fictional Residence B-0002",
+            "Fictional Residence B-0003"
+          ],
+          "person_ref": [
+            "P00001",
+            "P00002",
+            "P00003"
+          ],
+          "phone": [
+            "555-0101",
+            "555-0102",
+            "555-0103"
+          ],
+          "sex": [
+            "Male",
+            "Other",
+            "Female"
+          ],
+          "vital_status": [
+            "Alive",
+            "Deceased"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "radiology_examinations": {
+        "record_count": 150,
+        "field_names": [
+          "anatomical_site",
+          "image_exam_ref",
+          "image_state",
+          "image_uri",
+          "modality",
+          "performed_at",
+          "referrer",
+          "request_ref",
+          "technologist",
+          "visit_ref"
+        ],
+        "inferred_types": {
+          "anatomical_site": "string",
+          "image_exam_ref": "string",
+          "image_state": "string",
+          "image_uri": "unknown",
+          "modality": "string",
+          "performed_at": "date/time",
+          "referrer": "string",
+          "request_ref": "string",
+          "technologist": "string",
+          "visit_ref": "string"
+        },
+        "missing_value_counts": {
+          "anatomical_site": 0,
+          "image_exam_ref": 0,
+          "image_state": 0,
+          "image_uri": 150,
+          "modality": 0,
+          "performed_at": 0,
+          "referrer": 0,
+          "request_ref": 0,
+          "technologist": 0,
+          "visit_ref": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "anatomical_site": [
+            "Abdomen",
+            "Extremity",
+            "Chest"
+          ],
+          "image_exam_ref": [
+            "R00001",
+            "R00002",
+            "R00003"
+          ],
+          "image_state": [
+            "Completed"
+          ],
+          "image_uri": [],
+          "modality": [
+            "Fictional radiograph"
+          ],
+          "performed_at": [
+            "02/01/2022 01:00",
+            "02/01/2022 12:00",
+            "02/01/2022 23:00"
+          ],
+          "referrer": [
+            "FictionalClinician01",
+            "FictionalClinician02",
+            "FictionalClinician03"
+          ],
+          "request_ref": [
+            "O00001",
+            "O00002",
+            "O00003"
+          ],
+          "technologist": [
+            "FictionalTechnician01",
+            "FictionalTechnician02",
+            "FictionalTechnician03"
+          ],
+          "visit_ref": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "radiology_reports": {
+        "record_count": 150,
+        "field_names": [
+          "conclusion",
+          "image_exam_ref",
+          "image_report_ref",
+          "interpretation",
+          "observations",
+          "reported_at",
+          "reporting_radiologist"
+        ],
+        "inferred_types": {
+          "conclusion": "string",
+          "image_exam_ref": "string",
+          "image_report_ref": "string",
+          "interpretation": "string",
+          "observations": "string",
+          "reported_at": "date/time",
+          "reporting_radiologist": "string"
+        },
+        "missing_value_counts": {
+          "conclusion": 0,
+          "image_exam_ref": 0,
+          "image_report_ref": 0,
+          "interpretation": 0,
+          "observations": 0,
+          "reported_at": 0,
+          "reporting_radiologist": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "conclusion": [
+            "Fictional conclusion"
+          ],
+          "image_exam_ref": [
+            "R00001",
+            "R00002",
+            "R00003"
+          ],
+          "image_report_ref": [
+            "RR00001",
+            "RR00002",
+            "RR00003"
+          ],
+          "interpretation": [
+            "Fictional interpretation"
+          ],
+          "observations": [
+            "Fictional finding"
+          ],
+          "reported_at": [
+            "02/01/2022 02:00",
+            "02/01/2022 13:00",
+            "03/01/2022 00:00"
+          ],
+          "reporting_radiologist": [
+            "FictionalRadiologist01",
+            "FictionalRadiologist02",
+            "FictionalRadiologist03"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "surgical_procedures": {
+        "record_count": 100,
+        "field_names": [
+          "operated_at",
+          "operation_name",
+          "operation_ref",
+          "outcome",
+          "surgeon",
+          "theatre",
+          "visit_ref"
+        ],
+        "inferred_types": {
+          "operated_at": "date/time",
+          "operation_name": "string",
+          "operation_ref": "string",
+          "outcome": "string",
+          "surgeon": "string",
+          "theatre": "string",
+          "visit_ref": "string"
+        },
+        "missing_value_counts": {
+          "operated_at": 0,
+          "operation_name": 0,
+          "operation_ref": 0,
+          "outcome": 0,
+          "surgeon": 0,
+          "theatre": 0,
+          "visit_ref": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "operated_at": [
+            "02/01/2022 02:00",
+            "02/01/2022 13:00",
+            "03/01/2022 00:00"
+          ],
+          "operation_name": [
+            "Fictional procedure"
+          ],
+          "operation_ref": [
+            "S00001",
+            "S00002",
+            "S00003"
+          ],
+          "outcome": [
+            "Fictional outcome"
+          ],
+          "surgeon": [
+            "FictionalSurgeon01",
+            "FictionalSurgeon02",
+            "FictionalSurgeon03"
+          ],
+          "theatre": [
+            "F2",
+            "F3",
+            "F4"
+          ],
+          "visit_ref": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "triage_assessments": {
+        "record_count": 700,
+        "field_names": [
+          "acuity",
+          "allergies",
+          "assessed_at",
+          "bp",
+          "medications",
+          "nurse",
+          "oxygen_pct",
+          "pain_score",
+          "pulse_bpm",
+          "respirations_min",
+          "symptoms",
+          "temperature_c",
+          "triage_ref",
+          "visit_ref"
+        ],
+        "inferred_types": {
+          "acuity": "string",
+          "allergies": "unknown",
+          "assessed_at": "date/time",
+          "bp": "string",
+          "medications": "unknown",
+          "nurse": "string",
+          "oxygen_pct": "number",
+          "pain_score": "number",
+          "pulse_bpm": "number",
+          "respirations_min": "number",
+          "symptoms": "string",
+          "temperature_c": "number",
+          "triage_ref": "string",
+          "visit_ref": "string"
+        },
+        "missing_value_counts": {
+          "acuity": 0,
+          "allergies": 700,
+          "assessed_at": 0,
+          "bp": 0,
+          "medications": 700,
+          "nurse": 17,
+          "oxygen_pct": 0,
+          "pain_score": 0,
+          "pulse_bpm": 0,
+          "respirations_min": 0,
+          "symptoms": 0,
+          "temperature_c": 0,
+          "triage_ref": 0,
+          "visit_ref": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "acuity": [
+            "urgent",
+            "routine",
+            "critical"
+          ],
+          "allergies": [],
+          "assessed_at": [
+            "01/01/2022 20:00",
+            "02/01/2022 07:00",
+            "02/01/2022 18:00"
+          ],
+          "bp": [
+            "120/80"
+          ],
+          "medications": [],
+          "nurse": [
+            "FictionalNurse01",
+            "FictionalNurse02",
+            "FictionalNurse03"
+          ],
+          "oxygen_pct": [
+            "97",
+            "98",
+            "99"
+          ],
+          "pain_score": [
+            "1",
+            "2",
+            "3"
+          ],
+          "pulse_bpm": [
+            "73",
+            "74",
+            "75"
+          ],
+          "respirations_min": [
+            "15",
+            "16",
+            "17"
+          ],
+          "symptoms": [
+            "Fictional symptom description"
+          ],
+          "temperature_c": [
+            "36.6",
+            "36.7",
+            "36.8"
+          ],
+          "triage_ref": [
+            "T00001",
+            "T00002",
+            "T00003"
+          ],
+          "visit_ref": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ]
+        },
+        "formatting_examples": {
+          "acuity": [
+            " urgent ",
+            "urgent",
+            " routine "
+          ]
+        },
+        "invalid_value_examples": {
+          "pulse_bpm": [
+            "not-a-number"
+          ]
+        }
+      },
+      "unit_stays": {
+        "record_count": 700,
+        "field_names": [
+          "arrived_at",
+          "attending_clinician",
+          "bed_no",
+          "left_at",
+          "room_no",
+          "stay_ref",
+          "transfer_reason",
+          "visit_ref",
+          "ward_class",
+          "ward_name"
+        ],
+        "inferred_types": {
+          "arrived_at": "date/time",
+          "attending_clinician": "string",
+          "bed_no": "number",
+          "left_at": "date/time",
+          "room_no": "number",
+          "stay_ref": "string",
+          "transfer_reason": "string",
+          "visit_ref": "string",
+          "ward_class": "string",
+          "ward_name": "string"
+        },
+        "missing_value_counts": {
+          "arrived_at": 0,
+          "attending_clinician": 0,
+          "bed_no": 0,
+          "left_at": 0,
+          "room_no": 0,
+          "stay_ref": 0,
+          "transfer_reason": 0,
+          "visit_ref": 0,
+          "ward_class": 0,
+          "ward_name": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "arrived_at": [
+            "01/01/2022 20:00",
+            "02/01/2022 03:00",
+            "02/01/2022 15:00"
+          ],
+          "attending_clinician": [
+            "FictionalClinician01",
+            "FictionalClinician02",
+            "FictionalClinician03"
+          ],
+          "bed_no": [
+            "2",
+            "3",
+            "4"
+          ],
+          "left_at": [
+            "02/01/2022 01:00",
+            "02/01/2022 13:00",
+            "03/01/2022 15:00"
+          ],
+          "room_no": [
+            "02",
+            "03",
+            "04"
+          ],
+          "stay_ref": [
+            "U00001",
+            "U00002",
+            "U00003"
+          ],
+          "transfer_reason": [
+            "Initial placement",
+            "Fictional unit transfer"
+          ],
+          "visit_ref": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ],
+          "ward_class": [
+            "A&E",
+            "Critical Care",
+            "Cardiac Care"
+          ],
+          "ward_name": [
+            "Fictional Ward 01",
+            "Fictional Ward 02",
+            "Fictional Ward 03"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      }
+    }
+  },
+  "C": {
+    "format": "XML",
+    "record_count": 7000,
+    "entities": {
+      "admissions": {
+        "record_count": 1300,
+        "field_names": [
+          "admission_datetime",
+          "admission_id",
+          "admission_source",
+          "admission_type",
+          "admitting_professional",
+          "condition_on_admission",
+          "discharge_datetime",
+          "final_status",
+          "insurance_info",
+          "patient_id",
+          "reason_for_admission"
+        ],
+        "inferred_types": {
+          "admission_datetime": "date/time",
+          "admission_id": "string",
+          "admission_source": "string",
+          "admission_type": "string",
+          "admitting_professional": "string",
+          "condition_on_admission": "string",
+          "discharge_datetime": "date/time",
+          "final_status": "string",
+          "insurance_info": "string",
+          "patient_id": "string",
+          "reason_for_admission": "string"
+        },
+        "missing_value_counts": {
+          "admission_datetime": 0,
+          "admission_id": 0,
+          "admission_source": 0,
+          "admission_type": 0,
+          "admitting_professional": 0,
+          "condition_on_admission": 0,
+          "discharge_datetime": 950,
+          "final_status": 950,
+          "insurance_info": 0,
+          "patient_id": 0,
+          "reason_for_admission": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "admission_datetime": [
+            "2022-01-01T19:00:00+08:00",
+            "2022-01-02T06:00:00+08:00",
+            "2022-01-02T17:00:00+08:00"
+          ],
+          "admission_id": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ],
+          "admission_source": [
+            "Clinic referral",
+            "Transfer",
+            "Emergency referral"
+          ],
+          "admission_type": [
+            "Urgent Care",
+            "Planned",
+            "Ambulatory"
+          ],
+          "admitting_professional": [
+            "FictionalClinician01",
+            "FictionalClinician02",
+            "FictionalClinician03"
+          ],
+          "condition_on_admission": [
+            "Fictional educational scenario"
+          ],
+          "discharge_datetime": [
+            "2022-01-05T02:00:00+08:00",
+            "2022-01-05T20:00:00+08:00",
+            "2022-01-06T14:00:00+08:00"
+          ],
+          "final_status": [
+            "Discharged",
+            "Deceased"
+          ],
+          "insurance_info": [
+            "Synthetic plan C"
+          ],
+          "patient_id": [
+            "P00001",
+            "P00002",
+            "P00003"
+          ],
+          "reason_for_admission": [
+            "Planned fictional procedure",
+            "Observation",
+            "Fictional symptom review"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "clinical_notes": {
+        "record_count": 500,
+        "field_names": [
+          "admission_id",
+          "author_physician",
+          "clinical_findings",
+          "note_content",
+          "note_datetime",
+          "note_id",
+          "note_type",
+          "physical_examination",
+          "planned_examinations",
+          "suspected_condition",
+          "symptoms",
+          "treatment_plan"
+        ],
+        "inferred_types": {
+          "admission_id": "string",
+          "author_physician": "string",
+          "clinical_findings": "string",
+          "note_content": "string",
+          "note_datetime": "date/time",
+          "note_id": "string",
+          "note_type": "string",
+          "physical_examination": "string",
+          "planned_examinations": "string",
+          "suspected_condition": "string",
+          "symptoms": "string",
+          "treatment_plan": "string"
+        },
+        "missing_value_counts": {
+          "admission_id": 0,
+          "author_physician": 18,
+          "clinical_findings": 0,
+          "note_content": 0,
+          "note_datetime": 0,
+          "note_id": 0,
+          "note_type": 0,
+          "physical_examination": 0,
+          "planned_examinations": 0,
+          "suspected_condition": 0,
+          "symptoms": 0,
+          "treatment_plan": 0
+        },
+        "exact_duplicate_count": 35,
+        "sample_values": {
+          "admission_id": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ],
+          "author_physician": [
+            "FictionalClinician01",
+            "FictionalClinician02",
+            "FictionalClinician03"
+          ],
+          "clinical_findings": [
+            "Fictional finding"
+          ],
+          "note_content": [
+            "Fictional recovery discussion and follow-up plan.",
+            "Entirely fictional educational note."
+          ],
+          "note_datetime": [
+            "2022-01-05T01:00:00+08:00",
+            "2022-01-05T19:00:00+08:00",
+            "2022-01-06T13:00:00+08:00"
+          ],
+          "note_id": [
+            "N00001",
+            "N00002",
+            "N00003"
+          ],
+          "note_type": [
+            "Discharge Summary",
+            "DISCHARGE SUMMARY ",
+            "Admission"
+          ],
+          "physical_examination": [
+            "Fictional examination"
+          ],
+          "planned_examinations": [
+            "Fictional examination"
+          ],
+          "suspected_condition": [
+            "Fictional condition"
+          ],
+          "symptoms": [
+            "Fictional symptom"
+          ],
+          "treatment_plan": [
+            "Fictional plan"
+          ]
+        },
+        "formatting_examples": {
+          "note_type": [
+            "DISCHARGE SUMMARY ",
+            "Discharge Summary",
+            "ADMISSION "
+          ]
+        },
+        "invalid_value_examples": {
+          "note_datetime": [
+            "not-a-date"
+          ]
+        }
+      },
+      "diagnoses": {
+        "record_count": 1500,
+        "field_names": [
+          "admission_id",
+          "diagnosing_physician",
+          "diagnosis_datetime",
+          "diagnosis_id",
+          "diagnosis_type",
+          "icd9_code",
+          "patient_id"
+        ],
+        "inferred_types": {
+          "admission_id": "string",
+          "diagnosing_physician": "string",
+          "diagnosis_datetime": "date/time",
+          "diagnosis_id": "string",
+          "diagnosis_type": "string",
+          "icd9_code": "string",
+          "patient_id": "string"
+        },
+        "missing_value_counts": {
+          "admission_id": 0,
+          "diagnosing_physician": 0,
+          "diagnosis_datetime": 0,
+          "diagnosis_id": 0,
+          "diagnosis_type": 0,
+          "icd9_code": 0,
+          "patient_id": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "admission_id": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ],
+          "diagnosing_physician": [
+            "FictionalClinician01",
+            "FictionalClinician02",
+            "FictionalClinician03"
+          ],
+          "diagnosis_datetime": [
+            "2022-01-01T22:00:00+08:00",
+            "2022-01-02T00:00:00+08:00",
+            "2022-01-02T09:00:00+08:00"
+          ],
+          "diagnosis_id": [
+            "D00001",
+            "D01301",
+            "D00002"
+          ],
+          "diagnosis_type": [
+            "Primary",
+            "Secondary",
+            "Preliminary"
+          ],
+          "icd9_code": [
+            "250.00",
+            "530.81",
+            "584.9"
+          ],
+          "patient_id": [
+            "P00001",
+            "P00002",
+            "P00003"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "diagnostic_examinations": {
+        "record_count": 250,
+        "field_names": [
+          "exam_datetime",
+          "exam_id",
+          "exam_result",
+          "exam_status",
+          "exam_type",
+          "order_id",
+          "performed_by"
+        ],
+        "inferred_types": {
+          "exam_datetime": "date/time",
+          "exam_id": "string",
+          "exam_result": "string",
+          "exam_status": "string",
+          "exam_type": "string",
+          "order_id": "string",
+          "performed_by": "string"
+        },
+        "missing_value_counts": {
+          "exam_datetime": 0,
+          "exam_id": 0,
+          "exam_result": 0,
+          "exam_status": 0,
+          "exam_type": 0,
+          "order_id": 0,
+          "performed_by": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "exam_datetime": [
+            "2022-01-01T23:00:00+08:00",
+            "2022-01-02T10:00:00+08:00",
+            "2022-01-02T21:00:00+08:00"
+          ],
+          "exam_id": [
+            "E00001",
+            "E00002",
+            "E00003"
+          ],
+          "exam_result": [
+            "Fictional result for educational use"
+          ],
+          "exam_status": [
+            "Completed"
+          ],
+          "exam_type": [
+            "Fictional imaging",
+            "Fictional screening",
+            "Fictional blood panel"
+          ],
+          "order_id": [
+            "O00001",
+            "O00002",
+            "O00003"
+          ],
+          "performed_by": [
+            "FictionalTechnician01",
+            "FictionalTechnician02",
+            "FictionalTechnician03"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "diagnostic_orders": {
+        "record_count": 450,
+        "field_names": [
+          "admission_id",
+          "clinical_reason",
+          "order_id",
+          "order_status",
+          "priority",
+          "request_datetime",
+          "requested_examination",
+          "requesting_physician"
+        ],
+        "inferred_types": {
+          "admission_id": "string",
+          "clinical_reason": "string",
+          "order_id": "string",
+          "order_status": "string",
+          "priority": "string",
+          "request_datetime": "date/time",
+          "requested_examination": "string",
+          "requesting_physician": "string"
+        },
+        "missing_value_counts": {
+          "admission_id": 0,
+          "clinical_reason": 0,
+          "order_id": 0,
+          "order_status": 0,
+          "priority": 0,
+          "request_datetime": 0,
+          "requested_examination": 0,
+          "requesting_physician": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "admission_id": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ],
+          "clinical_reason": [
+            "Fictional educational indication"
+          ],
+          "order_id": [
+            "O00001",
+            "O00002",
+            "O00003"
+          ],
+          "order_status": [
+            "Completed",
+            "Pending",
+            "Awaiting Results"
+          ],
+          "priority": [
+            "Medium",
+            "Low",
+            "High"
+          ],
+          "request_datetime": [
+            "2022-01-01T21:00:00+08:00",
+            "2022-01-02T08:00:00+08:00",
+            "2022-01-02T19:00:00+08:00"
+          ],
+          "requested_examination": [
+            "Fictional imaging",
+            "Fictional screening",
+            "Fictional blood panel"
+          ],
+          "requesting_physician": [
+            "FictionalClinician01",
+            "FictionalClinician02",
+            "FictionalClinician03"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "discharge_records": {
+        "record_count": 350,
+        "field_names": [
+          "admission_id",
+          "condition_at_discharge",
+          "discharge_datetime",
+          "discharge_destination",
+          "discharge_id",
+          "discharge_summary",
+          "follow_up_instructions",
+          "responsible_physician"
+        ],
+        "inferred_types": {
+          "admission_id": "string",
+          "condition_at_discharge": "string",
+          "discharge_datetime": "date/time",
+          "discharge_destination": "string",
+          "discharge_id": "string",
+          "discharge_summary": "string",
+          "follow_up_instructions": "string",
+          "responsible_physician": "string"
+        },
+        "missing_value_counts": {
+          "admission_id": 0,
+          "condition_at_discharge": 0,
+          "discharge_datetime": 0,
+          "discharge_destination": 0,
+          "discharge_id": 0,
+          "discharge_summary": 0,
+          "follow_up_instructions": 0,
+          "responsible_physician": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "admission_id": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ],
+          "condition_at_discharge": [
+            "Fictional stable condition"
+          ],
+          "discharge_datetime": [
+            "2022-01-05T02:00:00+08:00",
+            "2022-01-05T20:00:00+08:00",
+            "2022-01-06T14:00:00+08:00"
+          ],
+          "discharge_destination": [
+            "Fictional residence"
+          ],
+          "discharge_id": [
+            "DC00001",
+            "DC00002",
+            "DC00003"
+          ],
+          "discharge_summary": [
+            "Fictional discharge summary."
+          ],
+          "follow_up_instructions": [
+            "Fictional follow-up"
+          ],
+          "responsible_physician": [
+            "FictionalClinician01",
+            "FictionalClinician02",
+            "FictionalClinician03"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "icd9_dictionary": {
+        "record_count": 50,
+        "field_names": [
+          "description",
+          "disease_category",
+          "icd9_code",
+          "official_title"
+        ],
+        "inferred_types": {
+          "description": "string",
+          "disease_category": "string",
+          "icd9_code": "string",
+          "official_title": "string"
+        },
+        "missing_value_counts": {
+          "description": 0,
+          "disease_category": 0,
+          "icd9_code": 0,
+          "official_title": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "description": [
+            "Unspecified septicemia",
+            "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+            "Other and unspecified hyperlipidemia"
+          ],
+          "disease_category": [
+            "Infectious and parasitic diseases",
+            "Endocrine, nutritional, and metabolic diseases",
+            "Diseases of the blood and blood-forming organs"
+          ],
+          "icd9_code": [
+            "038.9",
+            "250.00",
+            "272.4"
+          ],
+          "official_title": [
+            "Unspecified septicemia",
+            "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+            "Other and unspecified hyperlipidemia"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "patients": {
+        "record_count": 800,
+        "field_names": [
+          "address",
+          "date_of_birth",
+          "death_datetime",
+          "emergency_contact_name",
+          "emergency_contact_phone",
+          "first_name",
+          "gender",
+          "health_insurance_number",
+          "last_name",
+          "life_status",
+          "patient_id",
+          "telephone_number"
+        ],
+        "inferred_types": {
+          "address": "string",
+          "date_of_birth": "number",
+          "death_datetime": "date/time",
+          "emergency_contact_name": "string",
+          "emergency_contact_phone": "string",
+          "first_name": "string",
+          "gender": "string",
+          "health_insurance_number": "string",
+          "last_name": "string",
+          "life_status": "string",
+          "patient_id": "string",
+          "telephone_number": "string"
+        },
+        "missing_value_counts": {
+          "address": 0,
+          "date_of_birth": 0,
+          "death_datetime": 780,
+          "emergency_contact_name": 0,
+          "emergency_contact_phone": 0,
+          "first_name": 0,
+          "gender": 0,
+          "health_insurance_number": 0,
+          "last_name": 0,
+          "life_status": 0,
+          "patient_id": 0,
+          "telephone_number": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "address": [
+            "Fictional Residence C-0001",
+            "Fictional Residence C-0002",
+            "Fictional Residence C-0003"
+          ],
+          "date_of_birth": [
+            "19400517",
+            "19401001",
+            "19410215"
+          ],
+          "death_datetime": [
+            "2022-06-01T02:00:00+08:00",
+            "2022-06-01T20:00:00+08:00",
+            "2022-06-01T14:00:00+08:00"
+          ],
+          "emergency_contact_name": [
+            "FictionalContact0001",
+            "FictionalContact0002",
+            "FictionalContact0003"
+          ],
+          "emergency_contact_phone": [
+            "555-0201",
+            "555-0202",
+            "555-0203"
+          ],
+          "first_name": [
+            "FictionalPerson0001",
+            "FictionalPerson0002",
+            "FictionalPerson0003"
+          ],
+          "gender": [
+            "Male",
+            "Other",
+            "Female"
+          ],
+          "health_insurance_number": [
+            "C00000000001",
+            "C00000000002",
+            "C00000000003"
+          ],
+          "last_name": [
+            "ExampleC0001",
+            "ExampleC0002",
+            "ExampleC0003"
+          ],
+          "life_status": [
+            "Alive",
+            "Deceased"
+          ],
+          "patient_id": [
+            "P00001",
+            "P00002",
+            "P00003"
+          ],
+          "telephone_number": [
+            "555-0101",
+            "555-0102",
+            "555-0103"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "radiology_examinations": {
+        "record_count": 150,
+        "field_names": [
+          "admission_id",
+          "body_area",
+          "exam_datetime",
+          "exam_status",
+          "exam_type",
+          "order_id",
+          "radiology_exam_id",
+          "radiology_technician",
+          "referring_physician"
+        ],
+        "inferred_types": {
+          "admission_id": "string",
+          "body_area": "string",
+          "exam_datetime": "date/time",
+          "exam_status": "string",
+          "exam_type": "string",
+          "order_id": "string",
+          "radiology_exam_id": "string",
+          "radiology_technician": "string",
+          "referring_physician": "string"
+        },
+        "missing_value_counts": {
+          "admission_id": 0,
+          "body_area": 0,
+          "exam_datetime": 0,
+          "exam_status": 0,
+          "exam_type": 0,
+          "order_id": 0,
+          "radiology_exam_id": 0,
+          "radiology_technician": 0,
+          "referring_physician": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "admission_id": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ],
+          "body_area": [
+            "Abdomen",
+            "Extremity",
+            "Chest"
+          ],
+          "exam_datetime": [
+            "2022-01-02T01:00:00+08:00",
+            "2022-01-02T12:00:00+08:00",
+            "2022-01-02T23:00:00+08:00"
+          ],
+          "exam_status": [
+            "Completed"
+          ],
+          "exam_type": [
+            "Fictional radiograph"
+          ],
+          "order_id": [
+            "O00001",
+            "O00002",
+            "O00003"
+          ],
+          "radiology_exam_id": [
+            "R00001",
+            "R00002",
+            "R00003"
+          ],
+          "radiology_technician": [
+            "FictionalTechnician01",
+            "FictionalTechnician02",
+            "FictionalTechnician03"
+          ],
+          "referring_physician": [
+            "FictionalClinician01",
+            "FictionalClinician02",
+            "FictionalClinician03"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "radiology_reports": {
+        "record_count": 150,
+        "field_names": [
+          "clinical_conclusion",
+          "findings",
+          "interpretations",
+          "radiologist",
+          "radiology_exam_id",
+          "report_datetime",
+          "report_id"
+        ],
+        "inferred_types": {
+          "clinical_conclusion": "string",
+          "findings": "string",
+          "interpretations": "string",
+          "radiologist": "string",
+          "radiology_exam_id": "string",
+          "report_datetime": "date/time",
+          "report_id": "string"
+        },
+        "missing_value_counts": {
+          "clinical_conclusion": 0,
+          "findings": 0,
+          "interpretations": 0,
+          "radiologist": 0,
+          "radiology_exam_id": 0,
+          "report_datetime": 0,
+          "report_id": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "clinical_conclusion": [
+            "Fictional conclusion"
+          ],
+          "findings": [
+            "Fictional finding"
+          ],
+          "interpretations": [
+            "Fictional interpretation"
+          ],
+          "radiologist": [
+            "FictionalRadiologist01",
+            "FictionalRadiologist02",
+            "FictionalRadiologist03"
+          ],
+          "radiology_exam_id": [
+            "R00001",
+            "R00002",
+            "R00003"
+          ],
+          "report_datetime": [
+            "2022-01-02T02:00:00+08:00",
+            "2022-01-02T13:00:00+08:00",
+            "2022-01-03T00:00:00+08:00"
+          ],
+          "report_id": [
+            "RR00001",
+            "RR00002",
+            "RR00003"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "surgical_procedures": {
+        "record_count": 100,
+        "field_names": [
+          "admission_id",
+          "operating_room",
+          "outcome_notes",
+          "procedure_datetime",
+          "procedure_id",
+          "procedure_name",
+          "surgeon"
+        ],
+        "inferred_types": {
+          "admission_id": "string",
+          "operating_room": "string",
+          "outcome_notes": "string",
+          "procedure_datetime": "date/time",
+          "procedure_id": "string",
+          "procedure_name": "string",
+          "surgeon": "string"
+        },
+        "missing_value_counts": {
+          "admission_id": 0,
+          "operating_room": 0,
+          "outcome_notes": 0,
+          "procedure_datetime": 0,
+          "procedure_id": 0,
+          "procedure_name": 0,
+          "surgeon": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "admission_id": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ],
+          "operating_room": [
+            "F2",
+            "F3",
+            "F4"
+          ],
+          "outcome_notes": [
+            "Fictional outcome"
+          ],
+          "procedure_datetime": [
+            "2022-01-02T02:00:00+08:00",
+            "2022-01-02T13:00:00+08:00",
+            "2022-01-03T00:00:00+08:00"
+          ],
+          "procedure_id": [
+            "S00001",
+            "S00002",
+            "S00003"
+          ],
+          "procedure_name": [
+            "Fictional procedure"
+          ],
+          "surgeon": [
+            "FictionalSurgeon01",
+            "FictionalSurgeon02",
+            "FictionalSurgeon03"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "triage_assessments": {
+        "record_count": 700,
+        "field_names": [
+          "admission_id",
+          "assessment_datetime",
+          "blood_pressure",
+          "body_temperature",
+          "heart_rate",
+          "oxygen_saturation",
+          "pain_level",
+          "priority_level",
+          "reported_symptoms",
+          "respiratory_rate",
+          "triage_id",
+          "triage_nurse"
+        ],
+        "inferred_types": {
+          "admission_id": "string",
+          "assessment_datetime": "date/time",
+          "blood_pressure": "string",
+          "body_temperature": "number",
+          "heart_rate": "number",
+          "oxygen_saturation": "number",
+          "pain_level": "number",
+          "priority_level": "string",
+          "reported_symptoms": "string",
+          "respiratory_rate": "number",
+          "triage_id": "string",
+          "triage_nurse": "string"
+        },
+        "missing_value_counts": {
+          "admission_id": 0,
+          "assessment_datetime": 0,
+          "blood_pressure": 0,
+          "body_temperature": 0,
+          "heart_rate": 0,
+          "oxygen_saturation": 0,
+          "pain_level": 0,
+          "priority_level": 0,
+          "reported_symptoms": 0,
+          "respiratory_rate": 0,
+          "triage_id": 0,
+          "triage_nurse": 17
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "admission_id": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ],
+          "assessment_datetime": [
+            "2022-01-01T20:00:00+08:00",
+            "2022-01-02T07:00:00+08:00",
+            "2022-01-02T18:00:00+08:00"
+          ],
+          "blood_pressure": [
+            "120/80"
+          ],
+          "body_temperature": [
+            "36.6",
+            "36.7",
+            "36.8"
+          ],
+          "heart_rate": [
+            "73",
+            "74",
+            "75"
+          ],
+          "oxygen_saturation": [
+            "97",
+            "98",
+            "99"
+          ],
+          "pain_level": [
+            "1",
+            "2",
+            "3"
+          ],
+          "priority_level": [
+            " p2 ",
+            "P3",
+            "P1"
+          ],
+          "reported_symptoms": [
+            "Fictional symptom description"
+          ],
+          "respiratory_rate": [
+            "15",
+            "16",
+            "17"
+          ],
+          "triage_id": [
+            "T00001",
+            "T00002",
+            "T00003"
+          ],
+          "triage_nurse": [
+            "FictionalNurse01",
+            "FictionalNurse02",
+            "FictionalNurse03"
+          ]
+        },
+        "formatting_examples": {
+          "priority_level": [
+            " p2 ",
+            "P2",
+            " p3 "
+          ]
+        },
+        "invalid_value_examples": {
+          "heart_rate": [
+            "not-a-number"
+          ]
+        }
+      },
+      "unit_stays": {
+        "record_count": 700,
+        "field_names": [
+          "admission_id",
+          "bed_number",
+          "entry_datetime",
+          "exit_datetime",
+          "responsible_physician",
+          "room",
+          "transfer_reason",
+          "unit_stay_id",
+          "unit_type",
+          "ward"
+        ],
+        "inferred_types": {
+          "admission_id": "string",
+          "bed_number": "number",
+          "entry_datetime": "date/time",
+          "exit_datetime": "date/time",
+          "responsible_physician": "string",
+          "room": "number",
+          "transfer_reason": "string",
+          "unit_stay_id": "string",
+          "unit_type": "string",
+          "ward": "string"
+        },
+        "missing_value_counts": {
+          "admission_id": 0,
+          "bed_number": 0,
+          "entry_datetime": 0,
+          "exit_datetime": 0,
+          "responsible_physician": 0,
+          "room": 0,
+          "transfer_reason": 0,
+          "unit_stay_id": 0,
+          "unit_type": 0,
+          "ward": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "admission_id": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ],
+          "bed_number": [
+            "2",
+            "3",
+            "4"
+          ],
+          "entry_datetime": [
+            "2022-01-01T20:00:00+08:00",
+            "2022-01-02T03:00:00+08:00",
+            "2022-01-02T15:00:00+08:00"
+          ],
+          "exit_datetime": [
+            "2022-01-02T01:00:00+08:00",
+            "2022-01-02T13:00:00+08:00",
+            "2022-01-03T15:00:00+08:00"
+          ],
+          "responsible_physician": [
+            "FictionalClinician01",
+            "FictionalClinician02",
+            "FictionalClinician03"
+          ],
+          "room": [
+            "02",
+            "03",
+            "04"
+          ],
+          "transfer_reason": [
+            "Initial placement",
+            "Fictional unit transfer"
+          ],
+          "unit_stay_id": [
+            "U00001",
+            "U00002",
+            "U00003"
+          ],
+          "unit_type": [
+            "ED",
+            "Intensive Care",
+            "Cardiac Care"
+          ],
+          "ward": [
+            "Fictional Ward 01",
+            "Fictional Ward 02",
+            "Fictional Ward 03"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      }
+    }
+  },
+  "D": {
+    "format": "JSON",
+    "record_count": 7000,
+    "entities": {
+      "admissions": {
+        "record_count": 1300,
+        "field_names": [
+          "admission_datetime",
+          "admission_id",
+          "admission_source",
+          "admission_type",
+          "admitting_professional",
+          "condition_on_admission",
+          "discharge_datetime",
+          "final_status",
+          "insurance_info",
+          "patient_id",
+          "reason_for_admission"
+        ],
+        "inferred_types": {
+          "admission_datetime": "date/time",
+          "admission_id": "string",
+          "admission_source": "string",
+          "admission_type": "string",
+          "admitting_professional": "string",
+          "condition_on_admission": "string",
+          "discharge_datetime": "date/time",
+          "final_status": "string",
+          "insurance_info": "string",
+          "patient_id": "string",
+          "reason_for_admission": "string"
+        },
+        "missing_value_counts": {
+          "admission_datetime": 0,
+          "admission_id": 0,
+          "admission_source": 0,
+          "admission_type": 0,
+          "admitting_professional": 0,
+          "condition_on_admission": 0,
+          "discharge_datetime": 950,
+          "final_status": 950,
+          "insurance_info": 0,
+          "patient_id": 0,
+          "reason_for_admission": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "admission_datetime": [
+            "2022-01-01T19:00:00+10:00",
+            "2022-01-02T06:00:00+10:00",
+            "2022-01-02T17:00:00+10:00"
+          ],
+          "admission_id": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ],
+          "admission_source": [
+            "Clinic referral",
+            "Transfer",
+            "Emergency referral"
+          ],
+          "admission_type": [
+            "urgent",
+            "scheduled",
+            "clinic"
+          ],
+          "admitting_professional": [
+            "FictionalClinician01",
+            "FictionalClinician02",
+            "FictionalClinician03"
+          ],
+          "condition_on_admission": [
+            "Fictional educational scenario"
+          ],
+          "discharge_datetime": [
+            "2022-01-05T02:00:00+10:00",
+            "2022-01-05T20:00:00+10:00",
+            "2022-01-06T14:00:00+10:00"
+          ],
+          "final_status": [
+            "Discharged",
+            "Deceased"
+          ],
+          "insurance_info": [
+            "Synthetic plan D"
+          ],
+          "patient_id": [
+            "P00001",
+            "P00002",
+            "P00003"
+          ],
+          "reason_for_admission": [
+            "Planned fictional procedure",
+            "Observation",
+            "Fictional symptom review"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "clinical_notes": {
+        "record_count": 500,
+        "field_names": [
+          "admission_id",
+          "author_physician",
+          "clinical_findings",
+          "note_content",
+          "note_datetime",
+          "note_id",
+          "note_type",
+          "physical_examination",
+          "planned_examinations",
+          "suspected_condition",
+          "symptoms",
+          "treatment_plan"
+        ],
+        "inferred_types": {
+          "admission_id": "string",
+          "author_physician": "string",
+          "clinical_findings": "string",
+          "note_content": "string",
+          "note_datetime": "date/time",
+          "note_id": "string",
+          "note_type": "string",
+          "physical_examination": "string",
+          "planned_examinations": "string",
+          "suspected_condition": "string",
+          "symptoms": "string",
+          "treatment_plan": "string"
+        },
+        "missing_value_counts": {
+          "admission_id": 0,
+          "author_physician": 17,
+          "clinical_findings": 0,
+          "note_content": 0,
+          "note_datetime": 0,
+          "note_id": 0,
+          "note_type": 0,
+          "physical_examination": 0,
+          "planned_examinations": 0,
+          "suspected_condition": 0,
+          "symptoms": 0,
+          "treatment_plan": 0
+        },
+        "exact_duplicate_count": 35,
+        "sample_values": {
+          "admission_id": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ],
+          "author_physician": [
+            "FictionalClinician01",
+            "FictionalClinician02",
+            "FictionalClinician03"
+          ],
+          "clinical_findings": [
+            "Fictional finding"
+          ],
+          "note_content": [
+            "Fictional recovery discussion and follow-up plan.",
+            "Entirely fictional educational note."
+          ],
+          "note_datetime": [
+            "2022-01-05T01:00:00+10:00",
+            "not-a-date",
+            "2022-01-06T13:00:00+10:00"
+          ],
+          "note_id": [
+            "N00001",
+            "N00002",
+            "N00003"
+          ],
+          "note_type": [
+            "Discharge Summary",
+            "DISCHARGE SUMMARY ",
+            "ADMISSION "
+          ],
+          "physical_examination": [
+            "Fictional examination"
+          ],
+          "planned_examinations": [
+            "Fictional examination"
+          ],
+          "suspected_condition": [
+            "Fictional condition"
+          ],
+          "symptoms": [
+            "Fictional symptom"
+          ],
+          "treatment_plan": [
+            "Fictional plan"
+          ]
+        },
+        "formatting_examples": {
+          "note_type": [
+            "DISCHARGE SUMMARY ",
+            "Discharge Summary",
+            "ADMISSION "
+          ]
+        },
+        "invalid_value_examples": {
+          "note_datetime": [
+            "not-a-date"
+          ]
+        }
+      },
+      "diagnoses": {
+        "record_count": 1500,
+        "field_names": [
+          "admission_id",
+          "diagnosing_physician",
+          "diagnosis_datetime",
+          "diagnosis_id",
+          "diagnosis_type",
+          "icd9_code",
+          "patient_id"
+        ],
+        "inferred_types": {
+          "admission_id": "string",
+          "diagnosing_physician": "string",
+          "diagnosis_datetime": "date/time",
+          "diagnosis_id": "string",
+          "diagnosis_type": "string",
+          "icd9_code": "string",
+          "patient_id": "string"
+        },
+        "missing_value_counts": {
+          "admission_id": 0,
+          "diagnosing_physician": 0,
+          "diagnosis_datetime": 0,
+          "diagnosis_id": 0,
+          "diagnosis_type": 0,
+          "icd9_code": 0,
+          "patient_id": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "admission_id": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ],
+          "diagnosing_physician": [
+            "FictionalClinician01",
+            "FictionalClinician02",
+            "FictionalClinician03"
+          ],
+          "diagnosis_datetime": [
+            "2022-01-01T22:00:00+10:00",
+            "2022-01-02T00:00:00+10:00",
+            "2022-01-02T09:00:00+10:00"
+          ],
+          "diagnosis_id": [
+            "D00001",
+            "D01301",
+            "D00002"
+          ],
+          "diagnosis_type": [
+            "Primary",
+            "Secondary",
+            "Preliminary"
+          ],
+          "icd9_code": [
+            "038.9",
+            "530.81",
+            "584.9"
+          ],
+          "patient_id": [
+            "P00001",
+            "P00002",
+            "P00003"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "diagnostic_examinations": {
+        "record_count": 250,
+        "field_names": [
+          "exam_datetime",
+          "exam_id",
+          "exam_result",
+          "exam_status",
+          "exam_type",
+          "order_id",
+          "performed_by"
+        ],
+        "inferred_types": {
+          "exam_datetime": "date/time",
+          "exam_id": "string",
+          "exam_result": "string",
+          "exam_status": "string",
+          "exam_type": "string",
+          "order_id": "string",
+          "performed_by": "string"
+        },
+        "missing_value_counts": {
+          "exam_datetime": 0,
+          "exam_id": 0,
+          "exam_result": 0,
+          "exam_status": 0,
+          "exam_type": 0,
+          "order_id": 0,
+          "performed_by": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "exam_datetime": [
+            "2022-01-01T23:00:00+10:00",
+            "2022-01-02T10:00:00+10:00",
+            "2022-01-02T21:00:00+10:00"
+          ],
+          "exam_id": [
+            "E00001",
+            "E00002",
+            "E00003"
+          ],
+          "exam_result": [
+            "Fictional result for educational use"
+          ],
+          "exam_status": [
+            "Completed"
+          ],
+          "exam_type": [
+            "Fictional imaging",
+            "Fictional screening",
+            "Fictional blood panel"
+          ],
+          "order_id": [
+            "O00001",
+            "O00002",
+            "O00003"
+          ],
+          "performed_by": [
+            "FictionalTechnician01",
+            "FictionalTechnician02",
+            "FictionalTechnician03"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "diagnostic_orders": {
+        "record_count": 450,
+        "field_names": [
+          "admission_id",
+          "clinical_reason",
+          "order_id",
+          "order_status",
+          "priority",
+          "request_datetime",
+          "requested_examination",
+          "requesting_physician"
+        ],
+        "inferred_types": {
+          "admission_id": "string",
+          "clinical_reason": "string",
+          "order_id": "string",
+          "order_status": "string",
+          "priority": "string",
+          "request_datetime": "date/time",
+          "requested_examination": "string",
+          "requesting_physician": "string"
+        },
+        "missing_value_counts": {
+          "admission_id": 0,
+          "clinical_reason": 0,
+          "order_id": 0,
+          "order_status": 0,
+          "priority": 0,
+          "request_datetime": 0,
+          "requested_examination": 0,
+          "requesting_physician": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "admission_id": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ],
+          "clinical_reason": [
+            "Fictional educational indication"
+          ],
+          "order_id": [
+            "O00001",
+            "O00002",
+            "O00003"
+          ],
+          "order_status": [
+            "Completed",
+            "Pending",
+            "Awaiting Results"
+          ],
+          "priority": [
+            "Medium",
+            "Low",
+            "High"
+          ],
+          "request_datetime": [
+            "2022-01-01T21:00:00+10:00",
+            "2022-01-02T08:00:00+10:00",
+            "2022-01-02T19:00:00+10:00"
+          ],
+          "requested_examination": [
+            "Fictional imaging",
+            "Fictional screening",
+            "Fictional blood panel"
+          ],
+          "requesting_physician": [
+            "FictionalClinician01",
+            "FictionalClinician02",
+            "FictionalClinician03"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "discharge_records": {
+        "record_count": 350,
+        "field_names": [
+          "admission_id",
+          "condition_at_discharge",
+          "discharge_datetime",
+          "discharge_destination",
+          "discharge_id",
+          "discharge_summary",
+          "follow_up_appointments",
+          "follow_up_instructions",
+          "prescribed_medications",
+          "responsible_physician"
+        ],
+        "inferred_types": {
+          "admission_id": "string",
+          "condition_at_discharge": "string",
+          "discharge_datetime": "date/time",
+          "discharge_destination": "string",
+          "discharge_id": "string",
+          "discharge_summary": "string",
+          "follow_up_appointments": "unknown",
+          "follow_up_instructions": "string",
+          "prescribed_medications": "unknown",
+          "responsible_physician": "string"
+        },
+        "missing_value_counts": {
+          "admission_id": 0,
+          "condition_at_discharge": 0,
+          "discharge_datetime": 0,
+          "discharge_destination": 0,
+          "discharge_id": 0,
+          "discharge_summary": 0,
+          "follow_up_appointments": 350,
+          "follow_up_instructions": 0,
+          "prescribed_medications": 350,
+          "responsible_physician": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "admission_id": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ],
+          "condition_at_discharge": [
+            "Fictional stable condition"
+          ],
+          "discharge_datetime": [
+            "2022-01-05T02:00:00+10:00",
+            "2022-01-05T20:00:00+10:00",
+            "2022-01-06T14:00:00+10:00"
+          ],
+          "discharge_destination": [
+            "Fictional residence"
+          ],
+          "discharge_id": [
+            "DC00001",
+            "DC00002",
+            "DC00003"
+          ],
+          "discharge_summary": [
+            "Fictional discharge summary."
+          ],
+          "follow_up_appointments": [],
+          "follow_up_instructions": [
+            "Fictional follow-up"
+          ],
+          "prescribed_medications": [],
+          "responsible_physician": [
+            "FictionalClinician01",
+            "FictionalClinician02",
+            "FictionalClinician03"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "icd9_dictionary": {
+        "record_count": 50,
+        "field_names": [
+          "description",
+          "disease_category",
+          "icd9_code",
+          "official_title"
+        ],
+        "inferred_types": {
+          "description": "string",
+          "disease_category": "string",
+          "icd9_code": "string",
+          "official_title": "string"
+        },
+        "missing_value_counts": {
+          "description": 0,
+          "disease_category": 0,
+          "icd9_code": 0,
+          "official_title": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "description": [
+            "Unspecified septicemia",
+            "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+            "Other and unspecified hyperlipidemia"
+          ],
+          "disease_category": [
+            "Infectious and parasitic diseases",
+            "Endocrine, nutritional, and metabolic diseases",
+            "Diseases of the blood and blood-forming organs"
+          ],
+          "icd9_code": [
+            "038.9",
+            "250.00",
+            "272.4"
+          ],
+          "official_title": [
+            "Unspecified septicemia",
+            "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+            "Other and unspecified hyperlipidemia"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "patients": {
+        "record_count": 800,
+        "field_names": [
+          "address",
+          "date_of_birth",
+          "death_datetime",
+          "emergency_contact_name",
+          "emergency_contact_phone",
+          "first_name",
+          "gender",
+          "health_insurance_number",
+          "last_name",
+          "life_status",
+          "patient_id",
+          "telephone_number"
+        ],
+        "inferred_types": {
+          "address": "string",
+          "date_of_birth": "date/time",
+          "death_datetime": "date/time",
+          "emergency_contact_name": "string",
+          "emergency_contact_phone": "string",
+          "first_name": "string",
+          "gender": "string",
+          "health_insurance_number": "string",
+          "last_name": "string",
+          "life_status": "string",
+          "patient_id": "string",
+          "telephone_number": "string"
+        },
+        "missing_value_counts": {
+          "address": 0,
+          "date_of_birth": 0,
+          "death_datetime": 780,
+          "emergency_contact_name": 0,
+          "emergency_contact_phone": 0,
+          "first_name": 0,
+          "gender": 0,
+          "health_insurance_number": 0,
+          "last_name": 0,
+          "life_status": 0,
+          "patient_id": 0,
+          "telephone_number": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "address": [
+            "Fictional Residence D-0001",
+            "Fictional Residence D-0002",
+            "Fictional Residence D-0003"
+          ],
+          "date_of_birth": [
+            "1940-05-17",
+            "1940-10-01",
+            "1941-02-15"
+          ],
+          "death_datetime": [
+            "2022-06-01T02:00:00+10:00",
+            "2022-06-01T20:00:00+10:00",
+            "2022-06-01T14:00:00+10:00"
+          ],
+          "emergency_contact_name": [
+            "FictionalContact0001",
+            "FictionalContact0002",
+            "FictionalContact0003"
+          ],
+          "emergency_contact_phone": [
+            "555-0201",
+            "555-0202",
+            "555-0203"
+          ],
+          "first_name": [
+            "FictionalPerson0001",
+            "FictionalPerson0002",
+            "FictionalPerson0003"
+          ],
+          "gender": [
+            "Male",
+            "Other",
+            "Female"
+          ],
+          "health_insurance_number": [
+            "D00000000001",
+            "D00000000002",
+            "D00000000003"
+          ],
+          "last_name": [
+            "ExampleD0001",
+            "ExampleD0002",
+            "ExampleD0003"
+          ],
+          "life_status": [
+            "Alive",
+            "Deceased"
+          ],
+          "patient_id": [
+            "P00001",
+            "P00002",
+            "P00003"
+          ],
+          "telephone_number": [
+            "555-0101",
+            "555-0102",
+            "555-0103"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "radiology_examinations": {
+        "record_count": 150,
+        "field_names": [
+          "admission_id",
+          "body_area",
+          "exam_datetime",
+          "exam_status",
+          "exam_type",
+          "image_link",
+          "order_id",
+          "radiology_exam_id",
+          "radiology_technician",
+          "referring_physician"
+        ],
+        "inferred_types": {
+          "admission_id": "string",
+          "body_area": "string",
+          "exam_datetime": "date/time",
+          "exam_status": "string",
+          "exam_type": "string",
+          "image_link": "unknown",
+          "order_id": "string",
+          "radiology_exam_id": "string",
+          "radiology_technician": "string",
+          "referring_physician": "string"
+        },
+        "missing_value_counts": {
+          "admission_id": 0,
+          "body_area": 0,
+          "exam_datetime": 0,
+          "exam_status": 0,
+          "exam_type": 0,
+          "image_link": 150,
+          "order_id": 0,
+          "radiology_exam_id": 0,
+          "radiology_technician": 0,
+          "referring_physician": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "admission_id": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ],
+          "body_area": [
+            "Abdomen",
+            "Extremity",
+            "Chest"
+          ],
+          "exam_datetime": [
+            "2022-01-02T01:00:00+10:00",
+            "2022-01-02T12:00:00+10:00",
+            "2022-01-02T23:00:00+10:00"
+          ],
+          "exam_status": [
+            "Completed"
+          ],
+          "exam_type": [
+            "Fictional radiograph"
+          ],
+          "image_link": [],
+          "order_id": [
+            "O00001",
+            "O00002",
+            "O00003"
+          ],
+          "radiology_exam_id": [
+            "R00001",
+            "R00002",
+            "R00003"
+          ],
+          "radiology_technician": [
+            "FictionalTechnician01",
+            "FictionalTechnician02",
+            "FictionalTechnician03"
+          ],
+          "referring_physician": [
+            "FictionalClinician01",
+            "FictionalClinician02",
+            "FictionalClinician03"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "radiology_reports": {
+        "record_count": 150,
+        "field_names": [
+          "clinical_conclusion",
+          "findings",
+          "interpretations",
+          "radiologist",
+          "radiology_exam_id",
+          "report_datetime",
+          "report_id"
+        ],
+        "inferred_types": {
+          "clinical_conclusion": "string",
+          "findings": "string",
+          "interpretations": "string",
+          "radiologist": "string",
+          "radiology_exam_id": "string",
+          "report_datetime": "date/time",
+          "report_id": "string"
+        },
+        "missing_value_counts": {
+          "clinical_conclusion": 0,
+          "findings": 0,
+          "interpretations": 0,
+          "radiologist": 0,
+          "radiology_exam_id": 0,
+          "report_datetime": 0,
+          "report_id": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "clinical_conclusion": [
+            "Fictional conclusion"
+          ],
+          "findings": [
+            "Fictional finding"
+          ],
+          "interpretations": [
+            "Fictional interpretation"
+          ],
+          "radiologist": [
+            "FictionalRadiologist01",
+            "FictionalRadiologist02",
+            "FictionalRadiologist03"
+          ],
+          "radiology_exam_id": [
+            "R00001",
+            "R00002",
+            "R00003"
+          ],
+          "report_datetime": [
+            "2022-01-02T02:00:00+10:00",
+            "2022-01-02T13:00:00+10:00",
+            "2022-01-03T00:00:00+10:00"
+          ],
+          "report_id": [
+            "RR00001",
+            "RR00002",
+            "RR00003"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "surgical_procedures": {
+        "record_count": 100,
+        "field_names": [
+          "admission_id",
+          "operating_room",
+          "outcome_notes",
+          "procedure_datetime",
+          "procedure_id",
+          "procedure_name",
+          "surgeon"
+        ],
+        "inferred_types": {
+          "admission_id": "string",
+          "operating_room": "string",
+          "outcome_notes": "string",
+          "procedure_datetime": "date/time",
+          "procedure_id": "string",
+          "procedure_name": "string",
+          "surgeon": "string"
+        },
+        "missing_value_counts": {
+          "admission_id": 0,
+          "operating_room": 0,
+          "outcome_notes": 0,
+          "procedure_datetime": 0,
+          "procedure_id": 0,
+          "procedure_name": 0,
+          "surgeon": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "admission_id": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ],
+          "operating_room": [
+            "F2",
+            "F3",
+            "F4"
+          ],
+          "outcome_notes": [
+            "Fictional outcome"
+          ],
+          "procedure_datetime": [
+            "2022-01-02T02:00:00+10:00",
+            "2022-01-02T13:00:00+10:00",
+            "2022-01-03T00:00:00+10:00"
+          ],
+          "procedure_id": [
+            "S00001",
+            "S00002",
+            "S00003"
+          ],
+          "procedure_name": [
+            "Fictional procedure"
+          ],
+          "surgeon": [
+            "FictionalSurgeon01",
+            "FictionalSurgeon02",
+            "FictionalSurgeon03"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      },
+      "triage_assessments": {
+        "record_count": 700,
+        "field_names": [
+          "admission_id",
+          "assessment_datetime",
+          "blood_pressure",
+          "body_temperature",
+          "current_medications",
+          "heart_rate",
+          "known_allergies",
+          "oxygen_saturation",
+          "pain_level",
+          "priority_level",
+          "reported_symptoms",
+          "respiratory_rate",
+          "triage_id",
+          "triage_nurse"
+        ],
+        "inferred_types": {
+          "admission_id": "string",
+          "assessment_datetime": "date/time",
+          "blood_pressure": "string",
+          "body_temperature": "number",
+          "current_medications": "unknown",
+          "heart_rate": "integer",
+          "known_allergies": "unknown",
+          "oxygen_saturation": "integer",
+          "pain_level": "integer",
+          "priority_level": "string",
+          "reported_symptoms": "string",
+          "respiratory_rate": "integer",
+          "triage_id": "string",
+          "triage_nurse": "string"
+        },
+        "missing_value_counts": {
+          "admission_id": 0,
+          "assessment_datetime": 0,
+          "blood_pressure": 0,
+          "body_temperature": 0,
+          "current_medications": 700,
+          "heart_rate": 0,
+          "known_allergies": 700,
+          "oxygen_saturation": 0,
+          "pain_level": 0,
+          "priority_level": 0,
+          "reported_symptoms": 0,
+          "respiratory_rate": 0,
+          "triage_id": 0,
+          "triage_nurse": 17
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "admission_id": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ],
+          "assessment_datetime": [
+            "2022-01-01T20:00:00+10:00",
+            "2022-01-02T07:00:00+10:00",
+            "2022-01-02T18:00:00+10:00"
+          ],
+          "blood_pressure": [
+            "120/80"
+          ],
+          "body_temperature": [
+            "97.9",
+            "98.1",
+            "98.2"
+          ],
+          "current_medications": [],
+          "heart_rate": [
+            "73",
+            "74",
+            "75"
+          ],
+          "known_allergies": [],
+          "oxygen_saturation": [
+            "97",
+            "98",
+            "99"
+          ],
+          "pain_level": [
+            "1",
+            "2",
+            "3"
+          ],
+          "priority_level": [
+            "urgent",
+            "routine",
+            "immediate"
+          ],
+          "reported_symptoms": [
+            "Fictional symptom description"
+          ],
+          "respiratory_rate": [
+            "15",
+            "16",
+            "17"
+          ],
+          "triage_id": [
+            "T00001",
+            "T00002",
+            "T00003"
+          ],
+          "triage_nurse": [
+            "FictionalNurse01",
+            "FictionalNurse02",
+            "FictionalNurse03"
+          ]
+        },
+        "formatting_examples": {
+          "priority_level": [
+            " urgent ",
+            "urgent",
+            " routine "
+          ]
+        },
+        "invalid_value_examples": {
+          "heart_rate": [
+            "not-a-number"
+          ]
+        }
+      },
+      "unit_stays": {
+        "record_count": 700,
+        "field_names": [
+          "admission_id",
+          "bed_number",
+          "entry_datetime",
+          "exit_datetime",
+          "responsible_physician",
+          "room",
+          "transfer_reason",
+          "unit_stay_id",
+          "unit_type",
+          "ward"
+        ],
+        "inferred_types": {
+          "admission_id": "string",
+          "bed_number": "number",
+          "entry_datetime": "date/time",
+          "exit_datetime": "date/time",
+          "responsible_physician": "string",
+          "room": "number",
+          "transfer_reason": "string",
+          "unit_stay_id": "string",
+          "unit_type": "string",
+          "ward": "string"
+        },
+        "missing_value_counts": {
+          "admission_id": 0,
+          "bed_number": 0,
+          "entry_datetime": 0,
+          "exit_datetime": 0,
+          "responsible_physician": 0,
+          "room": 0,
+          "transfer_reason": 0,
+          "unit_stay_id": 0,
+          "unit_type": 0,
+          "ward": 0
+        },
+        "exact_duplicate_count": 0,
+        "sample_values": {
+          "admission_id": [
+            "A00001",
+            "A00002",
+            "A00003"
+          ],
+          "bed_number": [
+            "2",
+            "3",
+            "4"
+          ],
+          "entry_datetime": [
+            "2022-01-01T20:00:00+10:00",
+            "2022-01-02T03:00:00+10:00",
+            "2022-01-02T15:00:00+10:00"
+          ],
+          "exit_datetime": [
+            "2022-01-02T01:00:00+10:00",
+            "2022-01-02T13:00:00+10:00",
+            "2022-01-03T15:00:00+10:00"
+          ],
+          "responsible_physician": [
+            "FictionalClinician01",
+            "FictionalClinician02",
+            "FictionalClinician03"
+          ],
+          "room": [
+            "02",
+            "03",
+            "04"
+          ],
+          "transfer_reason": [
+            "Initial placement",
+            "Fictional unit transfer"
+          ],
+          "unit_stay_id": [
+            "U00001",
+            "U00002",
+            "U00003"
+          ],
+          "unit_type": [
+            "ER",
+            "ICU-Adult",
+            "Cardiac ICU"
+          ],
+          "ward": [
+            "Fictional Ward 01",
+            "Fictional Ward 02",
+            "Fictional Ward 03"
+          ]
+        },
+        "formatting_examples": {},
+        "invalid_value_examples": {}
+      }
+    }
+  }
+}
