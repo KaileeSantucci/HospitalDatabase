@@ -127,3 +127,14 @@ for table in raw["A"]:
             print("source",source, table, ": columns do not match")
 print("Column check finished.")
 
+#3: Removing the extra spaces at the start and end of the text values
+spaces_removed = 0 #starts the count at 0
+for source in ["A", "B", "C","D"]: 
+    for table in raw[source]:
+        df = raw[source][table]
+        for column in df.columns:
+            before = df[column].fillna("") #fillna: so emty cells are not counted as changes/ spaces removed
+            df[column] = df[column].apply(lambda x: x.strip() if isinstance(x, str) else x)
+            after = df[column].fillna("")
+            spaces_removed = spaces_removed + (before != after).sum()
+print("Extra spaces removed:", spaces_removed)
