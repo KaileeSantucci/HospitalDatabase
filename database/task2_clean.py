@@ -138,3 +138,54 @@ for source in ["A", "B", "C","D"]:
             after = df[column].fillna("")
             spaces_removed = spaces_removed + (before != after).sum()
 print("Extra spaces removed:", spaces_removed)
+
+#4 mapping each source's category labels to the values allowed by the pahse 1 schema
+# dictionary says: label used by a source (in lowercase) value our schema allows
+
+CATEGORY_MAPS = {
+    ("admissions", "admission_type"): {
+        "emergency": "emergency", "er": "emergency",
+        "urgent": "urgent", "urgent admission": "urgent", "urgent care": "urgent",
+        "elective": "elective", "routine": "elective", "planned": "elective", "scheduled": "elective",
+        "outpatient": "outpatient", "ambulatory": "outpatient", "clinic": "outpatient",
+    },
+    ("triage_assessments", "priority_level"): {
+        "high": "High", "critical": "High", "p1": "High", "immediate": "High",
+        "moderate": "Moderate", "urgent": "Moderate", "p2": "Moderate",
+        "low": "Low", "routine": "Low", "p3": "Low",
+    },
+    ("unit_stays", "unit_type"): {
+        "emergency department": "Emergency Department", "a&e": "Emergency Department",
+        "ed": "Emergency Department", "er": "Emergency Department",
+        "general medical ward": "General Medical Ward", "ward": "General Medical Ward",
+        "medical ward": "General Medical Ward", "general ward": "General Medical Ward",
+        "icu": "ICU", "critical care": "ICU", "intensive care": "ICU", "icu-adult": "ICU",
+        "ccu": "CCU", "cardiac care": "CCU", "cardiac icu": "CCU",
+        "micu": "MICU", "medical intensive care": "MICU", "medical icu": "MICU", "icu-medical": "MICU",
+        "sicu": "SICU", "surgical intensive care": "SICU", "surgical icu": "SICU", "icu-surgical": "SICU",
+        "surgical ward": "Surgical Ward", "surgery ward": "Surgical Ward",
+    },
+    ("clinical_notes", "note_type"): {
+        "admission": "Admission", "progress": "Progress",
+        "consultation": "Consultation", "discharge summary": "Discharge Summary",
+    },
+}
+labels_mapped = 0
+for source in ["A","B","C", "D"]:
+    for(table,column), mapping in CATEGORY_MAPS.items():
+        df = raw[source][table]
+        before = df[column].fillna("")
+        df[column] = df[column].apply(lambda x: x.lower() if isinstance(x, str) else x) # lowercase first so 'P1' and 'p1' and spaces like ' p1 ' match the same dictionary key 
+        df[column] = df[column].replace(mapping)
+        after = df[column].fillna("")
+        labels_mapped = labels_mapped + (before != after).sum()
+
+        #checking if any label not in the dictionary would still be lowercase and not allowed
+        allowed = mapping.values()
+        missing_labels = []
+        for value in df[column]:
+            if isinstance(value, str) and value not in allowed and value not in missing_labels:
+                missing_labels.append(value)
+        if len(missing_labels) > 0:
+            print("source", source,table,column,": missing labels", missing_labels)
+print("Category labels mapped:", labels_mapped)
