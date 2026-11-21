@@ -170,22 +170,22 @@ CATEGORY_MAPS = {
         "consultation": "Consultation", "discharge summary": "Discharge Summary",
     },
 }
-labels_mapped = 0
-for source in ["A","B","C", "D"]:
-    for(table,column), mapping in CATEGORY_MAPS.items():
-        df = raw[source][table]
-        before = df[column].fillna("")
+labels_mapped = 0  #starts at count 0
+for source in ["A","B","C", "D"]: #going through each hospital source
+    for(table,column), mapping in CATEGORY_MAPS.items(): #each (table,column) and its dictionary
+        df = raw[source][table] #the table we are currently cleaning 
+        before = df[column].fillna("") #save the values before changing them, so you cna count the change
         df[column] = df[column].apply(lambda x: x.lower() if isinstance(x, str) else x) # lowercase first so 'P1' and 'p1' and spaces like ' p1 ' match the same dictionary key 
-        df[column] = df[column].replace(mapping)
-        after = df[column].fillna("")
-        labels_mapped = labels_mapped + (before != after).sum()
+        df[column] = df[column].replace(mapping) #swaping each label for schema's value
+        after = df[column].fillna("") #values after change
+        labels_mapped = labels_mapped + (before != after).sum() #sum of the values changed
 
         #checking if any label not in the dictionary would still be lowercase and not allowed
-        allowed = mapping.values()
-        missing_labels = []
-        for value in df[column]:
-            if isinstance(value, str) and value not in allowed and value not in missing_labels:
-                missing_labels.append(value)
-        if len(missing_labels) > 0:
+        allowed = mapping.values() #the values that the schema allows are eg. High, Low , Moderate
+        missing_labels = [] #the missing labels
+        for value in df[column]: #looking at every value in the column 
+            if isinstance(value, str) and value not in allowed and value not in missing_labels: #text that is not allowed value 
+                missing_labels.append(value) #add it to the list 
+        if len(missing_labels) > 0: #if something was found then print it once
             print("source", source,table,column,": missing labels", missing_labels)
-print("Category labels mapped:", labels_mapped)
+print("Category labels mapped:", labels_mapped) #total number of labels changed
