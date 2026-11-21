@@ -1,7 +1,7 @@
 import pandas as pd
 from task1_inspect_load import load_source 
 
-#1 loading every source into the DataFrames
+#1: loading every source into the DataFrames
 raw = {}
 for source in ["A","B","C","D"]:
     entities = load_source(source) # loading {table name :list of records}
@@ -10,7 +10,7 @@ for source in ["A","B","C","D"]:
         raw[source][table] = pd.DataFrame(entities[table])
                    
 
-#2 rename source B's columns to the common names, Source A, C, D use the phase 1 names 
+#2: rename source B's columns to the common names, Source A, C, D use the phase 1 names 
 #so only B changes
 
 B_COLUMN_NAMES = {
@@ -139,7 +139,7 @@ for source in ["A", "B", "C","D"]:
             spaces_removed = spaces_removed + (before != after).sum()
 print("Extra spaces removed:", spaces_removed)
 
-#4 mapping each source's category labels to the values allowed by the pahse 1 schema
+#4: mapping each source's category labels to the values allowed by the pahse 1 schema
 # dictionary says: label used by a source (in lowercase) value our schema allows
 
 CATEGORY_MAPS = {
@@ -190,7 +190,7 @@ for source in ["A","B","C", "D"]: #going through each hospital source
             print("source", source,table,column,": missing labels", missing_labels)
 print("Category labels mapped:", labels_mapped) #total number of labels changed
 
-#5 Missing values
+#5: Missing values
 #each source writes "empty" differently: A uses \N, B uses an empty string '', C and D use 'None'
 #need to turn every missing marker into 1 real empty value "None" 
 
@@ -252,7 +252,7 @@ for source in ["A", "B", "C", "D"]:
         raw[source][table] = df
 print("Records that were not accepted for a missing required value:", len(not_accepted))
 
-#6 duplicates
+#6: duplicates
 #keep 1 copy and remove the others
 
 removed_duplicates = 0
@@ -277,3 +277,45 @@ for source in ["A", "B", "C", "D"]:
         if repeated_ids > 0:
             print("Repeated ids of the source", source, table, ":", repeated_ids)
 print("Id duplicates check is done.")
+
+#7: numbers and units 
+#triage measurements are stored as text and they are turned into real numbers 
+#a value that is not a number or is not possible is flagged, the record is kept only that value is emptied
+
+REALISTIC_NUMBER_RANGES = {
+    "heart_rate": (20, 250),
+    "respiratory_rate": (5, 60),
+    "body_temperature": (30, 45),       # in degrees Celsius
+    "oxygen_saturation": (50, 100),
+    "pain_level": (0, 10),              # same as the CHECK in the schema
+}
+
+outlier = [] #values that are flagged and were emptied, with the original value and the reason
+
+for source in ["A", "B", "C", "D"]:
+   df = raw[source]["triage_assessments"]
+   for column in REALISTIC_NUMBER_RANGES:
+        original = df[column].copy() #keeping orginial values 
+        df[column] = pd.to_numeric(df[column], errors = "coerce") #test to: num and not num: to empty
+
+        #source D measures temp in F: convert to celsius
+        if source == "D" and column == "body_temperature":
+            df[column] = df[column].apply(lambda x: round((x-32)*5/9,1))
+
+        lowest, highest = REALISTIC_NUMBER_RANGES[column]
+        for record_id, old_value, new_value in zip(df["triage_id"], original, df[column]): #going through the rows: record ids, value before, value after 
+            if pd.isna(new_value) and pd.notna(old_value): #if it had a value but it was not a number
+                outlier.append({"source": source, "table": "triage_assessments", "record_id": record_id,
+                                "column": column, "original_value": old_value,
+                                "reason": "not a number"})
+            if pd.notna(new_value) and (new_value < lowest or new_value > highest): #if it is a number, but outside the possible realistic range 
+                outlier.append({"source": source, "table": "triage_assessments", "record_id": record_id,
+                                "column": column, "original_value": old_value,
+                                "reason": "outside the possible range"})
+        df[column] = df[column].apply(lambda x: None if pd.notna(x) and (x < lowest or x > highest) else x)
+   raw[source]["triage_assements"] = df
+print("Invalid numeric values that were flagged and emptied:", len(outlier))
+           
+
+    
+
