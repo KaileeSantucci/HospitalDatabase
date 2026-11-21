@@ -1,505 +1,505 @@
-source,table,record_id,reason,problem
-A,triage_assessments,T00094,missing needed value:triage_nurse,
-A,triage_assessments,T00121,missing needed value:triage_nurse,
-A,triage_assessments,T00144,missing needed value:triage_nurse,
-A,triage_assessments,T00171,missing needed value:triage_nurse,
-A,triage_assessments,T00283,missing needed value:triage_nurse,
-A,triage_assessments,T00298,missing needed value:triage_nurse,
-A,triage_assessments,T00400,missing needed value:triage_nurse,
-A,triage_assessments,T00411,missing needed value:triage_nurse,
-A,triage_assessments,T00440,missing needed value:triage_nurse,
-A,triage_assessments,T00454,missing needed value:triage_nurse,
-A,triage_assessments,T00516,missing needed value:triage_nurse,
-A,triage_assessments,T00522,missing needed value:triage_nurse,
-A,triage_assessments,T00578,missing needed value:triage_nurse,
-A,triage_assessments,T00581,missing needed value:triage_nurse,
-A,triage_assessments,T00611,missing needed value:triage_nurse,
-A,triage_assessments,T00651,missing needed value:triage_nurse,
-A,triage_assessments,T00680,missing needed value:triage_nurse,
-A,clinical_notes,N00003,missing needed value:author_physician,
-A,clinical_notes,N00045,missing needed value:author_physician,
-A,clinical_notes,N00114,missing needed value:author_physician,
-A,clinical_notes,N00126,missing needed value:author_physician,
-A,clinical_notes,N00170,missing needed value:author_physician,
-A,clinical_notes,N00179,missing needed value:author_physician,
-A,clinical_notes,N00199,missing needed value:author_physician,
-A,clinical_notes,N00233,missing needed value:author_physician,
-A,clinical_notes,N00244,missing needed value:author_physician,
-A,clinical_notes,N00329,missing needed value:author_physician,
-A,clinical_notes,N00339,missing needed value:author_physician,
-A,clinical_notes,N00373,missing needed value:author_physician,
-A,clinical_notes,N00397,missing needed value:author_physician,
-A,clinical_notes,N00403,missing needed value:author_physician,
-A,clinical_notes,N00435,missing needed value:author_physician,
-A,clinical_notes,N00003,missing needed value:author_physician,
-B,triage_assessments,T00011,missing needed value:triage_nurse,
-B,triage_assessments,T00122,missing needed value:triage_nurse,
-B,triage_assessments,T00131,missing needed value:triage_nurse,
-B,triage_assessments,T00159,missing needed value:triage_nurse,
-B,triage_assessments,T00226,missing needed value:triage_nurse,
-B,triage_assessments,T00253,missing needed value:triage_nurse,
-B,triage_assessments,T00260,missing needed value:triage_nurse,
-B,triage_assessments,T00330,missing needed value:triage_nurse,
-B,triage_assessments,T00367,missing needed value:triage_nurse,
-B,triage_assessments,T00373,missing needed value:triage_nurse,
-B,triage_assessments,T00398,missing needed value:triage_nurse,
-B,triage_assessments,T00402,missing needed value:triage_nurse,
-B,triage_assessments,T00479,missing needed value:triage_nurse,
-B,triage_assessments,T00637,missing needed value:triage_nurse,
-B,triage_assessments,T00646,missing needed value:triage_nurse,
-B,triage_assessments,T00671,missing needed value:triage_nurse,
-B,triage_assessments,T00693,missing needed value:triage_nurse,
-B,clinical_notes,N00024,missing needed value:author_physician,
-B,clinical_notes,N00041,missing needed value:author_physician,
-B,clinical_notes,N00091,missing needed value:author_physician,
-B,clinical_notes,N00114,missing needed value:author_physician,
-B,clinical_notes,N00118,missing needed value:author_physician,
-B,clinical_notes,N00137,missing needed value:author_physician,
-B,clinical_notes,N00149,missing needed value:author_physician,
-B,clinical_notes,N00169,missing needed value:author_physician,
-B,clinical_notes,N00172,missing needed value:author_physician,
-B,clinical_notes,N00179,missing needed value:author_physician,
-B,clinical_notes,N00213,missing needed value:author_physician,
-B,clinical_notes,N00249,missing needed value:author_physician,
-B,clinical_notes,N00260,missing needed value:author_physician,
-B,clinical_notes,N00291,missing needed value:author_physician,
-B,clinical_notes,N00309,missing needed value:author_physician,
-B,clinical_notes,N00378,missing needed value:author_physician,
-B,clinical_notes,N00424,missing needed value:author_physician,
-B,clinical_notes,N00427,missing needed value:author_physician,
-B,clinical_notes,N00024,missing needed value:author_physician,
-C,triage_assessments,T00044,missing needed value:triage_nurse,
-C,triage_assessments,T00068,missing needed value:triage_nurse,
-C,triage_assessments,T00136,missing needed value:triage_nurse,
-C,triage_assessments,T00156,missing needed value:triage_nurse,
-C,triage_assessments,T00216,missing needed value:triage_nurse,
-C,triage_assessments,T00218,missing needed value:triage_nurse,
-C,triage_assessments,T00230,missing needed value:triage_nurse,
-C,triage_assessments,T00292,missing needed value:triage_nurse,
-C,triage_assessments,T00303,missing needed value:triage_nurse,
-C,triage_assessments,T00471,missing needed value:triage_nurse,
-C,triage_assessments,T00500,missing needed value:triage_nurse,
-C,triage_assessments,T00525,missing needed value:triage_nurse,
-C,triage_assessments,T00560,missing needed value:triage_nurse,
-C,triage_assessments,T00644,missing needed value:triage_nurse,
-C,triage_assessments,T00649,missing needed value:triage_nurse,
-C,triage_assessments,T00665,missing needed value:triage_nurse,
-C,triage_assessments,T00670,missing needed value:triage_nurse,
-C,clinical_notes,N00018,missing needed value:author_physician,
-C,clinical_notes,N00018,missing needed value:author_physician,
-C,clinical_notes,N00021,missing needed value:author_physician,
-C,clinical_notes,N00021,missing needed value:author_physician,
-C,clinical_notes,N00037,missing needed value:author_physician,
-C,clinical_notes,N00067,missing needed value:author_physician,
-C,clinical_notes,N00090,missing needed value:author_physician,
-C,clinical_notes,N00183,missing needed value:author_physician,
-C,clinical_notes,N00191,missing needed value:author_physician,
-C,clinical_notes,N00204,missing needed value:author_physician,
-C,clinical_notes,N00241,missing needed value:author_physician,
-C,clinical_notes,N00284,missing needed value:author_physician,
-C,clinical_notes,N00298,missing needed value:author_physician,
-C,clinical_notes,N00343,missing needed value:author_physician,
-C,clinical_notes,N00364,missing needed value:author_physician,
-C,clinical_notes,N00396,missing needed value:author_physician,
-C,clinical_notes,N00424,missing needed value:author_physician,
-C,clinical_notes,N00430,missing needed value:author_physician,
-D,triage_assessments,T00137,missing needed value:triage_nurse,
-D,triage_assessments,T00217,missing needed value:triage_nurse,
-D,triage_assessments,T00243,missing needed value:triage_nurse,
-D,triage_assessments,T00279,missing needed value:triage_nurse,
-D,triage_assessments,T00333,missing needed value:triage_nurse,
-D,triage_assessments,T00369,missing needed value:triage_nurse,
-D,triage_assessments,T00432,missing needed value:triage_nurse,
-D,triage_assessments,T00453,missing needed value:triage_nurse,
-D,triage_assessments,T00505,missing needed value:triage_nurse,
-D,triage_assessments,T00506,missing needed value:triage_nurse,
-D,triage_assessments,T00535,missing needed value:triage_nurse,
-D,triage_assessments,T00572,missing needed value:triage_nurse,
-D,triage_assessments,T00614,missing needed value:triage_nurse,
-D,triage_assessments,T00621,missing needed value:triage_nurse,
-D,triage_assessments,T00680,missing needed value:triage_nurse,
-D,triage_assessments,T00694,missing needed value:triage_nurse,
-D,triage_assessments,T00696,missing needed value:triage_nurse,
-D,clinical_notes,N00014,missing needed value:author_physician,
-D,clinical_notes,N00014,missing needed value:author_physician,
-D,clinical_notes,N00096,missing needed value:author_physician,
-D,clinical_notes,N00153,missing needed value:author_physician,
-D,clinical_notes,N00154,missing needed value:author_physician,
-D,clinical_notes,N00163,missing needed value:author_physician,
-D,clinical_notes,N00181,missing needed value:author_physician,
-D,clinical_notes,N00210,missing needed value:author_physician,
-D,clinical_notes,N00212,missing needed value:author_physician,
-D,clinical_notes,N00250,missing needed value:author_physician,
-D,clinical_notes,N00275,missing needed value:author_physician,
-D,clinical_notes,N00285,missing needed value:author_physician,
-D,clinical_notes,N00292,missing needed value:author_physician,
-D,clinical_notes,N00303,missing needed value:author_physician,
-D,clinical_notes,N00343,missing needed value:author_physician,
-D,clinical_notes,N00364,missing needed value:author_physician,
-D,clinical_notes,N00434,missing needed value:author_physician,
-A,clinical_notes,N00015,,invalid date:note_datetime
-A,clinical_notes,N00041,,invalid date:note_datetime
-A,clinical_notes,N00049,,invalid date:note_datetime
-A,clinical_notes,N00056,,invalid date:note_datetime
-A,clinical_notes,N00061,,invalid date:note_datetime
-A,clinical_notes,N00069,,invalid date:note_datetime
-A,clinical_notes,N00073,,invalid date:note_datetime
-A,clinical_notes,N00088,,invalid date:note_datetime
-A,clinical_notes,N00089,,invalid date:note_datetime
-A,clinical_notes,N00120,,invalid date:note_datetime
-A,clinical_notes,N00148,,invalid date:note_datetime
-A,clinical_notes,N00160,,invalid date:note_datetime
-A,clinical_notes,N00163,,invalid date:note_datetime
-A,clinical_notes,N00289,,invalid date:note_datetime
-A,clinical_notes,N00330,,invalid date:note_datetime
-A,clinical_notes,N00334,,invalid date:note_datetime
-A,clinical_notes,N00336,,invalid date:note_datetime
-A,clinical_notes,N00341,,invalid date:note_datetime
-A,clinical_notes,N00342,,invalid date:note_datetime
-A,clinical_notes,N00362,,invalid date:note_datetime
-A,clinical_notes,N00367,,invalid date:note_datetime
-A,clinical_notes,N00368,,invalid date:note_datetime
-A,clinical_notes,N00384,,invalid date:note_datetime
-A,clinical_notes,N00395,,invalid date:note_datetime
-A,clinical_notes,N00411,,invalid date:note_datetime
-A,clinical_notes,N00412,,invalid date:note_datetime
-A,clinical_notes,N00423,,invalid date:note_datetime
-B,clinical_notes,N00011,,invalid date:note_datetime
-B,clinical_notes,N00016,,invalid date:note_datetime
-B,clinical_notes,N00022,,invalid date:note_datetime
-B,clinical_notes,N00026,,invalid date:note_datetime
-B,clinical_notes,N00030,,invalid date:note_datetime
-B,clinical_notes,N00031,,invalid date:note_datetime
-B,clinical_notes,N00037,,invalid date:note_datetime
-B,clinical_notes,N00051,,invalid date:note_datetime
-B,clinical_notes,N00054,,invalid date:note_datetime
-B,clinical_notes,N00083,,invalid date:note_datetime
-B,clinical_notes,N00085,,invalid date:note_datetime
-B,clinical_notes,N00098,,invalid date:note_datetime
-B,clinical_notes,N00101,,invalid date:note_datetime
-B,clinical_notes,N00120,,invalid date:note_datetime
-B,clinical_notes,N00127,,invalid date:note_datetime
-B,clinical_notes,N00143,,invalid date:note_datetime
-B,clinical_notes,N00202,,invalid date:note_datetime
-B,clinical_notes,N00219,,invalid date:note_datetime
-B,clinical_notes,N00289,,invalid date:note_datetime
-B,clinical_notes,N00295,,invalid date:note_datetime
-B,clinical_notes,N00301,,invalid date:note_datetime
-B,clinical_notes,N00335,,invalid date:note_datetime
-B,clinical_notes,N00346,,invalid date:note_datetime
-B,clinical_notes,N00351,,invalid date:note_datetime
-B,clinical_notes,N00370,,invalid date:note_datetime
-B,clinical_notes,N00371,,invalid date:note_datetime
-B,clinical_notes,N00377,,invalid date:note_datetime
-B,clinical_notes,N00409,,invalid date:note_datetime
-B,clinical_notes,N00433,,invalid date:note_datetime
-B,clinical_notes,N00434,,invalid date:note_datetime
-B,clinical_notes,N00456,,invalid date:note_datetime
-B,clinical_notes,N00461,,invalid date:note_datetime
-B,clinical_notes,N00465,,invalid date:note_datetime
-C,clinical_notes,N00006,,invalid date:note_datetime
-C,clinical_notes,N00008,,invalid date:note_datetime
-C,clinical_notes,N00030,,invalid date:note_datetime
-C,clinical_notes,N00047,,invalid date:note_datetime
-C,clinical_notes,N00049,,invalid date:note_datetime
-C,clinical_notes,N00087,,invalid date:note_datetime
-C,clinical_notes,N00095,,invalid date:note_datetime
-C,clinical_notes,N00118,,invalid date:note_datetime
-C,clinical_notes,N00119,,invalid date:note_datetime
-C,clinical_notes,N00149,,invalid date:note_datetime
-C,clinical_notes,N00159,,invalid date:note_datetime
-C,clinical_notes,N00207,,invalid date:note_datetime
-C,clinical_notes,N00218,,invalid date:note_datetime
-C,clinical_notes,N00235,,invalid date:note_datetime
-C,clinical_notes,N00253,,invalid date:note_datetime
-C,clinical_notes,N00255,,invalid date:note_datetime
-C,clinical_notes,N00286,,invalid date:note_datetime
-C,clinical_notes,N00289,,invalid date:note_datetime
-C,clinical_notes,N00293,,invalid date:note_datetime
-C,clinical_notes,N00333,,invalid date:note_datetime
-C,clinical_notes,N00342,,invalid date:note_datetime
-C,clinical_notes,N00351,,invalid date:note_datetime
-C,clinical_notes,N00367,,invalid date:note_datetime
-C,clinical_notes,N00377,,invalid date:note_datetime
-C,clinical_notes,N00378,,invalid date:note_datetime
-C,clinical_notes,N00393,,invalid date:note_datetime
-C,clinical_notes,N00405,,invalid date:note_datetime
-C,clinical_notes,N00420,,invalid date:note_datetime
-C,clinical_notes,N00448,,invalid date:note_datetime
-C,clinical_notes,N00454,,invalid date:note_datetime
-C,clinical_notes,N00461,,invalid date:note_datetime
-D,clinical_notes,N00002,,invalid date:note_datetime
-D,clinical_notes,N00007,,invalid date:note_datetime
-D,clinical_notes,N00010,,invalid date:note_datetime
-D,clinical_notes,N00025,,invalid date:note_datetime
-D,clinical_notes,N00033,,invalid date:note_datetime
-D,clinical_notes,N00042,,invalid date:note_datetime
-D,clinical_notes,N00046,,invalid date:note_datetime
-D,clinical_notes,N00051,,invalid date:note_datetime
-D,clinical_notes,N00078,,invalid date:note_datetime
-D,clinical_notes,N00085,,invalid date:note_datetime
-D,clinical_notes,N00120,,invalid date:note_datetime
-D,clinical_notes,N00126,,invalid date:note_datetime
-D,clinical_notes,N00172,,invalid date:note_datetime
-D,clinical_notes,N00182,,invalid date:note_datetime
-D,clinical_notes,N00186,,invalid date:note_datetime
-D,clinical_notes,N00221,,invalid date:note_datetime
-D,clinical_notes,N00225,,invalid date:note_datetime
-D,clinical_notes,N00235,,invalid date:note_datetime
-D,clinical_notes,N00236,,invalid date:note_datetime
-D,clinical_notes,N00262,,invalid date:note_datetime
-D,clinical_notes,N00266,,invalid date:note_datetime
-D,clinical_notes,N00276,,invalid date:note_datetime
-D,clinical_notes,N00288,,invalid date:note_datetime
-D,clinical_notes,N00290,,invalid date:note_datetime
-D,clinical_notes,N00309,,invalid date:note_datetime
-D,clinical_notes,N00334,,invalid date:note_datetime
-D,clinical_notes,N00348,,invalid date:note_datetime
-D,clinical_notes,N00351,,invalid date:note_datetime
-D,clinical_notes,N00383,,invalid date:note_datetime
-D,clinical_notes,N00385,,invalid date:note_datetime
-D,clinical_notes,N00390,,invalid date:note_datetime
-D,clinical_notes,N00399,,invalid date:note_datetime
-D,clinical_notes,N00426,,invalid date:note_datetime
-A,clinical_notes,N00002,,happened before the admission: note_datetime
-A,clinical_notes,N00019,,happened before the admission: note_datetime
-A,clinical_notes,N00020,,happened before the admission: note_datetime
-A,clinical_notes,N00022,,happened before the admission: note_datetime
-A,clinical_notes,N00027,,happened before the admission: note_datetime
-A,clinical_notes,N00063,,happened before the admission: note_datetime
-A,clinical_notes,N00066,,happened before the admission: note_datetime
-A,clinical_notes,N00077,,happened before the admission: note_datetime
-A,clinical_notes,N00091,,happened before the admission: note_datetime
-A,clinical_notes,N00102,,happened before the admission: note_datetime
-A,clinical_notes,N00140,,happened before the admission: note_datetime
-A,clinical_notes,N00144,,happened before the admission: note_datetime
-A,clinical_notes,N00153,,happened before the admission: note_datetime
-A,clinical_notes,N00161,,happened before the admission: note_datetime
-A,clinical_notes,N00165,,happened before the admission: note_datetime
-A,clinical_notes,N00167,,happened before the admission: note_datetime
-A,clinical_notes,N00172,,happened before the admission: note_datetime
-A,clinical_notes,N00174,,happened before the admission: note_datetime
-A,clinical_notes,N00214,,happened before the admission: note_datetime
-A,clinical_notes,N00221,,happened before the admission: note_datetime
-A,clinical_notes,N00241,,happened before the admission: note_datetime
-A,clinical_notes,N00253,,happened before the admission: note_datetime
-A,clinical_notes,N00255,,happened before the admission: note_datetime
-A,clinical_notes,N00291,,happened before the admission: note_datetime
-A,clinical_notes,N00314,,happened before the admission: note_datetime
-A,clinical_notes,N00344,,happened before the admission: note_datetime
-A,clinical_notes,N00350,,happened before the admission: note_datetime
-A,clinical_notes,N00374,,happened before the admission: note_datetime
-A,clinical_notes,N00383,,happened before the admission: note_datetime
-A,clinical_notes,N00387,,happened before the admission: note_datetime
-A,clinical_notes,N00419,,happened before the admission: note_datetime
-A,clinical_notes,N00430,,happened before the admission: note_datetime
-A,clinical_notes,N00448,,happened before the admission: note_datetime
-A,clinical_notes,N00459,,happened before the admission: note_datetime
-B,clinical_notes,N00004,,happened before the admission: note_datetime
-B,clinical_notes,N00017,,happened before the admission: note_datetime
-B,clinical_notes,N00046,,happened before the admission: note_datetime
-B,clinical_notes,N00067,,happened before the admission: note_datetime
-B,clinical_notes,N00082,,happened before the admission: note_datetime
-B,clinical_notes,N00115,,happened before the admission: note_datetime
-B,clinical_notes,N00152,,happened before the admission: note_datetime
-B,clinical_notes,N00163,,happened before the admission: note_datetime
-B,clinical_notes,N00170,,happened before the admission: note_datetime
-B,clinical_notes,N00173,,happened before the admission: note_datetime
-B,clinical_notes,N00218,,happened before the admission: note_datetime
-B,clinical_notes,N00236,,happened before the admission: note_datetime
-B,clinical_notes,N00243,,happened before the admission: note_datetime
-B,clinical_notes,N00247,,happened before the admission: note_datetime
-B,clinical_notes,N00251,,happened before the admission: note_datetime
-B,clinical_notes,N00270,,happened before the admission: note_datetime
-B,clinical_notes,N00296,,happened before the admission: note_datetime
-B,clinical_notes,N00304,,happened before the admission: note_datetime
-B,clinical_notes,N00353,,happened before the admission: note_datetime
-B,clinical_notes,N00355,,happened before the admission: note_datetime
-B,clinical_notes,N00360,,happened before the admission: note_datetime
-B,clinical_notes,N00362,,happened before the admission: note_datetime
-B,clinical_notes,N00364,,happened before the admission: note_datetime
-B,clinical_notes,N00382,,happened before the admission: note_datetime
-B,clinical_notes,N00385,,happened before the admission: note_datetime
-B,clinical_notes,N00393,,happened before the admission: note_datetime
-B,clinical_notes,N00431,,happened before the admission: note_datetime
-B,clinical_notes,N00437,,happened before the admission: note_datetime
-C,clinical_notes,N00088,,happened before the admission: note_datetime
-C,clinical_notes,N00093,,happened before the admission: note_datetime
-C,clinical_notes,N00096,,happened before the admission: note_datetime
-C,clinical_notes,N00117,,happened before the admission: note_datetime
-C,clinical_notes,N00125,,happened before the admission: note_datetime
-C,clinical_notes,N00127,,happened before the admission: note_datetime
-C,clinical_notes,N00132,,happened before the admission: note_datetime
-C,clinical_notes,N00136,,happened before the admission: note_datetime
-C,clinical_notes,N00148,,happened before the admission: note_datetime
-C,clinical_notes,N00154,,happened before the admission: note_datetime
-C,clinical_notes,N00156,,happened before the admission: note_datetime
-C,clinical_notes,N00180,,happened before the admission: note_datetime
-C,clinical_notes,N00188,,happened before the admission: note_datetime
-C,clinical_notes,N00189,,happened before the admission: note_datetime
-C,clinical_notes,N00195,,happened before the admission: note_datetime
-C,clinical_notes,N00211,,happened before the admission: note_datetime
-C,clinical_notes,N00228,,happened before the admission: note_datetime
-C,clinical_notes,N00256,,happened before the admission: note_datetime
-C,clinical_notes,N00257,,happened before the admission: note_datetime
-C,clinical_notes,N00295,,happened before the admission: note_datetime
-C,clinical_notes,N00320,,happened before the admission: note_datetime
-C,clinical_notes,N00323,,happened before the admission: note_datetime
-C,clinical_notes,N00345,,happened before the admission: note_datetime
-C,clinical_notes,N00379,,happened before the admission: note_datetime
-C,clinical_notes,N00388,,happened before the admission: note_datetime
-C,clinical_notes,N00389,,happened before the admission: note_datetime
-C,clinical_notes,N00400,,happened before the admission: note_datetime
-C,clinical_notes,N00402,,happened before the admission: note_datetime
-C,clinical_notes,N00441,,happened before the admission: note_datetime
-C,clinical_notes,N00450,,happened before the admission: note_datetime
-C,clinical_notes,N00459,,happened before the admission: note_datetime
-D,clinical_notes,N00016,,happened before the admission: note_datetime
-D,clinical_notes,N00035,,happened before the admission: note_datetime
-D,clinical_notes,N00038,,happened before the admission: note_datetime
-D,clinical_notes,N00047,,happened before the admission: note_datetime
-D,clinical_notes,N00055,,happened before the admission: note_datetime
-D,clinical_notes,N00080,,happened before the admission: note_datetime
-D,clinical_notes,N00084,,happened before the admission: note_datetime
-D,clinical_notes,N00087,,happened before the admission: note_datetime
-D,clinical_notes,N00099,,happened before the admission: note_datetime
-D,clinical_notes,N00107,,happened before the admission: note_datetime
-D,clinical_notes,N00152,,happened before the admission: note_datetime
-D,clinical_notes,N00155,,happened before the admission: note_datetime
-D,clinical_notes,N00156,,happened before the admission: note_datetime
-D,clinical_notes,N00205,,happened before the admission: note_datetime
-D,clinical_notes,N00211,,happened before the admission: note_datetime
-D,clinical_notes,N00227,,happened before the admission: note_datetime
-D,clinical_notes,N00257,,happened before the admission: note_datetime
-D,clinical_notes,N00289,,happened before the admission: note_datetime
-D,clinical_notes,N00324,,happened before the admission: note_datetime
-D,clinical_notes,N00330,,happened before the admission: note_datetime
-D,clinical_notes,N00355,,happened before the admission: note_datetime
-D,clinical_notes,N00361,,happened before the admission: note_datetime
-D,clinical_notes,N00366,,happened before the admission: note_datetime
-D,clinical_notes,N00388,,happened before the admission: note_datetime
-D,clinical_notes,N00397,,happened before the admission: note_datetime
-D,clinical_notes,N00405,,happened before the admission: note_datetime
-D,clinical_notes,N00420,,happened before the admission: note_datetime
-D,clinical_notes,N00429,,happened before the admission: note_datetime
-D,clinical_notes,N00455,,happened before the admission: note_datetime
-A,clinical_notes,N00018,,points to a admissions record that does not exist: admission_id
-A,clinical_notes,N00021,,points to a admissions record that does not exist: admission_id
-A,clinical_notes,N00026,,points to a admissions record that does not exist: admission_id
-A,clinical_notes,N00029,,points to a admissions record that does not exist: admission_id
-A,clinical_notes,N00035,,points to a admissions record that does not exist: admission_id
-A,clinical_notes,N00057,,points to a admissions record that does not exist: admission_id
-A,clinical_notes,N00062,,points to a admissions record that does not exist: admission_id
-A,clinical_notes,N00071,,points to a admissions record that does not exist: admission_id
-A,clinical_notes,N00078,,points to a admissions record that does not exist: admission_id
-A,clinical_notes,N00129,,points to a admissions record that does not exist: admission_id
-A,clinical_notes,N00186,,points to a admissions record that does not exist: admission_id
-A,clinical_notes,N00197,,points to a admissions record that does not exist: admission_id
-A,clinical_notes,N00239,,points to a admissions record that does not exist: admission_id
-A,clinical_notes,N00285,,points to a admissions record that does not exist: admission_id
-A,clinical_notes,N00294,,points to a admissions record that does not exist: admission_id
-A,clinical_notes,N00302,,points to a admissions record that does not exist: admission_id
-A,clinical_notes,N00318,,points to a admissions record that does not exist: admission_id
-A,clinical_notes,N00337,,points to a admissions record that does not exist: admission_id
-A,clinical_notes,N00360,,points to a admissions record that does not exist: admission_id
-A,clinical_notes,N00376,,points to a admissions record that does not exist: admission_id
-A,clinical_notes,N00392,,points to a admissions record that does not exist: admission_id
-A,clinical_notes,N00421,,points to a admissions record that does not exist: admission_id
-A,clinical_notes,N00434,,points to a admissions record that does not exist: admission_id
-A,clinical_notes,N00436,,points to a admissions record that does not exist: admission_id
-A,clinical_notes,N00453,,points to a admissions record that does not exist: admission_id
-A,clinical_notes,N00456,,points to a admissions record that does not exist: admission_id
-A,clinical_notes,N00461,,points to a admissions record that does not exist: admission_id
-A,clinical_notes,N00463,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00001,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00020,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00029,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00039,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00062,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00076,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00077,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00080,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00136,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00147,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00151,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00164,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00201,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00206,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00210,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00216,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00227,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00239,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00257,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00263,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00294,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00299,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00332,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00336,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00348,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00388,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00389,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00400,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00406,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00410,,points to a admissions record that does not exist: admission_id
-B,clinical_notes,N00432,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00013,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00029,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00035,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00063,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00073,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00097,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00100,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00111,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00128,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00130,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00174,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00175,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00197,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00203,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00217,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00232,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00247,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00252,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00292,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00296,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00336,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00338,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00340,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00347,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00350,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00370,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00371,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00374,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00386,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00429,,points to a admissions record that does not exist: admission_id
-C,clinical_notes,N00434,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00050,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00056,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00067,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00089,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00098,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00130,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00133,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00138,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00139,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00142,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00146,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00174,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00197,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00230,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00254,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00267,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00268,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00295,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00297,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00307,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00318,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00345,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00352,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00359,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00371,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00384,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00386,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00425,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00427,,points to a admissions record that does not exist: admission_id
-D,clinical_notes,N00458,,points to a admissions record that does not exist: admission_id
+source,table,record_id,problem
+A,triage_assessments,T00094,missing needed value:triage_nurse
+A,triage_assessments,T00121,missing needed value:triage_nurse
+A,triage_assessments,T00144,missing needed value:triage_nurse
+A,triage_assessments,T00171,missing needed value:triage_nurse
+A,triage_assessments,T00283,missing needed value:triage_nurse
+A,triage_assessments,T00298,missing needed value:triage_nurse
+A,triage_assessments,T00400,missing needed value:triage_nurse
+A,triage_assessments,T00411,missing needed value:triage_nurse
+A,triage_assessments,T00440,missing needed value:triage_nurse
+A,triage_assessments,T00454,missing needed value:triage_nurse
+A,triage_assessments,T00516,missing needed value:triage_nurse
+A,triage_assessments,T00522,missing needed value:triage_nurse
+A,triage_assessments,T00578,missing needed value:triage_nurse
+A,triage_assessments,T00581,missing needed value:triage_nurse
+A,triage_assessments,T00611,missing needed value:triage_nurse
+A,triage_assessments,T00651,missing needed value:triage_nurse
+A,triage_assessments,T00680,missing needed value:triage_nurse
+A,clinical_notes,N00003,missing needed value:author_physician
+A,clinical_notes,N00045,missing needed value:author_physician
+A,clinical_notes,N00114,missing needed value:author_physician
+A,clinical_notes,N00126,missing needed value:author_physician
+A,clinical_notes,N00170,missing needed value:author_physician
+A,clinical_notes,N00179,missing needed value:author_physician
+A,clinical_notes,N00199,missing needed value:author_physician
+A,clinical_notes,N00233,missing needed value:author_physician
+A,clinical_notes,N00244,missing needed value:author_physician
+A,clinical_notes,N00329,missing needed value:author_physician
+A,clinical_notes,N00339,missing needed value:author_physician
+A,clinical_notes,N00373,missing needed value:author_physician
+A,clinical_notes,N00397,missing needed value:author_physician
+A,clinical_notes,N00403,missing needed value:author_physician
+A,clinical_notes,N00435,missing needed value:author_physician
+A,clinical_notes,N00003,missing needed value:author_physician
+B,triage_assessments,T00011,missing needed value:triage_nurse
+B,triage_assessments,T00122,missing needed value:triage_nurse
+B,triage_assessments,T00131,missing needed value:triage_nurse
+B,triage_assessments,T00159,missing needed value:triage_nurse
+B,triage_assessments,T00226,missing needed value:triage_nurse
+B,triage_assessments,T00253,missing needed value:triage_nurse
+B,triage_assessments,T00260,missing needed value:triage_nurse
+B,triage_assessments,T00330,missing needed value:triage_nurse
+B,triage_assessments,T00367,missing needed value:triage_nurse
+B,triage_assessments,T00373,missing needed value:triage_nurse
+B,triage_assessments,T00398,missing needed value:triage_nurse
+B,triage_assessments,T00402,missing needed value:triage_nurse
+B,triage_assessments,T00479,missing needed value:triage_nurse
+B,triage_assessments,T00637,missing needed value:triage_nurse
+B,triage_assessments,T00646,missing needed value:triage_nurse
+B,triage_assessments,T00671,missing needed value:triage_nurse
+B,triage_assessments,T00693,missing needed value:triage_nurse
+B,clinical_notes,N00024,missing needed value:author_physician
+B,clinical_notes,N00041,missing needed value:author_physician
+B,clinical_notes,N00091,missing needed value:author_physician
+B,clinical_notes,N00114,missing needed value:author_physician
+B,clinical_notes,N00118,missing needed value:author_physician
+B,clinical_notes,N00137,missing needed value:author_physician
+B,clinical_notes,N00149,missing needed value:author_physician
+B,clinical_notes,N00169,missing needed value:author_physician
+B,clinical_notes,N00172,missing needed value:author_physician
+B,clinical_notes,N00179,missing needed value:author_physician
+B,clinical_notes,N00213,missing needed value:author_physician
+B,clinical_notes,N00249,missing needed value:author_physician
+B,clinical_notes,N00260,missing needed value:author_physician
+B,clinical_notes,N00291,missing needed value:author_physician
+B,clinical_notes,N00309,missing needed value:author_physician
+B,clinical_notes,N00378,missing needed value:author_physician
+B,clinical_notes,N00424,missing needed value:author_physician
+B,clinical_notes,N00427,missing needed value:author_physician
+B,clinical_notes,N00024,missing needed value:author_physician
+C,triage_assessments,T00044,missing needed value:triage_nurse
+C,triage_assessments,T00068,missing needed value:triage_nurse
+C,triage_assessments,T00136,missing needed value:triage_nurse
+C,triage_assessments,T00156,missing needed value:triage_nurse
+C,triage_assessments,T00216,missing needed value:triage_nurse
+C,triage_assessments,T00218,missing needed value:triage_nurse
+C,triage_assessments,T00230,missing needed value:triage_nurse
+C,triage_assessments,T00292,missing needed value:triage_nurse
+C,triage_assessments,T00303,missing needed value:triage_nurse
+C,triage_assessments,T00471,missing needed value:triage_nurse
+C,triage_assessments,T00500,missing needed value:triage_nurse
+C,triage_assessments,T00525,missing needed value:triage_nurse
+C,triage_assessments,T00560,missing needed value:triage_nurse
+C,triage_assessments,T00644,missing needed value:triage_nurse
+C,triage_assessments,T00649,missing needed value:triage_nurse
+C,triage_assessments,T00665,missing needed value:triage_nurse
+C,triage_assessments,T00670,missing needed value:triage_nurse
+C,clinical_notes,N00018,missing needed value:author_physician
+C,clinical_notes,N00018,missing needed value:author_physician
+C,clinical_notes,N00021,missing needed value:author_physician
+C,clinical_notes,N00021,missing needed value:author_physician
+C,clinical_notes,N00037,missing needed value:author_physician
+C,clinical_notes,N00067,missing needed value:author_physician
+C,clinical_notes,N00090,missing needed value:author_physician
+C,clinical_notes,N00183,missing needed value:author_physician
+C,clinical_notes,N00191,missing needed value:author_physician
+C,clinical_notes,N00204,missing needed value:author_physician
+C,clinical_notes,N00241,missing needed value:author_physician
+C,clinical_notes,N00284,missing needed value:author_physician
+C,clinical_notes,N00298,missing needed value:author_physician
+C,clinical_notes,N00343,missing needed value:author_physician
+C,clinical_notes,N00364,missing needed value:author_physician
+C,clinical_notes,N00396,missing needed value:author_physician
+C,clinical_notes,N00424,missing needed value:author_physician
+C,clinical_notes,N00430,missing needed value:author_physician
+D,triage_assessments,T00137,missing needed value:triage_nurse
+D,triage_assessments,T00217,missing needed value:triage_nurse
+D,triage_assessments,T00243,missing needed value:triage_nurse
+D,triage_assessments,T00279,missing needed value:triage_nurse
+D,triage_assessments,T00333,missing needed value:triage_nurse
+D,triage_assessments,T00369,missing needed value:triage_nurse
+D,triage_assessments,T00432,missing needed value:triage_nurse
+D,triage_assessments,T00453,missing needed value:triage_nurse
+D,triage_assessments,T00505,missing needed value:triage_nurse
+D,triage_assessments,T00506,missing needed value:triage_nurse
+D,triage_assessments,T00535,missing needed value:triage_nurse
+D,triage_assessments,T00572,missing needed value:triage_nurse
+D,triage_assessments,T00614,missing needed value:triage_nurse
+D,triage_assessments,T00621,missing needed value:triage_nurse
+D,triage_assessments,T00680,missing needed value:triage_nurse
+D,triage_assessments,T00694,missing needed value:triage_nurse
+D,triage_assessments,T00696,missing needed value:triage_nurse
+D,clinical_notes,N00014,missing needed value:author_physician
+D,clinical_notes,N00014,missing needed value:author_physician
+D,clinical_notes,N00096,missing needed value:author_physician
+D,clinical_notes,N00153,missing needed value:author_physician
+D,clinical_notes,N00154,missing needed value:author_physician
+D,clinical_notes,N00163,missing needed value:author_physician
+D,clinical_notes,N00181,missing needed value:author_physician
+D,clinical_notes,N00210,missing needed value:author_physician
+D,clinical_notes,N00212,missing needed value:author_physician
+D,clinical_notes,N00250,missing needed value:author_physician
+D,clinical_notes,N00275,missing needed value:author_physician
+D,clinical_notes,N00285,missing needed value:author_physician
+D,clinical_notes,N00292,missing needed value:author_physician
+D,clinical_notes,N00303,missing needed value:author_physician
+D,clinical_notes,N00343,missing needed value:author_physician
+D,clinical_notes,N00364,missing needed value:author_physician
+D,clinical_notes,N00434,missing needed value:author_physician
+A,clinical_notes,N00015,invalid date:note_datetime
+A,clinical_notes,N00041,invalid date:note_datetime
+A,clinical_notes,N00049,invalid date:note_datetime
+A,clinical_notes,N00056,invalid date:note_datetime
+A,clinical_notes,N00061,invalid date:note_datetime
+A,clinical_notes,N00069,invalid date:note_datetime
+A,clinical_notes,N00073,invalid date:note_datetime
+A,clinical_notes,N00088,invalid date:note_datetime
+A,clinical_notes,N00089,invalid date:note_datetime
+A,clinical_notes,N00120,invalid date:note_datetime
+A,clinical_notes,N00148,invalid date:note_datetime
+A,clinical_notes,N00160,invalid date:note_datetime
+A,clinical_notes,N00163,invalid date:note_datetime
+A,clinical_notes,N00289,invalid date:note_datetime
+A,clinical_notes,N00330,invalid date:note_datetime
+A,clinical_notes,N00334,invalid date:note_datetime
+A,clinical_notes,N00336,invalid date:note_datetime
+A,clinical_notes,N00341,invalid date:note_datetime
+A,clinical_notes,N00342,invalid date:note_datetime
+A,clinical_notes,N00362,invalid date:note_datetime
+A,clinical_notes,N00367,invalid date:note_datetime
+A,clinical_notes,N00368,invalid date:note_datetime
+A,clinical_notes,N00384,invalid date:note_datetime
+A,clinical_notes,N00395,invalid date:note_datetime
+A,clinical_notes,N00411,invalid date:note_datetime
+A,clinical_notes,N00412,invalid date:note_datetime
+A,clinical_notes,N00423,invalid date:note_datetime
+B,clinical_notes,N00011,invalid date:note_datetime
+B,clinical_notes,N00016,invalid date:note_datetime
+B,clinical_notes,N00022,invalid date:note_datetime
+B,clinical_notes,N00026,invalid date:note_datetime
+B,clinical_notes,N00030,invalid date:note_datetime
+B,clinical_notes,N00031,invalid date:note_datetime
+B,clinical_notes,N00037,invalid date:note_datetime
+B,clinical_notes,N00051,invalid date:note_datetime
+B,clinical_notes,N00054,invalid date:note_datetime
+B,clinical_notes,N00083,invalid date:note_datetime
+B,clinical_notes,N00085,invalid date:note_datetime
+B,clinical_notes,N00098,invalid date:note_datetime
+B,clinical_notes,N00101,invalid date:note_datetime
+B,clinical_notes,N00120,invalid date:note_datetime
+B,clinical_notes,N00127,invalid date:note_datetime
+B,clinical_notes,N00143,invalid date:note_datetime
+B,clinical_notes,N00202,invalid date:note_datetime
+B,clinical_notes,N00219,invalid date:note_datetime
+B,clinical_notes,N00289,invalid date:note_datetime
+B,clinical_notes,N00295,invalid date:note_datetime
+B,clinical_notes,N00301,invalid date:note_datetime
+B,clinical_notes,N00335,invalid date:note_datetime
+B,clinical_notes,N00346,invalid date:note_datetime
+B,clinical_notes,N00351,invalid date:note_datetime
+B,clinical_notes,N00370,invalid date:note_datetime
+B,clinical_notes,N00371,invalid date:note_datetime
+B,clinical_notes,N00377,invalid date:note_datetime
+B,clinical_notes,N00409,invalid date:note_datetime
+B,clinical_notes,N00433,invalid date:note_datetime
+B,clinical_notes,N00434,invalid date:note_datetime
+B,clinical_notes,N00456,invalid date:note_datetime
+B,clinical_notes,N00461,invalid date:note_datetime
+B,clinical_notes,N00465,invalid date:note_datetime
+C,clinical_notes,N00006,invalid date:note_datetime
+C,clinical_notes,N00008,invalid date:note_datetime
+C,clinical_notes,N00030,invalid date:note_datetime
+C,clinical_notes,N00047,invalid date:note_datetime
+C,clinical_notes,N00049,invalid date:note_datetime
+C,clinical_notes,N00087,invalid date:note_datetime
+C,clinical_notes,N00095,invalid date:note_datetime
+C,clinical_notes,N00118,invalid date:note_datetime
+C,clinical_notes,N00119,invalid date:note_datetime
+C,clinical_notes,N00149,invalid date:note_datetime
+C,clinical_notes,N00159,invalid date:note_datetime
+C,clinical_notes,N00207,invalid date:note_datetime
+C,clinical_notes,N00218,invalid date:note_datetime
+C,clinical_notes,N00235,invalid date:note_datetime
+C,clinical_notes,N00253,invalid date:note_datetime
+C,clinical_notes,N00255,invalid date:note_datetime
+C,clinical_notes,N00286,invalid date:note_datetime
+C,clinical_notes,N00289,invalid date:note_datetime
+C,clinical_notes,N00293,invalid date:note_datetime
+C,clinical_notes,N00333,invalid date:note_datetime
+C,clinical_notes,N00342,invalid date:note_datetime
+C,clinical_notes,N00351,invalid date:note_datetime
+C,clinical_notes,N00367,invalid date:note_datetime
+C,clinical_notes,N00377,invalid date:note_datetime
+C,clinical_notes,N00378,invalid date:note_datetime
+C,clinical_notes,N00393,invalid date:note_datetime
+C,clinical_notes,N00405,invalid date:note_datetime
+C,clinical_notes,N00420,invalid date:note_datetime
+C,clinical_notes,N00448,invalid date:note_datetime
+C,clinical_notes,N00454,invalid date:note_datetime
+C,clinical_notes,N00461,invalid date:note_datetime
+D,clinical_notes,N00002,invalid date:note_datetime
+D,clinical_notes,N00007,invalid date:note_datetime
+D,clinical_notes,N00010,invalid date:note_datetime
+D,clinical_notes,N00025,invalid date:note_datetime
+D,clinical_notes,N00033,invalid date:note_datetime
+D,clinical_notes,N00042,invalid date:note_datetime
+D,clinical_notes,N00046,invalid date:note_datetime
+D,clinical_notes,N00051,invalid date:note_datetime
+D,clinical_notes,N00078,invalid date:note_datetime
+D,clinical_notes,N00085,invalid date:note_datetime
+D,clinical_notes,N00120,invalid date:note_datetime
+D,clinical_notes,N00126,invalid date:note_datetime
+D,clinical_notes,N00172,invalid date:note_datetime
+D,clinical_notes,N00182,invalid date:note_datetime
+D,clinical_notes,N00186,invalid date:note_datetime
+D,clinical_notes,N00221,invalid date:note_datetime
+D,clinical_notes,N00225,invalid date:note_datetime
+D,clinical_notes,N00235,invalid date:note_datetime
+D,clinical_notes,N00236,invalid date:note_datetime
+D,clinical_notes,N00262,invalid date:note_datetime
+D,clinical_notes,N00266,invalid date:note_datetime
+D,clinical_notes,N00276,invalid date:note_datetime
+D,clinical_notes,N00288,invalid date:note_datetime
+D,clinical_notes,N00290,invalid date:note_datetime
+D,clinical_notes,N00309,invalid date:note_datetime
+D,clinical_notes,N00334,invalid date:note_datetime
+D,clinical_notes,N00348,invalid date:note_datetime
+D,clinical_notes,N00351,invalid date:note_datetime
+D,clinical_notes,N00383,invalid date:note_datetime
+D,clinical_notes,N00385,invalid date:note_datetime
+D,clinical_notes,N00390,invalid date:note_datetime
+D,clinical_notes,N00399,invalid date:note_datetime
+D,clinical_notes,N00426,invalid date:note_datetime
+A,clinical_notes,N00002,happened before the admission: note_datetime
+A,clinical_notes,N00019,happened before the admission: note_datetime
+A,clinical_notes,N00020,happened before the admission: note_datetime
+A,clinical_notes,N00022,happened before the admission: note_datetime
+A,clinical_notes,N00027,happened before the admission: note_datetime
+A,clinical_notes,N00063,happened before the admission: note_datetime
+A,clinical_notes,N00066,happened before the admission: note_datetime
+A,clinical_notes,N00077,happened before the admission: note_datetime
+A,clinical_notes,N00091,happened before the admission: note_datetime
+A,clinical_notes,N00102,happened before the admission: note_datetime
+A,clinical_notes,N00140,happened before the admission: note_datetime
+A,clinical_notes,N00144,happened before the admission: note_datetime
+A,clinical_notes,N00153,happened before the admission: note_datetime
+A,clinical_notes,N00161,happened before the admission: note_datetime
+A,clinical_notes,N00165,happened before the admission: note_datetime
+A,clinical_notes,N00167,happened before the admission: note_datetime
+A,clinical_notes,N00172,happened before the admission: note_datetime
+A,clinical_notes,N00174,happened before the admission: note_datetime
+A,clinical_notes,N00214,happened before the admission: note_datetime
+A,clinical_notes,N00221,happened before the admission: note_datetime
+A,clinical_notes,N00241,happened before the admission: note_datetime
+A,clinical_notes,N00253,happened before the admission: note_datetime
+A,clinical_notes,N00255,happened before the admission: note_datetime
+A,clinical_notes,N00291,happened before the admission: note_datetime
+A,clinical_notes,N00314,happened before the admission: note_datetime
+A,clinical_notes,N00344,happened before the admission: note_datetime
+A,clinical_notes,N00350,happened before the admission: note_datetime
+A,clinical_notes,N00374,happened before the admission: note_datetime
+A,clinical_notes,N00383,happened before the admission: note_datetime
+A,clinical_notes,N00387,happened before the admission: note_datetime
+A,clinical_notes,N00419,happened before the admission: note_datetime
+A,clinical_notes,N00430,happened before the admission: note_datetime
+A,clinical_notes,N00448,happened before the admission: note_datetime
+A,clinical_notes,N00459,happened before the admission: note_datetime
+B,clinical_notes,N00004,happened before the admission: note_datetime
+B,clinical_notes,N00017,happened before the admission: note_datetime
+B,clinical_notes,N00046,happened before the admission: note_datetime
+B,clinical_notes,N00067,happened before the admission: note_datetime
+B,clinical_notes,N00082,happened before the admission: note_datetime
+B,clinical_notes,N00115,happened before the admission: note_datetime
+B,clinical_notes,N00152,happened before the admission: note_datetime
+B,clinical_notes,N00163,happened before the admission: note_datetime
+B,clinical_notes,N00170,happened before the admission: note_datetime
+B,clinical_notes,N00173,happened before the admission: note_datetime
+B,clinical_notes,N00218,happened before the admission: note_datetime
+B,clinical_notes,N00236,happened before the admission: note_datetime
+B,clinical_notes,N00243,happened before the admission: note_datetime
+B,clinical_notes,N00247,happened before the admission: note_datetime
+B,clinical_notes,N00251,happened before the admission: note_datetime
+B,clinical_notes,N00270,happened before the admission: note_datetime
+B,clinical_notes,N00296,happened before the admission: note_datetime
+B,clinical_notes,N00304,happened before the admission: note_datetime
+B,clinical_notes,N00353,happened before the admission: note_datetime
+B,clinical_notes,N00355,happened before the admission: note_datetime
+B,clinical_notes,N00360,happened before the admission: note_datetime
+B,clinical_notes,N00362,happened before the admission: note_datetime
+B,clinical_notes,N00364,happened before the admission: note_datetime
+B,clinical_notes,N00382,happened before the admission: note_datetime
+B,clinical_notes,N00385,happened before the admission: note_datetime
+B,clinical_notes,N00393,happened before the admission: note_datetime
+B,clinical_notes,N00431,happened before the admission: note_datetime
+B,clinical_notes,N00437,happened before the admission: note_datetime
+C,clinical_notes,N00088,happened before the admission: note_datetime
+C,clinical_notes,N00093,happened before the admission: note_datetime
+C,clinical_notes,N00096,happened before the admission: note_datetime
+C,clinical_notes,N00117,happened before the admission: note_datetime
+C,clinical_notes,N00125,happened before the admission: note_datetime
+C,clinical_notes,N00127,happened before the admission: note_datetime
+C,clinical_notes,N00132,happened before the admission: note_datetime
+C,clinical_notes,N00136,happened before the admission: note_datetime
+C,clinical_notes,N00148,happened before the admission: note_datetime
+C,clinical_notes,N00154,happened before the admission: note_datetime
+C,clinical_notes,N00156,happened before the admission: note_datetime
+C,clinical_notes,N00180,happened before the admission: note_datetime
+C,clinical_notes,N00188,happened before the admission: note_datetime
+C,clinical_notes,N00189,happened before the admission: note_datetime
+C,clinical_notes,N00195,happened before the admission: note_datetime
+C,clinical_notes,N00211,happened before the admission: note_datetime
+C,clinical_notes,N00228,happened before the admission: note_datetime
+C,clinical_notes,N00256,happened before the admission: note_datetime
+C,clinical_notes,N00257,happened before the admission: note_datetime
+C,clinical_notes,N00295,happened before the admission: note_datetime
+C,clinical_notes,N00320,happened before the admission: note_datetime
+C,clinical_notes,N00323,happened before the admission: note_datetime
+C,clinical_notes,N00345,happened before the admission: note_datetime
+C,clinical_notes,N00379,happened before the admission: note_datetime
+C,clinical_notes,N00388,happened before the admission: note_datetime
+C,clinical_notes,N00389,happened before the admission: note_datetime
+C,clinical_notes,N00400,happened before the admission: note_datetime
+C,clinical_notes,N00402,happened before the admission: note_datetime
+C,clinical_notes,N00441,happened before the admission: note_datetime
+C,clinical_notes,N00450,happened before the admission: note_datetime
+C,clinical_notes,N00459,happened before the admission: note_datetime
+D,clinical_notes,N00016,happened before the admission: note_datetime
+D,clinical_notes,N00035,happened before the admission: note_datetime
+D,clinical_notes,N00038,happened before the admission: note_datetime
+D,clinical_notes,N00047,happened before the admission: note_datetime
+D,clinical_notes,N00055,happened before the admission: note_datetime
+D,clinical_notes,N00080,happened before the admission: note_datetime
+D,clinical_notes,N00084,happened before the admission: note_datetime
+D,clinical_notes,N00087,happened before the admission: note_datetime
+D,clinical_notes,N00099,happened before the admission: note_datetime
+D,clinical_notes,N00107,happened before the admission: note_datetime
+D,clinical_notes,N00152,happened before the admission: note_datetime
+D,clinical_notes,N00155,happened before the admission: note_datetime
+D,clinical_notes,N00156,happened before the admission: note_datetime
+D,clinical_notes,N00205,happened before the admission: note_datetime
+D,clinical_notes,N00211,happened before the admission: note_datetime
+D,clinical_notes,N00227,happened before the admission: note_datetime
+D,clinical_notes,N00257,happened before the admission: note_datetime
+D,clinical_notes,N00289,happened before the admission: note_datetime
+D,clinical_notes,N00324,happened before the admission: note_datetime
+D,clinical_notes,N00330,happened before the admission: note_datetime
+D,clinical_notes,N00355,happened before the admission: note_datetime
+D,clinical_notes,N00361,happened before the admission: note_datetime
+D,clinical_notes,N00366,happened before the admission: note_datetime
+D,clinical_notes,N00388,happened before the admission: note_datetime
+D,clinical_notes,N00397,happened before the admission: note_datetime
+D,clinical_notes,N00405,happened before the admission: note_datetime
+D,clinical_notes,N00420,happened before the admission: note_datetime
+D,clinical_notes,N00429,happened before the admission: note_datetime
+D,clinical_notes,N00455,happened before the admission: note_datetime
+A,clinical_notes,N00018,points to a admissions record that does not exist: admission_id
+A,clinical_notes,N00021,points to a admissions record that does not exist: admission_id
+A,clinical_notes,N00026,points to a admissions record that does not exist: admission_id
+A,clinical_notes,N00029,points to a admissions record that does not exist: admission_id
+A,clinical_notes,N00035,points to a admissions record that does not exist: admission_id
+A,clinical_notes,N00057,points to a admissions record that does not exist: admission_id
+A,clinical_notes,N00062,points to a admissions record that does not exist: admission_id
+A,clinical_notes,N00071,points to a admissions record that does not exist: admission_id
+A,clinical_notes,N00078,points to a admissions record that does not exist: admission_id
+A,clinical_notes,N00129,points to a admissions record that does not exist: admission_id
+A,clinical_notes,N00186,points to a admissions record that does not exist: admission_id
+A,clinical_notes,N00197,points to a admissions record that does not exist: admission_id
+A,clinical_notes,N00239,points to a admissions record that does not exist: admission_id
+A,clinical_notes,N00285,points to a admissions record that does not exist: admission_id
+A,clinical_notes,N00294,points to a admissions record that does not exist: admission_id
+A,clinical_notes,N00302,points to a admissions record that does not exist: admission_id
+A,clinical_notes,N00318,points to a admissions record that does not exist: admission_id
+A,clinical_notes,N00337,points to a admissions record that does not exist: admission_id
+A,clinical_notes,N00360,points to a admissions record that does not exist: admission_id
+A,clinical_notes,N00376,points to a admissions record that does not exist: admission_id
+A,clinical_notes,N00392,points to a admissions record that does not exist: admission_id
+A,clinical_notes,N00421,points to a admissions record that does not exist: admission_id
+A,clinical_notes,N00434,points to a admissions record that does not exist: admission_id
+A,clinical_notes,N00436,points to a admissions record that does not exist: admission_id
+A,clinical_notes,N00453,points to a admissions record that does not exist: admission_id
+A,clinical_notes,N00456,points to a admissions record that does not exist: admission_id
+A,clinical_notes,N00461,points to a admissions record that does not exist: admission_id
+A,clinical_notes,N00463,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00001,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00020,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00029,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00039,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00062,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00076,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00077,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00080,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00136,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00147,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00151,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00164,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00201,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00206,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00210,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00216,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00227,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00239,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00257,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00263,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00294,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00299,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00332,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00336,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00348,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00388,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00389,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00400,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00406,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00410,points to a admissions record that does not exist: admission_id
+B,clinical_notes,N00432,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00013,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00029,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00035,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00063,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00073,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00097,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00100,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00111,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00128,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00130,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00174,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00175,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00197,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00203,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00217,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00232,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00247,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00252,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00292,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00296,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00336,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00338,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00340,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00347,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00350,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00370,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00371,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00374,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00386,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00429,points to a admissions record that does not exist: admission_id
+C,clinical_notes,N00434,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00050,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00056,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00067,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00089,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00098,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00130,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00133,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00138,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00139,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00142,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00146,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00174,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00197,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00230,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00254,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00267,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00268,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00295,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00297,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00307,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00318,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00345,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00352,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00359,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00371,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00384,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00386,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00425,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00427,points to a admissions record that does not exist: admission_id
+D,clinical_notes,N00458,points to a admissions record that does not exist: admission_id

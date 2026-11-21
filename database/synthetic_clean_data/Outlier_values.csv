@@ -1,4 +1,4 @@
-source,table,record_id,column,original_value,reason
+source,table,record_id,column,original_value,problem
 A,triage_assessments,T00022,heart_rate,not-a-number,not a number
 A,triage_assessments,T00038,heart_rate,not-a-number,not a number
 A,triage_assessments,T00039,heart_rate,not-a-number,not a number

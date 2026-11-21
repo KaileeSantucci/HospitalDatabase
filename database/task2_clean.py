@@ -142,7 +142,7 @@ print("Extra spaces removed:", spaces_removed)
 #4: mapping each source's category labels to the values allowed by the pahse 1 schema
 # dictionary says: label used by a source (in lowercase) value our schema allows
 
-label_transitions = {
+label_translations = {
     ("admissions", "admission_type"): {
         "emergency": "emergency", "er": "emergency",
         "urgent": "urgent", "urgent admission": "urgent", "urgent care": "urgent",
@@ -172,7 +172,7 @@ label_transitions = {
 }
 labels_mapped = 0  #starts at count 0
 for source in ["A","B","C", "D"]: #going through each hospital source
-    for(table,column), mapping in label_transitions.items(): #each (table,column) and its dictionary
+    for(table,column), mapping in label_translations.items(): #each (table,column) and its dictionary
         df = data[source][table] #the table we are currently cleaning 
         before = df[column].fillna("") #save the values before changing them, so you cna count the change
         df[column] = df[column].apply(lambda x: x.lower() if isinstance(x, str) else x) # lowercase first so 'P1' and 'p1' and spaces like ' p1 ' match the same dictionary key 
@@ -187,7 +187,7 @@ for source in ["A","B","C", "D"]: #going through each hospital source
             if isinstance(value, str) and value not in allowed and value not in missing_labels: #text that is not allowed value 
                 missing_labels.append(value) #add it to the list 
         if len(missing_labels) > 0: #if something was found then print it once
-            print("No translation for", missing_values, "in", source, table, column)
+            print("No translation for", missing_labels, "in", source, table, column)
 print("Category labels mapped:", labels_mapped) #total number of labels changed
 
 #5: Missing values
@@ -247,7 +247,7 @@ for source in ["A", "B", "C", "D"]:
         for column in required:
             missing_rows = df[df[column].isna()] #boolean filtering: rows where this column is empty
             for record_id in missing_rows[id_column]:
-                not_accepted.append({"source": source,"table": table, "record_id": record_id,"reason":"missing needed value:"+column})
+                not_accepted.append({"source": source,"table": table, "record_id": record_id, "problem":"missing needed value:"+column})
             df = df[df[column].notna()] #keep only the rows that have a value
         data[source][table] = df
 print("Records that were not accepted for a missing required value:", len(not_accepted))
@@ -307,11 +307,11 @@ for source in ["A", "B", "C", "D"]:
             if pd.isna(new_value) and pd.notna(old_value): #if it had a value but it was not a number
                 outlier.append({"source": source, "table": "triage_assessments", "record_id": record_id,
                                 "column": column, "original_value": old_value,
-                                "reason": "not a number"})
+                                "problem": "not a number"})
             if pd.notna(new_value) and (new_value < lowest or new_value > highest): #if it is a number, but outside the possible realistic range 
                 outlier.append({"source": source, "table": "triage_assessments", "record_id": record_id,
                                 "column": column, "original_value": old_value,
-                                "reason": "outside the possible range"})
+                                "problem": "outside the possible range"})
         df[column] = df[column].apply(lambda x: None if pd.notna(x) and (x < lowest or x > highest) else x)
    data[source]["triage_assessments"] = df
 print("Invalid numeric values that were flagged and emptied:", len(outlier))
@@ -327,7 +327,7 @@ print("Invalid numeric values that were flagged and emptied:", len(outlier))
 TimeStamps_format = { #how each source writes a date & time
     "A": "%Y-%m-%d %H:%M:%S",
     "B": "%d/%m/%Y %H:%M",
-    "C": "%Y-%m-%dT%H:%M:%S", #%z = the time zone at the end 
+    "C": "%Y-%m-%dT%H:%M:%S",
     "D": "%Y-%m-%dT%H:%M:%S",
 }
 
@@ -377,10 +377,10 @@ for source in ["A","B","C","D"]:
                             outlier.append({"source": source, "table": table, "record_id": record_id, "column": column, "original_value": old_value, "problem": "invalid date"})
                 dates_converted = dates_converted + df[column].notna().sum()
 
-                #removing the records whose required date was invvalid
-            for column in needed_columns[table]:
-                df = df[df[column].notna()]
-            data[source][table] = df
+        #removing the records whose required date was invvalid
+        for column in needed_columns[table]:
+            df = df[df[column].notna()]
+        data[source][table] = df
 print("The Dates converted to UTC:", dates_converted)
 print("Invalid dates that were found:", bad_dates)
 
@@ -416,7 +416,7 @@ for source in ["A", "B", "C", "D"]:
     stays = data[source]["unit_stays"]
     rejected_rows = stays[stays["exit_datetime"] < stays["entry_datetime"]]
     for record_id in rejected_rows["unit_stay_id"]:
-        not_accepted.append({"source": source, "table": "unit_stays", "record_id": record_id, "reason": "left the unit before entering it"})
+        not_accepted.append({"source": source, "table": "unit_stays", "record_id": record_id, "problem": "left the unit before entering it"})
         wrong_order = wrong_order + 1
     bad_ids = list(rejected_rows["unit_stay_id"])
     data[source]["unit_stays"] = stays[stays["unit_stay_id"].apply(lambda x: x not in bad_ids)]
@@ -469,7 +469,7 @@ for source in ["A", "B", "C", "D"]:
             not_accepted.append({"source": source, "table": child, "record_id": record_id, "problem": "points to a " + parent + " record that does not exist: " + column})
 
             missing_parents = missing_parents +1 
-            data[source][child] = df[found]
+        data[source][child] = df[found]
 print("Records removed (parent doesn't exist):", missing_parents)
 
 #10: saving the results 
