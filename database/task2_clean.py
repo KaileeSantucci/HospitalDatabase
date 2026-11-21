@@ -124,7 +124,7 @@ for source in ["B","C", "D"]:
 for table in raw["A"]:
     for source in ["B","C","D"]:
         if list(raw[source][table].columns) != list(raw["A"][table].columns):
-            print("source",source, table, ": columns do not match")
+            print("Columns don't match in", source, table)
 print("Column check finished.")
 
 #3: Removing the extra spaces at the start and end of the text values
@@ -187,7 +187,7 @@ for source in ["A","B","C", "D"]: #going through each hospital source
             if isinstance(value, str) and value not in allowed and value not in missing_labels: #text that is not allowed value 
                 missing_labels.append(value) #add it to the list 
         if len(missing_labels) > 0: #if something was found then print it once
-            print("source", source,table,column,": missing labels", missing_labels)
+            print("No translation for", missing_values, "in", source, table, column)
 print("Category labels mapped:", labels_mapped) #total number of labels changed
 
 #5: Missing values
@@ -363,7 +363,7 @@ for source in ["A","B","C","D"]:
                         df[column] = df[column].apply(lambda x: x[:19] if isinstance(x,str)else x)
                     df[column] = pd.to_datetime(df[column], format = TimeStamps_format[source], errors = "coerce") #a value that is not a valid date becomes emtpy
                     df[column] = df[column]-pd.Timedelta(hours=time_difference[source]) #Timedelta : means the length of time, subtracts the source's time differnce 
-                    
+
                 if column == "date_of_birth":#date only column : date of firth (no time = no time zone)
                     df[column] = pd.to_datetime(df[column], format = date_format[source], errors = 'coerce').dt.date 
 
@@ -384,7 +384,95 @@ for source in ["A","B","C","D"]:
 print("The Dates converted to UTC:", dates_converted)
 print("Invalid dates that were found:", bad_dates)
 
-           
+#9: chronology (events in the right order) and relationships (references that exist)
+
+#chronology
+#the event of an admission can't happen before the patient was admitted 
+event_times = {
+    "triage_assessments": "assessment_datetime",
+    "clinical_notes": "note_datetime",
+    "unit_stays": "entry_datetime",
+    "diagnoses": "diagnosis_datetime",
+    "diagnostic_orders": "request_datetime",
+    "radiology_examinations": "exam_datetime",
+    "surgical_procedures": "procedure_datetime",
+    "discharge_records": "discharge_datetime",
+}
+
+wrong_order = 0
+for source in ["A", "B", "C", "D"]:
+    admissions = raw[source]["admissions"]
+
+    #an admission can't be discharged before it started
+    rejected_rows = admissions[admissions["discharge_datetime"] < admissions["admission_datetime"]]
+    for record_id in rejected_rows["admission_id"]:
+        not_accepted.append({"source": source, "table": "admissions", "record_id": record_id, "problem": "discharged before admission"})
+        wrong_order = wrong_order + 1
+    bad_ids = list(rejected_rows["admission_id"])
+    admissions = admissions[admissions["admission_id"].apply(lambda x: x not in bad_ids)] #keeping the others
+    raw[source]["admissions"] = admissions
+
+    #a unit stay can't end before it started 
+    stays = raw[source]["unit_stays"]
+    rejected_rows = stays[stays["exit_datetime"] < stays["entry_datetime"]]
+    for record_id in rejected_rows["unit_stay_id"]:
+        not_accepted.append({"source": source, "table": "unit_stays", "record_id": record_id, "reason": "left the unit before entering it"})
+        wrong_order = wrong_order + 1
+    bad_ids = list(rejected_rows["unit_stay_id"])
+    raw[source]["unit_stays"] = stays[stays["unit_stay_id"].apply(lambda x: x not in bad_ids)]
+
+    #every event must happen at or after its admission
+    for table, time_column in event_times.items():
+        df = raw[source][table]
+        id_column = df.columns[0]
+
+        joined = pd.merge(df,admissions[["admission_id", "admission_datetime"]], on="admission_id", how="left") #merge (like when doing an SQL JOIN) add the admission time next to each event
+        before_admissions = joined[joined[time_column] < joined["admission_datetime"]]
+        for record_id in before_admissions[id_column]:
+            not_accepted.append({"source": source, "table": table,"record_id": record_id, "problem": "happened before the admission: " + time_column})
+
+            wrong_order = wrong_order + 1
+        bad_ids = list(before_admissions[id_column])
+        raw[source][table] = df[df[id_column].apply(lambda x: x not in bad_ids)]
+print("Records removed (happened before admission):", wrong_order)
+
+
+#Relationship
+relationships = [
+    ("admissions", "patient_id", "patients"),
+    ("diagnoses", "admission_id", "admissions"),
+    ("diagnoses", "patient_id", "patients"),
+    ("diagnoses", "icd9_code", "icd9_dictionary"),
+    ("triage_assessments", "admission_id", "admissions"),
+    ("clinical_notes", "admission_id", "admissions"),
+    ("unit_stays", "admission_id", "admissions"),
+    ("diagnostic_orders", "admission_id", "admissions"),
+    ("diagnostic_examinations", "order_id", "diagnostic_orders"),
+    ("radiology_examinations", "admission_id", "admissions"),
+    ("radiology_examinations", "order_id", "diagnostic_orders"),
+    ("radiology_reports", "radiology_exam_id", "radiology_examinations"),
+    ("surgical_procedures", "admission_id", "admissions"),
+    ("discharge_records", "admission_id", "admissions"),
+]
+
+missing_parents = 0
+for source in ["A", "B", "C", "D"]:
+    for child, column, parent in relationships:
+        df = raw[source][child]
+        id_column = df.columns[0]
+        parent_df = raw[source][parent]
+        parent_ids = list(parent_df[parent_df.columns[0]]) #all the ids of the parent table
+
+        #true if the value is one of the parent's ids
+        found = df[column].apply(lambda x: x in parent_ids)
+        for record_id in df[found == False][id_column]:
+            not_accepted.append({"source": source, "table": child, "record_id": record_id, "problem": "points to a " + parent + " record that does not exist: " + column})
+
+            missing_parents = missing_parents +1 
+            raw[source][child] = df[found]
+print("Records removed (parent doesn't exist):", missing_parents)
+
+ 
 
     
 
