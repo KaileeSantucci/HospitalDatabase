@@ -1,0 +1,2705 @@
+<?xml version='1.0' encoding='utf-8'?>
+<hospitalSystem source="C">
+  <admissions>
+    <admission>
+      <admission_id>A01101</admission_id>
+      <patient_id>P00162</patient_id>
+      <admission_datetime>2023-05-20T23:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician21</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01101</diagnosis_id>
+          <patient_id>P00162</patient_id>
+          <admission_id>A01101</admission_id>
+          <icd9_code>038.9</icd9_code>
+          <diagnosis_datetime>2023-05-21T02:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician21</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01102</admission_id>
+      <patient_id>P00163</patient_id>
+      <admission_datetime>2023-05-21T10:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician22</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01102</diagnosis_id>
+          <patient_id>P00163</patient_id>
+          <admission_id>A01102</admission_id>
+          <icd9_code>250.00</icd9_code>
+          <diagnosis_datetime>2023-05-21T13:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician22</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01103</admission_id>
+      <patient_id>P00164</patient_id>
+      <admission_datetime>2023-05-21T21:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician23</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01103</diagnosis_id>
+          <patient_id>P00164</patient_id>
+          <admission_id>A01103</admission_id>
+          <icd9_code>272.4</icd9_code>
+          <diagnosis_datetime>2023-05-22T00:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician23</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01104</admission_id>
+      <patient_id>P00165</patient_id>
+      <admission_datetime>2023-05-22T08:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician24</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01104</diagnosis_id>
+          <patient_id>P00165</patient_id>
+          <admission_id>A01104</admission_id>
+          <icd9_code>276.1</icd9_code>
+          <diagnosis_datetime>2023-05-22T11:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician24</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01105</admission_id>
+      <patient_id>P00166</patient_id>
+      <admission_datetime>2023-05-22T19:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician25</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01105</diagnosis_id>
+          <patient_id>P00166</patient_id>
+          <admission_id>A01105</admission_id>
+          <icd9_code>276.8</icd9_code>
+          <diagnosis_datetime>2023-05-22T22:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician25</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01106</admission_id>
+      <patient_id>P00167</patient_id>
+      <admission_datetime>2023-05-23T06:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician26</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01106</diagnosis_id>
+          <patient_id>P00167</patient_id>
+          <admission_id>A01106</admission_id>
+          <icd9_code>285.9</icd9_code>
+          <diagnosis_datetime>2023-05-23T09:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician26</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01107</admission_id>
+      <patient_id>P00168</patient_id>
+      <admission_datetime>2023-05-23T17:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician27</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01107</diagnosis_id>
+          <patient_id>P00168</patient_id>
+          <admission_id>A01107</admission_id>
+          <icd9_code>401.9</icd9_code>
+          <diagnosis_datetime>2023-05-23T20:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician27</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01108</admission_id>
+      <patient_id>P00169</patient_id>
+      <admission_datetime>2023-05-24T04:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician28</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01108</diagnosis_id>
+          <patient_id>P00169</patient_id>
+          <admission_id>A01108</admission_id>
+          <icd9_code>414.01</icd9_code>
+          <diagnosis_datetime>2023-05-24T07:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician28</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01109</admission_id>
+      <patient_id>P00170</patient_id>
+      <admission_datetime>2023-05-24T15:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician29</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01109</diagnosis_id>
+          <patient_id>P00170</patient_id>
+          <admission_id>A01109</admission_id>
+          <icd9_code>427.31</icd9_code>
+          <diagnosis_datetime>2023-05-24T18:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician29</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01110</admission_id>
+      <patient_id>P00171</patient_id>
+      <admission_datetime>2023-05-25T02:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician30</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01110</diagnosis_id>
+          <patient_id>P00171</patient_id>
+          <admission_id>A01110</admission_id>
+          <icd9_code>428.0</icd9_code>
+          <diagnosis_datetime>2023-05-25T05:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician30</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01111</admission_id>
+      <patient_id>P00172</patient_id>
+      <admission_datetime>2023-05-25T13:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician31</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01111</diagnosis_id>
+          <patient_id>P00172</patient_id>
+          <admission_id>A01111</admission_id>
+          <icd9_code>486</icd9_code>
+          <diagnosis_datetime>2023-05-25T16:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician31</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01112</admission_id>
+      <patient_id>P00173</patient_id>
+      <admission_datetime>2023-05-26T00:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician32</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01112</diagnosis_id>
+          <patient_id>P00173</patient_id>
+          <admission_id>A01112</admission_id>
+          <icd9_code>493.90</icd9_code>
+          <diagnosis_datetime>2023-05-26T03:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician32</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01113</admission_id>
+      <patient_id>P00174</patient_id>
+      <admission_datetime>2023-05-26T11:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician33</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01113</diagnosis_id>
+          <patient_id>P00174</patient_id>
+          <admission_id>A01113</admission_id>
+          <icd9_code>518.81</icd9_code>
+          <diagnosis_datetime>2023-05-26T14:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician33</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01114</admission_id>
+      <patient_id>P00175</patient_id>
+      <admission_datetime>2023-05-26T22:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician34</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01114</diagnosis_id>
+          <patient_id>P00175</patient_id>
+          <admission_id>A01114</admission_id>
+          <icd9_code>530.81</icd9_code>
+          <diagnosis_datetime>2023-05-27T01:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician34</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01115</admission_id>
+      <patient_id>P00176</patient_id>
+      <admission_datetime>2023-05-27T09:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician35</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01115</diagnosis_id>
+          <patient_id>P00176</patient_id>
+          <admission_id>A01115</admission_id>
+          <icd9_code>584.9</icd9_code>
+          <diagnosis_datetime>2023-05-27T12:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician35</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01116</admission_id>
+      <patient_id>P00177</patient_id>
+      <admission_datetime>2023-05-27T20:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician36</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01116</diagnosis_id>
+          <patient_id>P00177</patient_id>
+          <admission_id>A01116</admission_id>
+          <icd9_code>599.0</icd9_code>
+          <diagnosis_datetime>2023-05-27T23:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician36</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01117</admission_id>
+      <patient_id>P00178</patient_id>
+      <admission_datetime>2023-05-28T07:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician37</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01117</diagnosis_id>
+          <patient_id>P00178</patient_id>
+          <admission_id>A01117</admission_id>
+          <icd9_code>599.70</icd9_code>
+          <diagnosis_datetime>2023-05-28T10:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician37</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01118</admission_id>
+      <patient_id>P00179</patient_id>
+      <admission_datetime>2023-05-28T18:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician38</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01118</diagnosis_id>
+          <patient_id>P00179</patient_id>
+          <admission_id>A01118</admission_id>
+          <icd9_code>715.90</icd9_code>
+          <diagnosis_datetime>2023-05-28T21:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician38</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01119</admission_id>
+      <patient_id>P00180</patient_id>
+      <admission_datetime>2023-05-29T05:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician39</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01119</diagnosis_id>
+          <patient_id>P00180</patient_id>
+          <admission_id>A01119</admission_id>
+          <icd9_code>719.46</icd9_code>
+          <diagnosis_datetime>2023-05-29T08:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician39</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01120</admission_id>
+      <patient_id>P00181</patient_id>
+      <admission_datetime>2023-05-29T16:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician00</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01120</diagnosis_id>
+          <patient_id>P00181</patient_id>
+          <admission_id>A01120</admission_id>
+          <icd9_code>724.2</icd9_code>
+          <diagnosis_datetime>2023-05-29T19:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician00</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01121</admission_id>
+      <patient_id>P00182</patient_id>
+      <admission_datetime>2023-05-30T03:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician01</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01121</diagnosis_id>
+          <patient_id>P00182</patient_id>
+          <admission_id>A01121</admission_id>
+          <icd9_code>724.5</icd9_code>
+          <diagnosis_datetime>2023-05-30T06:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician01</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01122</admission_id>
+      <patient_id>P00183</patient_id>
+      <admission_datetime>2023-05-30T14:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician02</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01122</diagnosis_id>
+          <patient_id>P00183</patient_id>
+          <admission_id>A01122</admission_id>
+          <icd9_code>729.5</icd9_code>
+          <diagnosis_datetime>2023-05-30T17:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician02</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01123</admission_id>
+      <patient_id>P00184</patient_id>
+      <admission_datetime>2023-05-31T01:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician03</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01123</diagnosis_id>
+          <patient_id>P00184</patient_id>
+          <admission_id>A01123</admission_id>
+          <icd9_code>780.2</icd9_code>
+          <diagnosis_datetime>2023-05-31T04:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician03</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01124</admission_id>
+      <patient_id>P00185</patient_id>
+      <admission_datetime>2023-05-31T12:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician04</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01124</diagnosis_id>
+          <patient_id>P00185</patient_id>
+          <admission_id>A01124</admission_id>
+          <icd9_code>780.79</icd9_code>
+          <diagnosis_datetime>2023-05-31T15:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician04</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01125</admission_id>
+      <patient_id>P00186</patient_id>
+      <admission_datetime>2023-05-31T23:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician05</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01125</diagnosis_id>
+          <patient_id>P00186</patient_id>
+          <admission_id>A01125</admission_id>
+          <icd9_code>786.05</icd9_code>
+          <diagnosis_datetime>2023-06-01T02:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician05</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01126</admission_id>
+      <patient_id>P00187</patient_id>
+      <admission_datetime>2023-06-01T10:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician06</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01126</diagnosis_id>
+          <patient_id>P00187</patient_id>
+          <admission_id>A01126</admission_id>
+          <icd9_code>786.09</icd9_code>
+          <diagnosis_datetime>2023-06-01T13:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician06</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01127</admission_id>
+      <patient_id>P00188</patient_id>
+      <admission_datetime>2023-06-01T21:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician07</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01127</diagnosis_id>
+          <patient_id>P00188</patient_id>
+          <admission_id>A01127</admission_id>
+          <icd9_code>786.50</icd9_code>
+          <diagnosis_datetime>2023-06-02T00:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician07</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01128</admission_id>
+      <patient_id>P00189</patient_id>
+      <admission_datetime>2023-06-02T08:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician08</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01128</diagnosis_id>
+          <patient_id>P00189</patient_id>
+          <admission_id>A01128</admission_id>
+          <icd9_code>789.00</icd9_code>
+          <diagnosis_datetime>2023-06-02T11:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician08</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01129</admission_id>
+      <patient_id>P00190</patient_id>
+      <admission_datetime>2023-06-02T19:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician09</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01129</diagnosis_id>
+          <patient_id>P00190</patient_id>
+          <admission_id>A01129</admission_id>
+          <icd9_code>995.91</icd9_code>
+          <diagnosis_datetime>2023-06-02T22:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician09</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01130</admission_id>
+      <patient_id>P00191</patient_id>
+      <admission_datetime>2023-06-03T06:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician10</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01130</diagnosis_id>
+          <patient_id>P00191</patient_id>
+          <admission_id>A01130</admission_id>
+          <icd9_code>995.92</icd9_code>
+          <diagnosis_datetime>2023-06-03T09:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician10</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01131</admission_id>
+      <patient_id>P00192</patient_id>
+      <admission_datetime>2023-06-03T17:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician11</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01131</diagnosis_id>
+          <patient_id>P00192</patient_id>
+          <admission_id>A01131</admission_id>
+          <icd9_code>V15.82</icd9_code>
+          <diagnosis_datetime>2023-06-03T20:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician11</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01132</admission_id>
+      <patient_id>P00193</patient_id>
+      <admission_datetime>2023-06-04T04:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician12</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01132</diagnosis_id>
+          <patient_id>P00193</patient_id>
+          <admission_id>A01132</admission_id>
+          <icd9_code>V43.3</icd9_code>
+          <diagnosis_datetime>2023-06-04T07:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician12</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01133</admission_id>
+      <patient_id>P00194</patient_id>
+      <admission_datetime>2023-06-04T15:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician13</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01133</diagnosis_id>
+          <patient_id>P00194</patient_id>
+          <admission_id>A01133</admission_id>
+          <icd9_code>V45.81</icd9_code>
+          <diagnosis_datetime>2023-06-04T18:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician13</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01134</admission_id>
+      <patient_id>P00195</patient_id>
+      <admission_datetime>2023-06-05T02:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician14</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01134</diagnosis_id>
+          <patient_id>P00195</patient_id>
+          <admission_id>A01134</admission_id>
+          <icd9_code>V58.61</icd9_code>
+          <diagnosis_datetime>2023-06-05T05:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician14</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01135</admission_id>
+      <patient_id>P00196</patient_id>
+      <admission_datetime>2023-06-05T13:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician15</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01135</diagnosis_id>
+          <patient_id>P00196</patient_id>
+          <admission_id>A01135</admission_id>
+          <icd9_code>V58.67</icd9_code>
+          <diagnosis_datetime>2023-06-05T16:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician15</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01136</admission_id>
+      <patient_id>P00197</patient_id>
+      <admission_datetime>2023-06-06T00:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician16</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01136</diagnosis_id>
+          <patient_id>P00197</patient_id>
+          <admission_id>A01136</admission_id>
+          <icd9_code>244.9</icd9_code>
+          <diagnosis_datetime>2023-06-06T03:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician16</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01137</admission_id>
+      <patient_id>P00198</patient_id>
+      <admission_datetime>2023-06-06T11:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician17</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01137</diagnosis_id>
+          <patient_id>P00198</patient_id>
+          <admission_id>A01137</admission_id>
+          <icd9_code>250.02</icd9_code>
+          <diagnosis_datetime>2023-06-06T14:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician17</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01138</admission_id>
+      <patient_id>P00199</patient_id>
+      <admission_datetime>2023-06-06T22:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician18</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01138</diagnosis_id>
+          <patient_id>P00199</patient_id>
+          <admission_id>A01138</admission_id>
+          <icd9_code>272.0</icd9_code>
+          <diagnosis_datetime>2023-06-07T01:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician18</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01139</admission_id>
+      <patient_id>P00200</patient_id>
+      <admission_datetime>2023-06-07T09:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician19</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01139</diagnosis_id>
+          <patient_id>P00200</patient_id>
+          <admission_id>A01139</admission_id>
+          <icd9_code>278.00</icd9_code>
+          <diagnosis_datetime>2023-06-07T12:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician19</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01140</admission_id>
+      <patient_id>P00201</patient_id>
+      <admission_datetime>2023-06-07T20:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician20</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01140</diagnosis_id>
+          <patient_id>P00201</patient_id>
+          <admission_id>A01140</admission_id>
+          <icd9_code>285.1</icd9_code>
+          <diagnosis_datetime>2023-06-07T23:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician20</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01141</admission_id>
+      <patient_id>P00202</patient_id>
+      <admission_datetime>2023-06-08T07:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician21</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01141</diagnosis_id>
+          <patient_id>P00202</patient_id>
+          <admission_id>A01141</admission_id>
+          <icd9_code>311</icd9_code>
+          <diagnosis_datetime>2023-06-08T10:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician21</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01142</admission_id>
+      <patient_id>P00203</patient_id>
+      <admission_datetime>2023-06-08T18:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician22</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01142</diagnosis_id>
+          <patient_id>P00203</patient_id>
+          <admission_id>A01142</admission_id>
+          <icd9_code>331.0</icd9_code>
+          <diagnosis_datetime>2023-06-08T21:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician22</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01143</admission_id>
+      <patient_id>P00204</patient_id>
+      <admission_datetime>2023-06-09T05:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician23</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01143</diagnosis_id>
+          <patient_id>P00204</patient_id>
+          <admission_id>A01143</admission_id>
+          <icd9_code>345.90</icd9_code>
+          <diagnosis_datetime>2023-06-09T08:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician23</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01144</admission_id>
+      <patient_id>P00205</patient_id>
+      <admission_datetime>2023-06-09T16:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician24</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01144</diagnosis_id>
+          <patient_id>P00205</patient_id>
+          <admission_id>A01144</admission_id>
+          <icd9_code>346.90</icd9_code>
+          <diagnosis_datetime>2023-06-09T19:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician24</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01145</admission_id>
+      <patient_id>P00206</patient_id>
+      <admission_datetime>2023-06-10T03:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician25</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01145</diagnosis_id>
+          <patient_id>P00206</patient_id>
+          <admission_id>A01145</admission_id>
+          <icd9_code>401.1</icd9_code>
+          <diagnosis_datetime>2023-06-10T06:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician25</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01146</admission_id>
+      <patient_id>P00207</patient_id>
+      <admission_datetime>2023-06-10T14:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician26</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01146</diagnosis_id>
+          <patient_id>P00207</patient_id>
+          <admission_id>A01146</admission_id>
+          <icd9_code>410.90</icd9_code>
+          <diagnosis_datetime>2023-06-10T17:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician26</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01147</admission_id>
+      <patient_id>P00208</patient_id>
+      <admission_datetime>2023-06-11T01:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician27</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01147</diagnosis_id>
+          <patient_id>P00208</patient_id>
+          <admission_id>A01147</admission_id>
+          <icd9_code>412</icd9_code>
+          <diagnosis_datetime>2023-06-11T04:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician27</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01148</admission_id>
+      <patient_id>P00209</patient_id>
+      <admission_datetime>2023-06-11T12:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician28</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01148</diagnosis_id>
+          <patient_id>P00209</patient_id>
+          <admission_id>A01148</admission_id>
+          <icd9_code>414.00</icd9_code>
+          <diagnosis_datetime>2023-06-11T15:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician28</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01149</admission_id>
+      <patient_id>P00210</patient_id>
+      <admission_datetime>2023-06-11T23:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician29</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01149</diagnosis_id>
+          <patient_id>P00210</patient_id>
+          <admission_id>A01149</admission_id>
+          <icd9_code>466.0</icd9_code>
+          <diagnosis_datetime>2023-06-12T02:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician29</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01150</admission_id>
+      <patient_id>P00211</patient_id>
+      <admission_datetime>2023-06-12T10:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician30</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01150</diagnosis_id>
+          <patient_id>P00211</patient_id>
+          <admission_id>A01150</admission_id>
+          <icd9_code>585.3</icd9_code>
+          <diagnosis_datetime>2023-06-12T13:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician30</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01151</admission_id>
+      <patient_id>P00212</patient_id>
+      <admission_datetime>2023-06-12T21:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician31</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01151</diagnosis_id>
+          <patient_id>P00212</patient_id>
+          <admission_id>A01151</admission_id>
+          <icd9_code>038.9</icd9_code>
+          <diagnosis_datetime>2023-06-13T00:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician31</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01152</admission_id>
+      <patient_id>P00213</patient_id>
+      <admission_datetime>2023-06-13T08:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician32</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01152</diagnosis_id>
+          <patient_id>P00213</patient_id>
+          <admission_id>A01152</admission_id>
+          <icd9_code>250.00</icd9_code>
+          <diagnosis_datetime>2023-06-13T11:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician32</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01153</admission_id>
+      <patient_id>P00214</patient_id>
+      <admission_datetime>2023-06-13T19:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician33</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01153</diagnosis_id>
+          <patient_id>P00214</patient_id>
+          <admission_id>A01153</admission_id>
+          <icd9_code>272.4</icd9_code>
+          <diagnosis_datetime>2023-06-13T22:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician33</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01154</admission_id>
+      <patient_id>P00215</patient_id>
+      <admission_datetime>2023-06-14T06:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician34</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01154</diagnosis_id>
+          <patient_id>P00215</patient_id>
+          <admission_id>A01154</admission_id>
+          <icd9_code>276.1</icd9_code>
+          <diagnosis_datetime>2023-06-14T09:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician34</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01155</admission_id>
+      <patient_id>P00216</patient_id>
+      <admission_datetime>2023-06-14T17:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician35</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01155</diagnosis_id>
+          <patient_id>P00216</patient_id>
+          <admission_id>A01155</admission_id>
+          <icd9_code>276.8</icd9_code>
+          <diagnosis_datetime>2023-06-14T20:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician35</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01156</admission_id>
+      <patient_id>P00217</patient_id>
+      <admission_datetime>2023-06-15T04:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician36</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01156</diagnosis_id>
+          <patient_id>P00217</patient_id>
+          <admission_id>A01156</admission_id>
+          <icd9_code>285.9</icd9_code>
+          <diagnosis_datetime>2023-06-15T07:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician36</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01157</admission_id>
+      <patient_id>P00218</patient_id>
+      <admission_datetime>2023-06-15T15:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician37</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01157</diagnosis_id>
+          <patient_id>P00218</patient_id>
+          <admission_id>A01157</admission_id>
+          <icd9_code>401.9</icd9_code>
+          <diagnosis_datetime>2023-06-15T18:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician37</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01158</admission_id>
+      <patient_id>P00219</patient_id>
+      <admission_datetime>2023-06-16T02:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician38</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01158</diagnosis_id>
+          <patient_id>P00219</patient_id>
+          <admission_id>A01158</admission_id>
+          <icd9_code>414.01</icd9_code>
+          <diagnosis_datetime>2023-06-16T05:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician38</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01159</admission_id>
+      <patient_id>P00220</patient_id>
+      <admission_datetime>2023-06-16T13:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician39</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01159</diagnosis_id>
+          <patient_id>P00220</patient_id>
+          <admission_id>A01159</admission_id>
+          <icd9_code>427.31</icd9_code>
+          <diagnosis_datetime>2023-06-16T16:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician39</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01160</admission_id>
+      <patient_id>P00221</patient_id>
+      <admission_datetime>2023-06-17T00:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician00</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01160</diagnosis_id>
+          <patient_id>P00221</patient_id>
+          <admission_id>A01160</admission_id>
+          <icd9_code>428.0</icd9_code>
+          <diagnosis_datetime>2023-06-17T03:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician00</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01161</admission_id>
+      <patient_id>P00222</patient_id>
+      <admission_datetime>2023-06-17T11:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician01</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01161</diagnosis_id>
+          <patient_id>P00222</patient_id>
+          <admission_id>A01161</admission_id>
+          <icd9_code>486</icd9_code>
+          <diagnosis_datetime>2023-06-17T14:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician01</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01162</admission_id>
+      <patient_id>P00223</patient_id>
+      <admission_datetime>2023-06-17T22:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician02</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01162</diagnosis_id>
+          <patient_id>P00223</patient_id>
+          <admission_id>A01162</admission_id>
+          <icd9_code>493.90</icd9_code>
+          <diagnosis_datetime>2023-06-18T01:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician02</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01163</admission_id>
+      <patient_id>P00224</patient_id>
+      <admission_datetime>2023-06-18T09:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician03</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01163</diagnosis_id>
+          <patient_id>P00224</patient_id>
+          <admission_id>A01163</admission_id>
+          <icd9_code>518.81</icd9_code>
+          <diagnosis_datetime>2023-06-18T12:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician03</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01164</admission_id>
+      <patient_id>P00225</patient_id>
+      <admission_datetime>2023-06-18T20:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician04</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01164</diagnosis_id>
+          <patient_id>P00225</patient_id>
+          <admission_id>A01164</admission_id>
+          <icd9_code>530.81</icd9_code>
+          <diagnosis_datetime>2023-06-18T23:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician04</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01165</admission_id>
+      <patient_id>P00226</patient_id>
+      <admission_datetime>2023-06-19T07:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician05</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01165</diagnosis_id>
+          <patient_id>P00226</patient_id>
+          <admission_id>A01165</admission_id>
+          <icd9_code>584.9</icd9_code>
+          <diagnosis_datetime>2023-06-19T10:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician05</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01166</admission_id>
+      <patient_id>P00227</patient_id>
+      <admission_datetime>2023-06-19T18:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician06</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01166</diagnosis_id>
+          <patient_id>P00227</patient_id>
+          <admission_id>A01166</admission_id>
+          <icd9_code>599.0</icd9_code>
+          <diagnosis_datetime>2023-06-19T21:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician06</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01167</admission_id>
+      <patient_id>P00228</patient_id>
+      <admission_datetime>2023-06-20T05:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician07</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01167</diagnosis_id>
+          <patient_id>P00228</patient_id>
+          <admission_id>A01167</admission_id>
+          <icd9_code>599.70</icd9_code>
+          <diagnosis_datetime>2023-06-20T08:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician07</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01168</admission_id>
+      <patient_id>P00229</patient_id>
+      <admission_datetime>2023-06-20T16:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician08</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01168</diagnosis_id>
+          <patient_id>P00229</patient_id>
+          <admission_id>A01168</admission_id>
+          <icd9_code>715.90</icd9_code>
+          <diagnosis_datetime>2023-06-20T19:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician08</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01169</admission_id>
+      <patient_id>P00230</patient_id>
+      <admission_datetime>2023-06-21T03:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician09</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01169</diagnosis_id>
+          <patient_id>P00230</patient_id>
+          <admission_id>A01169</admission_id>
+          <icd9_code>719.46</icd9_code>
+          <diagnosis_datetime>2023-06-21T06:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician09</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01170</admission_id>
+      <patient_id>P00231</patient_id>
+      <admission_datetime>2023-06-21T14:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician10</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01170</diagnosis_id>
+          <patient_id>P00231</patient_id>
+          <admission_id>A01170</admission_id>
+          <icd9_code>724.2</icd9_code>
+          <diagnosis_datetime>2023-06-21T17:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician10</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01171</admission_id>
+      <patient_id>P00232</patient_id>
+      <admission_datetime>2023-06-22T01:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician11</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01171</diagnosis_id>
+          <patient_id>P00232</patient_id>
+          <admission_id>A01171</admission_id>
+          <icd9_code>724.5</icd9_code>
+          <diagnosis_datetime>2023-06-22T04:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician11</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01172</admission_id>
+      <patient_id>P00233</patient_id>
+      <admission_datetime>2023-06-22T12:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician12</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01172</diagnosis_id>
+          <patient_id>P00233</patient_id>
+          <admission_id>A01172</admission_id>
+          <icd9_code>729.5</icd9_code>
+          <diagnosis_datetime>2023-06-22T15:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician12</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01173</admission_id>
+      <patient_id>P00234</patient_id>
+      <admission_datetime>2023-06-22T23:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician13</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01173</diagnosis_id>
+          <patient_id>P00234</patient_id>
+          <admission_id>A01173</admission_id>
+          <icd9_code>780.2</icd9_code>
+          <diagnosis_datetime>2023-06-23T02:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician13</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01174</admission_id>
+      <patient_id>P00235</patient_id>
+      <admission_datetime>2023-06-23T10:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician14</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01174</diagnosis_id>
+          <patient_id>P00235</patient_id>
+          <admission_id>A01174</admission_id>
+          <icd9_code>780.79</icd9_code>
+          <diagnosis_datetime>2023-06-23T13:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician14</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01175</admission_id>
+      <patient_id>P00236</patient_id>
+      <admission_datetime>2023-06-23T21:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician15</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01175</diagnosis_id>
+          <patient_id>P00236</patient_id>
+          <admission_id>A01175</admission_id>
+          <icd9_code>786.05</icd9_code>
+          <diagnosis_datetime>2023-06-24T00:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician15</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01176</admission_id>
+      <patient_id>P00237</patient_id>
+      <admission_datetime>2023-06-24T08:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician16</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01176</diagnosis_id>
+          <patient_id>P00237</patient_id>
+          <admission_id>A01176</admission_id>
+          <icd9_code>786.09</icd9_code>
+          <diagnosis_datetime>2023-06-24T11:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician16</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01177</admission_id>
+      <patient_id>P00238</patient_id>
+      <admission_datetime>2023-06-24T19:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician17</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01177</diagnosis_id>
+          <patient_id>P00238</patient_id>
+          <admission_id>A01177</admission_id>
+          <icd9_code>786.50</icd9_code>
+          <diagnosis_datetime>2023-06-24T22:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician17</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01178</admission_id>
+      <patient_id>P00239</patient_id>
+      <admission_datetime>2023-06-25T06:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician18</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01178</diagnosis_id>
+          <patient_id>P00239</patient_id>
+          <admission_id>A01178</admission_id>
+          <icd9_code>789.00</icd9_code>
+          <diagnosis_datetime>2023-06-25T09:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician18</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01179</admission_id>
+      <patient_id>P00240</patient_id>
+      <admission_datetime>2023-06-25T17:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician19</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01179</diagnosis_id>
+          <patient_id>P00240</patient_id>
+          <admission_id>A01179</admission_id>
+          <icd9_code>995.91</icd9_code>
+          <diagnosis_datetime>2023-06-25T20:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician19</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01180</admission_id>
+      <patient_id>P00241</patient_id>
+      <admission_datetime>2023-06-26T04:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician20</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01180</diagnosis_id>
+          <patient_id>P00241</patient_id>
+          <admission_id>A01180</admission_id>
+          <icd9_code>995.92</icd9_code>
+          <diagnosis_datetime>2023-06-26T07:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician20</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01181</admission_id>
+      <patient_id>P00242</patient_id>
+      <admission_datetime>2023-06-26T15:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician21</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01181</diagnosis_id>
+          <patient_id>P00242</patient_id>
+          <admission_id>A01181</admission_id>
+          <icd9_code>V15.82</icd9_code>
+          <diagnosis_datetime>2023-06-26T18:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician21</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01182</admission_id>
+      <patient_id>P00243</patient_id>
+      <admission_datetime>2023-06-27T02:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician22</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01182</diagnosis_id>
+          <patient_id>P00243</patient_id>
+          <admission_id>A01182</admission_id>
+          <icd9_code>V43.3</icd9_code>
+          <diagnosis_datetime>2023-06-27T05:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician22</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01183</admission_id>
+      <patient_id>P00244</patient_id>
+      <admission_datetime>2023-06-27T13:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician23</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01183</diagnosis_id>
+          <patient_id>P00244</patient_id>
+          <admission_id>A01183</admission_id>
+          <icd9_code>V45.81</icd9_code>
+          <diagnosis_datetime>2023-06-27T16:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician23</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01184</admission_id>
+      <patient_id>P00245</patient_id>
+      <admission_datetime>2023-06-28T00:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician24</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01184</diagnosis_id>
+          <patient_id>P00245</patient_id>
+          <admission_id>A01184</admission_id>
+          <icd9_code>V58.61</icd9_code>
+          <diagnosis_datetime>2023-06-28T03:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician24</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01185</admission_id>
+      <patient_id>P00246</patient_id>
+      <admission_datetime>2023-06-28T11:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician25</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01185</diagnosis_id>
+          <patient_id>P00246</patient_id>
+          <admission_id>A01185</admission_id>
+          <icd9_code>V58.67</icd9_code>
+          <diagnosis_datetime>2023-06-28T14:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician25</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01186</admission_id>
+      <patient_id>P00247</patient_id>
+      <admission_datetime>2023-06-28T22:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician26</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01186</diagnosis_id>
+          <patient_id>P00247</patient_id>
+          <admission_id>A01186</admission_id>
+          <icd9_code>244.9</icd9_code>
+          <diagnosis_datetime>2023-06-29T01:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician26</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01187</admission_id>
+      <patient_id>P00248</patient_id>
+      <admission_datetime>2023-06-29T09:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician27</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01187</diagnosis_id>
+          <patient_id>P00248</patient_id>
+          <admission_id>A01187</admission_id>
+          <icd9_code>250.02</icd9_code>
+          <diagnosis_datetime>2023-06-29T12:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician27</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01188</admission_id>
+      <patient_id>P00249</patient_id>
+      <admission_datetime>2023-06-29T20:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician28</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01188</diagnosis_id>
+          <patient_id>P00249</patient_id>
+          <admission_id>A01188</admission_id>
+          <icd9_code>272.0</icd9_code>
+          <diagnosis_datetime>2023-06-29T23:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician28</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01189</admission_id>
+      <patient_id>P00250</patient_id>
+      <admission_datetime>2023-06-30T07:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician29</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01189</diagnosis_id>
+          <patient_id>P00250</patient_id>
+          <admission_id>A01189</admission_id>
+          <icd9_code>278.00</icd9_code>
+          <diagnosis_datetime>2023-06-30T10:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician29</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01190</admission_id>
+      <patient_id>P00251</patient_id>
+      <admission_datetime>2023-06-30T18:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician30</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01190</diagnosis_id>
+          <patient_id>P00251</patient_id>
+          <admission_id>A01190</admission_id>
+          <icd9_code>285.1</icd9_code>
+          <diagnosis_datetime>2023-06-30T21:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician30</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01191</admission_id>
+      <patient_id>P00252</patient_id>
+      <admission_datetime>2023-07-01T05:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician31</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01191</diagnosis_id>
+          <patient_id>P00252</patient_id>
+          <admission_id>A01191</admission_id>
+          <icd9_code>311</icd9_code>
+          <diagnosis_datetime>2023-07-01T08:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician31</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01192</admission_id>
+      <patient_id>P00253</patient_id>
+      <admission_datetime>2023-07-01T16:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician32</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01192</diagnosis_id>
+          <patient_id>P00253</patient_id>
+          <admission_id>A01192</admission_id>
+          <icd9_code>331.0</icd9_code>
+          <diagnosis_datetime>2023-07-01T19:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician32</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01193</admission_id>
+      <patient_id>P00254</patient_id>
+      <admission_datetime>2023-07-02T03:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician33</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01193</diagnosis_id>
+          <patient_id>P00254</patient_id>
+          <admission_id>A01193</admission_id>
+          <icd9_code>345.90</icd9_code>
+          <diagnosis_datetime>2023-07-02T06:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician33</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01194</admission_id>
+      <patient_id>P00255</patient_id>
+      <admission_datetime>2023-07-02T14:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician34</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01194</diagnosis_id>
+          <patient_id>P00255</patient_id>
+          <admission_id>A01194</admission_id>
+          <icd9_code>346.90</icd9_code>
+          <diagnosis_datetime>2023-07-02T17:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician34</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01195</admission_id>
+      <patient_id>P00256</patient_id>
+      <admission_datetime>2023-07-03T01:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician35</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01195</diagnosis_id>
+          <patient_id>P00256</patient_id>
+          <admission_id>A01195</admission_id>
+          <icd9_code>401.1</icd9_code>
+          <diagnosis_datetime>2023-07-03T04:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician35</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01196</admission_id>
+      <patient_id>P00257</patient_id>
+      <admission_datetime>2023-07-03T12:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician36</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01196</diagnosis_id>
+          <patient_id>P00257</patient_id>
+          <admission_id>A01196</admission_id>
+          <icd9_code>410.90</icd9_code>
+          <diagnosis_datetime>2023-07-03T15:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician36</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01197</admission_id>
+      <patient_id>P00258</patient_id>
+      <admission_datetime>2023-07-03T23:00:00+08:00</admission_datetime>
+      <admission_type>Urgent Care</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician37</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01197</diagnosis_id>
+          <patient_id>P00258</patient_id>
+          <admission_id>A01197</admission_id>
+          <icd9_code>412</icd9_code>
+          <diagnosis_datetime>2023-07-04T02:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician37</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01198</admission_id>
+      <patient_id>P00259</patient_id>
+      <admission_datetime>2023-07-04T10:00:00+08:00</admission_datetime>
+      <admission_type>Planned</admission_type>
+      <admission_source>Clinic referral</admission_source>
+      <reason_for_admission>Planned fictional procedure</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician38</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01198</diagnosis_id>
+          <patient_id>P00259</patient_id>
+          <admission_id>A01198</admission_id>
+          <icd9_code>414.00</icd9_code>
+          <diagnosis_datetime>2023-07-04T13:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician38</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01199</admission_id>
+      <patient_id>P00260</patient_id>
+      <admission_datetime>2023-07-04T21:00:00+08:00</admission_datetime>
+      <admission_type>Ambulatory</admission_type>
+      <admission_source>Transfer</admission_source>
+      <reason_for_admission>Observation</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician39</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01199</diagnosis_id>
+          <patient_id>P00260</patient_id>
+          <admission_id>A01199</admission_id>
+          <icd9_code>466.0</icd9_code>
+          <diagnosis_datetime>2023-07-05T00:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Secondary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician39</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+    <admission>
+      <admission_id>A01200</admission_id>
+      <patient_id>P00261</patient_id>
+      <admission_datetime>2023-07-05T08:00:00+08:00</admission_datetime>
+      <admission_type>Emergency</admission_type>
+      <admission_source>Emergency referral</admission_source>
+      <reason_for_admission>Fictional symptom review</reason_for_admission>
+      <insurance_info>Synthetic plan C</insurance_info>
+      <condition_on_admission>Fictional educational scenario</condition_on_admission>
+      <admitting_professional>FictionalClinician00</admitting_professional>
+      <diagnoses>
+        <diagnosis>
+          <diagnosis_id>D01200</diagnosis_id>
+          <patient_id>P00261</patient_id>
+          <admission_id>A01200</admission_id>
+          <icd9_code>585.3</icd9_code>
+          <diagnosis_datetime>2023-07-05T11:00:00+08:00</diagnosis_datetime>
+          <diagnosis_type>Preliminary</diagnosis_type>
+          <diagnosing_physician>FictionalClinician00</diagnosing_physician>
+        </diagnosis>
+      </diagnoses>
+      <triage_assessments />
+      <unit_stays />
+      <clinical_notes />
+      <surgical_procedures />
+      <diagnostic_orders />
+    </admission>
+  </admissions>
+</hospitalSystem>
