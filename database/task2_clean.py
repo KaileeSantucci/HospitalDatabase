@@ -13,7 +13,7 @@ for source in ["A","B","C","D"]:
 #2: rename source B's columns to the common names, Source A, C, D use the phase 1 names 
 #so only B changes
 
-B_COLUMN_NAMES = {
+B_column_names = {
      "admissions": {
         "visit_ref": "admission_id", "person_ref": "patient_id",
         "admitted_at": "admission_datetime", "visit_class": "admission_type",
@@ -104,7 +104,7 @@ B_COLUMN_NAMES = {
     },
 } 
 
-for table, new_names in B_COLUMN_NAMES.items():
+for table, new_names in B_column_names.items():
     raw["B"][table] = raw["B"][table].rename(columns = new_names)
 
 
@@ -142,7 +142,7 @@ print("Extra spaces removed:", spaces_removed)
 #4: mapping each source's category labels to the values allowed by the pahse 1 schema
 # dictionary says: label used by a source (in lowercase) value our schema allows
 
-CATEGORY_MAPS = {
+label_transitions = {
     ("admissions", "admission_type"): {
         "emergency": "emergency", "er": "emergency",
         "urgent": "urgent", "urgent admission": "urgent", "urgent care": "urgent",
@@ -172,7 +172,7 @@ CATEGORY_MAPS = {
 }
 labels_mapped = 0  #starts at count 0
 for source in ["A","B","C", "D"]: #going through each hospital source
-    for(table,column), mapping in CATEGORY_MAPS.items(): #each (table,column) and its dictionary
+    for(table,column), mapping in label_transitions.items(): #each (table,column) and its dictionary
         df = raw[source][table] #the table we are currently cleaning 
         before = df[column].fillna("") #save the values before changing them, so you cna count the change
         df[column] = df[column].apply(lambda x: x.lower() if isinstance(x, str) else x) # lowercase first so 'P1' and 'p1' and spaces like ' p1 ' match the same dictionary key 
@@ -194,7 +194,7 @@ print("Category labels mapped:", labels_mapped) #total number of labels changed
 #each source writes "empty" differently: A uses \N, B uses an empty string '', C and D use 'None'
 #need to turn every missing marker into 1 real empty value "None" 
 
-MISSING_VALUES = ["\\N", ""]
+missing_values = ["\\N", ""]
 
 missing_converted = 0 # start count at 0
 for source in ["A","B","C", "D"]: #going through each hospital source
@@ -202,7 +202,7 @@ for source in ["A","B","C", "D"]: #going through each hospital source
         df = raw[source][table]
         for column in df.columns:
             before = df[column].isna().sum() #empty cells before 
-            df[column] = df[column].apply(lambda x: None if isinstance(x,str) and x in MISSING_VALUES else x) #if the value is text and is one of th emarkers, replace it with None
+            df[column] = df[column].apply(lambda x: None if isinstance(x,str) and x in missing_values else x) #if the value is text and is one of th emarkers, replace it with None
             after = df[column].isna().sum() #empty cells after 
             missing_converted = missing_converted + (after - before)
 
@@ -212,7 +212,7 @@ print("Missing values are converted into empty values:", missing_converted)
 #needed columns (NOT NULL, plus the ids) the record is rejected 
 #other column is optional -> the record keepts with an empty value
 
-NEEDED_COLUMNS ={
+needed_columns ={
 
     "patients": ["patient_id", "first_name", "last_name", "date_of_birth", "address",
                  "telephone_number", "health_insurance_number", "life_status"],
@@ -241,7 +241,7 @@ NEEDED_COLUMNS ={
 
 not_accepted = [] #every rejected and not accepted reccord goes in this array
 for source in ["A", "B", "C", "D"]:
-    for table, required in NEEDED_COLUMNS.items():
+    for table, required in needed_columns.items():
         df = raw[source][table]
         id_column = df.columns[0] #the first column is in the records ID
         for column in required:
@@ -282,7 +282,7 @@ print("Id duplicates check is done.")
 #triage measurements are stored as text and they are turned into real numbers 
 #a value that is not a number or is not possible is flagged, the record is kept only that value is emptied
 
-REALISTIC_NUMBER_RANGES = {
+realistic_num_ranges = {
     "heart_rate": (20, 250),
     "respiratory_rate": (5, 60),
     "body_temperature": (30, 45),       # in degrees Celsius
@@ -294,7 +294,7 @@ outlier = [] #values that are flagged and were emptied, with the original value 
 
 for source in ["A", "B", "C", "D"]:
    df = raw[source]["triage_assessments"]
-   for column in REALISTIC_NUMBER_RANGES:
+   for column in realistic_num_ranges:
         original = df[column].copy() #keeping orginial values 
         df[column] = pd.to_numeric(df[column], errors = "coerce") #test to: num and not num: to empty
 
@@ -302,7 +302,7 @@ for source in ["A", "B", "C", "D"]:
         if source == "D" and column == "body_temperature":
             df[column] = df[column].apply(lambda x: round((x-32)*5/9,1))
 
-        lowest, highest = REALISTIC_NUMBER_RANGES[column]
+        lowest, highest = realistic_num_ranges[column]
         for record_id, old_value, new_value in zip(df["triage_id"], original, df[column]): #going through the rows: record ids, value before, value after 
             if pd.isna(new_value) and pd.notna(old_value): #if it had a value but it was not a number
                 outlier.append({"source": source, "table": "triage_assessments", "record_id": record_id,
@@ -313,8 +313,77 @@ for source in ["A", "B", "C", "D"]:
                                 "column": column, "original_value": old_value,
                                 "reason": "outside the possible range"})
         df[column] = df[column].apply(lambda x: None if pd.notna(x) and (x < lowest or x > highest) else x)
-   raw[source]["triage_assements"] = df
+   raw[source]["triage_assessments"] = df
 print("Invalid numeric values that were flagged and emptied:", len(outlier))
+
+#8: dates and the time zones
+#every source writes dates differently and each source is in its own time zone:
+#A(toronto): 2022-01-01 19:00:00            no time zone written in the file
+#B(paris): 01/01/2022 19:00               day first, no time zone written in the
+#C(singapore): 2022-01-01T19:00:00+08:00      time zone written at the end
+#D(brisbane): 2022-01-01T19:00:00+10:00      time zone written at the end
+#all the dates and times are converted to one format in UTC (the same clock for every source)
+
+TimeStamps_format = { #how each source writes a date & time
+    "A": "%Y-%m-%d %H:%M:%S",
+    "B": "%d/%m/%Y %H:%M",
+    "C": "%Y-%m-%dT%H:%M:%S", #%z = the time zone at the end 
+    "D": "%Y-%m-%dT%H:%M:%S",
+}
+
+date_format = { #how each source writes a date only date of birth
+    "A": "%Y-%m-%d",
+    "B": "%d/%m/%Y",
+    "C": "%Y%m%d",
+    "D": "%Y-%m-%d",
+}
+
+time_difference = { #(UTC)how many hours each source is ahead of UTC
+    "A": -4,
+    "B": 2,
+    "C": 8,
+    "D": 10, 
+}
+
+
+dates_converted = 0
+bad_dates = 0
+for source in ["A","B","C","D"]:
+    for table in raw[source]:
+        df=raw[source][table]
+        id_column = df.columns[0]
+        for column in df.columns:
+            if column.endswith("_datetime") or column == "date_of_birth": #taking only the data columns: names that end with _datetime and date_of_birth
+                original = df[column].copy() #keep the original values 
+
+                if column.endswith("_datetime"): #date + time columns
+                    # C and D write the time zone at the end (+08:00): keep only the first 19 characters,
+                    # the date and time, because the offset is already in UTC_OFFSET
+                    if source in ["C", "D"]:
+                        df[column] = df[column].apply(lambda x: x[:19] if isinstance(x,str)else x)
+                    df[column] = pd.to_datetime(df[column], format = TimeStamps_format[source], errors = "coerce") #a value that is not a valid date becomes emtpy
+                    df[column] = df[column]-pd.Timedelta(hours=time_difference[source]) #Timedelta : means the length of time, subtracts the source's time differnce 
+                    
+                if column == "date_of_birth":#date only column : date of firth (no time = no time zone)
+                    df[column] = pd.to_datetime(df[column], format = date_format[source], errors = 'coerce').dt.date 
+
+                #finding the values that had a date before but are now empty (not a valid date)
+                for record_id, old_value, new_value in zip(df[id_column], original, df[column]):
+                    if pd.notna(old_value) and pd.isna(new_value):
+                        bad_dates = bad_dates + 1 
+                        if column in needed_columns[table]:
+                            not_accepted.append({"source": source, "table": table, "record_id": record_id, "problem": "invalid date:" + column})
+                        else:
+                            outlier.append({"source": source, "table": table, "record_id": record_id, "column": column, "original_value": old_value, "problem": "invalid date"})
+                dates_converted = dates_converted + df[column].notna().sum()
+
+                #removing the records whose required date was invvalid
+            for column in needed_columns[table]:
+                df = df[df[column].notna()]
+            raw[source][table] = df
+print("The Dates converted to UTC:", dates_converted)
+print("Invalid dates that were found:", bad_dates)
+
            
 
     
