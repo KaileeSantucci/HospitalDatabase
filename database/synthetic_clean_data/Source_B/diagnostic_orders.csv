@@ -1,0 +1,451 @@
+order_id,admission_id,requesting_physician,requested_examination,request_datetime,clinical_reason,priority,order_status
+O00001,A00001,FictionalClinician01,Fictional imaging,2022-01-01 19:00:00,Fictional educational indication,Medium,Completed
+O00002,A00002,FictionalClinician02,Fictional screening,2022-01-02 06:00:00,Fictional educational indication,Low,Completed
+O00003,A00003,FictionalClinician03,Fictional blood panel,2022-01-02 17:00:00,Fictional educational indication,High,Completed
+O00004,A00004,FictionalClinician04,Fictional imaging,2022-01-03 04:00:00,Fictional educational indication,Medium,Completed
+O00005,A00005,FictionalClinician05,Fictional screening,2022-01-03 15:00:00,Fictional educational indication,Low,Completed
+O00006,A00006,FictionalClinician06,Fictional blood panel,2022-01-04 02:00:00,Fictional educational indication,High,Completed
+O00007,A00007,FictionalClinician07,Fictional imaging,2022-01-04 13:00:00,Fictional educational indication,Medium,Completed
+O00008,A00008,FictionalClinician08,Fictional screening,2022-01-05 00:00:00,Fictional educational indication,Low,Completed
+O00009,A00009,FictionalClinician09,Fictional blood panel,2022-01-05 11:00:00,Fictional educational indication,High,Completed
+O00010,A00010,FictionalClinician10,Fictional imaging,2022-01-05 22:00:00,Fictional educational indication,Medium,Completed
+O00011,A00011,FictionalClinician11,Fictional screening,2022-01-06 09:00:00,Fictional educational indication,Low,Completed
+O00012,A00012,FictionalClinician12,Fictional blood panel,2022-01-06 20:00:00,Fictional educational indication,High,Completed
+O00013,A00013,FictionalClinician13,Fictional imaging,2022-01-07 07:00:00,Fictional educational indication,Medium,Completed
+O00014,A00014,FictionalClinician14,Fictional screening,2022-01-07 18:00:00,Fictional educational indication,Low,Completed
+O00015,A00015,FictionalClinician15,Fictional blood panel,2022-01-08 05:00:00,Fictional educational indication,High,Completed
+O00016,A00016,FictionalClinician16,Fictional imaging,2022-01-08 16:00:00,Fictional educational indication,Medium,Completed
+O00017,A00017,FictionalClinician17,Fictional screening,2022-01-09 03:00:00,Fictional educational indication,Low,Completed
+O00018,A00018,FictionalClinician18,Fictional blood panel,2022-01-09 14:00:00,Fictional educational indication,High,Completed
+O00019,A00019,FictionalClinician19,Fictional imaging,2022-01-10 01:00:00,Fictional educational indication,Medium,Completed
+O00020,A00020,FictionalClinician20,Fictional screening,2022-01-10 12:00:00,Fictional educational indication,Low,Completed
+O00021,A00021,FictionalClinician21,Fictional blood panel,2022-01-10 23:00:00,Fictional educational indication,High,Completed
+O00022,A00022,FictionalClinician22,Fictional imaging,2022-01-11 10:00:00,Fictional educational indication,Medium,Completed
+O00023,A00023,FictionalClinician23,Fictional screening,2022-01-11 21:00:00,Fictional educational indication,Low,Completed
+O00024,A00024,FictionalClinician24,Fictional blood panel,2022-01-12 08:00:00,Fictional educational indication,High,Completed
+O00025,A00025,FictionalClinician25,Fictional imaging,2022-01-12 19:00:00,Fictional educational indication,Medium,Completed
+O00026,A00026,FictionalClinician26,Fictional screening,2022-01-13 06:00:00,Fictional educational indication,Low,Completed
+O00027,A00027,FictionalClinician27,Fictional blood panel,2022-01-13 17:00:00,Fictional educational indication,High,Completed
+O00028,A00028,FictionalClinician28,Fictional imaging,2022-01-14 04:00:00,Fictional educational indication,Medium,Completed
+O00029,A00029,FictionalClinician29,Fictional screening,2022-01-14 15:00:00,Fictional educational indication,Low,Completed
+O00030,A00030,FictionalClinician30,Fictional blood panel,2022-01-15 02:00:00,Fictional educational indication,High,Completed
+O00031,A00031,FictionalClinician31,Fictional imaging,2022-01-15 13:00:00,Fictional educational indication,Medium,Completed
+O00032,A00032,FictionalClinician32,Fictional screening,2022-01-16 00:00:00,Fictional educational indication,Low,Completed
+O00033,A00033,FictionalClinician33,Fictional blood panel,2022-01-16 11:00:00,Fictional educational indication,High,Completed
+O00034,A00034,FictionalClinician34,Fictional imaging,2022-01-16 22:00:00,Fictional educational indication,Medium,Completed
+O00035,A00035,FictionalClinician35,Fictional screening,2022-01-17 09:00:00,Fictional educational indication,Low,Completed
+O00036,A00036,FictionalClinician36,Fictional blood panel,2022-01-17 20:00:00,Fictional educational indication,High,Completed
+O00037,A00037,FictionalClinician37,Fictional imaging,2022-01-18 07:00:00,Fictional educational indication,Medium,Completed
+O00038,A00038,FictionalClinician38,Fictional screening,2022-01-18 18:00:00,Fictional educational indication,Low,Completed
+O00039,A00039,FictionalClinician39,Fictional blood panel,2022-01-19 05:00:00,Fictional educational indication,High,Completed
+O00040,A00040,FictionalClinician00,Fictional imaging,2022-01-19 16:00:00,Fictional educational indication,Medium,Completed
+O00041,A00041,FictionalClinician01,Fictional screening,2022-01-20 03:00:00,Fictional educational indication,Low,Completed
+O00042,A00042,FictionalClinician02,Fictional blood panel,2022-01-20 14:00:00,Fictional educational indication,High,Completed
+O00043,A00043,FictionalClinician03,Fictional imaging,2022-01-21 01:00:00,Fictional educational indication,Medium,Completed
+O00044,A00044,FictionalClinician04,Fictional screening,2022-01-21 12:00:00,Fictional educational indication,Low,Completed
+O00045,A00045,FictionalClinician05,Fictional blood panel,2022-01-21 23:00:00,Fictional educational indication,High,Completed
+O00046,A00046,FictionalClinician06,Fictional imaging,2022-01-22 10:00:00,Fictional educational indication,Medium,Completed
+O00047,A00047,FictionalClinician07,Fictional screening,2022-01-22 21:00:00,Fictional educational indication,Low,Completed
+O00048,A00048,FictionalClinician08,Fictional blood panel,2022-01-23 08:00:00,Fictional educational indication,High,Completed
+O00049,A00049,FictionalClinician09,Fictional imaging,2022-01-23 19:00:00,Fictional educational indication,Medium,Completed
+O00050,A00050,FictionalClinician10,Fictional screening,2022-01-24 06:00:00,Fictional educational indication,Low,Completed
+O00051,A00051,FictionalClinician11,Fictional blood panel,2022-01-24 17:00:00,Fictional educational indication,High,Completed
+O00052,A00052,FictionalClinician12,Fictional imaging,2022-01-25 04:00:00,Fictional educational indication,Medium,Completed
+O00053,A00053,FictionalClinician13,Fictional screening,2022-01-25 15:00:00,Fictional educational indication,Low,Completed
+O00054,A00054,FictionalClinician14,Fictional blood panel,2022-01-26 02:00:00,Fictional educational indication,High,Completed
+O00055,A00055,FictionalClinician15,Fictional imaging,2022-01-26 13:00:00,Fictional educational indication,Medium,Completed
+O00056,A00056,FictionalClinician16,Fictional screening,2022-01-27 00:00:00,Fictional educational indication,Low,Completed
+O00057,A00057,FictionalClinician17,Fictional blood panel,2022-01-27 11:00:00,Fictional educational indication,High,Completed
+O00058,A00058,FictionalClinician18,Fictional imaging,2022-01-27 22:00:00,Fictional educational indication,Medium,Completed
+O00059,A00059,FictionalClinician19,Fictional screening,2022-01-28 09:00:00,Fictional educational indication,Low,Completed
+O00060,A00060,FictionalClinician20,Fictional blood panel,2022-01-28 20:00:00,Fictional educational indication,High,Completed
+O00061,A00061,FictionalClinician21,Fictional imaging,2022-01-29 07:00:00,Fictional educational indication,Medium,Completed
+O00062,A00062,FictionalClinician22,Fictional screening,2022-01-29 18:00:00,Fictional educational indication,Low,Completed
+O00063,A00063,FictionalClinician23,Fictional blood panel,2022-01-30 05:00:00,Fictional educational indication,High,Completed
+O00064,A00064,FictionalClinician24,Fictional imaging,2022-01-30 16:00:00,Fictional educational indication,Medium,Completed
+O00065,A00065,FictionalClinician25,Fictional screening,2022-01-31 03:00:00,Fictional educational indication,Low,Completed
+O00066,A00066,FictionalClinician26,Fictional blood panel,2022-01-31 14:00:00,Fictional educational indication,High,Completed
+O00067,A00067,FictionalClinician27,Fictional imaging,2022-02-01 01:00:00,Fictional educational indication,Medium,Completed
+O00068,A00068,FictionalClinician28,Fictional screening,2022-02-01 12:00:00,Fictional educational indication,Low,Completed
+O00069,A00069,FictionalClinician29,Fictional blood panel,2022-02-01 23:00:00,Fictional educational indication,High,Completed
+O00070,A00070,FictionalClinician30,Fictional imaging,2022-02-02 10:00:00,Fictional educational indication,Medium,Completed
+O00071,A00071,FictionalClinician31,Fictional screening,2022-02-02 21:00:00,Fictional educational indication,Low,Completed
+O00072,A00072,FictionalClinician32,Fictional blood panel,2022-02-03 08:00:00,Fictional educational indication,High,Completed
+O00073,A00073,FictionalClinician33,Fictional imaging,2022-02-03 19:00:00,Fictional educational indication,Medium,Completed
+O00074,A00074,FictionalClinician34,Fictional screening,2022-02-04 06:00:00,Fictional educational indication,Low,Completed
+O00075,A00075,FictionalClinician35,Fictional blood panel,2022-02-04 17:00:00,Fictional educational indication,High,Completed
+O00076,A00076,FictionalClinician36,Fictional imaging,2022-02-05 04:00:00,Fictional educational indication,Medium,Completed
+O00077,A00077,FictionalClinician37,Fictional screening,2022-02-05 15:00:00,Fictional educational indication,Low,Completed
+O00078,A00078,FictionalClinician38,Fictional blood panel,2022-02-06 02:00:00,Fictional educational indication,High,Completed
+O00079,A00079,FictionalClinician39,Fictional imaging,2022-02-06 13:00:00,Fictional educational indication,Medium,Completed
+O00080,A00080,FictionalClinician00,Fictional screening,2022-02-07 00:00:00,Fictional educational indication,Low,Completed
+O00081,A00081,FictionalClinician01,Fictional blood panel,2022-02-07 11:00:00,Fictional educational indication,High,Completed
+O00082,A00082,FictionalClinician02,Fictional imaging,2022-02-07 22:00:00,Fictional educational indication,Medium,Completed
+O00083,A00083,FictionalClinician03,Fictional screening,2022-02-08 09:00:00,Fictional educational indication,Low,Completed
+O00084,A00084,FictionalClinician04,Fictional blood panel,2022-02-08 20:00:00,Fictional educational indication,High,Completed
+O00085,A00085,FictionalClinician05,Fictional imaging,2022-02-09 07:00:00,Fictional educational indication,Medium,Completed
+O00086,A00086,FictionalClinician06,Fictional screening,2022-02-09 18:00:00,Fictional educational indication,Low,Completed
+O00087,A00087,FictionalClinician07,Fictional blood panel,2022-02-10 05:00:00,Fictional educational indication,High,Completed
+O00088,A00088,FictionalClinician08,Fictional imaging,2022-02-10 16:00:00,Fictional educational indication,Medium,Completed
+O00089,A00089,FictionalClinician09,Fictional screening,2022-02-11 03:00:00,Fictional educational indication,Low,Completed
+O00090,A00090,FictionalClinician10,Fictional blood panel,2022-02-11 14:00:00,Fictional educational indication,High,Completed
+O00091,A00091,FictionalClinician11,Fictional imaging,2022-02-12 01:00:00,Fictional educational indication,Medium,Completed
+O00092,A00092,FictionalClinician12,Fictional screening,2022-02-12 12:00:00,Fictional educational indication,Low,Completed
+O00093,A00093,FictionalClinician13,Fictional blood panel,2022-02-12 23:00:00,Fictional educational indication,High,Completed
+O00094,A00094,FictionalClinician14,Fictional imaging,2022-02-13 10:00:00,Fictional educational indication,Medium,Completed
+O00095,A00095,FictionalClinician15,Fictional screening,2022-02-13 21:00:00,Fictional educational indication,Low,Completed
+O00096,A00096,FictionalClinician16,Fictional blood panel,2022-02-14 08:00:00,Fictional educational indication,High,Completed
+O00097,A00097,FictionalClinician17,Fictional imaging,2022-02-14 19:00:00,Fictional educational indication,Medium,Completed
+O00098,A00098,FictionalClinician18,Fictional screening,2022-02-15 06:00:00,Fictional educational indication,Low,Completed
+O00099,A00099,FictionalClinician19,Fictional blood panel,2022-02-15 17:00:00,Fictional educational indication,High,Completed
+O00100,A00100,FictionalClinician20,Fictional imaging,2022-02-16 04:00:00,Fictional educational indication,Medium,Completed
+O00101,A00101,FictionalClinician21,Fictional screening,2022-02-16 15:00:00,Fictional educational indication,Low,Completed
+O00102,A00102,FictionalClinician22,Fictional blood panel,2022-02-17 02:00:00,Fictional educational indication,High,Completed
+O00103,A00103,FictionalClinician23,Fictional imaging,2022-02-17 13:00:00,Fictional educational indication,Medium,Completed
+O00104,A00104,FictionalClinician24,Fictional screening,2022-02-18 00:00:00,Fictional educational indication,Low,Completed
+O00105,A00105,FictionalClinician25,Fictional blood panel,2022-02-18 11:00:00,Fictional educational indication,High,Completed
+O00106,A00106,FictionalClinician26,Fictional imaging,2022-02-18 22:00:00,Fictional educational indication,Medium,Completed
+O00107,A00107,FictionalClinician27,Fictional screening,2022-02-19 09:00:00,Fictional educational indication,Low,Completed
+O00108,A00108,FictionalClinician28,Fictional blood panel,2022-02-19 20:00:00,Fictional educational indication,High,Completed
+O00109,A00109,FictionalClinician29,Fictional imaging,2022-02-20 07:00:00,Fictional educational indication,Medium,Completed
+O00110,A00110,FictionalClinician30,Fictional screening,2022-02-20 18:00:00,Fictional educational indication,Low,Completed
+O00111,A00111,FictionalClinician31,Fictional blood panel,2022-02-21 05:00:00,Fictional educational indication,High,Completed
+O00112,A00112,FictionalClinician32,Fictional imaging,2022-02-21 16:00:00,Fictional educational indication,Medium,Completed
+O00113,A00113,FictionalClinician33,Fictional screening,2022-02-22 03:00:00,Fictional educational indication,Low,Completed
+O00114,A00114,FictionalClinician34,Fictional blood panel,2022-02-22 14:00:00,Fictional educational indication,High,Completed
+O00115,A00115,FictionalClinician35,Fictional imaging,2022-02-23 01:00:00,Fictional educational indication,Medium,Completed
+O00116,A00116,FictionalClinician36,Fictional screening,2022-02-23 12:00:00,Fictional educational indication,Low,Completed
+O00117,A00117,FictionalClinician37,Fictional blood panel,2022-02-23 23:00:00,Fictional educational indication,High,Completed
+O00118,A00118,FictionalClinician38,Fictional imaging,2022-02-24 10:00:00,Fictional educational indication,Medium,Completed
+O00119,A00119,FictionalClinician39,Fictional screening,2022-02-24 21:00:00,Fictional educational indication,Low,Completed
+O00120,A00120,FictionalClinician00,Fictional blood panel,2022-02-25 08:00:00,Fictional educational indication,High,Completed
+O00121,A00121,FictionalClinician01,Fictional imaging,2022-02-25 19:00:00,Fictional educational indication,Medium,Completed
+O00122,A00122,FictionalClinician02,Fictional screening,2022-02-26 06:00:00,Fictional educational indication,Low,Completed
+O00123,A00123,FictionalClinician03,Fictional blood panel,2022-02-26 17:00:00,Fictional educational indication,High,Completed
+O00124,A00124,FictionalClinician04,Fictional imaging,2022-02-27 04:00:00,Fictional educational indication,Medium,Completed
+O00125,A00125,FictionalClinician05,Fictional screening,2022-02-27 15:00:00,Fictional educational indication,Low,Completed
+O00126,A00126,FictionalClinician06,Fictional blood panel,2022-02-28 02:00:00,Fictional educational indication,High,Completed
+O00127,A00127,FictionalClinician07,Fictional imaging,2022-02-28 13:00:00,Fictional educational indication,Medium,Completed
+O00128,A00128,FictionalClinician08,Fictional screening,2022-03-01 00:00:00,Fictional educational indication,Low,Completed
+O00129,A00129,FictionalClinician09,Fictional blood panel,2022-03-01 11:00:00,Fictional educational indication,High,Completed
+O00130,A00130,FictionalClinician10,Fictional imaging,2022-03-01 22:00:00,Fictional educational indication,Medium,Completed
+O00131,A00131,FictionalClinician11,Fictional screening,2022-03-02 09:00:00,Fictional educational indication,Low,Completed
+O00132,A00132,FictionalClinician12,Fictional blood panel,2022-03-02 20:00:00,Fictional educational indication,High,Completed
+O00133,A00133,FictionalClinician13,Fictional imaging,2022-03-03 07:00:00,Fictional educational indication,Medium,Completed
+O00134,A00134,FictionalClinician14,Fictional screening,2022-03-03 18:00:00,Fictional educational indication,Low,Completed
+O00135,A00135,FictionalClinician15,Fictional blood panel,2022-03-04 05:00:00,Fictional educational indication,High,Completed
+O00136,A00136,FictionalClinician16,Fictional imaging,2022-03-04 16:00:00,Fictional educational indication,Medium,Completed
+O00137,A00137,FictionalClinician17,Fictional screening,2022-03-05 03:00:00,Fictional educational indication,Low,Completed
+O00138,A00138,FictionalClinician18,Fictional blood panel,2022-03-05 14:00:00,Fictional educational indication,High,Completed
+O00139,A00139,FictionalClinician19,Fictional imaging,2022-03-06 01:00:00,Fictional educational indication,Medium,Completed
+O00140,A00140,FictionalClinician20,Fictional screening,2022-03-06 12:00:00,Fictional educational indication,Low,Completed
+O00141,A00141,FictionalClinician21,Fictional blood panel,2022-03-06 23:00:00,Fictional educational indication,High,Completed
+O00142,A00142,FictionalClinician22,Fictional imaging,2022-03-07 10:00:00,Fictional educational indication,Medium,Completed
+O00143,A00143,FictionalClinician23,Fictional screening,2022-03-07 21:00:00,Fictional educational indication,Low,Completed
+O00144,A00144,FictionalClinician24,Fictional blood panel,2022-03-08 08:00:00,Fictional educational indication,High,Completed
+O00145,A00145,FictionalClinician25,Fictional imaging,2022-03-08 19:00:00,Fictional educational indication,Medium,Completed
+O00146,A00146,FictionalClinician26,Fictional screening,2022-03-09 06:00:00,Fictional educational indication,Low,Completed
+O00147,A00147,FictionalClinician27,Fictional blood panel,2022-03-09 17:00:00,Fictional educational indication,High,Completed
+O00148,A00148,FictionalClinician28,Fictional imaging,2022-03-10 04:00:00,Fictional educational indication,Medium,Completed
+O00149,A00149,FictionalClinician29,Fictional screening,2022-03-10 15:00:00,Fictional educational indication,Low,Completed
+O00150,A00150,FictionalClinician30,Fictional blood panel,2022-03-11 02:00:00,Fictional educational indication,High,Completed
+O00151,A00151,FictionalClinician31,Fictional imaging,2022-03-11 13:00:00,Fictional educational indication,Medium,Completed
+O00152,A00152,FictionalClinician32,Fictional screening,2022-03-12 00:00:00,Fictional educational indication,Low,Completed
+O00153,A00153,FictionalClinician33,Fictional blood panel,2022-03-12 11:00:00,Fictional educational indication,High,Completed
+O00154,A00154,FictionalClinician34,Fictional imaging,2022-03-12 22:00:00,Fictional educational indication,Medium,Completed
+O00155,A00155,FictionalClinician35,Fictional screening,2022-03-13 09:00:00,Fictional educational indication,Low,Completed
+O00156,A00156,FictionalClinician36,Fictional blood panel,2022-03-13 20:00:00,Fictional educational indication,High,Completed
+O00157,A00157,FictionalClinician37,Fictional imaging,2022-03-14 07:00:00,Fictional educational indication,Medium,Completed
+O00158,A00158,FictionalClinician38,Fictional screening,2022-03-14 18:00:00,Fictional educational indication,Low,Completed
+O00159,A00159,FictionalClinician39,Fictional blood panel,2022-03-15 05:00:00,Fictional educational indication,High,Completed
+O00160,A00160,FictionalClinician00,Fictional imaging,2022-03-15 16:00:00,Fictional educational indication,Medium,Completed
+O00161,A00161,FictionalClinician01,Fictional screening,2022-03-16 03:00:00,Fictional educational indication,Low,Completed
+O00162,A00162,FictionalClinician02,Fictional blood panel,2022-03-16 14:00:00,Fictional educational indication,High,Completed
+O00163,A00163,FictionalClinician03,Fictional imaging,2022-03-17 01:00:00,Fictional educational indication,Medium,Completed
+O00164,A00164,FictionalClinician04,Fictional screening,2022-03-17 12:00:00,Fictional educational indication,Low,Completed
+O00165,A00165,FictionalClinician05,Fictional blood panel,2022-03-17 23:00:00,Fictional educational indication,High,Completed
+O00166,A00166,FictionalClinician06,Fictional imaging,2022-03-18 10:00:00,Fictional educational indication,Medium,Completed
+O00167,A00167,FictionalClinician07,Fictional screening,2022-03-18 21:00:00,Fictional educational indication,Low,Completed
+O00168,A00168,FictionalClinician08,Fictional blood panel,2022-03-19 08:00:00,Fictional educational indication,High,Completed
+O00169,A00169,FictionalClinician09,Fictional imaging,2022-03-19 19:00:00,Fictional educational indication,Medium,Completed
+O00170,A00170,FictionalClinician10,Fictional screening,2022-03-20 06:00:00,Fictional educational indication,Low,Completed
+O00171,A00171,FictionalClinician11,Fictional blood panel,2022-03-20 17:00:00,Fictional educational indication,High,Completed
+O00172,A00172,FictionalClinician12,Fictional imaging,2022-03-21 04:00:00,Fictional educational indication,Medium,Completed
+O00173,A00173,FictionalClinician13,Fictional screening,2022-03-21 15:00:00,Fictional educational indication,Low,Completed
+O00174,A00174,FictionalClinician14,Fictional blood panel,2022-03-22 02:00:00,Fictional educational indication,High,Completed
+O00175,A00175,FictionalClinician15,Fictional imaging,2022-03-22 13:00:00,Fictional educational indication,Medium,Completed
+O00176,A00176,FictionalClinician16,Fictional screening,2022-03-23 00:00:00,Fictional educational indication,Low,Completed
+O00177,A00177,FictionalClinician17,Fictional blood panel,2022-03-23 11:00:00,Fictional educational indication,High,Completed
+O00178,A00178,FictionalClinician18,Fictional imaging,2022-03-23 22:00:00,Fictional educational indication,Medium,Completed
+O00179,A00179,FictionalClinician19,Fictional screening,2022-03-24 09:00:00,Fictional educational indication,Low,Completed
+O00180,A00180,FictionalClinician20,Fictional blood panel,2022-03-24 20:00:00,Fictional educational indication,High,Completed
+O00181,A00181,FictionalClinician21,Fictional imaging,2022-03-25 07:00:00,Fictional educational indication,Medium,Completed
+O00182,A00182,FictionalClinician22,Fictional screening,2022-03-25 18:00:00,Fictional educational indication,Low,Completed
+O00183,A00183,FictionalClinician23,Fictional blood panel,2022-03-26 05:00:00,Fictional educational indication,High,Completed
+O00184,A00184,FictionalClinician24,Fictional imaging,2022-03-26 16:00:00,Fictional educational indication,Medium,Completed
+O00185,A00185,FictionalClinician25,Fictional screening,2022-03-27 03:00:00,Fictional educational indication,Low,Completed
+O00186,A00186,FictionalClinician26,Fictional blood panel,2022-03-27 14:00:00,Fictional educational indication,High,Completed
+O00187,A00187,FictionalClinician27,Fictional imaging,2022-03-28 01:00:00,Fictional educational indication,Medium,Completed
+O00188,A00188,FictionalClinician28,Fictional screening,2022-03-28 12:00:00,Fictional educational indication,Low,Completed
+O00189,A00189,FictionalClinician29,Fictional blood panel,2022-03-28 23:00:00,Fictional educational indication,High,Completed
+O00190,A00190,FictionalClinician30,Fictional imaging,2022-03-29 10:00:00,Fictional educational indication,Medium,Completed
+O00191,A00191,FictionalClinician31,Fictional screening,2022-03-29 21:00:00,Fictional educational indication,Low,Completed
+O00192,A00192,FictionalClinician32,Fictional blood panel,2022-03-30 08:00:00,Fictional educational indication,High,Completed
+O00193,A00193,FictionalClinician33,Fictional imaging,2022-03-30 19:00:00,Fictional educational indication,Medium,Completed
+O00194,A00194,FictionalClinician34,Fictional screening,2022-03-31 06:00:00,Fictional educational indication,Low,Completed
+O00195,A00195,FictionalClinician35,Fictional blood panel,2022-03-31 17:00:00,Fictional educational indication,High,Completed
+O00196,A00196,FictionalClinician36,Fictional imaging,2022-04-01 04:00:00,Fictional educational indication,Medium,Completed
+O00197,A00197,FictionalClinician37,Fictional screening,2022-04-01 15:00:00,Fictional educational indication,Low,Completed
+O00198,A00198,FictionalClinician38,Fictional blood panel,2022-04-02 02:00:00,Fictional educational indication,High,Completed
+O00199,A00199,FictionalClinician39,Fictional imaging,2022-04-02 13:00:00,Fictional educational indication,Medium,Completed
+O00200,A00200,FictionalClinician00,Fictional screening,2022-04-03 00:00:00,Fictional educational indication,Low,Completed
+O00201,A00201,FictionalClinician01,Fictional blood panel,2022-04-03 11:00:00,Fictional educational indication,High,Completed
+O00202,A00202,FictionalClinician02,Fictional imaging,2022-04-03 22:00:00,Fictional educational indication,Medium,Completed
+O00203,A00203,FictionalClinician03,Fictional screening,2022-04-04 09:00:00,Fictional educational indication,Low,Completed
+O00204,A00204,FictionalClinician04,Fictional blood panel,2022-04-04 20:00:00,Fictional educational indication,High,Completed
+O00205,A00205,FictionalClinician05,Fictional imaging,2022-04-05 07:00:00,Fictional educational indication,Medium,Completed
+O00206,A00206,FictionalClinician06,Fictional screening,2022-04-05 18:00:00,Fictional educational indication,Low,Completed
+O00207,A00207,FictionalClinician07,Fictional blood panel,2022-04-06 05:00:00,Fictional educational indication,High,Completed
+O00208,A00208,FictionalClinician08,Fictional imaging,2022-04-06 16:00:00,Fictional educational indication,Medium,Completed
+O00209,A00209,FictionalClinician09,Fictional screening,2022-04-07 03:00:00,Fictional educational indication,Low,Completed
+O00210,A00210,FictionalClinician10,Fictional blood panel,2022-04-07 14:00:00,Fictional educational indication,High,Completed
+O00211,A00211,FictionalClinician11,Fictional imaging,2022-04-08 01:00:00,Fictional educational indication,Medium,Completed
+O00212,A00212,FictionalClinician12,Fictional screening,2022-04-08 12:00:00,Fictional educational indication,Low,Completed
+O00213,A00213,FictionalClinician13,Fictional blood panel,2022-04-08 23:00:00,Fictional educational indication,High,Completed
+O00214,A00214,FictionalClinician14,Fictional imaging,2022-04-09 10:00:00,Fictional educational indication,Medium,Completed
+O00215,A00215,FictionalClinician15,Fictional screening,2022-04-09 21:00:00,Fictional educational indication,Low,Completed
+O00216,A00216,FictionalClinician16,Fictional blood panel,2022-04-10 08:00:00,Fictional educational indication,High,Completed
+O00217,A00217,FictionalClinician17,Fictional imaging,2022-04-10 19:00:00,Fictional educational indication,Medium,Completed
+O00218,A00218,FictionalClinician18,Fictional screening,2022-04-11 06:00:00,Fictional educational indication,Low,Completed
+O00219,A00219,FictionalClinician19,Fictional blood panel,2022-04-11 17:00:00,Fictional educational indication,High,Completed
+O00220,A00220,FictionalClinician20,Fictional imaging,2022-04-12 04:00:00,Fictional educational indication,Medium,Completed
+O00221,A00221,FictionalClinician21,Fictional screening,2022-04-12 15:00:00,Fictional educational indication,Low,Completed
+O00222,A00222,FictionalClinician22,Fictional blood panel,2022-04-13 02:00:00,Fictional educational indication,High,Completed
+O00223,A00223,FictionalClinician23,Fictional imaging,2022-04-13 13:00:00,Fictional educational indication,Medium,Completed
+O00224,A00224,FictionalClinician24,Fictional screening,2022-04-14 00:00:00,Fictional educational indication,Low,Completed
+O00225,A00225,FictionalClinician25,Fictional blood panel,2022-04-14 11:00:00,Fictional educational indication,High,Completed
+O00226,A00226,FictionalClinician26,Fictional imaging,2022-04-14 22:00:00,Fictional educational indication,Medium,Completed
+O00227,A00227,FictionalClinician27,Fictional screening,2022-04-15 09:00:00,Fictional educational indication,Low,Completed
+O00228,A00228,FictionalClinician28,Fictional blood panel,2022-04-15 20:00:00,Fictional educational indication,High,Completed
+O00229,A00229,FictionalClinician29,Fictional imaging,2022-04-16 07:00:00,Fictional educational indication,Medium,Completed
+O00230,A00230,FictionalClinician30,Fictional screening,2022-04-16 18:00:00,Fictional educational indication,Low,Completed
+O00231,A00231,FictionalClinician31,Fictional blood panel,2022-04-17 05:00:00,Fictional educational indication,High,Completed
+O00232,A00232,FictionalClinician32,Fictional imaging,2022-04-17 16:00:00,Fictional educational indication,Medium,Completed
+O00233,A00233,FictionalClinician33,Fictional screening,2022-04-18 03:00:00,Fictional educational indication,Low,Completed
+O00234,A00234,FictionalClinician34,Fictional blood panel,2022-04-18 14:00:00,Fictional educational indication,High,Completed
+O00235,A00235,FictionalClinician35,Fictional imaging,2022-04-19 01:00:00,Fictional educational indication,Medium,Completed
+O00236,A00236,FictionalClinician36,Fictional screening,2022-04-19 12:00:00,Fictional educational indication,Low,Completed
+O00237,A00237,FictionalClinician37,Fictional blood panel,2022-04-19 23:00:00,Fictional educational indication,High,Completed
+O00238,A00238,FictionalClinician38,Fictional imaging,2022-04-20 10:00:00,Fictional educational indication,Medium,Completed
+O00239,A00239,FictionalClinician39,Fictional screening,2022-04-20 21:00:00,Fictional educational indication,Low,Completed
+O00240,A00240,FictionalClinician00,Fictional blood panel,2022-04-21 08:00:00,Fictional educational indication,High,Completed
+O00241,A00241,FictionalClinician01,Fictional imaging,2022-04-21 19:00:00,Fictional educational indication,Medium,Completed
+O00242,A00242,FictionalClinician02,Fictional screening,2022-04-22 06:00:00,Fictional educational indication,Low,Completed
+O00243,A00243,FictionalClinician03,Fictional blood panel,2022-04-22 17:00:00,Fictional educational indication,High,Completed
+O00244,A00244,FictionalClinician04,Fictional imaging,2022-04-23 04:00:00,Fictional educational indication,Medium,Completed
+O00245,A00245,FictionalClinician05,Fictional screening,2022-04-23 15:00:00,Fictional educational indication,Low,Completed
+O00246,A00246,FictionalClinician06,Fictional blood panel,2022-04-24 02:00:00,Fictional educational indication,High,Completed
+O00247,A00247,FictionalClinician07,Fictional imaging,2022-04-24 13:00:00,Fictional educational indication,Medium,Completed
+O00248,A00248,FictionalClinician08,Fictional screening,2022-04-25 00:00:00,Fictional educational indication,Low,Completed
+O00249,A00249,FictionalClinician09,Fictional blood panel,2022-04-25 11:00:00,Fictional educational indication,High,Completed
+O00250,A00250,FictionalClinician10,Fictional imaging,2022-04-25 22:00:00,Fictional educational indication,Medium,Completed
+O00251,A00251,FictionalClinician11,Fictional screening,2022-04-26 09:00:00,Fictional educational indication,Low,Pending
+O00252,A00252,FictionalClinician12,Fictional blood panel,2022-04-26 20:00:00,Fictional educational indication,High,Awaiting Results
+O00253,A00253,FictionalClinician13,Fictional imaging,2022-04-27 07:00:00,Fictional educational indication,Medium,Pending
+O00254,A00254,FictionalClinician14,Fictional screening,2022-04-27 18:00:00,Fictional educational indication,Low,Awaiting Results
+O00255,A00255,FictionalClinician15,Fictional blood panel,2022-04-28 05:00:00,Fictional educational indication,High,Pending
+O00256,A00256,FictionalClinician16,Fictional imaging,2022-04-28 16:00:00,Fictional educational indication,Medium,Awaiting Results
+O00257,A00257,FictionalClinician17,Fictional screening,2022-04-29 03:00:00,Fictional educational indication,Low,Pending
+O00258,A00258,FictionalClinician18,Fictional blood panel,2022-04-29 14:00:00,Fictional educational indication,High,Awaiting Results
+O00259,A00259,FictionalClinician19,Fictional imaging,2022-04-30 01:00:00,Fictional educational indication,Medium,Pending
+O00260,A00260,FictionalClinician20,Fictional screening,2022-04-30 12:00:00,Fictional educational indication,Low,Awaiting Results
+O00261,A00261,FictionalClinician21,Fictional blood panel,2022-04-30 23:00:00,Fictional educational indication,High,Pending
+O00262,A00262,FictionalClinician22,Fictional imaging,2022-05-01 10:00:00,Fictional educational indication,Medium,Awaiting Results
+O00263,A00263,FictionalClinician23,Fictional screening,2022-05-01 21:00:00,Fictional educational indication,Low,Pending
+O00264,A00264,FictionalClinician24,Fictional blood panel,2022-05-02 08:00:00,Fictional educational indication,High,Awaiting Results
+O00265,A00265,FictionalClinician25,Fictional imaging,2022-05-02 19:00:00,Fictional educational indication,Medium,Pending
+O00266,A00266,FictionalClinician26,Fictional screening,2022-05-03 06:00:00,Fictional educational indication,Low,Awaiting Results
+O00267,A00267,FictionalClinician27,Fictional blood panel,2022-05-03 17:00:00,Fictional educational indication,High,Pending
+O00268,A00268,FictionalClinician28,Fictional imaging,2022-05-04 04:00:00,Fictional educational indication,Medium,Awaiting Results
+O00269,A00269,FictionalClinician29,Fictional screening,2022-05-04 15:00:00,Fictional educational indication,Low,Pending
+O00270,A00270,FictionalClinician30,Fictional blood panel,2022-05-05 02:00:00,Fictional educational indication,High,Awaiting Results
+O00271,A00271,FictionalClinician31,Fictional imaging,2022-05-05 13:00:00,Fictional educational indication,Medium,Pending
+O00272,A00272,FictionalClinician32,Fictional screening,2022-05-06 00:00:00,Fictional educational indication,Low,Awaiting Results
+O00273,A00273,FictionalClinician33,Fictional blood panel,2022-05-06 11:00:00,Fictional educational indication,High,Pending
+O00274,A00274,FictionalClinician34,Fictional imaging,2022-05-06 22:00:00,Fictional educational indication,Medium,Awaiting Results
+O00275,A00275,FictionalClinician35,Fictional screening,2022-05-07 09:00:00,Fictional educational indication,Low,Pending
+O00276,A00276,FictionalClinician36,Fictional blood panel,2022-05-07 20:00:00,Fictional educational indication,High,Awaiting Results
+O00277,A00277,FictionalClinician37,Fictional imaging,2022-05-08 07:00:00,Fictional educational indication,Medium,Pending
+O00278,A00278,FictionalClinician38,Fictional screening,2022-05-08 18:00:00,Fictional educational indication,Low,Awaiting Results
+O00279,A00279,FictionalClinician39,Fictional blood panel,2022-05-09 05:00:00,Fictional educational indication,High,Pending
+O00280,A00280,FictionalClinician00,Fictional imaging,2022-05-09 16:00:00,Fictional educational indication,Medium,Awaiting Results
+O00281,A00281,FictionalClinician01,Fictional screening,2022-05-10 03:00:00,Fictional educational indication,Low,Pending
+O00282,A00282,FictionalClinician02,Fictional blood panel,2022-05-10 14:00:00,Fictional educational indication,High,Awaiting Results
+O00283,A00283,FictionalClinician03,Fictional imaging,2022-05-11 01:00:00,Fictional educational indication,Medium,Pending
+O00284,A00284,FictionalClinician04,Fictional screening,2022-05-11 12:00:00,Fictional educational indication,Low,Awaiting Results
+O00285,A00285,FictionalClinician05,Fictional blood panel,2022-05-11 23:00:00,Fictional educational indication,High,Pending
+O00286,A00286,FictionalClinician06,Fictional imaging,2022-05-12 10:00:00,Fictional educational indication,Medium,Awaiting Results
+O00287,A00287,FictionalClinician07,Fictional screening,2022-05-12 21:00:00,Fictional educational indication,Low,Pending
+O00288,A00288,FictionalClinician08,Fictional blood panel,2022-05-13 08:00:00,Fictional educational indication,High,Awaiting Results
+O00289,A00289,FictionalClinician09,Fictional imaging,2022-05-13 19:00:00,Fictional educational indication,Medium,Pending
+O00290,A00290,FictionalClinician10,Fictional screening,2022-05-14 06:00:00,Fictional educational indication,Low,Awaiting Results
+O00291,A00291,FictionalClinician11,Fictional blood panel,2022-05-14 17:00:00,Fictional educational indication,High,Pending
+O00292,A00292,FictionalClinician12,Fictional imaging,2022-05-15 04:00:00,Fictional educational indication,Medium,Awaiting Results
+O00293,A00293,FictionalClinician13,Fictional screening,2022-05-15 15:00:00,Fictional educational indication,Low,Pending
+O00294,A00294,FictionalClinician14,Fictional blood panel,2022-05-16 02:00:00,Fictional educational indication,High,Awaiting Results
+O00295,A00295,FictionalClinician15,Fictional imaging,2022-05-16 13:00:00,Fictional educational indication,Medium,Pending
+O00296,A00296,FictionalClinician16,Fictional screening,2022-05-17 00:00:00,Fictional educational indication,Low,Awaiting Results
+O00297,A00297,FictionalClinician17,Fictional blood panel,2022-05-17 11:00:00,Fictional educational indication,High,Pending
+O00298,A00298,FictionalClinician18,Fictional imaging,2022-05-17 22:00:00,Fictional educational indication,Medium,Awaiting Results
+O00299,A00299,FictionalClinician19,Fictional screening,2022-05-18 09:00:00,Fictional educational indication,Low,Pending
+O00300,A00300,FictionalClinician20,Fictional blood panel,2022-05-18 20:00:00,Fictional educational indication,High,Awaiting Results
+O00301,A00301,FictionalClinician21,Fictional imaging,2022-05-19 07:00:00,Fictional educational indication,Medium,Pending
+O00302,A00302,FictionalClinician22,Fictional screening,2022-05-19 18:00:00,Fictional educational indication,Low,Awaiting Results
+O00303,A00303,FictionalClinician23,Fictional blood panel,2022-05-20 05:00:00,Fictional educational indication,High,Pending
+O00304,A00304,FictionalClinician24,Fictional imaging,2022-05-20 16:00:00,Fictional educational indication,Medium,Awaiting Results
+O00305,A00305,FictionalClinician25,Fictional screening,2022-05-21 03:00:00,Fictional educational indication,Low,Pending
+O00306,A00306,FictionalClinician26,Fictional blood panel,2022-05-21 14:00:00,Fictional educational indication,High,Awaiting Results
+O00307,A00307,FictionalClinician27,Fictional imaging,2022-05-22 01:00:00,Fictional educational indication,Medium,Pending
+O00308,A00308,FictionalClinician28,Fictional screening,2022-05-22 12:00:00,Fictional educational indication,Low,Awaiting Results
+O00309,A00309,FictionalClinician29,Fictional blood panel,2022-05-22 23:00:00,Fictional educational indication,High,Pending
+O00310,A00310,FictionalClinician30,Fictional imaging,2022-05-23 10:00:00,Fictional educational indication,Medium,Awaiting Results
+O00311,A00311,FictionalClinician31,Fictional screening,2022-05-23 21:00:00,Fictional educational indication,Low,Pending
+O00312,A00312,FictionalClinician32,Fictional blood panel,2022-05-24 08:00:00,Fictional educational indication,High,Awaiting Results
+O00313,A00313,FictionalClinician33,Fictional imaging,2022-05-24 19:00:00,Fictional educational indication,Medium,Pending
+O00314,A00314,FictionalClinician34,Fictional screening,2022-05-25 06:00:00,Fictional educational indication,Low,Awaiting Results
+O00315,A00315,FictionalClinician35,Fictional blood panel,2022-05-25 17:00:00,Fictional educational indication,High,Pending
+O00316,A00316,FictionalClinician36,Fictional imaging,2022-05-26 04:00:00,Fictional educational indication,Medium,Awaiting Results
+O00317,A00317,FictionalClinician37,Fictional screening,2022-05-26 15:00:00,Fictional educational indication,Low,Pending
+O00318,A00318,FictionalClinician38,Fictional blood panel,2022-05-27 02:00:00,Fictional educational indication,High,Awaiting Results
+O00319,A00319,FictionalClinician39,Fictional imaging,2022-05-27 13:00:00,Fictional educational indication,Medium,Pending
+O00320,A00320,FictionalClinician00,Fictional screening,2022-05-28 00:00:00,Fictional educational indication,Low,Awaiting Results
+O00321,A00321,FictionalClinician01,Fictional blood panel,2022-05-28 11:00:00,Fictional educational indication,High,Pending
+O00322,A00322,FictionalClinician02,Fictional imaging,2022-05-28 22:00:00,Fictional educational indication,Medium,Awaiting Results
+O00323,A00323,FictionalClinician03,Fictional screening,2022-05-29 09:00:00,Fictional educational indication,Low,Pending
+O00324,A00324,FictionalClinician04,Fictional blood panel,2022-05-29 20:00:00,Fictional educational indication,High,Awaiting Results
+O00325,A00325,FictionalClinician05,Fictional imaging,2022-05-30 07:00:00,Fictional educational indication,Medium,Pending
+O00326,A00326,FictionalClinician06,Fictional screening,2022-05-30 18:00:00,Fictional educational indication,Low,Awaiting Results
+O00327,A00327,FictionalClinician07,Fictional blood panel,2022-05-31 05:00:00,Fictional educational indication,High,Pending
+O00328,A00328,FictionalClinician08,Fictional imaging,2022-05-31 16:00:00,Fictional educational indication,Medium,Awaiting Results
+O00329,A00329,FictionalClinician09,Fictional screening,2022-06-01 03:00:00,Fictional educational indication,Low,Pending
+O00330,A00330,FictionalClinician10,Fictional blood panel,2022-06-01 14:00:00,Fictional educational indication,High,Awaiting Results
+O00331,A00331,FictionalClinician11,Fictional imaging,2022-06-02 01:00:00,Fictional educational indication,Medium,Pending
+O00332,A00332,FictionalClinician12,Fictional screening,2022-06-02 12:00:00,Fictional educational indication,Low,Awaiting Results
+O00333,A00333,FictionalClinician13,Fictional blood panel,2022-06-02 23:00:00,Fictional educational indication,High,Pending
+O00334,A00334,FictionalClinician14,Fictional imaging,2022-06-03 10:00:00,Fictional educational indication,Medium,Awaiting Results
+O00335,A00335,FictionalClinician15,Fictional screening,2022-06-03 21:00:00,Fictional educational indication,Low,Pending
+O00336,A00336,FictionalClinician16,Fictional blood panel,2022-06-04 08:00:00,Fictional educational indication,High,Awaiting Results
+O00337,A00337,FictionalClinician17,Fictional imaging,2022-06-04 19:00:00,Fictional educational indication,Medium,Pending
+O00338,A00338,FictionalClinician18,Fictional screening,2022-06-05 06:00:00,Fictional educational indication,Low,Awaiting Results
+O00339,A00339,FictionalClinician19,Fictional blood panel,2022-06-05 17:00:00,Fictional educational indication,High,Pending
+O00340,A00340,FictionalClinician20,Fictional imaging,2022-06-06 04:00:00,Fictional educational indication,Medium,Awaiting Results
+O00341,A00341,FictionalClinician21,Fictional screening,2022-06-06 15:00:00,Fictional educational indication,Low,Pending
+O00342,A00342,FictionalClinician22,Fictional blood panel,2022-06-07 02:00:00,Fictional educational indication,High,Awaiting Results
+O00343,A00343,FictionalClinician23,Fictional imaging,2022-06-07 13:00:00,Fictional educational indication,Medium,Pending
+O00344,A00344,FictionalClinician24,Fictional screening,2022-06-08 00:00:00,Fictional educational indication,Low,Awaiting Results
+O00345,A00345,FictionalClinician25,Fictional blood panel,2022-06-08 11:00:00,Fictional educational indication,High,Pending
+O00346,A00346,FictionalClinician26,Fictional imaging,2022-06-08 22:00:00,Fictional educational indication,Medium,Awaiting Results
+O00347,A00347,FictionalClinician27,Fictional screening,2022-06-09 09:00:00,Fictional educational indication,Low,Pending
+O00348,A00348,FictionalClinician28,Fictional blood panel,2022-06-09 20:00:00,Fictional educational indication,High,Awaiting Results
+O00349,A00349,FictionalClinician29,Fictional imaging,2022-06-10 07:00:00,Fictional educational indication,Medium,Pending
+O00350,A00350,FictionalClinician30,Fictional screening,2022-06-10 18:00:00,Fictional educational indication,Low,Awaiting Results
+O00351,A00351,FictionalClinician31,Fictional blood panel,2022-06-11 05:00:00,Fictional educational indication,High,Pending
+O00352,A00352,FictionalClinician32,Fictional imaging,2022-06-11 16:00:00,Fictional educational indication,Medium,Awaiting Results
+O00353,A00353,FictionalClinician33,Fictional screening,2022-06-12 03:00:00,Fictional educational indication,Low,Pending
+O00354,A00354,FictionalClinician34,Fictional blood panel,2022-06-12 14:00:00,Fictional educational indication,High,Awaiting Results
+O00355,A00355,FictionalClinician35,Fictional imaging,2022-06-13 01:00:00,Fictional educational indication,Medium,Pending
+O00356,A00356,FictionalClinician36,Fictional screening,2022-06-13 12:00:00,Fictional educational indication,Low,Awaiting Results
+O00357,A00357,FictionalClinician37,Fictional blood panel,2022-06-13 23:00:00,Fictional educational indication,High,Pending
+O00358,A00358,FictionalClinician38,Fictional imaging,2022-06-14 10:00:00,Fictional educational indication,Medium,Awaiting Results
+O00359,A00359,FictionalClinician39,Fictional screening,2022-06-14 21:00:00,Fictional educational indication,Low,Pending
+O00360,A00360,FictionalClinician00,Fictional blood panel,2022-06-15 08:00:00,Fictional educational indication,High,Awaiting Results
+O00361,A00361,FictionalClinician01,Fictional imaging,2022-06-15 19:00:00,Fictional educational indication,Medium,Pending
+O00362,A00362,FictionalClinician02,Fictional screening,2022-06-16 06:00:00,Fictional educational indication,Low,Awaiting Results
+O00363,A00363,FictionalClinician03,Fictional blood panel,2022-06-16 17:00:00,Fictional educational indication,High,Pending
+O00364,A00364,FictionalClinician04,Fictional imaging,2022-06-17 04:00:00,Fictional educational indication,Medium,Awaiting Results
+O00365,A00365,FictionalClinician05,Fictional screening,2022-06-17 15:00:00,Fictional educational indication,Low,Pending
+O00366,A00366,FictionalClinician06,Fictional blood panel,2022-06-18 02:00:00,Fictional educational indication,High,Awaiting Results
+O00367,A00367,FictionalClinician07,Fictional imaging,2022-06-18 13:00:00,Fictional educational indication,Medium,Pending
+O00368,A00368,FictionalClinician08,Fictional screening,2022-06-19 00:00:00,Fictional educational indication,Low,Awaiting Results
+O00369,A00369,FictionalClinician09,Fictional blood panel,2022-06-19 11:00:00,Fictional educational indication,High,Pending
+O00370,A00370,FictionalClinician10,Fictional imaging,2022-06-19 22:00:00,Fictional educational indication,Medium,Awaiting Results
+O00371,A00371,FictionalClinician11,Fictional screening,2022-06-20 09:00:00,Fictional educational indication,Low,Pending
+O00372,A00372,FictionalClinician12,Fictional blood panel,2022-06-20 20:00:00,Fictional educational indication,High,Awaiting Results
+O00373,A00373,FictionalClinician13,Fictional imaging,2022-06-21 07:00:00,Fictional educational indication,Medium,Pending
+O00374,A00374,FictionalClinician14,Fictional screening,2022-06-21 18:00:00,Fictional educational indication,Low,Awaiting Results
+O00375,A00375,FictionalClinician15,Fictional blood panel,2022-06-22 05:00:00,Fictional educational indication,High,Pending
+O00376,A00376,FictionalClinician16,Fictional imaging,2022-06-22 16:00:00,Fictional educational indication,Medium,Awaiting Results
+O00377,A00377,FictionalClinician17,Fictional screening,2022-06-23 03:00:00,Fictional educational indication,Low,Pending
+O00378,A00378,FictionalClinician18,Fictional blood panel,2022-06-23 14:00:00,Fictional educational indication,High,Awaiting Results
+O00379,A00379,FictionalClinician19,Fictional imaging,2022-06-24 01:00:00,Fictional educational indication,Medium,Pending
+O00380,A00380,FictionalClinician20,Fictional screening,2022-06-24 12:00:00,Fictional educational indication,Low,Awaiting Results
+O00381,A00381,FictionalClinician21,Fictional blood panel,2022-06-24 23:00:00,Fictional educational indication,High,Pending
+O00382,A00382,FictionalClinician22,Fictional imaging,2022-06-25 10:00:00,Fictional educational indication,Medium,Awaiting Results
+O00383,A00383,FictionalClinician23,Fictional screening,2022-06-25 21:00:00,Fictional educational indication,Low,Pending
+O00384,A00384,FictionalClinician24,Fictional blood panel,2022-06-26 08:00:00,Fictional educational indication,High,Awaiting Results
+O00385,A00385,FictionalClinician25,Fictional imaging,2022-06-26 19:00:00,Fictional educational indication,Medium,Pending
+O00386,A00386,FictionalClinician26,Fictional screening,2022-06-27 06:00:00,Fictional educational indication,Low,Awaiting Results
+O00387,A00387,FictionalClinician27,Fictional blood panel,2022-06-27 17:00:00,Fictional educational indication,High,Pending
+O00388,A00388,FictionalClinician28,Fictional imaging,2022-06-28 04:00:00,Fictional educational indication,Medium,Awaiting Results
+O00389,A00389,FictionalClinician29,Fictional screening,2022-06-28 15:00:00,Fictional educational indication,Low,Pending
+O00390,A00390,FictionalClinician30,Fictional blood panel,2022-06-29 02:00:00,Fictional educational indication,High,Awaiting Results
+O00391,A00391,FictionalClinician31,Fictional imaging,2022-06-29 13:00:00,Fictional educational indication,Medium,Pending
+O00392,A00392,FictionalClinician32,Fictional screening,2022-06-30 00:00:00,Fictional educational indication,Low,Awaiting Results
+O00393,A00393,FictionalClinician33,Fictional blood panel,2022-06-30 11:00:00,Fictional educational indication,High,Pending
+O00394,A00394,FictionalClinician34,Fictional imaging,2022-06-30 22:00:00,Fictional educational indication,Medium,Awaiting Results
+O00395,A00395,FictionalClinician35,Fictional screening,2022-07-01 09:00:00,Fictional educational indication,Low,Pending
+O00396,A00396,FictionalClinician36,Fictional blood panel,2022-07-01 20:00:00,Fictional educational indication,High,Awaiting Results
+O00397,A00397,FictionalClinician37,Fictional imaging,2022-07-02 07:00:00,Fictional educational indication,Medium,Pending
+O00398,A00398,FictionalClinician38,Fictional screening,2022-07-02 18:00:00,Fictional educational indication,Low,Awaiting Results
+O00399,A00399,FictionalClinician39,Fictional blood panel,2022-07-03 05:00:00,Fictional educational indication,High,Pending
+O00400,A00400,FictionalClinician00,Fictional imaging,2022-07-03 16:00:00,Fictional educational indication,Medium,Awaiting Results
+O00401,A00401,FictionalClinician01,Fictional screening,2022-07-04 03:00:00,Fictional educational indication,Low,Pending
+O00402,A00402,FictionalClinician02,Fictional blood panel,2022-07-04 14:00:00,Fictional educational indication,High,Awaiting Results
+O00403,A00403,FictionalClinician03,Fictional imaging,2022-07-05 01:00:00,Fictional educational indication,Medium,Pending
+O00404,A00404,FictionalClinician04,Fictional screening,2022-07-05 12:00:00,Fictional educational indication,Low,Awaiting Results
+O00405,A00405,FictionalClinician05,Fictional blood panel,2022-07-05 23:00:00,Fictional educational indication,High,Pending
+O00406,A00406,FictionalClinician06,Fictional imaging,2022-07-06 10:00:00,Fictional educational indication,Medium,Awaiting Results
+O00407,A00407,FictionalClinician07,Fictional screening,2022-07-06 21:00:00,Fictional educational indication,Low,Pending
+O00408,A00408,FictionalClinician08,Fictional blood panel,2022-07-07 08:00:00,Fictional educational indication,High,Awaiting Results
+O00409,A00409,FictionalClinician09,Fictional imaging,2022-07-07 19:00:00,Fictional educational indication,Medium,Pending
+O00410,A00410,FictionalClinician10,Fictional screening,2022-07-08 06:00:00,Fictional educational indication,Low,Awaiting Results
+O00411,A00411,FictionalClinician11,Fictional blood panel,2022-07-08 17:00:00,Fictional educational indication,High,Pending
+O00412,A00412,FictionalClinician12,Fictional imaging,2022-07-09 04:00:00,Fictional educational indication,Medium,Awaiting Results
+O00413,A00413,FictionalClinician13,Fictional screening,2022-07-09 15:00:00,Fictional educational indication,Low,Pending
+O00414,A00414,FictionalClinician14,Fictional blood panel,2022-07-10 02:00:00,Fictional educational indication,High,Awaiting Results
+O00415,A00415,FictionalClinician15,Fictional imaging,2022-07-10 13:00:00,Fictional educational indication,Medium,Pending
+O00416,A00416,FictionalClinician16,Fictional screening,2022-07-11 00:00:00,Fictional educational indication,Low,Awaiting Results
+O00417,A00417,FictionalClinician17,Fictional blood panel,2022-07-11 11:00:00,Fictional educational indication,High,Pending
+O00418,A00418,FictionalClinician18,Fictional imaging,2022-07-11 22:00:00,Fictional educational indication,Medium,Awaiting Results
+O00419,A00419,FictionalClinician19,Fictional screening,2022-07-12 09:00:00,Fictional educational indication,Low,Pending
+O00420,A00420,FictionalClinician20,Fictional blood panel,2022-07-12 20:00:00,Fictional educational indication,High,Awaiting Results
+O00421,A00421,FictionalClinician21,Fictional imaging,2022-07-13 07:00:00,Fictional educational indication,Medium,Pending
+O00422,A00422,FictionalClinician22,Fictional screening,2022-07-13 18:00:00,Fictional educational indication,Low,Awaiting Results
+O00423,A00423,FictionalClinician23,Fictional blood panel,2022-07-14 05:00:00,Fictional educational indication,High,Pending
+O00424,A00424,FictionalClinician24,Fictional imaging,2022-07-14 16:00:00,Fictional educational indication,Medium,Awaiting Results
+O00425,A00425,FictionalClinician25,Fictional screening,2022-07-15 03:00:00,Fictional educational indication,Low,Pending
+O00426,A00426,FictionalClinician26,Fictional blood panel,2022-07-15 14:00:00,Fictional educational indication,High,Awaiting Results
+O00427,A00427,FictionalClinician27,Fictional imaging,2022-07-16 01:00:00,Fictional educational indication,Medium,Pending
+O00428,A00428,FictionalClinician28,Fictional screening,2022-07-16 12:00:00,Fictional educational indication,Low,Awaiting Results
+O00429,A00429,FictionalClinician29,Fictional blood panel,2022-07-16 23:00:00,Fictional educational indication,High,Pending
+O00430,A00430,FictionalClinician30,Fictional imaging,2022-07-17 10:00:00,Fictional educational indication,Medium,Awaiting Results
+O00431,A00431,FictionalClinician31,Fictional screening,2022-07-17 21:00:00,Fictional educational indication,Low,Pending
+O00432,A00432,FictionalClinician32,Fictional blood panel,2022-07-18 08:00:00,Fictional educational indication,High,Awaiting Results
+O00433,A00433,FictionalClinician33,Fictional imaging,2022-07-18 19:00:00,Fictional educational indication,Medium,Pending
+O00434,A00434,FictionalClinician34,Fictional screening,2022-07-19 06:00:00,Fictional educational indication,Low,Awaiting Results
+O00435,A00435,FictionalClinician35,Fictional blood panel,2022-07-19 17:00:00,Fictional educational indication,High,Pending
+O00436,A00436,FictionalClinician36,Fictional imaging,2022-07-20 04:00:00,Fictional educational indication,Medium,Awaiting Results
+O00437,A00437,FictionalClinician37,Fictional screening,2022-07-20 15:00:00,Fictional educational indication,Low,Pending
+O00438,A00438,FictionalClinician38,Fictional blood panel,2022-07-21 02:00:00,Fictional educational indication,High,Awaiting Results
+O00439,A00439,FictionalClinician39,Fictional imaging,2022-07-21 13:00:00,Fictional educational indication,Medium,Pending
+O00440,A00440,FictionalClinician00,Fictional screening,2022-07-22 00:00:00,Fictional educational indication,Low,Awaiting Results
+O00441,A00441,FictionalClinician01,Fictional blood panel,2022-07-22 11:00:00,Fictional educational indication,High,Pending
+O00442,A00442,FictionalClinician02,Fictional imaging,2022-07-22 22:00:00,Fictional educational indication,Medium,Awaiting Results
+O00443,A00443,FictionalClinician03,Fictional screening,2022-07-23 09:00:00,Fictional educational indication,Low,Pending
+O00444,A00444,FictionalClinician04,Fictional blood panel,2022-07-23 20:00:00,Fictional educational indication,High,Awaiting Results
+O00445,A00445,FictionalClinician05,Fictional imaging,2022-07-24 07:00:00,Fictional educational indication,Medium,Pending
+O00446,A00446,FictionalClinician06,Fictional screening,2022-07-24 18:00:00,Fictional educational indication,Low,Awaiting Results
+O00447,A00447,FictionalClinician07,Fictional blood panel,2022-07-25 05:00:00,Fictional educational indication,High,Pending
+O00448,A00448,FictionalClinician08,Fictional imaging,2022-07-25 16:00:00,Fictional educational indication,Medium,Awaiting Results
+O00449,A00449,FictionalClinician09,Fictional screening,2022-07-26 03:00:00,Fictional educational indication,Low,Pending
+O00450,A00450,FictionalClinician10,Fictional blood panel,2022-07-26 14:00:00,Fictional educational indication,High,Awaiting Results

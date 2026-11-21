@@ -1,0 +1,51 @@
+icd9_code,official_title,description,disease_category
+038.9,Unspecified septicemia,Unspecified septicemia,Infectious and parasitic diseases
+250.00,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled","Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled","Endocrine, nutritional, and metabolic diseases"
+272.4,Other and unspecified hyperlipidemia,Other and unspecified hyperlipidemia,"Endocrine, nutritional, and metabolic diseases"
+276.1,Hyposmolality and/or hyponatremia,Hyposmolality and/or hyponatremia,"Endocrine, nutritional, and metabolic diseases"
+276.8,Hypopotassemia,Hypopotassemia,"Endocrine, nutritional, and metabolic diseases"
+285.9,"Anemia, unspecified","Anemia, unspecified",Diseases of the blood and blood-forming organs
+401.9,Unspecified essential hypertension,Unspecified essential hypertension,Diseases of the circulatory system
+414.01,Coronary atherosclerosis of native coronary artery,Coronary atherosclerosis of native coronary artery,Diseases of the circulatory system
+427.31,Atrial fibrillation,Atrial fibrillation,Diseases of the circulatory system
+428.0,"Congestive heart failure, unspecified","Congestive heart failure, unspecified",Diseases of the circulatory system
+486,"Pneumonia, organism unspecified","Pneumonia, organism unspecified",Diseases of the respiratory system
+493.90,"Asthma, unspecified type, unspecified","Asthma, unspecified type, unspecified",Diseases of the respiratory system
+518.81,Acute respiratory failure,Acute respiratory failure,Diseases of the respiratory system
+530.81,Esophageal reflux,Esophageal reflux,Diseases of the digestive system
+584.9,"Acute kidney failure, unspecified","Acute kidney failure, unspecified",Diseases of the genitourinary system
+599.0,"Urinary tract infection, site not specified","Urinary tract infection, site not specified",Diseases of the genitourinary system
+599.70,"Hematuria, unspecified","Hematuria, unspecified",Diseases of the genitourinary system
+715.90,"Osteoarthrosis, unspecified whether generalized or localized, site unspecified","Osteoarthrosis, unspecified whether generalized or localized, site unspecified",Diseases of the musculoskeletal system and connective tissue
+719.46,"Pain in joint, lower leg","Pain in joint, lower leg",Diseases of the musculoskeletal system and connective tissue
+724.2,Lumbago,Lumbago,Diseases of the musculoskeletal system and connective tissue
+724.5,"Backache, unspecified","Backache, unspecified",Diseases of the musculoskeletal system and connective tissue
+729.5,Pain in limb,Pain in limb,Diseases of the musculoskeletal system and connective tissue
+780.2,Syncope and collapse,Syncope and collapse,"Symptoms, signs, and ill-defined conditions"
+780.79,Other malaise and fatigue,Other malaise and fatigue,"Symptoms, signs, and ill-defined conditions"
+786.05,Shortness of breath,Shortness of breath,"Symptoms, signs, and ill-defined conditions"
+786.09,Other respiratory abnormalities,Other respiratory abnormalities,"Symptoms, signs, and ill-defined conditions"
+786.50,"Chest pain, unspecified","Chest pain, unspecified","Symptoms, signs, and ill-defined conditions"
+789.00,"Abdominal pain, unspecified site","Abdominal pain, unspecified site","Symptoms, signs, and ill-defined conditions"
+995.91,Sepsis,Sepsis,Injury and poisoning
+995.92,Severe sepsis,Severe sepsis,Injury and poisoning
+V15.82,Personal history of tobacco use,Personal history of tobacco use,Supplementary factors influencing health status
+V43.3,Heart valve replaced by other means,Heart valve replaced by other means,Supplementary factors influencing health status
+V45.81,Aortocoronary bypass status,Aortocoronary bypass status,Supplementary factors influencing health status
+V58.61,Long-term (current) use of anticoagulants,Long-term (current) use of anticoagulants,Supplementary factors influencing health status
+V58.67,Long-term (current) use of insulin,Long-term (current) use of insulin,Supplementary factors influencing health status
+244.9,Unspecified acquired hypothyroidism,Unspecified acquired hypothyroidism,"Endocrine, nutritional, and metabolic diseases"
+250.02,"Diabetes mellitus without mention of complication, type II or unspecified type, uncontrolled","Diabetes mellitus without mention of complication, type II or unspecified type, uncontrolled","Endocrine, nutritional, and metabolic diseases"
+272.0,Pure hypercholesterolemia,Pure hypercholesterolemia,"Endocrine, nutritional, and metabolic diseases"
+278.00,"Obesity, unspecified","Obesity, unspecified","Endocrine, nutritional, and metabolic diseases"
+285.1,Acute posthemorrhagic anemia,Acute posthemorrhagic anemia,Diseases of the blood and blood-forming organs
+311,"Depressive disorder, not elsewhere classified","Depressive disorder, not elsewhere classified",Mental disorders
+331.0,Alzheimer's disease,Alzheimer's disease,Diseases of the nervous system and sense organs
+345.90,"Epilepsy, unspecified, without mention of intractable epilepsy","Epilepsy, unspecified, without mention of intractable epilepsy",Diseases of the nervous system and sense organs
+346.90,"Migraine, unspecified, without mention of intractable migraine without mention of status migrainosus","Migraine, unspecified, without mention of intractable migraine without mention of status migrainosus",Diseases of the nervous system and sense organs
+401.1,Benign essential hypertension,Benign essential hypertension,Diseases of the circulatory system
+410.90,"Acute myocardial infarction of unspecified site, episode of care unspecified","Acute myocardial infarction of unspecified site, episode of care unspecified",Diseases of the circulatory system
+412,Old myocardial infarction,Old myocardial infarction,Diseases of the circulatory system
+414.00,"Coronary atherosclerosis of unspecified type of vessel, native or graft","Coronary atherosclerosis of unspecified type of vessel, native or graft",Diseases of the circulatory system
+466.0,Acute bronchitis,Acute bronchitis,Diseases of the respiratory system
+585.3,"Chronic kidney disease, Stage III (moderate)","Chronic kidney disease, Stage III (moderate)",Diseases of the genitourinary system

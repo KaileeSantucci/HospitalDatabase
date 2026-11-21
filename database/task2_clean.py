@@ -2,12 +2,12 @@ import pandas as pd
 from task1_inspect_load import load_source 
 
 #1: loading every source into the DataFrames
-raw = {}
+data = {}
 for source in ["A","B","C","D"]:
     entities = load_source(source) # loading {table name :list of records}
-    raw[source] = {}
+    data[source] = {}
     for table in entities:
-        raw[source][table] = pd.DataFrame(entities[table])
+        data[source][table] = pd.DataFrame(entities[table])
                    
 
 #2: rename source B's columns to the common names, Source A, C, D use the phase 1 names 
@@ -105,33 +105,33 @@ B_column_names = {
 } 
 
 for table, new_names in B_column_names.items():
-    raw["B"][table] = raw["B"][table].rename(columns = new_names)
+    data["B"][table] = data["B"][table].rename(columns = new_names)
 
 
 #source c leaves out tags that are always empty, so some of its tables are missing columns
 #adding each missing column back as an empty column then putting the colums in the same order as source A
 
 for source in ["B","C", "D"]:
-    for table in raw["A"]:
-        df = raw[source][table]
-        for column in raw["A"][table].columns:
+    for table in data["A"]:
+        df = data[source][table]
+        for column in data["A"][table].columns:
             if column not in df.columns:
                 df[column] = None #create the missing column (empty)
 
-        raw[source][table] = df[list(raw["A"][table].columns)] #same column order as A
+        data[source][table] = df[list(data["A"][table].columns)] #same column order as A
 
 #checking every source should have exactly the same columns as A 
-for table in raw["A"]:
+for table in data["A"]:
     for source in ["B","C","D"]:
-        if list(raw[source][table].columns) != list(raw["A"][table].columns):
+        if list(data[source][table].columns) != list(data["A"][table].columns):
             print("Columns don't match in", source, table)
 print("Column check finished.")
 
 #3: Removing the extra spaces at the start and end of the text values
 spaces_removed = 0 #starts the count at 0
 for source in ["A", "B", "C","D"]: 
-    for table in raw[source]:
-        df = raw[source][table]
+    for table in data[source]:
+        df = data[source][table]
         for column in df.columns:
             before = df[column].fillna("") #fillna: so emty cells are not counted as changes/ spaces removed
             df[column] = df[column].apply(lambda x: x.strip() if isinstance(x, str) else x)
@@ -173,7 +173,7 @@ label_transitions = {
 labels_mapped = 0  #starts at count 0
 for source in ["A","B","C", "D"]: #going through each hospital source
     for(table,column), mapping in label_transitions.items(): #each (table,column) and its dictionary
-        df = raw[source][table] #the table we are currently cleaning 
+        df = data[source][table] #the table we are currently cleaning 
         before = df[column].fillna("") #save the values before changing them, so you cna count the change
         df[column] = df[column].apply(lambda x: x.lower() if isinstance(x, str) else x) # lowercase first so 'P1' and 'p1' and spaces like ' p1 ' match the same dictionary key 
         df[column] = df[column].replace(mapping) #swaping each label for schema's value
@@ -198,8 +198,8 @@ missing_values = ["\\N", ""]
 
 missing_converted = 0 # start count at 0
 for source in ["A","B","C", "D"]: #going through each hospital source
-    for table in raw[source]:
-        df = raw[source][table]
+    for table in data[source]:
+        df = data[source][table]
         for column in df.columns:
             before = df[column].isna().sum() #empty cells before 
             df[column] = df[column].apply(lambda x: None if isinstance(x,str) and x in missing_values else x) #if the value is text and is one of th emarkers, replace it with None
@@ -242,14 +242,14 @@ needed_columns ={
 not_accepted = [] #every rejected and not accepted reccord goes in this array
 for source in ["A", "B", "C", "D"]:
     for table, required in needed_columns.items():
-        df = raw[source][table]
+        df = data[source][table]
         id_column = df.columns[0] #the first column is in the records ID
         for column in required:
             missing_rows = df[df[column].isna()] #boolean filtering: rows where this column is empty
             for record_id in missing_rows[id_column]:
                 not_accepted.append({"source": source,"table": table, "record_id": record_id,"reason":"missing needed value:"+column})
             df = df[df[column].notna()] #keep only the rows that have a value
-        raw[source][table] = df
+        data[source][table] = df
 print("Records that were not accepted for a missing required value:", len(not_accepted))
 
 #6: duplicates
@@ -257,12 +257,12 @@ print("Records that were not accepted for a missing required value:", len(not_ac
 
 removed_duplicates = 0
 for source in ["A", "B", "C", "D"]:
-    for table in raw[source]:
-        df = raw[source][table]
+    for table in data[source]:
+        df = data[source][table]
         before = len(df)
         df= df.drop_duplicates() #removing duplicates
         removed_duplicates = removed_duplicates + (before - len(df))
-        raw[source][table] = df
+        data[source][table] = df
 print("Duplicate Records removed:", removed_duplicates)
 
 #after removing every duplicate then every id should appear only 1
@@ -270,8 +270,8 @@ print("Duplicate Records removed:", removed_duplicates)
 #that means that 2 different records share an id
 
 for source in ["A", "B", "C", "D"]:
-    for table in raw[source]:
-        df = raw[source][table]
+    for table in data[source]:
+        df = data[source][table]
         id_column = df.columns[0] #first column is the records ids
         repeated_ids = len(df) - len(set(df[id_column])) #rows - unique ids = repeated ids
         if repeated_ids > 0:
@@ -293,7 +293,7 @@ realistic_num_ranges = {
 outlier = [] #values that are flagged and were emptied, with the original value and the reason
 
 for source in ["A", "B", "C", "D"]:
-   df = raw[source]["triage_assessments"]
+   df = data[source]["triage_assessments"]
    for column in realistic_num_ranges:
         original = df[column].copy() #keeping orginial values 
         df[column] = pd.to_numeric(df[column], errors = "coerce") #test to: num and not num: to empty
@@ -313,7 +313,7 @@ for source in ["A", "B", "C", "D"]:
                                 "column": column, "original_value": old_value,
                                 "reason": "outside the possible range"})
         df[column] = df[column].apply(lambda x: None if pd.notna(x) and (x < lowest or x > highest) else x)
-   raw[source]["triage_assessments"] = df
+   data[source]["triage_assessments"] = df
 print("Invalid numeric values that were flagged and emptied:", len(outlier))
 
 #8: dates and the time zones
@@ -349,8 +349,8 @@ time_difference = { #(UTC)how many hours each source is ahead of UTC
 dates_converted = 0
 bad_dates = 0
 for source in ["A","B","C","D"]:
-    for table in raw[source]:
-        df=raw[source][table]
+    for table in data[source]:
+        df=data[source][table]
         id_column = df.columns[0]
         for column in df.columns:
             if column.endswith("_datetime") or column == "date_of_birth": #taking only the data columns: names that end with _datetime and date_of_birth
@@ -380,7 +380,7 @@ for source in ["A","B","C","D"]:
                 #removing the records whose required date was invvalid
             for column in needed_columns[table]:
                 df = df[df[column].notna()]
-            raw[source][table] = df
+            data[source][table] = df
 print("The Dates converted to UTC:", dates_converted)
 print("Invalid dates that were found:", bad_dates)
 
@@ -401,7 +401,7 @@ event_times = {
 
 wrong_order = 0
 for source in ["A", "B", "C", "D"]:
-    admissions = raw[source]["admissions"]
+    admissions = data[source]["admissions"]
 
     #an admission can't be discharged before it started
     rejected_rows = admissions[admissions["discharge_datetime"] < admissions["admission_datetime"]]
@@ -410,20 +410,20 @@ for source in ["A", "B", "C", "D"]:
         wrong_order = wrong_order + 1
     bad_ids = list(rejected_rows["admission_id"])
     admissions = admissions[admissions["admission_id"].apply(lambda x: x not in bad_ids)] #keeping the others
-    raw[source]["admissions"] = admissions
+    data[source]["admissions"] = admissions
 
     #a unit stay can't end before it started 
-    stays = raw[source]["unit_stays"]
+    stays = data[source]["unit_stays"]
     rejected_rows = stays[stays["exit_datetime"] < stays["entry_datetime"]]
     for record_id in rejected_rows["unit_stay_id"]:
         not_accepted.append({"source": source, "table": "unit_stays", "record_id": record_id, "reason": "left the unit before entering it"})
         wrong_order = wrong_order + 1
     bad_ids = list(rejected_rows["unit_stay_id"])
-    raw[source]["unit_stays"] = stays[stays["unit_stay_id"].apply(lambda x: x not in bad_ids)]
+    data[source]["unit_stays"] = stays[stays["unit_stay_id"].apply(lambda x: x not in bad_ids)]
 
     #every event must happen at or after its admission
     for table, time_column in event_times.items():
-        df = raw[source][table]
+        df = data[source][table]
         id_column = df.columns[0]
 
         joined = pd.merge(df,admissions[["admission_id", "admission_datetime"]], on="admission_id", how="left") #merge (like when doing an SQL JOIN) add the admission time next to each event
@@ -433,7 +433,7 @@ for source in ["A", "B", "C", "D"]:
 
             wrong_order = wrong_order + 1
         bad_ids = list(before_admissions[id_column])
-        raw[source][table] = df[df[id_column].apply(lambda x: x not in bad_ids)]
+        data[source][table] = df[df[id_column].apply(lambda x: x not in bad_ids)]
 print("Records removed (happened before admission):", wrong_order)
 
 
@@ -458,9 +458,9 @@ relationships = [
 missing_parents = 0
 for source in ["A", "B", "C", "D"]:
     for child, column, parent in relationships:
-        df = raw[source][child]
+        df = data[source][child]
         id_column = df.columns[0]
-        parent_df = raw[source][parent]
+        parent_df = data[source][parent]
         parent_ids = list(parent_df[parent_df.columns[0]]) #all the ids of the parent table
 
         #true if the value is one of the parent's ids
@@ -469,8 +469,40 @@ for source in ["A", "B", "C", "D"]:
             not_accepted.append({"source": source, "table": child, "record_id": record_id, "problem": "points to a " + parent + " record that does not exist: " + column})
 
             missing_parents = missing_parents +1 
-            raw[source][child] = df[found]
+            data[source][child] = df[found]
 print("Records removed (parent doesn't exist):", missing_parents)
+
+#10: saving the results 
+#the cleaned tavles o into a new folder, synthetic_clean_data, one folder for each source
+#the orginial files in synthetic_raw are never changed)
+
+import os 
+
+for source in ["A", "B", "C", "D"]:
+    folder = "synthetic_clean_data/Source_" + source
+    os.makedirs(folder, exist_ok = True) #creating the folder (no errors if it already exists)
+    for table in data[source]:
+        data[source][table].to_csv(folder + "/" + table + ".csv", index=False) #df.to_csv("file.csv") standard learnt format
+
+#the records that were not accepted, and the values that were emptied
+pd.DataFrame(not_accepted).to_csv("synthetic_clean_data/not_accepted.csv", index=False)
+pd.DataFrame(outlier).to_csv("synthetic_clean_data/Outlier_values.csv", index = False)
+
+#the amount of records are left in each source
+clean_records = 0
+for source in ["A", "B", "C", "D"]:
+    source_total = 0
+    for table in data[source]:
+        source_total = source_total + len(data[source][table])
+    print("Source", source, "clean records:", source_total)
+    clean_records = clean_records + source_total
+
+#checking if every record is either clean, not accepted, or a removed duplicate
+print("Clean records:", clean_records)
+print("Not accepted records:", len(not_accepted))
+print("Values set to empty (outliers/flagged)", len(outlier))
+print("Total (includes clean, not accepted & duplicates removed):", clean_records + len(not_accepted)+ removed_duplicates)
+print("Files are saved in the synthetic_clean_data folder")
 
  
 
