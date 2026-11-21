@@ -189,3 +189,66 @@ for source in ["A","B","C", "D"]: #going through each hospital source
         if len(missing_labels) > 0: #if something was found then print it once
             print("source", source,table,column,": missing labels", missing_labels)
 print("Category labels mapped:", labels_mapped) #total number of labels changed
+
+#5 Missing values
+#each source writes "empty" differently: A uses \N, B uses an empty string '', C and D use 'None'
+#need to turn every missing marker into 1 real empty value "None" 
+
+MISSING_VALUES = ["\\N", ""]
+
+missing_converted = 0 # start count at 0
+for source in ["A","B","C", "D"]: #going through each hospital source
+    for table in raw[source]:
+        df = raw[source][table]
+        for column in df.columns:
+            before = df[column].isna().sum() #empty cells before 
+            df[column] = df[column].apply(lambda x: None if isinstance(x,str) and x in MISSING_VALUES else x) #if the value is text and is one of th emarkers, replace it with None
+            after = df[column].isna().sum() #empty cells after 
+            missing_converted = missing_converted + (after - before)
+
+print("Missing values are converted into empty values:", missing_converted)
+
+#decideing what to do wih each missing value
+#needed columns (NOT NULL, plus the ids) the record is rejected 
+#other column is optional -> the record keepts with an empty value
+
+NEEDED_COLUMNS ={
+
+    "patients": ["patient_id", "first_name", "last_name", "date_of_birth", "address",
+                 "telephone_number", "health_insurance_number", "life_status"],
+    "admissions": ["admission_id", "patient_id", "admission_datetime", "admission_type"],
+    "icd9_dictionary": ["icd9_code", "official_title"],
+    "diagnoses": ["diagnosis_id", "patient_id", "admission_id", "icd9_code",
+                  "diagnosis_datetime", "diagnosis_type", "diagnosing_physician"],
+    "triage_assessments": ["triage_id", "admission_id", "assessment_datetime",
+                           "triage_nurse", "priority_level"],
+    "clinical_notes": ["note_id", "admission_id", "note_datetime", "author_physician", "note_type"],
+    "unit_stays": ["unit_stay_id", "admission_id", "unit_type", "entry_datetime",
+                   "responsible_physician"],
+    "diagnostic_orders": ["order_id", "admission_id", "requesting_physician",
+                          "requested_examination", "request_datetime", "priority", "order_status"],
+    "diagnostic_examinations": ["exam_id", "order_id", "exam_type", "performed_by", "exam_status"],
+    "radiology_examinations": ["radiology_exam_id", "admission_id", "order_id", "exam_type",
+                               "exam_datetime", "body_area", "referring_physician",
+                               "radiology_technician", "exam_status"],
+    "radiology_reports": ["report_id", "radiology_exam_id", "radiologist", "report_datetime"],
+    "surgical_procedures": ["procedure_id", "admission_id", "procedure_name",
+                            "procedure_datetime", "surgeon"],
+    "discharge_records": ["discharge_id", "admission_id", "discharge_datetime",
+                          "responsible_physician"],
+
+}
+
+not_accepted = [] #every rejected and not accepted reccord goes in this array
+for source in ["A", "B", "C", "D"]:
+    for table, required in NEEDED_COLUMNS.items():
+        df = raw[source][table]
+        id_column = df.columns[0] #the first column is in the records ID
+        for column in required:
+            missing_rows = df[df[column].isna()] #boolean filtering: rows where this column is empty
+            for record_id in missing_rows[id_column]:
+                not_accepted.append({"source": source,"table": table, "record_id": record_id,"reason":"missing needed value:"+column})
+            df = df[df[column].notna()] #keep only the rows that have a value
+        raw[source][table] = df
+print("Records that were not accepted for a missing required value:", len(not_accepted))
+
