@@ -252,3 +252,28 @@ for source in ["A", "B", "C", "D"]:
         raw[source][table] = df
 print("Records that were not accepted for a missing required value:", len(not_accepted))
 
+#6 duplicates
+#keep 1 copy and remove the others
+
+removed_duplicates = 0
+for source in ["A", "B", "C", "D"]:
+    for table in raw[source]:
+        df = raw[source][table]
+        before = len(df)
+        df= df.drop_duplicates() #removing duplicates
+        removed_duplicates = removed_duplicates + (before - len(df))
+        raw[source][table] = df
+print("Duplicate Records removed:", removed_duplicates)
+
+#after removing every duplicate then every id should appear only 1
+# the id becomes the primary key, check while printing a warning if an id is still repeated 
+#that means that 2 different records share an id
+
+for source in ["A", "B", "C", "D"]:
+    for table in raw[source]:
+        df = raw[source][table]
+        id_column = df.columns[0] #first column is the records ids
+        repeated_ids = len(df) - len(set(df[id_column])) #rows - unique ids = repeated ids
+        if repeated_ids > 0:
+            print("Repeated ids of the source", source, table, ":", repeated_ids)
+print("Id duplicates check is done.")
