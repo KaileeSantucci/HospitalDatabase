@@ -88,6 +88,48 @@ for source in ["A", "B", "C", "D"]:
     first_patient = patients[patients["source_record_id"] == "P00001"]
     print("Source", source, "P00001 = ", list(first_patient["patient_id"]))
 
+#5: updating the links(foreign keys) to the new ids
+#source B's admission still says patient_id = P00001 but now that patient is 801
+#for each look up of the patient new id using its original id (source_record_id) with merge
+#has to be done per source bc the same old id exists in every source and means a different patient in each one.
+#(child table, column that points to the parent, parent table)
+
+foreign_keys = [("admissions", "patient_id", "patients"),
+                ("diagnoses", "patient_id", "patients"),
+                ("diagnoses", "admission_id", "admissions"),
+                ("triage_assessments", "admission_id", "admissions"),
+                ("clinical_notes", "admission_id", "admissions"),
+                ("unit_stays", "admission_id", "admissions"),
+                ("diagnostic_orders", "admission_id", "admissions"),
+                ("diagnostic_examinations", "order_id", "diagnostic_orders"),
+                ("radiology_examinations", "admission_id", "admissions"),
+                ("radiology_examinations", "order_id", "diagnostic_orders"),
+                ("radiology_reports", "radiology_exam_id", "radiology_examinations"),
+                ("surgical_procedures", "admission_id", "admissions"),
+                ("discharge_records", "admission_id", "admissions")]
+
+foreign_keys_updated = 0
+foreign_keys_not_found = 0
+for source in ["A", "B", "C", "D"]:
+    for child, column, parent in foreign_keys:
+        child_table = data[source][child]
+        parent_table = data[source][parent]
+        parent_id_column = parent_table.columns[0]
+        old_and_new_ids = parent_table[["source_record_id", parent_id_column]] #old id = new id for the parent table
+        old_and_new_ids = old_and_new_ids.rename(columns = {"source_record_id": column, parent_id_column:"new_id"})
+        merged = pd.merge(child_table, old_and_new_ids, on=column, how="left")
+
+        foreign_keys_not_found = foreign_keys_not_found + merged["new_id"].isna().sum()
+        merged[column] = merged["new_id"]
+        merged = merged.drop("new_id", axis=1)
+        data[source][child] = merged
+
+        foreign_keys_updated = foreign_keys_updated + len(merged)
+print("Foreign keys whose parent was not found:", foreign_keys_not_found)
+print("Foreign keys updated to the new ids:", foreign_keys_updated)
+
+
+
 
 
 
