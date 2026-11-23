@@ -128,9 +128,46 @@ for source in ["A", "B", "C", "D"]:
 print("Foreign keys whose parent was not found:", foreign_keys_not_found)
 print("Foreign keys updated to the new ids:", foreign_keys_updated)
 
+#6 combinning the four sources into 1 table each 
+integrate = {}
+for table in tables_with_ids:
+    integrate[table] = pd.concat([data["A"][table], data["B"][table], data["C"][table], data["D"][table]])
+    print(table, "rows after combinning the 4 sources:", len(integrate[table]))
 
+#already did the icd-9 dictionary combined
+integrate["icd9_dictionary"] = icd9_dictionary
+print("icd9_dictionary rows:", len(integrate["icd9_dictionary"]))
 
+#7. save the integrated data
+import os
+os.makedirs("synthetic_integrated_data", exist_ok=True)
 
+#(13 integrated tables) 
+for table in integrate:
+    integrate[table].to_csv("synthetic_integrated_data/" + table + ".csv", index=False)
+    print("Saved", table, "with", len(integrate[table]), "rows")
+
+#new table where each source comes from
+sources = pd.DataFrame({"source_code":["A", "B", "C", "D"], "city": ["Toronto", "Paris", "Singapore", "Brisbane"],
+                        "continent": ["North America", "Europe", "Asia", "Oceania"], "file_format": ["TXT", "CSV", "XML", "JSON"],
+                        "time_difference_hours": [-4,2,8,10]})
+sources.to_csv("synthetic_integrated_data/sources.csv", index=False)
+print("Saved sources with", len(sources), "rows")
+
+#new table of original patient id in each source = new patient id
+patients = integrate["patients"]
+patient_source_mapping = pd.DataFrame({"mapping_id": list(range(1, len(patients)+1)),
+                                       "source_code": list(patients["source_code"]), "source_patient_id": list(patients["source_record_id"]),
+                                       "patient_id": list(patients["patient_id"])})
+patient_source_mapping.to_csv("synthetic_integrated_data/patient_source_mapping.csv", index=False)
+print("Saved patient_source_mapping with", len(patient_source_mapping), "rows")
+
+#uncertain matches (same full name and data of birth, separately, not merged)
+full_name_and_birth = patients["first_name"] + " " + patients["last_name"] + " " + patients["date_of_birth"]
+uncertain_matches = patients[full_name_and_birth.duplicated(keep=False)]
+uncertain_matches = uncertain_matches[["patient_id", "source_code", "source_record_id", "first_name", "last_name", "date_of_birth", "health_insurance_number"]]
+uncertain_matches.to_csv("synthetic_integrated_data/uncertain_patient_matches.csv", index=False)
+print("saved uncertain_patient_matches with", len(uncertain_matches), "rows")
 
 
 
