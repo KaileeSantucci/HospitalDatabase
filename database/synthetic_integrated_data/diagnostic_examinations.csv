@@ -1,0 +1,1001 @@
+exam_id,order_id,exam_type,exam_datetime,performed_by,exam_result,exam_status,source_code,source_record_id
+1,1,Fictional imaging,2022-01-02 03:00:00,FictionalTechnician01,Fictional result for educational use,Completed,A,E00001
+2,2,Fictional screening,2022-01-02 14:00:00,FictionalTechnician02,Fictional result for educational use,Completed,A,E00002
+3,3,Fictional blood panel,2022-01-03 01:00:00,FictionalTechnician03,Fictional result for educational use,Completed,A,E00003
+4,4,Fictional imaging,2022-01-03 12:00:00,FictionalTechnician04,Fictional result for educational use,Completed,A,E00004
+5,5,Fictional screening,2022-01-03 23:00:00,FictionalTechnician05,Fictional result for educational use,Completed,A,E00005
+6,6,Fictional blood panel,2022-01-04 10:00:00,FictionalTechnician06,Fictional result for educational use,Completed,A,E00006
+7,7,Fictional imaging,2022-01-04 21:00:00,FictionalTechnician07,Fictional result for educational use,Completed,A,E00007
+8,8,Fictional screening,2022-01-05 08:00:00,FictionalTechnician08,Fictional result for educational use,Completed,A,E00008
+9,9,Fictional blood panel,2022-01-05 19:00:00,FictionalTechnician09,Fictional result for educational use,Completed,A,E00009
+10,10,Fictional imaging,2022-01-06 06:00:00,FictionalTechnician10,Fictional result for educational use,Completed,A,E00010
+11,11,Fictional screening,2022-01-06 17:00:00,FictionalTechnician11,Fictional result for educational use,Completed,A,E00011
+12,12,Fictional blood panel,2022-01-07 04:00:00,FictionalTechnician12,Fictional result for educational use,Completed,A,E00012
+13,13,Fictional imaging,2022-01-07 15:00:00,FictionalTechnician13,Fictional result for educational use,Completed,A,E00013
+14,14,Fictional screening,2022-01-08 02:00:00,FictionalTechnician14,Fictional result for educational use,Completed,A,E00014
+15,15,Fictional blood panel,2022-01-08 13:00:00,FictionalTechnician15,Fictional result for educational use,Completed,A,E00015
+16,16,Fictional imaging,2022-01-09 00:00:00,FictionalTechnician16,Fictional result for educational use,Completed,A,E00016
+17,17,Fictional screening,2022-01-09 11:00:00,FictionalTechnician17,Fictional result for educational use,Completed,A,E00017
+18,18,Fictional blood panel,2022-01-09 22:00:00,FictionalTechnician18,Fictional result for educational use,Completed,A,E00018
+19,19,Fictional imaging,2022-01-10 09:00:00,FictionalTechnician19,Fictional result for educational use,Completed,A,E00019
+20,20,Fictional screening,2022-01-10 20:00:00,FictionalTechnician00,Fictional result for educational use,Completed,A,E00020
+21,21,Fictional blood panel,2022-01-11 07:00:00,FictionalTechnician01,Fictional result for educational use,Completed,A,E00021
+22,22,Fictional imaging,2022-01-11 18:00:00,FictionalTechnician02,Fictional result for educational use,Completed,A,E00022
+23,23,Fictional screening,2022-01-12 05:00:00,FictionalTechnician03,Fictional result for educational use,Completed,A,E00023
+24,24,Fictional blood panel,2022-01-12 16:00:00,FictionalTechnician04,Fictional result for educational use,Completed,A,E00024
+25,25,Fictional imaging,2022-01-13 03:00:00,FictionalTechnician05,Fictional result for educational use,Completed,A,E00025
+26,26,Fictional screening,2022-01-13 14:00:00,FictionalTechnician06,Fictional result for educational use,Completed,A,E00026
+27,27,Fictional blood panel,2022-01-14 01:00:00,FictionalTechnician07,Fictional result for educational use,Completed,A,E00027
+28,28,Fictional imaging,2022-01-14 12:00:00,FictionalTechnician08,Fictional result for educational use,Completed,A,E00028
+29,29,Fictional screening,2022-01-14 23:00:00,FictionalTechnician09,Fictional result for educational use,Completed,A,E00029
+30,30,Fictional blood panel,2022-01-15 10:00:00,FictionalTechnician10,Fictional result for educational use,Completed,A,E00030
+31,31,Fictional imaging,2022-01-15 21:00:00,FictionalTechnician11,Fictional result for educational use,Completed,A,E00031
+32,32,Fictional screening,2022-01-16 08:00:00,FictionalTechnician12,Fictional result for educational use,Completed,A,E00032
+33,33,Fictional blood panel,2022-01-16 19:00:00,FictionalTechnician13,Fictional result for educational use,Completed,A,E00033
+34,34,Fictional imaging,2022-01-17 06:00:00,FictionalTechnician14,Fictional result for educational use,Completed,A,E00034
+35,35,Fictional screening,2022-01-17 17:00:00,FictionalTechnician15,Fictional result for educational use,Completed,A,E00035
+36,36,Fictional blood panel,2022-01-18 04:00:00,FictionalTechnician16,Fictional result for educational use,Completed,A,E00036
+37,37,Fictional imaging,2022-01-18 15:00:00,FictionalTechnician17,Fictional result for educational use,Completed,A,E00037
+38,38,Fictional screening,2022-01-19 02:00:00,FictionalTechnician18,Fictional result for educational use,Completed,A,E00038
+39,39,Fictional blood panel,2022-01-19 13:00:00,FictionalTechnician19,Fictional result for educational use,Completed,A,E00039
+40,40,Fictional imaging,2022-01-20 00:00:00,FictionalTechnician00,Fictional result for educational use,Completed,A,E00040
+41,41,Fictional screening,2022-01-20 11:00:00,FictionalTechnician01,Fictional result for educational use,Completed,A,E00041
+42,42,Fictional blood panel,2022-01-20 22:00:00,FictionalTechnician02,Fictional result for educational use,Completed,A,E00042
+43,43,Fictional imaging,2022-01-21 09:00:00,FictionalTechnician03,Fictional result for educational use,Completed,A,E00043
+44,44,Fictional screening,2022-01-21 20:00:00,FictionalTechnician04,Fictional result for educational use,Completed,A,E00044
+45,45,Fictional blood panel,2022-01-22 07:00:00,FictionalTechnician05,Fictional result for educational use,Completed,A,E00045
+46,46,Fictional imaging,2022-01-22 18:00:00,FictionalTechnician06,Fictional result for educational use,Completed,A,E00046
+47,47,Fictional screening,2022-01-23 05:00:00,FictionalTechnician07,Fictional result for educational use,Completed,A,E00047
+48,48,Fictional blood panel,2022-01-23 16:00:00,FictionalTechnician08,Fictional result for educational use,Completed,A,E00048
+49,49,Fictional imaging,2022-01-24 03:00:00,FictionalTechnician09,Fictional result for educational use,Completed,A,E00049
+50,50,Fictional screening,2022-01-24 14:00:00,FictionalTechnician10,Fictional result for educational use,Completed,A,E00050
+51,51,Fictional blood panel,2022-01-25 01:00:00,FictionalTechnician11,Fictional result for educational use,Completed,A,E00051
+52,52,Fictional imaging,2022-01-25 12:00:00,FictionalTechnician12,Fictional result for educational use,Completed,A,E00052
+53,53,Fictional screening,2022-01-25 23:00:00,FictionalTechnician13,Fictional result for educational use,Completed,A,E00053
+54,54,Fictional blood panel,2022-01-26 10:00:00,FictionalTechnician14,Fictional result for educational use,Completed,A,E00054
+55,55,Fictional imaging,2022-01-26 21:00:00,FictionalTechnician15,Fictional result for educational use,Completed,A,E00055
+56,56,Fictional screening,2022-01-27 08:00:00,FictionalTechnician16,Fictional result for educational use,Completed,A,E00056
+57,57,Fictional blood panel,2022-01-27 19:00:00,FictionalTechnician17,Fictional result for educational use,Completed,A,E00057
+58,58,Fictional imaging,2022-01-28 06:00:00,FictionalTechnician18,Fictional result for educational use,Completed,A,E00058
+59,59,Fictional screening,2022-01-28 17:00:00,FictionalTechnician19,Fictional result for educational use,Completed,A,E00059
+60,60,Fictional blood panel,2022-01-29 04:00:00,FictionalTechnician00,Fictional result for educational use,Completed,A,E00060
+61,61,Fictional imaging,2022-01-29 15:00:00,FictionalTechnician01,Fictional result for educational use,Completed,A,E00061
+62,62,Fictional screening,2022-01-30 02:00:00,FictionalTechnician02,Fictional result for educational use,Completed,A,E00062
+63,63,Fictional blood panel,2022-01-30 13:00:00,FictionalTechnician03,Fictional result for educational use,Completed,A,E00063
+64,64,Fictional imaging,2022-01-31 00:00:00,FictionalTechnician04,Fictional result for educational use,Completed,A,E00064
+65,65,Fictional screening,2022-01-31 11:00:00,FictionalTechnician05,Fictional result for educational use,Completed,A,E00065
+66,66,Fictional blood panel,2022-01-31 22:00:00,FictionalTechnician06,Fictional result for educational use,Completed,A,E00066
+67,67,Fictional imaging,2022-02-01 09:00:00,FictionalTechnician07,Fictional result for educational use,Completed,A,E00067
+68,68,Fictional screening,2022-02-01 20:00:00,FictionalTechnician08,Fictional result for educational use,Completed,A,E00068
+69,69,Fictional blood panel,2022-02-02 07:00:00,FictionalTechnician09,Fictional result for educational use,Completed,A,E00069
+70,70,Fictional imaging,2022-02-02 18:00:00,FictionalTechnician10,Fictional result for educational use,Completed,A,E00070
+71,71,Fictional screening,2022-02-03 05:00:00,FictionalTechnician11,Fictional result for educational use,Completed,A,E00071
+72,72,Fictional blood panel,2022-02-03 16:00:00,FictionalTechnician12,Fictional result for educational use,Completed,A,E00072
+73,73,Fictional imaging,2022-02-04 03:00:00,FictionalTechnician13,Fictional result for educational use,Completed,A,E00073
+74,74,Fictional screening,2022-02-04 14:00:00,FictionalTechnician14,Fictional result for educational use,Completed,A,E00074
+75,75,Fictional blood panel,2022-02-05 01:00:00,FictionalTechnician15,Fictional result for educational use,Completed,A,E00075
+76,76,Fictional imaging,2022-02-05 12:00:00,FictionalTechnician16,Fictional result for educational use,Completed,A,E00076
+77,77,Fictional screening,2022-02-05 23:00:00,FictionalTechnician17,Fictional result for educational use,Completed,A,E00077
+78,78,Fictional blood panel,2022-02-06 10:00:00,FictionalTechnician18,Fictional result for educational use,Completed,A,E00078
+79,79,Fictional imaging,2022-02-06 21:00:00,FictionalTechnician19,Fictional result for educational use,Completed,A,E00079
+80,80,Fictional screening,2022-02-07 08:00:00,FictionalTechnician00,Fictional result for educational use,Completed,A,E00080
+81,81,Fictional blood panel,2022-02-07 19:00:00,FictionalTechnician01,Fictional result for educational use,Completed,A,E00081
+82,82,Fictional imaging,2022-02-08 06:00:00,FictionalTechnician02,Fictional result for educational use,Completed,A,E00082
+83,83,Fictional screening,2022-02-08 17:00:00,FictionalTechnician03,Fictional result for educational use,Completed,A,E00083
+84,84,Fictional blood panel,2022-02-09 04:00:00,FictionalTechnician04,Fictional result for educational use,Completed,A,E00084
+85,85,Fictional imaging,2022-02-09 15:00:00,FictionalTechnician05,Fictional result for educational use,Completed,A,E00085
+86,86,Fictional screening,2022-02-10 02:00:00,FictionalTechnician06,Fictional result for educational use,Completed,A,E00086
+87,87,Fictional blood panel,2022-02-10 13:00:00,FictionalTechnician07,Fictional result for educational use,Completed,A,E00087
+88,88,Fictional imaging,2022-02-11 00:00:00,FictionalTechnician08,Fictional result for educational use,Completed,A,E00088
+89,89,Fictional screening,2022-02-11 11:00:00,FictionalTechnician09,Fictional result for educational use,Completed,A,E00089
+90,90,Fictional blood panel,2022-02-11 22:00:00,FictionalTechnician10,Fictional result for educational use,Completed,A,E00090
+91,91,Fictional imaging,2022-02-12 09:00:00,FictionalTechnician11,Fictional result for educational use,Completed,A,E00091
+92,92,Fictional screening,2022-02-12 20:00:00,FictionalTechnician12,Fictional result for educational use,Completed,A,E00092
+93,93,Fictional blood panel,2022-02-13 07:00:00,FictionalTechnician13,Fictional result for educational use,Completed,A,E00093
+94,94,Fictional imaging,2022-02-13 18:00:00,FictionalTechnician14,Fictional result for educational use,Completed,A,E00094
+95,95,Fictional screening,2022-02-14 05:00:00,FictionalTechnician15,Fictional result for educational use,Completed,A,E00095
+96,96,Fictional blood panel,2022-02-14 16:00:00,FictionalTechnician16,Fictional result for educational use,Completed,A,E00096
+97,97,Fictional imaging,2022-02-15 03:00:00,FictionalTechnician17,Fictional result for educational use,Completed,A,E00097
+98,98,Fictional screening,2022-02-15 14:00:00,FictionalTechnician18,Fictional result for educational use,Completed,A,E00098
+99,99,Fictional blood panel,2022-02-16 01:00:00,FictionalTechnician19,Fictional result for educational use,Completed,A,E00099
+100,100,Fictional imaging,2022-02-16 12:00:00,FictionalTechnician00,Fictional result for educational use,Completed,A,E00100
+101,101,Fictional screening,2022-02-16 23:00:00,FictionalTechnician01,Fictional result for educational use,Completed,A,E00101
+102,102,Fictional blood panel,2022-02-17 10:00:00,FictionalTechnician02,Fictional result for educational use,Completed,A,E00102
+103,103,Fictional imaging,2022-02-17 21:00:00,FictionalTechnician03,Fictional result for educational use,Completed,A,E00103
+104,104,Fictional screening,2022-02-18 08:00:00,FictionalTechnician04,Fictional result for educational use,Completed,A,E00104
+105,105,Fictional blood panel,2022-02-18 19:00:00,FictionalTechnician05,Fictional result for educational use,Completed,A,E00105
+106,106,Fictional imaging,2022-02-19 06:00:00,FictionalTechnician06,Fictional result for educational use,Completed,A,E00106
+107,107,Fictional screening,2022-02-19 17:00:00,FictionalTechnician07,Fictional result for educational use,Completed,A,E00107
+108,108,Fictional blood panel,2022-02-20 04:00:00,FictionalTechnician08,Fictional result for educational use,Completed,A,E00108
+109,109,Fictional imaging,2022-02-20 15:00:00,FictionalTechnician09,Fictional result for educational use,Completed,A,E00109
+110,110,Fictional screening,2022-02-21 02:00:00,FictionalTechnician10,Fictional result for educational use,Completed,A,E00110
+111,111,Fictional blood panel,2022-02-21 13:00:00,FictionalTechnician11,Fictional result for educational use,Completed,A,E00111
+112,112,Fictional imaging,2022-02-22 00:00:00,FictionalTechnician12,Fictional result for educational use,Completed,A,E00112
+113,113,Fictional screening,2022-02-22 11:00:00,FictionalTechnician13,Fictional result for educational use,Completed,A,E00113
+114,114,Fictional blood panel,2022-02-22 22:00:00,FictionalTechnician14,Fictional result for educational use,Completed,A,E00114
+115,115,Fictional imaging,2022-02-23 09:00:00,FictionalTechnician15,Fictional result for educational use,Completed,A,E00115
+116,116,Fictional screening,2022-02-23 20:00:00,FictionalTechnician16,Fictional result for educational use,Completed,A,E00116
+117,117,Fictional blood panel,2022-02-24 07:00:00,FictionalTechnician17,Fictional result for educational use,Completed,A,E00117
+118,118,Fictional imaging,2022-02-24 18:00:00,FictionalTechnician18,Fictional result for educational use,Completed,A,E00118
+119,119,Fictional screening,2022-02-25 05:00:00,FictionalTechnician19,Fictional result for educational use,Completed,A,E00119
+120,120,Fictional blood panel,2022-02-25 16:00:00,FictionalTechnician00,Fictional result for educational use,Completed,A,E00120
+121,121,Fictional imaging,2022-02-26 03:00:00,FictionalTechnician01,Fictional result for educational use,Completed,A,E00121
+122,122,Fictional screening,2022-02-26 14:00:00,FictionalTechnician02,Fictional result for educational use,Completed,A,E00122
+123,123,Fictional blood panel,2022-02-27 01:00:00,FictionalTechnician03,Fictional result for educational use,Completed,A,E00123
+124,124,Fictional imaging,2022-02-27 12:00:00,FictionalTechnician04,Fictional result for educational use,Completed,A,E00124
+125,125,Fictional screening,2022-02-27 23:00:00,FictionalTechnician05,Fictional result for educational use,Completed,A,E00125
+126,126,Fictional blood panel,2022-02-28 10:00:00,FictionalTechnician06,Fictional result for educational use,Completed,A,E00126
+127,127,Fictional imaging,2022-02-28 21:00:00,FictionalTechnician07,Fictional result for educational use,Completed,A,E00127
+128,128,Fictional screening,2022-03-01 08:00:00,FictionalTechnician08,Fictional result for educational use,Completed,A,E00128
+129,129,Fictional blood panel,2022-03-01 19:00:00,FictionalTechnician09,Fictional result for educational use,Completed,A,E00129
+130,130,Fictional imaging,2022-03-02 06:00:00,FictionalTechnician10,Fictional result for educational use,Completed,A,E00130
+131,131,Fictional screening,2022-03-02 17:00:00,FictionalTechnician11,Fictional result for educational use,Completed,A,E00131
+132,132,Fictional blood panel,2022-03-03 04:00:00,FictionalTechnician12,Fictional result for educational use,Completed,A,E00132
+133,133,Fictional imaging,2022-03-03 15:00:00,FictionalTechnician13,Fictional result for educational use,Completed,A,E00133
+134,134,Fictional screening,2022-03-04 02:00:00,FictionalTechnician14,Fictional result for educational use,Completed,A,E00134
+135,135,Fictional blood panel,2022-03-04 13:00:00,FictionalTechnician15,Fictional result for educational use,Completed,A,E00135
+136,136,Fictional imaging,2022-03-05 00:00:00,FictionalTechnician16,Fictional result for educational use,Completed,A,E00136
+137,137,Fictional screening,2022-03-05 11:00:00,FictionalTechnician17,Fictional result for educational use,Completed,A,E00137
+138,138,Fictional blood panel,2022-03-05 22:00:00,FictionalTechnician18,Fictional result for educational use,Completed,A,E00138
+139,139,Fictional imaging,2022-03-06 09:00:00,FictionalTechnician19,Fictional result for educational use,Completed,A,E00139
+140,140,Fictional screening,2022-03-06 20:00:00,FictionalTechnician00,Fictional result for educational use,Completed,A,E00140
+141,141,Fictional blood panel,2022-03-07 07:00:00,FictionalTechnician01,Fictional result for educational use,Completed,A,E00141
+142,142,Fictional imaging,2022-03-07 18:00:00,FictionalTechnician02,Fictional result for educational use,Completed,A,E00142
+143,143,Fictional screening,2022-03-08 05:00:00,FictionalTechnician03,Fictional result for educational use,Completed,A,E00143
+144,144,Fictional blood panel,2022-03-08 16:00:00,FictionalTechnician04,Fictional result for educational use,Completed,A,E00144
+145,145,Fictional imaging,2022-03-09 03:00:00,FictionalTechnician05,Fictional result for educational use,Completed,A,E00145
+146,146,Fictional screening,2022-03-09 14:00:00,FictionalTechnician06,Fictional result for educational use,Completed,A,E00146
+147,147,Fictional blood panel,2022-03-10 01:00:00,FictionalTechnician07,Fictional result for educational use,Completed,A,E00147
+148,148,Fictional imaging,2022-03-10 12:00:00,FictionalTechnician08,Fictional result for educational use,Completed,A,E00148
+149,149,Fictional screening,2022-03-10 23:00:00,FictionalTechnician09,Fictional result for educational use,Completed,A,E00149
+150,150,Fictional blood panel,2022-03-11 10:00:00,FictionalTechnician10,Fictional result for educational use,Completed,A,E00150
+151,151,Fictional imaging,2022-03-11 21:00:00,FictionalTechnician11,Fictional result for educational use,Completed,A,E00151
+152,152,Fictional screening,2022-03-12 08:00:00,FictionalTechnician12,Fictional result for educational use,Completed,A,E00152
+153,153,Fictional blood panel,2022-03-12 19:00:00,FictionalTechnician13,Fictional result for educational use,Completed,A,E00153
+154,154,Fictional imaging,2022-03-13 06:00:00,FictionalTechnician14,Fictional result for educational use,Completed,A,E00154
+155,155,Fictional screening,2022-03-13 17:00:00,FictionalTechnician15,Fictional result for educational use,Completed,A,E00155
+156,156,Fictional blood panel,2022-03-14 04:00:00,FictionalTechnician16,Fictional result for educational use,Completed,A,E00156
+157,157,Fictional imaging,2022-03-14 15:00:00,FictionalTechnician17,Fictional result for educational use,Completed,A,E00157
+158,158,Fictional screening,2022-03-15 02:00:00,FictionalTechnician18,Fictional result for educational use,Completed,A,E00158
+159,159,Fictional blood panel,2022-03-15 13:00:00,FictionalTechnician19,Fictional result for educational use,Completed,A,E00159
+160,160,Fictional imaging,2022-03-16 00:00:00,FictionalTechnician00,Fictional result for educational use,Completed,A,E00160
+161,161,Fictional screening,2022-03-16 11:00:00,FictionalTechnician01,Fictional result for educational use,Completed,A,E00161
+162,162,Fictional blood panel,2022-03-16 22:00:00,FictionalTechnician02,Fictional result for educational use,Completed,A,E00162
+163,163,Fictional imaging,2022-03-17 09:00:00,FictionalTechnician03,Fictional result for educational use,Completed,A,E00163
+164,164,Fictional screening,2022-03-17 20:00:00,FictionalTechnician04,Fictional result for educational use,Completed,A,E00164
+165,165,Fictional blood panel,2022-03-18 07:00:00,FictionalTechnician05,Fictional result for educational use,Completed,A,E00165
+166,166,Fictional imaging,2022-03-18 18:00:00,FictionalTechnician06,Fictional result for educational use,Completed,A,E00166
+167,167,Fictional screening,2022-03-19 05:00:00,FictionalTechnician07,Fictional result for educational use,Completed,A,E00167
+168,168,Fictional blood panel,2022-03-19 16:00:00,FictionalTechnician08,Fictional result for educational use,Completed,A,E00168
+169,169,Fictional imaging,2022-03-20 03:00:00,FictionalTechnician09,Fictional result for educational use,Completed,A,E00169
+170,170,Fictional screening,2022-03-20 14:00:00,FictionalTechnician10,Fictional result for educational use,Completed,A,E00170
+171,171,Fictional blood panel,2022-03-21 01:00:00,FictionalTechnician11,Fictional result for educational use,Completed,A,E00171
+172,172,Fictional imaging,2022-03-21 12:00:00,FictionalTechnician12,Fictional result for educational use,Completed,A,E00172
+173,173,Fictional screening,2022-03-21 23:00:00,FictionalTechnician13,Fictional result for educational use,Completed,A,E00173
+174,174,Fictional blood panel,2022-03-22 10:00:00,FictionalTechnician14,Fictional result for educational use,Completed,A,E00174
+175,175,Fictional imaging,2022-03-22 21:00:00,FictionalTechnician15,Fictional result for educational use,Completed,A,E00175
+176,176,Fictional screening,2022-03-23 08:00:00,FictionalTechnician16,Fictional result for educational use,Completed,A,E00176
+177,177,Fictional blood panel,2022-03-23 19:00:00,FictionalTechnician17,Fictional result for educational use,Completed,A,E00177
+178,178,Fictional imaging,2022-03-24 06:00:00,FictionalTechnician18,Fictional result for educational use,Completed,A,E00178
+179,179,Fictional screening,2022-03-24 17:00:00,FictionalTechnician19,Fictional result for educational use,Completed,A,E00179
+180,180,Fictional blood panel,2022-03-25 04:00:00,FictionalTechnician00,Fictional result for educational use,Completed,A,E00180
+181,181,Fictional imaging,2022-03-25 15:00:00,FictionalTechnician01,Fictional result for educational use,Completed,A,E00181
+182,182,Fictional screening,2022-03-26 02:00:00,FictionalTechnician02,Fictional result for educational use,Completed,A,E00182
+183,183,Fictional blood panel,2022-03-26 13:00:00,FictionalTechnician03,Fictional result for educational use,Completed,A,E00183
+184,184,Fictional imaging,2022-03-27 00:00:00,FictionalTechnician04,Fictional result for educational use,Completed,A,E00184
+185,185,Fictional screening,2022-03-27 11:00:00,FictionalTechnician05,Fictional result for educational use,Completed,A,E00185
+186,186,Fictional blood panel,2022-03-27 22:00:00,FictionalTechnician06,Fictional result for educational use,Completed,A,E00186
+187,187,Fictional imaging,2022-03-28 09:00:00,FictionalTechnician07,Fictional result for educational use,Completed,A,E00187
+188,188,Fictional screening,2022-03-28 20:00:00,FictionalTechnician08,Fictional result for educational use,Completed,A,E00188
+189,189,Fictional blood panel,2022-03-29 07:00:00,FictionalTechnician09,Fictional result for educational use,Completed,A,E00189
+190,190,Fictional imaging,2022-03-29 18:00:00,FictionalTechnician10,Fictional result for educational use,Completed,A,E00190
+191,191,Fictional screening,2022-03-30 05:00:00,FictionalTechnician11,Fictional result for educational use,Completed,A,E00191
+192,192,Fictional blood panel,2022-03-30 16:00:00,FictionalTechnician12,Fictional result for educational use,Completed,A,E00192
+193,193,Fictional imaging,2022-03-31 03:00:00,FictionalTechnician13,Fictional result for educational use,Completed,A,E00193
+194,194,Fictional screening,2022-03-31 14:00:00,FictionalTechnician14,Fictional result for educational use,Completed,A,E00194
+195,195,Fictional blood panel,2022-04-01 01:00:00,FictionalTechnician15,Fictional result for educational use,Completed,A,E00195
+196,196,Fictional imaging,2022-04-01 12:00:00,FictionalTechnician16,Fictional result for educational use,Completed,A,E00196
+197,197,Fictional screening,2022-04-01 23:00:00,FictionalTechnician17,Fictional result for educational use,Completed,A,E00197
+198,198,Fictional blood panel,2022-04-02 10:00:00,FictionalTechnician18,Fictional result for educational use,Completed,A,E00198
+199,199,Fictional imaging,2022-04-02 21:00:00,FictionalTechnician19,Fictional result for educational use,Completed,A,E00199
+200,200,Fictional screening,2022-04-03 08:00:00,FictionalTechnician00,Fictional result for educational use,Completed,A,E00200
+201,201,Fictional blood panel,2022-04-03 19:00:00,FictionalTechnician01,Fictional result for educational use,Completed,A,E00201
+202,202,Fictional imaging,2022-04-04 06:00:00,FictionalTechnician02,Fictional result for educational use,Completed,A,E00202
+203,203,Fictional screening,2022-04-04 17:00:00,FictionalTechnician03,Fictional result for educational use,Completed,A,E00203
+204,204,Fictional blood panel,2022-04-05 04:00:00,FictionalTechnician04,Fictional result for educational use,Completed,A,E00204
+205,205,Fictional imaging,2022-04-05 15:00:00,FictionalTechnician05,Fictional result for educational use,Completed,A,E00205
+206,206,Fictional screening,2022-04-06 02:00:00,FictionalTechnician06,Fictional result for educational use,Completed,A,E00206
+207,207,Fictional blood panel,2022-04-06 13:00:00,FictionalTechnician07,Fictional result for educational use,Completed,A,E00207
+208,208,Fictional imaging,2022-04-07 00:00:00,FictionalTechnician08,Fictional result for educational use,Completed,A,E00208
+209,209,Fictional screening,2022-04-07 11:00:00,FictionalTechnician09,Fictional result for educational use,Completed,A,E00209
+210,210,Fictional blood panel,2022-04-07 22:00:00,FictionalTechnician10,Fictional result for educational use,Completed,A,E00210
+211,211,Fictional imaging,2022-04-08 09:00:00,FictionalTechnician11,Fictional result for educational use,Completed,A,E00211
+212,212,Fictional screening,2022-04-08 20:00:00,FictionalTechnician12,Fictional result for educational use,Completed,A,E00212
+213,213,Fictional blood panel,2022-04-09 07:00:00,FictionalTechnician13,Fictional result for educational use,Completed,A,E00213
+214,214,Fictional imaging,2022-04-09 18:00:00,FictionalTechnician14,Fictional result for educational use,Completed,A,E00214
+215,215,Fictional screening,2022-04-10 05:00:00,FictionalTechnician15,Fictional result for educational use,Completed,A,E00215
+216,216,Fictional blood panel,2022-04-10 16:00:00,FictionalTechnician16,Fictional result for educational use,Completed,A,E00216
+217,217,Fictional imaging,2022-04-11 03:00:00,FictionalTechnician17,Fictional result for educational use,Completed,A,E00217
+218,218,Fictional screening,2022-04-11 14:00:00,FictionalTechnician18,Fictional result for educational use,Completed,A,E00218
+219,219,Fictional blood panel,2022-04-12 01:00:00,FictionalTechnician19,Fictional result for educational use,Completed,A,E00219
+220,220,Fictional imaging,2022-04-12 12:00:00,FictionalTechnician00,Fictional result for educational use,Completed,A,E00220
+221,221,Fictional screening,2022-04-12 23:00:00,FictionalTechnician01,Fictional result for educational use,Completed,A,E00221
+222,222,Fictional blood panel,2022-04-13 10:00:00,FictionalTechnician02,Fictional result for educational use,Completed,A,E00222
+223,223,Fictional imaging,2022-04-13 21:00:00,FictionalTechnician03,Fictional result for educational use,Completed,A,E00223
+224,224,Fictional screening,2022-04-14 08:00:00,FictionalTechnician04,Fictional result for educational use,Completed,A,E00224
+225,225,Fictional blood panel,2022-04-14 19:00:00,FictionalTechnician05,Fictional result for educational use,Completed,A,E00225
+226,226,Fictional imaging,2022-04-15 06:00:00,FictionalTechnician06,Fictional result for educational use,Completed,A,E00226
+227,227,Fictional screening,2022-04-15 17:00:00,FictionalTechnician07,Fictional result for educational use,Completed,A,E00227
+228,228,Fictional blood panel,2022-04-16 04:00:00,FictionalTechnician08,Fictional result for educational use,Completed,A,E00228
+229,229,Fictional imaging,2022-04-16 15:00:00,FictionalTechnician09,Fictional result for educational use,Completed,A,E00229
+230,230,Fictional screening,2022-04-17 02:00:00,FictionalTechnician10,Fictional result for educational use,Completed,A,E00230
+231,231,Fictional blood panel,2022-04-17 13:00:00,FictionalTechnician11,Fictional result for educational use,Completed,A,E00231
+232,232,Fictional imaging,2022-04-18 00:00:00,FictionalTechnician12,Fictional result for educational use,Completed,A,E00232
+233,233,Fictional screening,2022-04-18 11:00:00,FictionalTechnician13,Fictional result for educational use,Completed,A,E00233
+234,234,Fictional blood panel,2022-04-18 22:00:00,FictionalTechnician14,Fictional result for educational use,Completed,A,E00234
+235,235,Fictional imaging,2022-04-19 09:00:00,FictionalTechnician15,Fictional result for educational use,Completed,A,E00235
+236,236,Fictional screening,2022-04-19 20:00:00,FictionalTechnician16,Fictional result for educational use,Completed,A,E00236
+237,237,Fictional blood panel,2022-04-20 07:00:00,FictionalTechnician17,Fictional result for educational use,Completed,A,E00237
+238,238,Fictional imaging,2022-04-20 18:00:00,FictionalTechnician18,Fictional result for educational use,Completed,A,E00238
+239,239,Fictional screening,2022-04-21 05:00:00,FictionalTechnician19,Fictional result for educational use,Completed,A,E00239
+240,240,Fictional blood panel,2022-04-21 16:00:00,FictionalTechnician00,Fictional result for educational use,Completed,A,E00240
+241,241,Fictional imaging,2022-04-22 03:00:00,FictionalTechnician01,Fictional result for educational use,Completed,A,E00241
+242,242,Fictional screening,2022-04-22 14:00:00,FictionalTechnician02,Fictional result for educational use,Completed,A,E00242
+243,243,Fictional blood panel,2022-04-23 01:00:00,FictionalTechnician03,Fictional result for educational use,Completed,A,E00243
+244,244,Fictional imaging,2022-04-23 12:00:00,FictionalTechnician04,Fictional result for educational use,Completed,A,E00244
+245,245,Fictional screening,2022-04-23 23:00:00,FictionalTechnician05,Fictional result for educational use,Completed,A,E00245
+246,246,Fictional blood panel,2022-04-24 10:00:00,FictionalTechnician06,Fictional result for educational use,Completed,A,E00246
+247,247,Fictional imaging,2022-04-24 21:00:00,FictionalTechnician07,Fictional result for educational use,Completed,A,E00247
+248,248,Fictional screening,2022-04-25 08:00:00,FictionalTechnician08,Fictional result for educational use,Completed,A,E00248
+249,249,Fictional blood panel,2022-04-25 19:00:00,FictionalTechnician09,Fictional result for educational use,Completed,A,E00249
+250,250,Fictional imaging,2022-04-26 06:00:00,FictionalTechnician10,Fictional result for educational use,Completed,A,E00250
+251,451,Fictional imaging,2022-01-01 21:00:00,FictionalTechnician01,Fictional result for educational use,Completed,B,E00001
+252,452,Fictional screening,2022-01-02 08:00:00,FictionalTechnician02,Fictional result for educational use,Completed,B,E00002
+253,453,Fictional blood panel,2022-01-02 19:00:00,FictionalTechnician03,Fictional result for educational use,Completed,B,E00003
+254,454,Fictional imaging,2022-01-03 06:00:00,FictionalTechnician04,Fictional result for educational use,Completed,B,E00004
+255,455,Fictional screening,2022-01-03 17:00:00,FictionalTechnician05,Fictional result for educational use,Completed,B,E00005
+256,456,Fictional blood panel,2022-01-04 04:00:00,FictionalTechnician06,Fictional result for educational use,Completed,B,E00006
+257,457,Fictional imaging,2022-01-04 15:00:00,FictionalTechnician07,Fictional result for educational use,Completed,B,E00007
+258,458,Fictional screening,2022-01-05 02:00:00,FictionalTechnician08,Fictional result for educational use,Completed,B,E00008
+259,459,Fictional blood panel,2022-01-05 13:00:00,FictionalTechnician09,Fictional result for educational use,Completed,B,E00009
+260,460,Fictional imaging,2022-01-06 00:00:00,FictionalTechnician10,Fictional result for educational use,Completed,B,E00010
+261,461,Fictional screening,2022-01-06 11:00:00,FictionalTechnician11,Fictional result for educational use,Completed,B,E00011
+262,462,Fictional blood panel,2022-01-06 22:00:00,FictionalTechnician12,Fictional result for educational use,Completed,B,E00012
+263,463,Fictional imaging,2022-01-07 09:00:00,FictionalTechnician13,Fictional result for educational use,Completed,B,E00013
+264,464,Fictional screening,2022-01-07 20:00:00,FictionalTechnician14,Fictional result for educational use,Completed,B,E00014
+265,465,Fictional blood panel,2022-01-08 07:00:00,FictionalTechnician15,Fictional result for educational use,Completed,B,E00015
+266,466,Fictional imaging,2022-01-08 18:00:00,FictionalTechnician16,Fictional result for educational use,Completed,B,E00016
+267,467,Fictional screening,2022-01-09 05:00:00,FictionalTechnician17,Fictional result for educational use,Completed,B,E00017
+268,468,Fictional blood panel,2022-01-09 16:00:00,FictionalTechnician18,Fictional result for educational use,Completed,B,E00018
+269,469,Fictional imaging,2022-01-10 03:00:00,FictionalTechnician19,Fictional result for educational use,Completed,B,E00019
+270,470,Fictional screening,2022-01-10 14:00:00,FictionalTechnician00,Fictional result for educational use,Completed,B,E00020
+271,471,Fictional blood panel,2022-01-11 01:00:00,FictionalTechnician01,Fictional result for educational use,Completed,B,E00021
+272,472,Fictional imaging,2022-01-11 12:00:00,FictionalTechnician02,Fictional result for educational use,Completed,B,E00022
+273,473,Fictional screening,2022-01-11 23:00:00,FictionalTechnician03,Fictional result for educational use,Completed,B,E00023
+274,474,Fictional blood panel,2022-01-12 10:00:00,FictionalTechnician04,Fictional result for educational use,Completed,B,E00024
+275,475,Fictional imaging,2022-01-12 21:00:00,FictionalTechnician05,Fictional result for educational use,Completed,B,E00025
+276,476,Fictional screening,2022-01-13 08:00:00,FictionalTechnician06,Fictional result for educational use,Completed,B,E00026
+277,477,Fictional blood panel,2022-01-13 19:00:00,FictionalTechnician07,Fictional result for educational use,Completed,B,E00027
+278,478,Fictional imaging,2022-01-14 06:00:00,FictionalTechnician08,Fictional result for educational use,Completed,B,E00028
+279,479,Fictional screening,2022-01-14 17:00:00,FictionalTechnician09,Fictional result for educational use,Completed,B,E00029
+280,480,Fictional blood panel,2022-01-15 04:00:00,FictionalTechnician10,Fictional result for educational use,Completed,B,E00030
+281,481,Fictional imaging,2022-01-15 15:00:00,FictionalTechnician11,Fictional result for educational use,Completed,B,E00031
+282,482,Fictional screening,2022-01-16 02:00:00,FictionalTechnician12,Fictional result for educational use,Completed,B,E00032
+283,483,Fictional blood panel,2022-01-16 13:00:00,FictionalTechnician13,Fictional result for educational use,Completed,B,E00033
+284,484,Fictional imaging,2022-01-17 00:00:00,FictionalTechnician14,Fictional result for educational use,Completed,B,E00034
+285,485,Fictional screening,2022-01-17 11:00:00,FictionalTechnician15,Fictional result for educational use,Completed,B,E00035
+286,486,Fictional blood panel,2022-01-17 22:00:00,FictionalTechnician16,Fictional result for educational use,Completed,B,E00036
+287,487,Fictional imaging,2022-01-18 09:00:00,FictionalTechnician17,Fictional result for educational use,Completed,B,E00037
+288,488,Fictional screening,2022-01-18 20:00:00,FictionalTechnician18,Fictional result for educational use,Completed,B,E00038
+289,489,Fictional blood panel,2022-01-19 07:00:00,FictionalTechnician19,Fictional result for educational use,Completed,B,E00039
+290,490,Fictional imaging,2022-01-19 18:00:00,FictionalTechnician00,Fictional result for educational use,Completed,B,E00040
+291,491,Fictional screening,2022-01-20 05:00:00,FictionalTechnician01,Fictional result for educational use,Completed,B,E00041
+292,492,Fictional blood panel,2022-01-20 16:00:00,FictionalTechnician02,Fictional result for educational use,Completed,B,E00042
+293,493,Fictional imaging,2022-01-21 03:00:00,FictionalTechnician03,Fictional result for educational use,Completed,B,E00043
+294,494,Fictional screening,2022-01-21 14:00:00,FictionalTechnician04,Fictional result for educational use,Completed,B,E00044
+295,495,Fictional blood panel,2022-01-22 01:00:00,FictionalTechnician05,Fictional result for educational use,Completed,B,E00045
+296,496,Fictional imaging,2022-01-22 12:00:00,FictionalTechnician06,Fictional result for educational use,Completed,B,E00046
+297,497,Fictional screening,2022-01-22 23:00:00,FictionalTechnician07,Fictional result for educational use,Completed,B,E00047
+298,498,Fictional blood panel,2022-01-23 10:00:00,FictionalTechnician08,Fictional result for educational use,Completed,B,E00048
+299,499,Fictional imaging,2022-01-23 21:00:00,FictionalTechnician09,Fictional result for educational use,Completed,B,E00049
+300,500,Fictional screening,2022-01-24 08:00:00,FictionalTechnician10,Fictional result for educational use,Completed,B,E00050
+301,501,Fictional blood panel,2022-01-24 19:00:00,FictionalTechnician11,Fictional result for educational use,Completed,B,E00051
+302,502,Fictional imaging,2022-01-25 06:00:00,FictionalTechnician12,Fictional result for educational use,Completed,B,E00052
+303,503,Fictional screening,2022-01-25 17:00:00,FictionalTechnician13,Fictional result for educational use,Completed,B,E00053
+304,504,Fictional blood panel,2022-01-26 04:00:00,FictionalTechnician14,Fictional result for educational use,Completed,B,E00054
+305,505,Fictional imaging,2022-01-26 15:00:00,FictionalTechnician15,Fictional result for educational use,Completed,B,E00055
+306,506,Fictional screening,2022-01-27 02:00:00,FictionalTechnician16,Fictional result for educational use,Completed,B,E00056
+307,507,Fictional blood panel,2022-01-27 13:00:00,FictionalTechnician17,Fictional result for educational use,Completed,B,E00057
+308,508,Fictional imaging,2022-01-28 00:00:00,FictionalTechnician18,Fictional result for educational use,Completed,B,E00058
+309,509,Fictional screening,2022-01-28 11:00:00,FictionalTechnician19,Fictional result for educational use,Completed,B,E00059
+310,510,Fictional blood panel,2022-01-28 22:00:00,FictionalTechnician00,Fictional result for educational use,Completed,B,E00060
+311,511,Fictional imaging,2022-01-29 09:00:00,FictionalTechnician01,Fictional result for educational use,Completed,B,E00061
+312,512,Fictional screening,2022-01-29 20:00:00,FictionalTechnician02,Fictional result for educational use,Completed,B,E00062
+313,513,Fictional blood panel,2022-01-30 07:00:00,FictionalTechnician03,Fictional result for educational use,Completed,B,E00063
+314,514,Fictional imaging,2022-01-30 18:00:00,FictionalTechnician04,Fictional result for educational use,Completed,B,E00064
+315,515,Fictional screening,2022-01-31 05:00:00,FictionalTechnician05,Fictional result for educational use,Completed,B,E00065
+316,516,Fictional blood panel,2022-01-31 16:00:00,FictionalTechnician06,Fictional result for educational use,Completed,B,E00066
+317,517,Fictional imaging,2022-02-01 03:00:00,FictionalTechnician07,Fictional result for educational use,Completed,B,E00067
+318,518,Fictional screening,2022-02-01 14:00:00,FictionalTechnician08,Fictional result for educational use,Completed,B,E00068
+319,519,Fictional blood panel,2022-02-02 01:00:00,FictionalTechnician09,Fictional result for educational use,Completed,B,E00069
+320,520,Fictional imaging,2022-02-02 12:00:00,FictionalTechnician10,Fictional result for educational use,Completed,B,E00070
+321,521,Fictional screening,2022-02-02 23:00:00,FictionalTechnician11,Fictional result for educational use,Completed,B,E00071
+322,522,Fictional blood panel,2022-02-03 10:00:00,FictionalTechnician12,Fictional result for educational use,Completed,B,E00072
+323,523,Fictional imaging,2022-02-03 21:00:00,FictionalTechnician13,Fictional result for educational use,Completed,B,E00073
+324,524,Fictional screening,2022-02-04 08:00:00,FictionalTechnician14,Fictional result for educational use,Completed,B,E00074
+325,525,Fictional blood panel,2022-02-04 19:00:00,FictionalTechnician15,Fictional result for educational use,Completed,B,E00075
+326,526,Fictional imaging,2022-02-05 06:00:00,FictionalTechnician16,Fictional result for educational use,Completed,B,E00076
+327,527,Fictional screening,2022-02-05 17:00:00,FictionalTechnician17,Fictional result for educational use,Completed,B,E00077
+328,528,Fictional blood panel,2022-02-06 04:00:00,FictionalTechnician18,Fictional result for educational use,Completed,B,E00078
+329,529,Fictional imaging,2022-02-06 15:00:00,FictionalTechnician19,Fictional result for educational use,Completed,B,E00079
+330,530,Fictional screening,2022-02-07 02:00:00,FictionalTechnician00,Fictional result for educational use,Completed,B,E00080
+331,531,Fictional blood panel,2022-02-07 13:00:00,FictionalTechnician01,Fictional result for educational use,Completed,B,E00081
+332,532,Fictional imaging,2022-02-08 00:00:00,FictionalTechnician02,Fictional result for educational use,Completed,B,E00082
+333,533,Fictional screening,2022-02-08 11:00:00,FictionalTechnician03,Fictional result for educational use,Completed,B,E00083
+334,534,Fictional blood panel,2022-02-08 22:00:00,FictionalTechnician04,Fictional result for educational use,Completed,B,E00084
+335,535,Fictional imaging,2022-02-09 09:00:00,FictionalTechnician05,Fictional result for educational use,Completed,B,E00085
+336,536,Fictional screening,2022-02-09 20:00:00,FictionalTechnician06,Fictional result for educational use,Completed,B,E00086
+337,537,Fictional blood panel,2022-02-10 07:00:00,FictionalTechnician07,Fictional result for educational use,Completed,B,E00087
+338,538,Fictional imaging,2022-02-10 18:00:00,FictionalTechnician08,Fictional result for educational use,Completed,B,E00088
+339,539,Fictional screening,2022-02-11 05:00:00,FictionalTechnician09,Fictional result for educational use,Completed,B,E00089
+340,540,Fictional blood panel,2022-02-11 16:00:00,FictionalTechnician10,Fictional result for educational use,Completed,B,E00090
+341,541,Fictional imaging,2022-02-12 03:00:00,FictionalTechnician11,Fictional result for educational use,Completed,B,E00091
+342,542,Fictional screening,2022-02-12 14:00:00,FictionalTechnician12,Fictional result for educational use,Completed,B,E00092
+343,543,Fictional blood panel,2022-02-13 01:00:00,FictionalTechnician13,Fictional result for educational use,Completed,B,E00093
+344,544,Fictional imaging,2022-02-13 12:00:00,FictionalTechnician14,Fictional result for educational use,Completed,B,E00094
+345,545,Fictional screening,2022-02-13 23:00:00,FictionalTechnician15,Fictional result for educational use,Completed,B,E00095
+346,546,Fictional blood panel,2022-02-14 10:00:00,FictionalTechnician16,Fictional result for educational use,Completed,B,E00096
+347,547,Fictional imaging,2022-02-14 21:00:00,FictionalTechnician17,Fictional result for educational use,Completed,B,E00097
+348,548,Fictional screening,2022-02-15 08:00:00,FictionalTechnician18,Fictional result for educational use,Completed,B,E00098
+349,549,Fictional blood panel,2022-02-15 19:00:00,FictionalTechnician19,Fictional result for educational use,Completed,B,E00099
+350,550,Fictional imaging,2022-02-16 06:00:00,FictionalTechnician00,Fictional result for educational use,Completed,B,E00100
+351,551,Fictional screening,2022-02-16 17:00:00,FictionalTechnician01,Fictional result for educational use,Completed,B,E00101
+352,552,Fictional blood panel,2022-02-17 04:00:00,FictionalTechnician02,Fictional result for educational use,Completed,B,E00102
+353,553,Fictional imaging,2022-02-17 15:00:00,FictionalTechnician03,Fictional result for educational use,Completed,B,E00103
+354,554,Fictional screening,2022-02-18 02:00:00,FictionalTechnician04,Fictional result for educational use,Completed,B,E00104
+355,555,Fictional blood panel,2022-02-18 13:00:00,FictionalTechnician05,Fictional result for educational use,Completed,B,E00105
+356,556,Fictional imaging,2022-02-19 00:00:00,FictionalTechnician06,Fictional result for educational use,Completed,B,E00106
+357,557,Fictional screening,2022-02-19 11:00:00,FictionalTechnician07,Fictional result for educational use,Completed,B,E00107
+358,558,Fictional blood panel,2022-02-19 22:00:00,FictionalTechnician08,Fictional result for educational use,Completed,B,E00108
+359,559,Fictional imaging,2022-02-20 09:00:00,FictionalTechnician09,Fictional result for educational use,Completed,B,E00109
+360,560,Fictional screening,2022-02-20 20:00:00,FictionalTechnician10,Fictional result for educational use,Completed,B,E00110
+361,561,Fictional blood panel,2022-02-21 07:00:00,FictionalTechnician11,Fictional result for educational use,Completed,B,E00111
+362,562,Fictional imaging,2022-02-21 18:00:00,FictionalTechnician12,Fictional result for educational use,Completed,B,E00112
+363,563,Fictional screening,2022-02-22 05:00:00,FictionalTechnician13,Fictional result for educational use,Completed,B,E00113
+364,564,Fictional blood panel,2022-02-22 16:00:00,FictionalTechnician14,Fictional result for educational use,Completed,B,E00114
+365,565,Fictional imaging,2022-02-23 03:00:00,FictionalTechnician15,Fictional result for educational use,Completed,B,E00115
+366,566,Fictional screening,2022-02-23 14:00:00,FictionalTechnician16,Fictional result for educational use,Completed,B,E00116
+367,567,Fictional blood panel,2022-02-24 01:00:00,FictionalTechnician17,Fictional result for educational use,Completed,B,E00117
+368,568,Fictional imaging,2022-02-24 12:00:00,FictionalTechnician18,Fictional result for educational use,Completed,B,E00118
+369,569,Fictional screening,2022-02-24 23:00:00,FictionalTechnician19,Fictional result for educational use,Completed,B,E00119
+370,570,Fictional blood panel,2022-02-25 10:00:00,FictionalTechnician00,Fictional result for educational use,Completed,B,E00120
+371,571,Fictional imaging,2022-02-25 21:00:00,FictionalTechnician01,Fictional result for educational use,Completed,B,E00121
+372,572,Fictional screening,2022-02-26 08:00:00,FictionalTechnician02,Fictional result for educational use,Completed,B,E00122
+373,573,Fictional blood panel,2022-02-26 19:00:00,FictionalTechnician03,Fictional result for educational use,Completed,B,E00123
+374,574,Fictional imaging,2022-02-27 06:00:00,FictionalTechnician04,Fictional result for educational use,Completed,B,E00124
+375,575,Fictional screening,2022-02-27 17:00:00,FictionalTechnician05,Fictional result for educational use,Completed,B,E00125
+376,576,Fictional blood panel,2022-02-28 04:00:00,FictionalTechnician06,Fictional result for educational use,Completed,B,E00126
+377,577,Fictional imaging,2022-02-28 15:00:00,FictionalTechnician07,Fictional result for educational use,Completed,B,E00127
+378,578,Fictional screening,2022-03-01 02:00:00,FictionalTechnician08,Fictional result for educational use,Completed,B,E00128
+379,579,Fictional blood panel,2022-03-01 13:00:00,FictionalTechnician09,Fictional result for educational use,Completed,B,E00129
+380,580,Fictional imaging,2022-03-02 00:00:00,FictionalTechnician10,Fictional result for educational use,Completed,B,E00130
+381,581,Fictional screening,2022-03-02 11:00:00,FictionalTechnician11,Fictional result for educational use,Completed,B,E00131
+382,582,Fictional blood panel,2022-03-02 22:00:00,FictionalTechnician12,Fictional result for educational use,Completed,B,E00132
+383,583,Fictional imaging,2022-03-03 09:00:00,FictionalTechnician13,Fictional result for educational use,Completed,B,E00133
+384,584,Fictional screening,2022-03-03 20:00:00,FictionalTechnician14,Fictional result for educational use,Completed,B,E00134
+385,585,Fictional blood panel,2022-03-04 07:00:00,FictionalTechnician15,Fictional result for educational use,Completed,B,E00135
+386,586,Fictional imaging,2022-03-04 18:00:00,FictionalTechnician16,Fictional result for educational use,Completed,B,E00136
+387,587,Fictional screening,2022-03-05 05:00:00,FictionalTechnician17,Fictional result for educational use,Completed,B,E00137
+388,588,Fictional blood panel,2022-03-05 16:00:00,FictionalTechnician18,Fictional result for educational use,Completed,B,E00138
+389,589,Fictional imaging,2022-03-06 03:00:00,FictionalTechnician19,Fictional result for educational use,Completed,B,E00139
+390,590,Fictional screening,2022-03-06 14:00:00,FictionalTechnician00,Fictional result for educational use,Completed,B,E00140
+391,591,Fictional blood panel,2022-03-07 01:00:00,FictionalTechnician01,Fictional result for educational use,Completed,B,E00141
+392,592,Fictional imaging,2022-03-07 12:00:00,FictionalTechnician02,Fictional result for educational use,Completed,B,E00142
+393,593,Fictional screening,2022-03-07 23:00:00,FictionalTechnician03,Fictional result for educational use,Completed,B,E00143
+394,594,Fictional blood panel,2022-03-08 10:00:00,FictionalTechnician04,Fictional result for educational use,Completed,B,E00144
+395,595,Fictional imaging,2022-03-08 21:00:00,FictionalTechnician05,Fictional result for educational use,Completed,B,E00145
+396,596,Fictional screening,2022-03-09 08:00:00,FictionalTechnician06,Fictional result for educational use,Completed,B,E00146
+397,597,Fictional blood panel,2022-03-09 19:00:00,FictionalTechnician07,Fictional result for educational use,Completed,B,E00147
+398,598,Fictional imaging,2022-03-10 06:00:00,FictionalTechnician08,Fictional result for educational use,Completed,B,E00148
+399,599,Fictional screening,2022-03-10 17:00:00,FictionalTechnician09,Fictional result for educational use,Completed,B,E00149
+400,600,Fictional blood panel,2022-03-11 04:00:00,FictionalTechnician10,Fictional result for educational use,Completed,B,E00150
+401,601,Fictional imaging,2022-03-11 15:00:00,FictionalTechnician11,Fictional result for educational use,Completed,B,E00151
+402,602,Fictional screening,2022-03-12 02:00:00,FictionalTechnician12,Fictional result for educational use,Completed,B,E00152
+403,603,Fictional blood panel,2022-03-12 13:00:00,FictionalTechnician13,Fictional result for educational use,Completed,B,E00153
+404,604,Fictional imaging,2022-03-13 00:00:00,FictionalTechnician14,Fictional result for educational use,Completed,B,E00154
+405,605,Fictional screening,2022-03-13 11:00:00,FictionalTechnician15,Fictional result for educational use,Completed,B,E00155
+406,606,Fictional blood panel,2022-03-13 22:00:00,FictionalTechnician16,Fictional result for educational use,Completed,B,E00156
+407,607,Fictional imaging,2022-03-14 09:00:00,FictionalTechnician17,Fictional result for educational use,Completed,B,E00157
+408,608,Fictional screening,2022-03-14 20:00:00,FictionalTechnician18,Fictional result for educational use,Completed,B,E00158
+409,609,Fictional blood panel,2022-03-15 07:00:00,FictionalTechnician19,Fictional result for educational use,Completed,B,E00159
+410,610,Fictional imaging,2022-03-15 18:00:00,FictionalTechnician00,Fictional result for educational use,Completed,B,E00160
+411,611,Fictional screening,2022-03-16 05:00:00,FictionalTechnician01,Fictional result for educational use,Completed,B,E00161
+412,612,Fictional blood panel,2022-03-16 16:00:00,FictionalTechnician02,Fictional result for educational use,Completed,B,E00162
+413,613,Fictional imaging,2022-03-17 03:00:00,FictionalTechnician03,Fictional result for educational use,Completed,B,E00163
+414,614,Fictional screening,2022-03-17 14:00:00,FictionalTechnician04,Fictional result for educational use,Completed,B,E00164
+415,615,Fictional blood panel,2022-03-18 01:00:00,FictionalTechnician05,Fictional result for educational use,Completed,B,E00165
+416,616,Fictional imaging,2022-03-18 12:00:00,FictionalTechnician06,Fictional result for educational use,Completed,B,E00166
+417,617,Fictional screening,2022-03-18 23:00:00,FictionalTechnician07,Fictional result for educational use,Completed,B,E00167
+418,618,Fictional blood panel,2022-03-19 10:00:00,FictionalTechnician08,Fictional result for educational use,Completed,B,E00168
+419,619,Fictional imaging,2022-03-19 21:00:00,FictionalTechnician09,Fictional result for educational use,Completed,B,E00169
+420,620,Fictional screening,2022-03-20 08:00:00,FictionalTechnician10,Fictional result for educational use,Completed,B,E00170
+421,621,Fictional blood panel,2022-03-20 19:00:00,FictionalTechnician11,Fictional result for educational use,Completed,B,E00171
+422,622,Fictional imaging,2022-03-21 06:00:00,FictionalTechnician12,Fictional result for educational use,Completed,B,E00172
+423,623,Fictional screening,2022-03-21 17:00:00,FictionalTechnician13,Fictional result for educational use,Completed,B,E00173
+424,624,Fictional blood panel,2022-03-22 04:00:00,FictionalTechnician14,Fictional result for educational use,Completed,B,E00174
+425,625,Fictional imaging,2022-03-22 15:00:00,FictionalTechnician15,Fictional result for educational use,Completed,B,E00175
+426,626,Fictional screening,2022-03-23 02:00:00,FictionalTechnician16,Fictional result for educational use,Completed,B,E00176
+427,627,Fictional blood panel,2022-03-23 13:00:00,FictionalTechnician17,Fictional result for educational use,Completed,B,E00177
+428,628,Fictional imaging,2022-03-24 00:00:00,FictionalTechnician18,Fictional result for educational use,Completed,B,E00178
+429,629,Fictional screening,2022-03-24 11:00:00,FictionalTechnician19,Fictional result for educational use,Completed,B,E00179
+430,630,Fictional blood panel,2022-03-24 22:00:00,FictionalTechnician00,Fictional result for educational use,Completed,B,E00180
+431,631,Fictional imaging,2022-03-25 09:00:00,FictionalTechnician01,Fictional result for educational use,Completed,B,E00181
+432,632,Fictional screening,2022-03-25 20:00:00,FictionalTechnician02,Fictional result for educational use,Completed,B,E00182
+433,633,Fictional blood panel,2022-03-26 07:00:00,FictionalTechnician03,Fictional result for educational use,Completed,B,E00183
+434,634,Fictional imaging,2022-03-26 18:00:00,FictionalTechnician04,Fictional result for educational use,Completed,B,E00184
+435,635,Fictional screening,2022-03-27 05:00:00,FictionalTechnician05,Fictional result for educational use,Completed,B,E00185
+436,636,Fictional blood panel,2022-03-27 16:00:00,FictionalTechnician06,Fictional result for educational use,Completed,B,E00186
+437,637,Fictional imaging,2022-03-28 03:00:00,FictionalTechnician07,Fictional result for educational use,Completed,B,E00187
+438,638,Fictional screening,2022-03-28 14:00:00,FictionalTechnician08,Fictional result for educational use,Completed,B,E00188
+439,639,Fictional blood panel,2022-03-29 01:00:00,FictionalTechnician09,Fictional result for educational use,Completed,B,E00189
+440,640,Fictional imaging,2022-03-29 12:00:00,FictionalTechnician10,Fictional result for educational use,Completed,B,E00190
+441,641,Fictional screening,2022-03-29 23:00:00,FictionalTechnician11,Fictional result for educational use,Completed,B,E00191
+442,642,Fictional blood panel,2022-03-30 10:00:00,FictionalTechnician12,Fictional result for educational use,Completed,B,E00192
+443,643,Fictional imaging,2022-03-30 21:00:00,FictionalTechnician13,Fictional result for educational use,Completed,B,E00193
+444,644,Fictional screening,2022-03-31 08:00:00,FictionalTechnician14,Fictional result for educational use,Completed,B,E00194
+445,645,Fictional blood panel,2022-03-31 19:00:00,FictionalTechnician15,Fictional result for educational use,Completed,B,E00195
+446,646,Fictional imaging,2022-04-01 06:00:00,FictionalTechnician16,Fictional result for educational use,Completed,B,E00196
+447,647,Fictional screening,2022-04-01 17:00:00,FictionalTechnician17,Fictional result for educational use,Completed,B,E00197
+448,648,Fictional blood panel,2022-04-02 04:00:00,FictionalTechnician18,Fictional result for educational use,Completed,B,E00198
+449,649,Fictional imaging,2022-04-02 15:00:00,FictionalTechnician19,Fictional result for educational use,Completed,B,E00199
+450,650,Fictional screening,2022-04-03 02:00:00,FictionalTechnician00,Fictional result for educational use,Completed,B,E00200
+451,651,Fictional blood panel,2022-04-03 13:00:00,FictionalTechnician01,Fictional result for educational use,Completed,B,E00201
+452,652,Fictional imaging,2022-04-04 00:00:00,FictionalTechnician02,Fictional result for educational use,Completed,B,E00202
+453,653,Fictional screening,2022-04-04 11:00:00,FictionalTechnician03,Fictional result for educational use,Completed,B,E00203
+454,654,Fictional blood panel,2022-04-04 22:00:00,FictionalTechnician04,Fictional result for educational use,Completed,B,E00204
+455,655,Fictional imaging,2022-04-05 09:00:00,FictionalTechnician05,Fictional result for educational use,Completed,B,E00205
+456,656,Fictional screening,2022-04-05 20:00:00,FictionalTechnician06,Fictional result for educational use,Completed,B,E00206
+457,657,Fictional blood panel,2022-04-06 07:00:00,FictionalTechnician07,Fictional result for educational use,Completed,B,E00207
+458,658,Fictional imaging,2022-04-06 18:00:00,FictionalTechnician08,Fictional result for educational use,Completed,B,E00208
+459,659,Fictional screening,2022-04-07 05:00:00,FictionalTechnician09,Fictional result for educational use,Completed,B,E00209
+460,660,Fictional blood panel,2022-04-07 16:00:00,FictionalTechnician10,Fictional result for educational use,Completed,B,E00210
+461,661,Fictional imaging,2022-04-08 03:00:00,FictionalTechnician11,Fictional result for educational use,Completed,B,E00211
+462,662,Fictional screening,2022-04-08 14:00:00,FictionalTechnician12,Fictional result for educational use,Completed,B,E00212
+463,663,Fictional blood panel,2022-04-09 01:00:00,FictionalTechnician13,Fictional result for educational use,Completed,B,E00213
+464,664,Fictional imaging,2022-04-09 12:00:00,FictionalTechnician14,Fictional result for educational use,Completed,B,E00214
+465,665,Fictional screening,2022-04-09 23:00:00,FictionalTechnician15,Fictional result for educational use,Completed,B,E00215
+466,666,Fictional blood panel,2022-04-10 10:00:00,FictionalTechnician16,Fictional result for educational use,Completed,B,E00216
+467,667,Fictional imaging,2022-04-10 21:00:00,FictionalTechnician17,Fictional result for educational use,Completed,B,E00217
+468,668,Fictional screening,2022-04-11 08:00:00,FictionalTechnician18,Fictional result for educational use,Completed,B,E00218
+469,669,Fictional blood panel,2022-04-11 19:00:00,FictionalTechnician19,Fictional result for educational use,Completed,B,E00219
+470,670,Fictional imaging,2022-04-12 06:00:00,FictionalTechnician00,Fictional result for educational use,Completed,B,E00220
+471,671,Fictional screening,2022-04-12 17:00:00,FictionalTechnician01,Fictional result for educational use,Completed,B,E00221
+472,672,Fictional blood panel,2022-04-13 04:00:00,FictionalTechnician02,Fictional result for educational use,Completed,B,E00222
+473,673,Fictional imaging,2022-04-13 15:00:00,FictionalTechnician03,Fictional result for educational use,Completed,B,E00223
+474,674,Fictional screening,2022-04-14 02:00:00,FictionalTechnician04,Fictional result for educational use,Completed,B,E00224
+475,675,Fictional blood panel,2022-04-14 13:00:00,FictionalTechnician05,Fictional result for educational use,Completed,B,E00225
+476,676,Fictional imaging,2022-04-15 00:00:00,FictionalTechnician06,Fictional result for educational use,Completed,B,E00226
+477,677,Fictional screening,2022-04-15 11:00:00,FictionalTechnician07,Fictional result for educational use,Completed,B,E00227
+478,678,Fictional blood panel,2022-04-15 22:00:00,FictionalTechnician08,Fictional result for educational use,Completed,B,E00228
+479,679,Fictional imaging,2022-04-16 09:00:00,FictionalTechnician09,Fictional result for educational use,Completed,B,E00229
+480,680,Fictional screening,2022-04-16 20:00:00,FictionalTechnician10,Fictional result for educational use,Completed,B,E00230
+481,681,Fictional blood panel,2022-04-17 07:00:00,FictionalTechnician11,Fictional result for educational use,Completed,B,E00231
+482,682,Fictional imaging,2022-04-17 18:00:00,FictionalTechnician12,Fictional result for educational use,Completed,B,E00232
+483,683,Fictional screening,2022-04-18 05:00:00,FictionalTechnician13,Fictional result for educational use,Completed,B,E00233
+484,684,Fictional blood panel,2022-04-18 16:00:00,FictionalTechnician14,Fictional result for educational use,Completed,B,E00234
+485,685,Fictional imaging,2022-04-19 03:00:00,FictionalTechnician15,Fictional result for educational use,Completed,B,E00235
+486,686,Fictional screening,2022-04-19 14:00:00,FictionalTechnician16,Fictional result for educational use,Completed,B,E00236
+487,687,Fictional blood panel,2022-04-20 01:00:00,FictionalTechnician17,Fictional result for educational use,Completed,B,E00237
+488,688,Fictional imaging,2022-04-20 12:00:00,FictionalTechnician18,Fictional result for educational use,Completed,B,E00238
+489,689,Fictional screening,2022-04-20 23:00:00,FictionalTechnician19,Fictional result for educational use,Completed,B,E00239
+490,690,Fictional blood panel,2022-04-21 10:00:00,FictionalTechnician00,Fictional result for educational use,Completed,B,E00240
+491,691,Fictional imaging,2022-04-21 21:00:00,FictionalTechnician01,Fictional result for educational use,Completed,B,E00241
+492,692,Fictional screening,2022-04-22 08:00:00,FictionalTechnician02,Fictional result for educational use,Completed,B,E00242
+493,693,Fictional blood panel,2022-04-22 19:00:00,FictionalTechnician03,Fictional result for educational use,Completed,B,E00243
+494,694,Fictional imaging,2022-04-23 06:00:00,FictionalTechnician04,Fictional result for educational use,Completed,B,E00244
+495,695,Fictional screening,2022-04-23 17:00:00,FictionalTechnician05,Fictional result for educational use,Completed,B,E00245
+496,696,Fictional blood panel,2022-04-24 04:00:00,FictionalTechnician06,Fictional result for educational use,Completed,B,E00246
+497,697,Fictional imaging,2022-04-24 15:00:00,FictionalTechnician07,Fictional result for educational use,Completed,B,E00247
+498,698,Fictional screening,2022-04-25 02:00:00,FictionalTechnician08,Fictional result for educational use,Completed,B,E00248
+499,699,Fictional blood panel,2022-04-25 13:00:00,FictionalTechnician09,Fictional result for educational use,Completed,B,E00249
+500,700,Fictional imaging,2022-04-26 00:00:00,FictionalTechnician10,Fictional result for educational use,Completed,B,E00250
+501,901,Fictional imaging,2022-01-01 15:00:00,FictionalTechnician01,Fictional result for educational use,Completed,C,E00001
+502,902,Fictional screening,2022-01-02 02:00:00,FictionalTechnician02,Fictional result for educational use,Completed,C,E00002
+503,903,Fictional blood panel,2022-01-02 13:00:00,FictionalTechnician03,Fictional result for educational use,Completed,C,E00003
+504,904,Fictional imaging,2022-01-03 00:00:00,FictionalTechnician04,Fictional result for educational use,Completed,C,E00004
+505,905,Fictional screening,2022-01-03 11:00:00,FictionalTechnician05,Fictional result for educational use,Completed,C,E00005
+506,906,Fictional blood panel,2022-01-03 22:00:00,FictionalTechnician06,Fictional result for educational use,Completed,C,E00006
+507,907,Fictional imaging,2022-01-04 09:00:00,FictionalTechnician07,Fictional result for educational use,Completed,C,E00007
+508,908,Fictional screening,2022-01-04 20:00:00,FictionalTechnician08,Fictional result for educational use,Completed,C,E00008
+509,909,Fictional blood panel,2022-01-05 07:00:00,FictionalTechnician09,Fictional result for educational use,Completed,C,E00009
+510,910,Fictional imaging,2022-01-05 18:00:00,FictionalTechnician10,Fictional result for educational use,Completed,C,E00010
+511,911,Fictional screening,2022-01-06 05:00:00,FictionalTechnician11,Fictional result for educational use,Completed,C,E00011
+512,912,Fictional blood panel,2022-01-06 16:00:00,FictionalTechnician12,Fictional result for educational use,Completed,C,E00012
+513,913,Fictional imaging,2022-01-07 03:00:00,FictionalTechnician13,Fictional result for educational use,Completed,C,E00013
+514,914,Fictional screening,2022-01-07 14:00:00,FictionalTechnician14,Fictional result for educational use,Completed,C,E00014
+515,915,Fictional blood panel,2022-01-08 01:00:00,FictionalTechnician15,Fictional result for educational use,Completed,C,E00015
+516,916,Fictional imaging,2022-01-08 12:00:00,FictionalTechnician16,Fictional result for educational use,Completed,C,E00016
+517,917,Fictional screening,2022-01-08 23:00:00,FictionalTechnician17,Fictional result for educational use,Completed,C,E00017
+518,918,Fictional blood panel,2022-01-09 10:00:00,FictionalTechnician18,Fictional result for educational use,Completed,C,E00018
+519,919,Fictional imaging,2022-01-09 21:00:00,FictionalTechnician19,Fictional result for educational use,Completed,C,E00019
+520,920,Fictional screening,2022-01-10 08:00:00,FictionalTechnician00,Fictional result for educational use,Completed,C,E00020
+521,921,Fictional blood panel,2022-01-10 19:00:00,FictionalTechnician01,Fictional result for educational use,Completed,C,E00021
+522,922,Fictional imaging,2022-01-11 06:00:00,FictionalTechnician02,Fictional result for educational use,Completed,C,E00022
+523,923,Fictional screening,2022-01-11 17:00:00,FictionalTechnician03,Fictional result for educational use,Completed,C,E00023
+524,924,Fictional blood panel,2022-01-12 04:00:00,FictionalTechnician04,Fictional result for educational use,Completed,C,E00024
+525,925,Fictional imaging,2022-01-12 15:00:00,FictionalTechnician05,Fictional result for educational use,Completed,C,E00025
+526,926,Fictional screening,2022-01-13 02:00:00,FictionalTechnician06,Fictional result for educational use,Completed,C,E00026
+527,927,Fictional blood panel,2022-01-13 13:00:00,FictionalTechnician07,Fictional result for educational use,Completed,C,E00027
+528,928,Fictional imaging,2022-01-14 00:00:00,FictionalTechnician08,Fictional result for educational use,Completed,C,E00028
+529,929,Fictional screening,2022-01-14 11:00:00,FictionalTechnician09,Fictional result for educational use,Completed,C,E00029
+530,930,Fictional blood panel,2022-01-14 22:00:00,FictionalTechnician10,Fictional result for educational use,Completed,C,E00030
+531,931,Fictional imaging,2022-01-15 09:00:00,FictionalTechnician11,Fictional result for educational use,Completed,C,E00031
+532,932,Fictional screening,2022-01-15 20:00:00,FictionalTechnician12,Fictional result for educational use,Completed,C,E00032
+533,933,Fictional blood panel,2022-01-16 07:00:00,FictionalTechnician13,Fictional result for educational use,Completed,C,E00033
+534,934,Fictional imaging,2022-01-16 18:00:00,FictionalTechnician14,Fictional result for educational use,Completed,C,E00034
+535,935,Fictional screening,2022-01-17 05:00:00,FictionalTechnician15,Fictional result for educational use,Completed,C,E00035
+536,936,Fictional blood panel,2022-01-17 16:00:00,FictionalTechnician16,Fictional result for educational use,Completed,C,E00036
+537,937,Fictional imaging,2022-01-18 03:00:00,FictionalTechnician17,Fictional result for educational use,Completed,C,E00037
+538,938,Fictional screening,2022-01-18 14:00:00,FictionalTechnician18,Fictional result for educational use,Completed,C,E00038
+539,939,Fictional blood panel,2022-01-19 01:00:00,FictionalTechnician19,Fictional result for educational use,Completed,C,E00039
+540,940,Fictional imaging,2022-01-19 12:00:00,FictionalTechnician00,Fictional result for educational use,Completed,C,E00040
+541,941,Fictional screening,2022-01-19 23:00:00,FictionalTechnician01,Fictional result for educational use,Completed,C,E00041
+542,942,Fictional blood panel,2022-01-20 10:00:00,FictionalTechnician02,Fictional result for educational use,Completed,C,E00042
+543,943,Fictional imaging,2022-01-20 21:00:00,FictionalTechnician03,Fictional result for educational use,Completed,C,E00043
+544,944,Fictional screening,2022-01-21 08:00:00,FictionalTechnician04,Fictional result for educational use,Completed,C,E00044
+545,945,Fictional blood panel,2022-01-21 19:00:00,FictionalTechnician05,Fictional result for educational use,Completed,C,E00045
+546,946,Fictional imaging,2022-01-22 06:00:00,FictionalTechnician06,Fictional result for educational use,Completed,C,E00046
+547,947,Fictional screening,2022-01-22 17:00:00,FictionalTechnician07,Fictional result for educational use,Completed,C,E00047
+548,948,Fictional blood panel,2022-01-23 04:00:00,FictionalTechnician08,Fictional result for educational use,Completed,C,E00048
+549,949,Fictional imaging,2022-01-23 15:00:00,FictionalTechnician09,Fictional result for educational use,Completed,C,E00049
+550,950,Fictional screening,2022-01-24 02:00:00,FictionalTechnician10,Fictional result for educational use,Completed,C,E00050
+551,951,Fictional blood panel,2022-01-24 13:00:00,FictionalTechnician11,Fictional result for educational use,Completed,C,E00051
+552,952,Fictional imaging,2022-01-25 00:00:00,FictionalTechnician12,Fictional result for educational use,Completed,C,E00052
+553,953,Fictional screening,2022-01-25 11:00:00,FictionalTechnician13,Fictional result for educational use,Completed,C,E00053
+554,954,Fictional blood panel,2022-01-25 22:00:00,FictionalTechnician14,Fictional result for educational use,Completed,C,E00054
+555,955,Fictional imaging,2022-01-26 09:00:00,FictionalTechnician15,Fictional result for educational use,Completed,C,E00055
+556,956,Fictional screening,2022-01-26 20:00:00,FictionalTechnician16,Fictional result for educational use,Completed,C,E00056
+557,957,Fictional blood panel,2022-01-27 07:00:00,FictionalTechnician17,Fictional result for educational use,Completed,C,E00057
+558,958,Fictional imaging,2022-01-27 18:00:00,FictionalTechnician18,Fictional result for educational use,Completed,C,E00058
+559,959,Fictional screening,2022-01-28 05:00:00,FictionalTechnician19,Fictional result for educational use,Completed,C,E00059
+560,960,Fictional blood panel,2022-01-28 16:00:00,FictionalTechnician00,Fictional result for educational use,Completed,C,E00060
+561,961,Fictional imaging,2022-01-29 03:00:00,FictionalTechnician01,Fictional result for educational use,Completed,C,E00061
+562,962,Fictional screening,2022-01-29 14:00:00,FictionalTechnician02,Fictional result for educational use,Completed,C,E00062
+563,963,Fictional blood panel,2022-01-30 01:00:00,FictionalTechnician03,Fictional result for educational use,Completed,C,E00063
+564,964,Fictional imaging,2022-01-30 12:00:00,FictionalTechnician04,Fictional result for educational use,Completed,C,E00064
+565,965,Fictional screening,2022-01-30 23:00:00,FictionalTechnician05,Fictional result for educational use,Completed,C,E00065
+566,966,Fictional blood panel,2022-01-31 10:00:00,FictionalTechnician06,Fictional result for educational use,Completed,C,E00066
+567,967,Fictional imaging,2022-01-31 21:00:00,FictionalTechnician07,Fictional result for educational use,Completed,C,E00067
+568,968,Fictional screening,2022-02-01 08:00:00,FictionalTechnician08,Fictional result for educational use,Completed,C,E00068
+569,969,Fictional blood panel,2022-02-01 19:00:00,FictionalTechnician09,Fictional result for educational use,Completed,C,E00069
+570,970,Fictional imaging,2022-02-02 06:00:00,FictionalTechnician10,Fictional result for educational use,Completed,C,E00070
+571,971,Fictional screening,2022-02-02 17:00:00,FictionalTechnician11,Fictional result for educational use,Completed,C,E00071
+572,972,Fictional blood panel,2022-02-03 04:00:00,FictionalTechnician12,Fictional result for educational use,Completed,C,E00072
+573,973,Fictional imaging,2022-02-03 15:00:00,FictionalTechnician13,Fictional result for educational use,Completed,C,E00073
+574,974,Fictional screening,2022-02-04 02:00:00,FictionalTechnician14,Fictional result for educational use,Completed,C,E00074
+575,975,Fictional blood panel,2022-02-04 13:00:00,FictionalTechnician15,Fictional result for educational use,Completed,C,E00075
+576,976,Fictional imaging,2022-02-05 00:00:00,FictionalTechnician16,Fictional result for educational use,Completed,C,E00076
+577,977,Fictional screening,2022-02-05 11:00:00,FictionalTechnician17,Fictional result for educational use,Completed,C,E00077
+578,978,Fictional blood panel,2022-02-05 22:00:00,FictionalTechnician18,Fictional result for educational use,Completed,C,E00078
+579,979,Fictional imaging,2022-02-06 09:00:00,FictionalTechnician19,Fictional result for educational use,Completed,C,E00079
+580,980,Fictional screening,2022-02-06 20:00:00,FictionalTechnician00,Fictional result for educational use,Completed,C,E00080
+581,981,Fictional blood panel,2022-02-07 07:00:00,FictionalTechnician01,Fictional result for educational use,Completed,C,E00081
+582,982,Fictional imaging,2022-02-07 18:00:00,FictionalTechnician02,Fictional result for educational use,Completed,C,E00082
+583,983,Fictional screening,2022-02-08 05:00:00,FictionalTechnician03,Fictional result for educational use,Completed,C,E00083
+584,984,Fictional blood panel,2022-02-08 16:00:00,FictionalTechnician04,Fictional result for educational use,Completed,C,E00084
+585,985,Fictional imaging,2022-02-09 03:00:00,FictionalTechnician05,Fictional result for educational use,Completed,C,E00085
+586,986,Fictional screening,2022-02-09 14:00:00,FictionalTechnician06,Fictional result for educational use,Completed,C,E00086
+587,987,Fictional blood panel,2022-02-10 01:00:00,FictionalTechnician07,Fictional result for educational use,Completed,C,E00087
+588,988,Fictional imaging,2022-02-10 12:00:00,FictionalTechnician08,Fictional result for educational use,Completed,C,E00088
+589,989,Fictional screening,2022-02-10 23:00:00,FictionalTechnician09,Fictional result for educational use,Completed,C,E00089
+590,990,Fictional blood panel,2022-02-11 10:00:00,FictionalTechnician10,Fictional result for educational use,Completed,C,E00090
+591,991,Fictional imaging,2022-02-11 21:00:00,FictionalTechnician11,Fictional result for educational use,Completed,C,E00091
+592,992,Fictional screening,2022-02-12 08:00:00,FictionalTechnician12,Fictional result for educational use,Completed,C,E00092
+593,993,Fictional blood panel,2022-02-12 19:00:00,FictionalTechnician13,Fictional result for educational use,Completed,C,E00093
+594,994,Fictional imaging,2022-02-13 06:00:00,FictionalTechnician14,Fictional result for educational use,Completed,C,E00094
+595,995,Fictional screening,2022-02-13 17:00:00,FictionalTechnician15,Fictional result for educational use,Completed,C,E00095
+596,996,Fictional blood panel,2022-02-14 04:00:00,FictionalTechnician16,Fictional result for educational use,Completed,C,E00096
+597,997,Fictional imaging,2022-02-14 15:00:00,FictionalTechnician17,Fictional result for educational use,Completed,C,E00097
+598,998,Fictional screening,2022-02-15 02:00:00,FictionalTechnician18,Fictional result for educational use,Completed,C,E00098
+599,999,Fictional blood panel,2022-02-15 13:00:00,FictionalTechnician19,Fictional result for educational use,Completed,C,E00099
+600,1000,Fictional imaging,2022-02-16 00:00:00,FictionalTechnician00,Fictional result for educational use,Completed,C,E00100
+601,1001,Fictional screening,2022-02-16 11:00:00,FictionalTechnician01,Fictional result for educational use,Completed,C,E00101
+602,1002,Fictional blood panel,2022-02-16 22:00:00,FictionalTechnician02,Fictional result for educational use,Completed,C,E00102
+603,1003,Fictional imaging,2022-02-17 09:00:00,FictionalTechnician03,Fictional result for educational use,Completed,C,E00103
+604,1004,Fictional screening,2022-02-17 20:00:00,FictionalTechnician04,Fictional result for educational use,Completed,C,E00104
+605,1005,Fictional blood panel,2022-02-18 07:00:00,FictionalTechnician05,Fictional result for educational use,Completed,C,E00105
+606,1006,Fictional imaging,2022-02-18 18:00:00,FictionalTechnician06,Fictional result for educational use,Completed,C,E00106
+607,1007,Fictional screening,2022-02-19 05:00:00,FictionalTechnician07,Fictional result for educational use,Completed,C,E00107
+608,1008,Fictional blood panel,2022-02-19 16:00:00,FictionalTechnician08,Fictional result for educational use,Completed,C,E00108
+609,1009,Fictional imaging,2022-02-20 03:00:00,FictionalTechnician09,Fictional result for educational use,Completed,C,E00109
+610,1010,Fictional screening,2022-02-20 14:00:00,FictionalTechnician10,Fictional result for educational use,Completed,C,E00110
+611,1011,Fictional blood panel,2022-02-21 01:00:00,FictionalTechnician11,Fictional result for educational use,Completed,C,E00111
+612,1012,Fictional imaging,2022-02-21 12:00:00,FictionalTechnician12,Fictional result for educational use,Completed,C,E00112
+613,1013,Fictional screening,2022-02-21 23:00:00,FictionalTechnician13,Fictional result for educational use,Completed,C,E00113
+614,1014,Fictional blood panel,2022-02-22 10:00:00,FictionalTechnician14,Fictional result for educational use,Completed,C,E00114
+615,1015,Fictional imaging,2022-02-22 21:00:00,FictionalTechnician15,Fictional result for educational use,Completed,C,E00115
+616,1016,Fictional screening,2022-02-23 08:00:00,FictionalTechnician16,Fictional result for educational use,Completed,C,E00116
+617,1017,Fictional blood panel,2022-02-23 19:00:00,FictionalTechnician17,Fictional result for educational use,Completed,C,E00117
+618,1018,Fictional imaging,2022-02-24 06:00:00,FictionalTechnician18,Fictional result for educational use,Completed,C,E00118
+619,1019,Fictional screening,2022-02-24 17:00:00,FictionalTechnician19,Fictional result for educational use,Completed,C,E00119
+620,1020,Fictional blood panel,2022-02-25 04:00:00,FictionalTechnician00,Fictional result for educational use,Completed,C,E00120
+621,1021,Fictional imaging,2022-02-25 15:00:00,FictionalTechnician01,Fictional result for educational use,Completed,C,E00121
+622,1022,Fictional screening,2022-02-26 02:00:00,FictionalTechnician02,Fictional result for educational use,Completed,C,E00122
+623,1023,Fictional blood panel,2022-02-26 13:00:00,FictionalTechnician03,Fictional result for educational use,Completed,C,E00123
+624,1024,Fictional imaging,2022-02-27 00:00:00,FictionalTechnician04,Fictional result for educational use,Completed,C,E00124
+625,1025,Fictional screening,2022-02-27 11:00:00,FictionalTechnician05,Fictional result for educational use,Completed,C,E00125
+626,1026,Fictional blood panel,2022-02-27 22:00:00,FictionalTechnician06,Fictional result for educational use,Completed,C,E00126
+627,1027,Fictional imaging,2022-02-28 09:00:00,FictionalTechnician07,Fictional result for educational use,Completed,C,E00127
+628,1028,Fictional screening,2022-02-28 20:00:00,FictionalTechnician08,Fictional result for educational use,Completed,C,E00128
+629,1029,Fictional blood panel,2022-03-01 07:00:00,FictionalTechnician09,Fictional result for educational use,Completed,C,E00129
+630,1030,Fictional imaging,2022-03-01 18:00:00,FictionalTechnician10,Fictional result for educational use,Completed,C,E00130
+631,1031,Fictional screening,2022-03-02 05:00:00,FictionalTechnician11,Fictional result for educational use,Completed,C,E00131
+632,1032,Fictional blood panel,2022-03-02 16:00:00,FictionalTechnician12,Fictional result for educational use,Completed,C,E00132
+633,1033,Fictional imaging,2022-03-03 03:00:00,FictionalTechnician13,Fictional result for educational use,Completed,C,E00133
+634,1034,Fictional screening,2022-03-03 14:00:00,FictionalTechnician14,Fictional result for educational use,Completed,C,E00134
+635,1035,Fictional blood panel,2022-03-04 01:00:00,FictionalTechnician15,Fictional result for educational use,Completed,C,E00135
+636,1036,Fictional imaging,2022-03-04 12:00:00,FictionalTechnician16,Fictional result for educational use,Completed,C,E00136
+637,1037,Fictional screening,2022-03-04 23:00:00,FictionalTechnician17,Fictional result for educational use,Completed,C,E00137
+638,1038,Fictional blood panel,2022-03-05 10:00:00,FictionalTechnician18,Fictional result for educational use,Completed,C,E00138
+639,1039,Fictional imaging,2022-03-05 21:00:00,FictionalTechnician19,Fictional result for educational use,Completed,C,E00139
+640,1040,Fictional screening,2022-03-06 08:00:00,FictionalTechnician00,Fictional result for educational use,Completed,C,E00140
+641,1041,Fictional blood panel,2022-03-06 19:00:00,FictionalTechnician01,Fictional result for educational use,Completed,C,E00141
+642,1042,Fictional imaging,2022-03-07 06:00:00,FictionalTechnician02,Fictional result for educational use,Completed,C,E00142
+643,1043,Fictional screening,2022-03-07 17:00:00,FictionalTechnician03,Fictional result for educational use,Completed,C,E00143
+644,1044,Fictional blood panel,2022-03-08 04:00:00,FictionalTechnician04,Fictional result for educational use,Completed,C,E00144
+645,1045,Fictional imaging,2022-03-08 15:00:00,FictionalTechnician05,Fictional result for educational use,Completed,C,E00145
+646,1046,Fictional screening,2022-03-09 02:00:00,FictionalTechnician06,Fictional result for educational use,Completed,C,E00146
+647,1047,Fictional blood panel,2022-03-09 13:00:00,FictionalTechnician07,Fictional result for educational use,Completed,C,E00147
+648,1048,Fictional imaging,2022-03-10 00:00:00,FictionalTechnician08,Fictional result for educational use,Completed,C,E00148
+649,1049,Fictional screening,2022-03-10 11:00:00,FictionalTechnician09,Fictional result for educational use,Completed,C,E00149
+650,1050,Fictional blood panel,2022-03-10 22:00:00,FictionalTechnician10,Fictional result for educational use,Completed,C,E00150
+651,1051,Fictional imaging,2022-03-11 09:00:00,FictionalTechnician11,Fictional result for educational use,Completed,C,E00151
+652,1052,Fictional screening,2022-03-11 20:00:00,FictionalTechnician12,Fictional result for educational use,Completed,C,E00152
+653,1053,Fictional blood panel,2022-03-12 07:00:00,FictionalTechnician13,Fictional result for educational use,Completed,C,E00153
+654,1054,Fictional imaging,2022-03-12 18:00:00,FictionalTechnician14,Fictional result for educational use,Completed,C,E00154
+655,1055,Fictional screening,2022-03-13 05:00:00,FictionalTechnician15,Fictional result for educational use,Completed,C,E00155
+656,1056,Fictional blood panel,2022-03-13 16:00:00,FictionalTechnician16,Fictional result for educational use,Completed,C,E00156
+657,1057,Fictional imaging,2022-03-14 03:00:00,FictionalTechnician17,Fictional result for educational use,Completed,C,E00157
+658,1058,Fictional screening,2022-03-14 14:00:00,FictionalTechnician18,Fictional result for educational use,Completed,C,E00158
+659,1059,Fictional blood panel,2022-03-15 01:00:00,FictionalTechnician19,Fictional result for educational use,Completed,C,E00159
+660,1060,Fictional imaging,2022-03-15 12:00:00,FictionalTechnician00,Fictional result for educational use,Completed,C,E00160
+661,1061,Fictional screening,2022-03-15 23:00:00,FictionalTechnician01,Fictional result for educational use,Completed,C,E00161
+662,1062,Fictional blood panel,2022-03-16 10:00:00,FictionalTechnician02,Fictional result for educational use,Completed,C,E00162
+663,1063,Fictional imaging,2022-03-16 21:00:00,FictionalTechnician03,Fictional result for educational use,Completed,C,E00163
+664,1064,Fictional screening,2022-03-17 08:00:00,FictionalTechnician04,Fictional result for educational use,Completed,C,E00164
+665,1065,Fictional blood panel,2022-03-17 19:00:00,FictionalTechnician05,Fictional result for educational use,Completed,C,E00165
+666,1066,Fictional imaging,2022-03-18 06:00:00,FictionalTechnician06,Fictional result for educational use,Completed,C,E00166
+667,1067,Fictional screening,2022-03-18 17:00:00,FictionalTechnician07,Fictional result for educational use,Completed,C,E00167
+668,1068,Fictional blood panel,2022-03-19 04:00:00,FictionalTechnician08,Fictional result for educational use,Completed,C,E00168
+669,1069,Fictional imaging,2022-03-19 15:00:00,FictionalTechnician09,Fictional result for educational use,Completed,C,E00169
+670,1070,Fictional screening,2022-03-20 02:00:00,FictionalTechnician10,Fictional result for educational use,Completed,C,E00170
+671,1071,Fictional blood panel,2022-03-20 13:00:00,FictionalTechnician11,Fictional result for educational use,Completed,C,E00171
+672,1072,Fictional imaging,2022-03-21 00:00:00,FictionalTechnician12,Fictional result for educational use,Completed,C,E00172
+673,1073,Fictional screening,2022-03-21 11:00:00,FictionalTechnician13,Fictional result for educational use,Completed,C,E00173
+674,1074,Fictional blood panel,2022-03-21 22:00:00,FictionalTechnician14,Fictional result for educational use,Completed,C,E00174
+675,1075,Fictional imaging,2022-03-22 09:00:00,FictionalTechnician15,Fictional result for educational use,Completed,C,E00175
+676,1076,Fictional screening,2022-03-22 20:00:00,FictionalTechnician16,Fictional result for educational use,Completed,C,E00176
+677,1077,Fictional blood panel,2022-03-23 07:00:00,FictionalTechnician17,Fictional result for educational use,Completed,C,E00177
+678,1078,Fictional imaging,2022-03-23 18:00:00,FictionalTechnician18,Fictional result for educational use,Completed,C,E00178
+679,1079,Fictional screening,2022-03-24 05:00:00,FictionalTechnician19,Fictional result for educational use,Completed,C,E00179
+680,1080,Fictional blood panel,2022-03-24 16:00:00,FictionalTechnician00,Fictional result for educational use,Completed,C,E00180
+681,1081,Fictional imaging,2022-03-25 03:00:00,FictionalTechnician01,Fictional result for educational use,Completed,C,E00181
+682,1082,Fictional screening,2022-03-25 14:00:00,FictionalTechnician02,Fictional result for educational use,Completed,C,E00182
+683,1083,Fictional blood panel,2022-03-26 01:00:00,FictionalTechnician03,Fictional result for educational use,Completed,C,E00183
+684,1084,Fictional imaging,2022-03-26 12:00:00,FictionalTechnician04,Fictional result for educational use,Completed,C,E00184
+685,1085,Fictional screening,2022-03-26 23:00:00,FictionalTechnician05,Fictional result for educational use,Completed,C,E00185
+686,1086,Fictional blood panel,2022-03-27 10:00:00,FictionalTechnician06,Fictional result for educational use,Completed,C,E00186
+687,1087,Fictional imaging,2022-03-27 21:00:00,FictionalTechnician07,Fictional result for educational use,Completed,C,E00187
+688,1088,Fictional screening,2022-03-28 08:00:00,FictionalTechnician08,Fictional result for educational use,Completed,C,E00188
+689,1089,Fictional blood panel,2022-03-28 19:00:00,FictionalTechnician09,Fictional result for educational use,Completed,C,E00189
+690,1090,Fictional imaging,2022-03-29 06:00:00,FictionalTechnician10,Fictional result for educational use,Completed,C,E00190
+691,1091,Fictional screening,2022-03-29 17:00:00,FictionalTechnician11,Fictional result for educational use,Completed,C,E00191
+692,1092,Fictional blood panel,2022-03-30 04:00:00,FictionalTechnician12,Fictional result for educational use,Completed,C,E00192
+693,1093,Fictional imaging,2022-03-30 15:00:00,FictionalTechnician13,Fictional result for educational use,Completed,C,E00193
+694,1094,Fictional screening,2022-03-31 02:00:00,FictionalTechnician14,Fictional result for educational use,Completed,C,E00194
+695,1095,Fictional blood panel,2022-03-31 13:00:00,FictionalTechnician15,Fictional result for educational use,Completed,C,E00195
+696,1096,Fictional imaging,2022-04-01 00:00:00,FictionalTechnician16,Fictional result for educational use,Completed,C,E00196
+697,1097,Fictional screening,2022-04-01 11:00:00,FictionalTechnician17,Fictional result for educational use,Completed,C,E00197
+698,1098,Fictional blood panel,2022-04-01 22:00:00,FictionalTechnician18,Fictional result for educational use,Completed,C,E00198
+699,1099,Fictional imaging,2022-04-02 09:00:00,FictionalTechnician19,Fictional result for educational use,Completed,C,E00199
+700,1100,Fictional screening,2022-04-02 20:00:00,FictionalTechnician00,Fictional result for educational use,Completed,C,E00200
+701,1101,Fictional blood panel,2022-04-03 07:00:00,FictionalTechnician01,Fictional result for educational use,Completed,C,E00201
+702,1102,Fictional imaging,2022-04-03 18:00:00,FictionalTechnician02,Fictional result for educational use,Completed,C,E00202
+703,1103,Fictional screening,2022-04-04 05:00:00,FictionalTechnician03,Fictional result for educational use,Completed,C,E00203
+704,1104,Fictional blood panel,2022-04-04 16:00:00,FictionalTechnician04,Fictional result for educational use,Completed,C,E00204
+705,1105,Fictional imaging,2022-04-05 03:00:00,FictionalTechnician05,Fictional result for educational use,Completed,C,E00205
+706,1106,Fictional screening,2022-04-05 14:00:00,FictionalTechnician06,Fictional result for educational use,Completed,C,E00206
+707,1107,Fictional blood panel,2022-04-06 01:00:00,FictionalTechnician07,Fictional result for educational use,Completed,C,E00207
+708,1108,Fictional imaging,2022-04-06 12:00:00,FictionalTechnician08,Fictional result for educational use,Completed,C,E00208
+709,1109,Fictional screening,2022-04-06 23:00:00,FictionalTechnician09,Fictional result for educational use,Completed,C,E00209
+710,1110,Fictional blood panel,2022-04-07 10:00:00,FictionalTechnician10,Fictional result for educational use,Completed,C,E00210
+711,1111,Fictional imaging,2022-04-07 21:00:00,FictionalTechnician11,Fictional result for educational use,Completed,C,E00211
+712,1112,Fictional screening,2022-04-08 08:00:00,FictionalTechnician12,Fictional result for educational use,Completed,C,E00212
+713,1113,Fictional blood panel,2022-04-08 19:00:00,FictionalTechnician13,Fictional result for educational use,Completed,C,E00213
+714,1114,Fictional imaging,2022-04-09 06:00:00,FictionalTechnician14,Fictional result for educational use,Completed,C,E00214
+715,1115,Fictional screening,2022-04-09 17:00:00,FictionalTechnician15,Fictional result for educational use,Completed,C,E00215
+716,1116,Fictional blood panel,2022-04-10 04:00:00,FictionalTechnician16,Fictional result for educational use,Completed,C,E00216
+717,1117,Fictional imaging,2022-04-10 15:00:00,FictionalTechnician17,Fictional result for educational use,Completed,C,E00217
+718,1118,Fictional screening,2022-04-11 02:00:00,FictionalTechnician18,Fictional result for educational use,Completed,C,E00218
+719,1119,Fictional blood panel,2022-04-11 13:00:00,FictionalTechnician19,Fictional result for educational use,Completed,C,E00219
+720,1120,Fictional imaging,2022-04-12 00:00:00,FictionalTechnician00,Fictional result for educational use,Completed,C,E00220
+721,1121,Fictional screening,2022-04-12 11:00:00,FictionalTechnician01,Fictional result for educational use,Completed,C,E00221
+722,1122,Fictional blood panel,2022-04-12 22:00:00,FictionalTechnician02,Fictional result for educational use,Completed,C,E00222
+723,1123,Fictional imaging,2022-04-13 09:00:00,FictionalTechnician03,Fictional result for educational use,Completed,C,E00223
+724,1124,Fictional screening,2022-04-13 20:00:00,FictionalTechnician04,Fictional result for educational use,Completed,C,E00224
+725,1125,Fictional blood panel,2022-04-14 07:00:00,FictionalTechnician05,Fictional result for educational use,Completed,C,E00225
+726,1126,Fictional imaging,2022-04-14 18:00:00,FictionalTechnician06,Fictional result for educational use,Completed,C,E00226
+727,1127,Fictional screening,2022-04-15 05:00:00,FictionalTechnician07,Fictional result for educational use,Completed,C,E00227
+728,1128,Fictional blood panel,2022-04-15 16:00:00,FictionalTechnician08,Fictional result for educational use,Completed,C,E00228
+729,1129,Fictional imaging,2022-04-16 03:00:00,FictionalTechnician09,Fictional result for educational use,Completed,C,E00229
+730,1130,Fictional screening,2022-04-16 14:00:00,FictionalTechnician10,Fictional result for educational use,Completed,C,E00230
+731,1131,Fictional blood panel,2022-04-17 01:00:00,FictionalTechnician11,Fictional result for educational use,Completed,C,E00231
+732,1132,Fictional imaging,2022-04-17 12:00:00,FictionalTechnician12,Fictional result for educational use,Completed,C,E00232
+733,1133,Fictional screening,2022-04-17 23:00:00,FictionalTechnician13,Fictional result for educational use,Completed,C,E00233
+734,1134,Fictional blood panel,2022-04-18 10:00:00,FictionalTechnician14,Fictional result for educational use,Completed,C,E00234
+735,1135,Fictional imaging,2022-04-18 21:00:00,FictionalTechnician15,Fictional result for educational use,Completed,C,E00235
+736,1136,Fictional screening,2022-04-19 08:00:00,FictionalTechnician16,Fictional result for educational use,Completed,C,E00236
+737,1137,Fictional blood panel,2022-04-19 19:00:00,FictionalTechnician17,Fictional result for educational use,Completed,C,E00237
+738,1138,Fictional imaging,2022-04-20 06:00:00,FictionalTechnician18,Fictional result for educational use,Completed,C,E00238
+739,1139,Fictional screening,2022-04-20 17:00:00,FictionalTechnician19,Fictional result for educational use,Completed,C,E00239
+740,1140,Fictional blood panel,2022-04-21 04:00:00,FictionalTechnician00,Fictional result for educational use,Completed,C,E00240
+741,1141,Fictional imaging,2022-04-21 15:00:00,FictionalTechnician01,Fictional result for educational use,Completed,C,E00241
+742,1142,Fictional screening,2022-04-22 02:00:00,FictionalTechnician02,Fictional result for educational use,Completed,C,E00242
+743,1143,Fictional blood panel,2022-04-22 13:00:00,FictionalTechnician03,Fictional result for educational use,Completed,C,E00243
+744,1144,Fictional imaging,2022-04-23 00:00:00,FictionalTechnician04,Fictional result for educational use,Completed,C,E00244
+745,1145,Fictional screening,2022-04-23 11:00:00,FictionalTechnician05,Fictional result for educational use,Completed,C,E00245
+746,1146,Fictional blood panel,2022-04-23 22:00:00,FictionalTechnician06,Fictional result for educational use,Completed,C,E00246
+747,1147,Fictional imaging,2022-04-24 09:00:00,FictionalTechnician07,Fictional result for educational use,Completed,C,E00247
+748,1148,Fictional screening,2022-04-24 20:00:00,FictionalTechnician08,Fictional result for educational use,Completed,C,E00248
+749,1149,Fictional blood panel,2022-04-25 07:00:00,FictionalTechnician09,Fictional result for educational use,Completed,C,E00249
+750,1150,Fictional imaging,2022-04-25 18:00:00,FictionalTechnician10,Fictional result for educational use,Completed,C,E00250
+751,1351,Fictional imaging,2022-01-01 13:00:00,FictionalTechnician01,Fictional result for educational use,Completed,D,E00001
+752,1352,Fictional screening,2022-01-02 00:00:00,FictionalTechnician02,Fictional result for educational use,Completed,D,E00002
+753,1353,Fictional blood panel,2022-01-02 11:00:00,FictionalTechnician03,Fictional result for educational use,Completed,D,E00003
+754,1354,Fictional imaging,2022-01-02 22:00:00,FictionalTechnician04,Fictional result for educational use,Completed,D,E00004
+755,1355,Fictional screening,2022-01-03 09:00:00,FictionalTechnician05,Fictional result for educational use,Completed,D,E00005
+756,1356,Fictional blood panel,2022-01-03 20:00:00,FictionalTechnician06,Fictional result for educational use,Completed,D,E00006
+757,1357,Fictional imaging,2022-01-04 07:00:00,FictionalTechnician07,Fictional result for educational use,Completed,D,E00007
+758,1358,Fictional screening,2022-01-04 18:00:00,FictionalTechnician08,Fictional result for educational use,Completed,D,E00008
+759,1359,Fictional blood panel,2022-01-05 05:00:00,FictionalTechnician09,Fictional result for educational use,Completed,D,E00009
+760,1360,Fictional imaging,2022-01-05 16:00:00,FictionalTechnician10,Fictional result for educational use,Completed,D,E00010
+761,1361,Fictional screening,2022-01-06 03:00:00,FictionalTechnician11,Fictional result for educational use,Completed,D,E00011
+762,1362,Fictional blood panel,2022-01-06 14:00:00,FictionalTechnician12,Fictional result for educational use,Completed,D,E00012
+763,1363,Fictional imaging,2022-01-07 01:00:00,FictionalTechnician13,Fictional result for educational use,Completed,D,E00013
+764,1364,Fictional screening,2022-01-07 12:00:00,FictionalTechnician14,Fictional result for educational use,Completed,D,E00014
+765,1365,Fictional blood panel,2022-01-07 23:00:00,FictionalTechnician15,Fictional result for educational use,Completed,D,E00015
+766,1366,Fictional imaging,2022-01-08 10:00:00,FictionalTechnician16,Fictional result for educational use,Completed,D,E00016
+767,1367,Fictional screening,2022-01-08 21:00:00,FictionalTechnician17,Fictional result for educational use,Completed,D,E00017
+768,1368,Fictional blood panel,2022-01-09 08:00:00,FictionalTechnician18,Fictional result for educational use,Completed,D,E00018
+769,1369,Fictional imaging,2022-01-09 19:00:00,FictionalTechnician19,Fictional result for educational use,Completed,D,E00019
+770,1370,Fictional screening,2022-01-10 06:00:00,FictionalTechnician00,Fictional result for educational use,Completed,D,E00020
+771,1371,Fictional blood panel,2022-01-10 17:00:00,FictionalTechnician01,Fictional result for educational use,Completed,D,E00021
+772,1372,Fictional imaging,2022-01-11 04:00:00,FictionalTechnician02,Fictional result for educational use,Completed,D,E00022
+773,1373,Fictional screening,2022-01-11 15:00:00,FictionalTechnician03,Fictional result for educational use,Completed,D,E00023
+774,1374,Fictional blood panel,2022-01-12 02:00:00,FictionalTechnician04,Fictional result for educational use,Completed,D,E00024
+775,1375,Fictional imaging,2022-01-12 13:00:00,FictionalTechnician05,Fictional result for educational use,Completed,D,E00025
+776,1376,Fictional screening,2022-01-13 00:00:00,FictionalTechnician06,Fictional result for educational use,Completed,D,E00026
+777,1377,Fictional blood panel,2022-01-13 11:00:00,FictionalTechnician07,Fictional result for educational use,Completed,D,E00027
+778,1378,Fictional imaging,2022-01-13 22:00:00,FictionalTechnician08,Fictional result for educational use,Completed,D,E00028
+779,1379,Fictional screening,2022-01-14 09:00:00,FictionalTechnician09,Fictional result for educational use,Completed,D,E00029
+780,1380,Fictional blood panel,2022-01-14 20:00:00,FictionalTechnician10,Fictional result for educational use,Completed,D,E00030
+781,1381,Fictional imaging,2022-01-15 07:00:00,FictionalTechnician11,Fictional result for educational use,Completed,D,E00031
+782,1382,Fictional screening,2022-01-15 18:00:00,FictionalTechnician12,Fictional result for educational use,Completed,D,E00032
+783,1383,Fictional blood panel,2022-01-16 05:00:00,FictionalTechnician13,Fictional result for educational use,Completed,D,E00033
+784,1384,Fictional imaging,2022-01-16 16:00:00,FictionalTechnician14,Fictional result for educational use,Completed,D,E00034
+785,1385,Fictional screening,2022-01-17 03:00:00,FictionalTechnician15,Fictional result for educational use,Completed,D,E00035
+786,1386,Fictional blood panel,2022-01-17 14:00:00,FictionalTechnician16,Fictional result for educational use,Completed,D,E00036
+787,1387,Fictional imaging,2022-01-18 01:00:00,FictionalTechnician17,Fictional result for educational use,Completed,D,E00037
+788,1388,Fictional screening,2022-01-18 12:00:00,FictionalTechnician18,Fictional result for educational use,Completed,D,E00038
+789,1389,Fictional blood panel,2022-01-18 23:00:00,FictionalTechnician19,Fictional result for educational use,Completed,D,E00039
+790,1390,Fictional imaging,2022-01-19 10:00:00,FictionalTechnician00,Fictional result for educational use,Completed,D,E00040
+791,1391,Fictional screening,2022-01-19 21:00:00,FictionalTechnician01,Fictional result for educational use,Completed,D,E00041
+792,1392,Fictional blood panel,2022-01-20 08:00:00,FictionalTechnician02,Fictional result for educational use,Completed,D,E00042
+793,1393,Fictional imaging,2022-01-20 19:00:00,FictionalTechnician03,Fictional result for educational use,Completed,D,E00043
+794,1394,Fictional screening,2022-01-21 06:00:00,FictionalTechnician04,Fictional result for educational use,Completed,D,E00044
+795,1395,Fictional blood panel,2022-01-21 17:00:00,FictionalTechnician05,Fictional result for educational use,Completed,D,E00045
+796,1396,Fictional imaging,2022-01-22 04:00:00,FictionalTechnician06,Fictional result for educational use,Completed,D,E00046
+797,1397,Fictional screening,2022-01-22 15:00:00,FictionalTechnician07,Fictional result for educational use,Completed,D,E00047
+798,1398,Fictional blood panel,2022-01-23 02:00:00,FictionalTechnician08,Fictional result for educational use,Completed,D,E00048
+799,1399,Fictional imaging,2022-01-23 13:00:00,FictionalTechnician09,Fictional result for educational use,Completed,D,E00049
+800,1400,Fictional screening,2022-01-24 00:00:00,FictionalTechnician10,Fictional result for educational use,Completed,D,E00050
+801,1401,Fictional blood panel,2022-01-24 11:00:00,FictionalTechnician11,Fictional result for educational use,Completed,D,E00051
+802,1402,Fictional imaging,2022-01-24 22:00:00,FictionalTechnician12,Fictional result for educational use,Completed,D,E00052
+803,1403,Fictional screening,2022-01-25 09:00:00,FictionalTechnician13,Fictional result for educational use,Completed,D,E00053
+804,1404,Fictional blood panel,2022-01-25 20:00:00,FictionalTechnician14,Fictional result for educational use,Completed,D,E00054
+805,1405,Fictional imaging,2022-01-26 07:00:00,FictionalTechnician15,Fictional result for educational use,Completed,D,E00055
+806,1406,Fictional screening,2022-01-26 18:00:00,FictionalTechnician16,Fictional result for educational use,Completed,D,E00056
+807,1407,Fictional blood panel,2022-01-27 05:00:00,FictionalTechnician17,Fictional result for educational use,Completed,D,E00057
+808,1408,Fictional imaging,2022-01-27 16:00:00,FictionalTechnician18,Fictional result for educational use,Completed,D,E00058
+809,1409,Fictional screening,2022-01-28 03:00:00,FictionalTechnician19,Fictional result for educational use,Completed,D,E00059
+810,1410,Fictional blood panel,2022-01-28 14:00:00,FictionalTechnician00,Fictional result for educational use,Completed,D,E00060
+811,1411,Fictional imaging,2022-01-29 01:00:00,FictionalTechnician01,Fictional result for educational use,Completed,D,E00061
+812,1412,Fictional screening,2022-01-29 12:00:00,FictionalTechnician02,Fictional result for educational use,Completed,D,E00062
+813,1413,Fictional blood panel,2022-01-29 23:00:00,FictionalTechnician03,Fictional result for educational use,Completed,D,E00063
+814,1414,Fictional imaging,2022-01-30 10:00:00,FictionalTechnician04,Fictional result for educational use,Completed,D,E00064
+815,1415,Fictional screening,2022-01-30 21:00:00,FictionalTechnician05,Fictional result for educational use,Completed,D,E00065
+816,1416,Fictional blood panel,2022-01-31 08:00:00,FictionalTechnician06,Fictional result for educational use,Completed,D,E00066
+817,1417,Fictional imaging,2022-01-31 19:00:00,FictionalTechnician07,Fictional result for educational use,Completed,D,E00067
+818,1418,Fictional screening,2022-02-01 06:00:00,FictionalTechnician08,Fictional result for educational use,Completed,D,E00068
+819,1419,Fictional blood panel,2022-02-01 17:00:00,FictionalTechnician09,Fictional result for educational use,Completed,D,E00069
+820,1420,Fictional imaging,2022-02-02 04:00:00,FictionalTechnician10,Fictional result for educational use,Completed,D,E00070
+821,1421,Fictional screening,2022-02-02 15:00:00,FictionalTechnician11,Fictional result for educational use,Completed,D,E00071
+822,1422,Fictional blood panel,2022-02-03 02:00:00,FictionalTechnician12,Fictional result for educational use,Completed,D,E00072
+823,1423,Fictional imaging,2022-02-03 13:00:00,FictionalTechnician13,Fictional result for educational use,Completed,D,E00073
+824,1424,Fictional screening,2022-02-04 00:00:00,FictionalTechnician14,Fictional result for educational use,Completed,D,E00074
+825,1425,Fictional blood panel,2022-02-04 11:00:00,FictionalTechnician15,Fictional result for educational use,Completed,D,E00075
+826,1426,Fictional imaging,2022-02-04 22:00:00,FictionalTechnician16,Fictional result for educational use,Completed,D,E00076
+827,1427,Fictional screening,2022-02-05 09:00:00,FictionalTechnician17,Fictional result for educational use,Completed,D,E00077
+828,1428,Fictional blood panel,2022-02-05 20:00:00,FictionalTechnician18,Fictional result for educational use,Completed,D,E00078
+829,1429,Fictional imaging,2022-02-06 07:00:00,FictionalTechnician19,Fictional result for educational use,Completed,D,E00079
+830,1430,Fictional screening,2022-02-06 18:00:00,FictionalTechnician00,Fictional result for educational use,Completed,D,E00080
+831,1431,Fictional blood panel,2022-02-07 05:00:00,FictionalTechnician01,Fictional result for educational use,Completed,D,E00081
+832,1432,Fictional imaging,2022-02-07 16:00:00,FictionalTechnician02,Fictional result for educational use,Completed,D,E00082
+833,1433,Fictional screening,2022-02-08 03:00:00,FictionalTechnician03,Fictional result for educational use,Completed,D,E00083
+834,1434,Fictional blood panel,2022-02-08 14:00:00,FictionalTechnician04,Fictional result for educational use,Completed,D,E00084
+835,1435,Fictional imaging,2022-02-09 01:00:00,FictionalTechnician05,Fictional result for educational use,Completed,D,E00085
+836,1436,Fictional screening,2022-02-09 12:00:00,FictionalTechnician06,Fictional result for educational use,Completed,D,E00086
+837,1437,Fictional blood panel,2022-02-09 23:00:00,FictionalTechnician07,Fictional result for educational use,Completed,D,E00087
+838,1438,Fictional imaging,2022-02-10 10:00:00,FictionalTechnician08,Fictional result for educational use,Completed,D,E00088
+839,1439,Fictional screening,2022-02-10 21:00:00,FictionalTechnician09,Fictional result for educational use,Completed,D,E00089
+840,1440,Fictional blood panel,2022-02-11 08:00:00,FictionalTechnician10,Fictional result for educational use,Completed,D,E00090
+841,1441,Fictional imaging,2022-02-11 19:00:00,FictionalTechnician11,Fictional result for educational use,Completed,D,E00091
+842,1442,Fictional screening,2022-02-12 06:00:00,FictionalTechnician12,Fictional result for educational use,Completed,D,E00092
+843,1443,Fictional blood panel,2022-02-12 17:00:00,FictionalTechnician13,Fictional result for educational use,Completed,D,E00093
+844,1444,Fictional imaging,2022-02-13 04:00:00,FictionalTechnician14,Fictional result for educational use,Completed,D,E00094
+845,1445,Fictional screening,2022-02-13 15:00:00,FictionalTechnician15,Fictional result for educational use,Completed,D,E00095
+846,1446,Fictional blood panel,2022-02-14 02:00:00,FictionalTechnician16,Fictional result for educational use,Completed,D,E00096
+847,1447,Fictional imaging,2022-02-14 13:00:00,FictionalTechnician17,Fictional result for educational use,Completed,D,E00097
+848,1448,Fictional screening,2022-02-15 00:00:00,FictionalTechnician18,Fictional result for educational use,Completed,D,E00098
+849,1449,Fictional blood panel,2022-02-15 11:00:00,FictionalTechnician19,Fictional result for educational use,Completed,D,E00099
+850,1450,Fictional imaging,2022-02-15 22:00:00,FictionalTechnician00,Fictional result for educational use,Completed,D,E00100
+851,1451,Fictional screening,2022-02-16 09:00:00,FictionalTechnician01,Fictional result for educational use,Completed,D,E00101
+852,1452,Fictional blood panel,2022-02-16 20:00:00,FictionalTechnician02,Fictional result for educational use,Completed,D,E00102
+853,1453,Fictional imaging,2022-02-17 07:00:00,FictionalTechnician03,Fictional result for educational use,Completed,D,E00103
+854,1454,Fictional screening,2022-02-17 18:00:00,FictionalTechnician04,Fictional result for educational use,Completed,D,E00104
+855,1455,Fictional blood panel,2022-02-18 05:00:00,FictionalTechnician05,Fictional result for educational use,Completed,D,E00105
+856,1456,Fictional imaging,2022-02-18 16:00:00,FictionalTechnician06,Fictional result for educational use,Completed,D,E00106
+857,1457,Fictional screening,2022-02-19 03:00:00,FictionalTechnician07,Fictional result for educational use,Completed,D,E00107
+858,1458,Fictional blood panel,2022-02-19 14:00:00,FictionalTechnician08,Fictional result for educational use,Completed,D,E00108
+859,1459,Fictional imaging,2022-02-20 01:00:00,FictionalTechnician09,Fictional result for educational use,Completed,D,E00109
+860,1460,Fictional screening,2022-02-20 12:00:00,FictionalTechnician10,Fictional result for educational use,Completed,D,E00110
+861,1461,Fictional blood panel,2022-02-20 23:00:00,FictionalTechnician11,Fictional result for educational use,Completed,D,E00111
+862,1462,Fictional imaging,2022-02-21 10:00:00,FictionalTechnician12,Fictional result for educational use,Completed,D,E00112
+863,1463,Fictional screening,2022-02-21 21:00:00,FictionalTechnician13,Fictional result for educational use,Completed,D,E00113
+864,1464,Fictional blood panel,2022-02-22 08:00:00,FictionalTechnician14,Fictional result for educational use,Completed,D,E00114
+865,1465,Fictional imaging,2022-02-22 19:00:00,FictionalTechnician15,Fictional result for educational use,Completed,D,E00115
+866,1466,Fictional screening,2022-02-23 06:00:00,FictionalTechnician16,Fictional result for educational use,Completed,D,E00116
+867,1467,Fictional blood panel,2022-02-23 17:00:00,FictionalTechnician17,Fictional result for educational use,Completed,D,E00117
+868,1468,Fictional imaging,2022-02-24 04:00:00,FictionalTechnician18,Fictional result for educational use,Completed,D,E00118
+869,1469,Fictional screening,2022-02-24 15:00:00,FictionalTechnician19,Fictional result for educational use,Completed,D,E00119
+870,1470,Fictional blood panel,2022-02-25 02:00:00,FictionalTechnician00,Fictional result for educational use,Completed,D,E00120
+871,1471,Fictional imaging,2022-02-25 13:00:00,FictionalTechnician01,Fictional result for educational use,Completed,D,E00121
+872,1472,Fictional screening,2022-02-26 00:00:00,FictionalTechnician02,Fictional result for educational use,Completed,D,E00122
+873,1473,Fictional blood panel,2022-02-26 11:00:00,FictionalTechnician03,Fictional result for educational use,Completed,D,E00123
+874,1474,Fictional imaging,2022-02-26 22:00:00,FictionalTechnician04,Fictional result for educational use,Completed,D,E00124
+875,1475,Fictional screening,2022-02-27 09:00:00,FictionalTechnician05,Fictional result for educational use,Completed,D,E00125
+876,1476,Fictional blood panel,2022-02-27 20:00:00,FictionalTechnician06,Fictional result for educational use,Completed,D,E00126
+877,1477,Fictional imaging,2022-02-28 07:00:00,FictionalTechnician07,Fictional result for educational use,Completed,D,E00127
+878,1478,Fictional screening,2022-02-28 18:00:00,FictionalTechnician08,Fictional result for educational use,Completed,D,E00128
+879,1479,Fictional blood panel,2022-03-01 05:00:00,FictionalTechnician09,Fictional result for educational use,Completed,D,E00129
+880,1480,Fictional imaging,2022-03-01 16:00:00,FictionalTechnician10,Fictional result for educational use,Completed,D,E00130
+881,1481,Fictional screening,2022-03-02 03:00:00,FictionalTechnician11,Fictional result for educational use,Completed,D,E00131
+882,1482,Fictional blood panel,2022-03-02 14:00:00,FictionalTechnician12,Fictional result for educational use,Completed,D,E00132
+883,1483,Fictional imaging,2022-03-03 01:00:00,FictionalTechnician13,Fictional result for educational use,Completed,D,E00133
+884,1484,Fictional screening,2022-03-03 12:00:00,FictionalTechnician14,Fictional result for educational use,Completed,D,E00134
+885,1485,Fictional blood panel,2022-03-03 23:00:00,FictionalTechnician15,Fictional result for educational use,Completed,D,E00135
+886,1486,Fictional imaging,2022-03-04 10:00:00,FictionalTechnician16,Fictional result for educational use,Completed,D,E00136
+887,1487,Fictional screening,2022-03-04 21:00:00,FictionalTechnician17,Fictional result for educational use,Completed,D,E00137
+888,1488,Fictional blood panel,2022-03-05 08:00:00,FictionalTechnician18,Fictional result for educational use,Completed,D,E00138
+889,1489,Fictional imaging,2022-03-05 19:00:00,FictionalTechnician19,Fictional result for educational use,Completed,D,E00139
+890,1490,Fictional screening,2022-03-06 06:00:00,FictionalTechnician00,Fictional result for educational use,Completed,D,E00140
+891,1491,Fictional blood panel,2022-03-06 17:00:00,FictionalTechnician01,Fictional result for educational use,Completed,D,E00141
+892,1492,Fictional imaging,2022-03-07 04:00:00,FictionalTechnician02,Fictional result for educational use,Completed,D,E00142
+893,1493,Fictional screening,2022-03-07 15:00:00,FictionalTechnician03,Fictional result for educational use,Completed,D,E00143
+894,1494,Fictional blood panel,2022-03-08 02:00:00,FictionalTechnician04,Fictional result for educational use,Completed,D,E00144
+895,1495,Fictional imaging,2022-03-08 13:00:00,FictionalTechnician05,Fictional result for educational use,Completed,D,E00145
+896,1496,Fictional screening,2022-03-09 00:00:00,FictionalTechnician06,Fictional result for educational use,Completed,D,E00146
+897,1497,Fictional blood panel,2022-03-09 11:00:00,FictionalTechnician07,Fictional result for educational use,Completed,D,E00147
+898,1498,Fictional imaging,2022-03-09 22:00:00,FictionalTechnician08,Fictional result for educational use,Completed,D,E00148
+899,1499,Fictional screening,2022-03-10 09:00:00,FictionalTechnician09,Fictional result for educational use,Completed,D,E00149
+900,1500,Fictional blood panel,2022-03-10 20:00:00,FictionalTechnician10,Fictional result for educational use,Completed,D,E00150
+901,1501,Fictional imaging,2022-03-11 07:00:00,FictionalTechnician11,Fictional result for educational use,Completed,D,E00151
+902,1502,Fictional screening,2022-03-11 18:00:00,FictionalTechnician12,Fictional result for educational use,Completed,D,E00152
+903,1503,Fictional blood panel,2022-03-12 05:00:00,FictionalTechnician13,Fictional result for educational use,Completed,D,E00153
+904,1504,Fictional imaging,2022-03-12 16:00:00,FictionalTechnician14,Fictional result for educational use,Completed,D,E00154
+905,1505,Fictional screening,2022-03-13 03:00:00,FictionalTechnician15,Fictional result for educational use,Completed,D,E00155
+906,1506,Fictional blood panel,2022-03-13 14:00:00,FictionalTechnician16,Fictional result for educational use,Completed,D,E00156
+907,1507,Fictional imaging,2022-03-14 01:00:00,FictionalTechnician17,Fictional result for educational use,Completed,D,E00157
+908,1508,Fictional screening,2022-03-14 12:00:00,FictionalTechnician18,Fictional result for educational use,Completed,D,E00158
+909,1509,Fictional blood panel,2022-03-14 23:00:00,FictionalTechnician19,Fictional result for educational use,Completed,D,E00159
+910,1510,Fictional imaging,2022-03-15 10:00:00,FictionalTechnician00,Fictional result for educational use,Completed,D,E00160
+911,1511,Fictional screening,2022-03-15 21:00:00,FictionalTechnician01,Fictional result for educational use,Completed,D,E00161
+912,1512,Fictional blood panel,2022-03-16 08:00:00,FictionalTechnician02,Fictional result for educational use,Completed,D,E00162
+913,1513,Fictional imaging,2022-03-16 19:00:00,FictionalTechnician03,Fictional result for educational use,Completed,D,E00163
+914,1514,Fictional screening,2022-03-17 06:00:00,FictionalTechnician04,Fictional result for educational use,Completed,D,E00164
+915,1515,Fictional blood panel,2022-03-17 17:00:00,FictionalTechnician05,Fictional result for educational use,Completed,D,E00165
+916,1516,Fictional imaging,2022-03-18 04:00:00,FictionalTechnician06,Fictional result for educational use,Completed,D,E00166
+917,1517,Fictional screening,2022-03-18 15:00:00,FictionalTechnician07,Fictional result for educational use,Completed,D,E00167
+918,1518,Fictional blood panel,2022-03-19 02:00:00,FictionalTechnician08,Fictional result for educational use,Completed,D,E00168
+919,1519,Fictional imaging,2022-03-19 13:00:00,FictionalTechnician09,Fictional result for educational use,Completed,D,E00169
+920,1520,Fictional screening,2022-03-20 00:00:00,FictionalTechnician10,Fictional result for educational use,Completed,D,E00170
+921,1521,Fictional blood panel,2022-03-20 11:00:00,FictionalTechnician11,Fictional result for educational use,Completed,D,E00171
+922,1522,Fictional imaging,2022-03-20 22:00:00,FictionalTechnician12,Fictional result for educational use,Completed,D,E00172
+923,1523,Fictional screening,2022-03-21 09:00:00,FictionalTechnician13,Fictional result for educational use,Completed,D,E00173
+924,1524,Fictional blood panel,2022-03-21 20:00:00,FictionalTechnician14,Fictional result for educational use,Completed,D,E00174
+925,1525,Fictional imaging,2022-03-22 07:00:00,FictionalTechnician15,Fictional result for educational use,Completed,D,E00175
+926,1526,Fictional screening,2022-03-22 18:00:00,FictionalTechnician16,Fictional result for educational use,Completed,D,E00176
+927,1527,Fictional blood panel,2022-03-23 05:00:00,FictionalTechnician17,Fictional result for educational use,Completed,D,E00177
+928,1528,Fictional imaging,2022-03-23 16:00:00,FictionalTechnician18,Fictional result for educational use,Completed,D,E00178
+929,1529,Fictional screening,2022-03-24 03:00:00,FictionalTechnician19,Fictional result for educational use,Completed,D,E00179
+930,1530,Fictional blood panel,2022-03-24 14:00:00,FictionalTechnician00,Fictional result for educational use,Completed,D,E00180
+931,1531,Fictional imaging,2022-03-25 01:00:00,FictionalTechnician01,Fictional result for educational use,Completed,D,E00181
+932,1532,Fictional screening,2022-03-25 12:00:00,FictionalTechnician02,Fictional result for educational use,Completed,D,E00182
+933,1533,Fictional blood panel,2022-03-25 23:00:00,FictionalTechnician03,Fictional result for educational use,Completed,D,E00183
+934,1534,Fictional imaging,2022-03-26 10:00:00,FictionalTechnician04,Fictional result for educational use,Completed,D,E00184
+935,1535,Fictional screening,2022-03-26 21:00:00,FictionalTechnician05,Fictional result for educational use,Completed,D,E00185
+936,1536,Fictional blood panel,2022-03-27 08:00:00,FictionalTechnician06,Fictional result for educational use,Completed,D,E00186
+937,1537,Fictional imaging,2022-03-27 19:00:00,FictionalTechnician07,Fictional result for educational use,Completed,D,E00187
+938,1538,Fictional screening,2022-03-28 06:00:00,FictionalTechnician08,Fictional result for educational use,Completed,D,E00188
+939,1539,Fictional blood panel,2022-03-28 17:00:00,FictionalTechnician09,Fictional result for educational use,Completed,D,E00189
+940,1540,Fictional imaging,2022-03-29 04:00:00,FictionalTechnician10,Fictional result for educational use,Completed,D,E00190
+941,1541,Fictional screening,2022-03-29 15:00:00,FictionalTechnician11,Fictional result for educational use,Completed,D,E00191
+942,1542,Fictional blood panel,2022-03-30 02:00:00,FictionalTechnician12,Fictional result for educational use,Completed,D,E00192
+943,1543,Fictional imaging,2022-03-30 13:00:00,FictionalTechnician13,Fictional result for educational use,Completed,D,E00193
+944,1544,Fictional screening,2022-03-31 00:00:00,FictionalTechnician14,Fictional result for educational use,Completed,D,E00194
+945,1545,Fictional blood panel,2022-03-31 11:00:00,FictionalTechnician15,Fictional result for educational use,Completed,D,E00195
+946,1546,Fictional imaging,2022-03-31 22:00:00,FictionalTechnician16,Fictional result for educational use,Completed,D,E00196
+947,1547,Fictional screening,2022-04-01 09:00:00,FictionalTechnician17,Fictional result for educational use,Completed,D,E00197
+948,1548,Fictional blood panel,2022-04-01 20:00:00,FictionalTechnician18,Fictional result for educational use,Completed,D,E00198
+949,1549,Fictional imaging,2022-04-02 07:00:00,FictionalTechnician19,Fictional result for educational use,Completed,D,E00199
+950,1550,Fictional screening,2022-04-02 18:00:00,FictionalTechnician00,Fictional result for educational use,Completed,D,E00200
+951,1551,Fictional blood panel,2022-04-03 05:00:00,FictionalTechnician01,Fictional result for educational use,Completed,D,E00201
+952,1552,Fictional imaging,2022-04-03 16:00:00,FictionalTechnician02,Fictional result for educational use,Completed,D,E00202
+953,1553,Fictional screening,2022-04-04 03:00:00,FictionalTechnician03,Fictional result for educational use,Completed,D,E00203
+954,1554,Fictional blood panel,2022-04-04 14:00:00,FictionalTechnician04,Fictional result for educational use,Completed,D,E00204
+955,1555,Fictional imaging,2022-04-05 01:00:00,FictionalTechnician05,Fictional result for educational use,Completed,D,E00205
+956,1556,Fictional screening,2022-04-05 12:00:00,FictionalTechnician06,Fictional result for educational use,Completed,D,E00206
+957,1557,Fictional blood panel,2022-04-05 23:00:00,FictionalTechnician07,Fictional result for educational use,Completed,D,E00207
+958,1558,Fictional imaging,2022-04-06 10:00:00,FictionalTechnician08,Fictional result for educational use,Completed,D,E00208
+959,1559,Fictional screening,2022-04-06 21:00:00,FictionalTechnician09,Fictional result for educational use,Completed,D,E00209
+960,1560,Fictional blood panel,2022-04-07 08:00:00,FictionalTechnician10,Fictional result for educational use,Completed,D,E00210
+961,1561,Fictional imaging,2022-04-07 19:00:00,FictionalTechnician11,Fictional result for educational use,Completed,D,E00211
+962,1562,Fictional screening,2022-04-08 06:00:00,FictionalTechnician12,Fictional result for educational use,Completed,D,E00212
+963,1563,Fictional blood panel,2022-04-08 17:00:00,FictionalTechnician13,Fictional result for educational use,Completed,D,E00213
+964,1564,Fictional imaging,2022-04-09 04:00:00,FictionalTechnician14,Fictional result for educational use,Completed,D,E00214
+965,1565,Fictional screening,2022-04-09 15:00:00,FictionalTechnician15,Fictional result for educational use,Completed,D,E00215
+966,1566,Fictional blood panel,2022-04-10 02:00:00,FictionalTechnician16,Fictional result for educational use,Completed,D,E00216
+967,1567,Fictional imaging,2022-04-10 13:00:00,FictionalTechnician17,Fictional result for educational use,Completed,D,E00217
+968,1568,Fictional screening,2022-04-11 00:00:00,FictionalTechnician18,Fictional result for educational use,Completed,D,E00218
+969,1569,Fictional blood panel,2022-04-11 11:00:00,FictionalTechnician19,Fictional result for educational use,Completed,D,E00219
+970,1570,Fictional imaging,2022-04-11 22:00:00,FictionalTechnician00,Fictional result for educational use,Completed,D,E00220
+971,1571,Fictional screening,2022-04-12 09:00:00,FictionalTechnician01,Fictional result for educational use,Completed,D,E00221
+972,1572,Fictional blood panel,2022-04-12 20:00:00,FictionalTechnician02,Fictional result for educational use,Completed,D,E00222
+973,1573,Fictional imaging,2022-04-13 07:00:00,FictionalTechnician03,Fictional result for educational use,Completed,D,E00223
+974,1574,Fictional screening,2022-04-13 18:00:00,FictionalTechnician04,Fictional result for educational use,Completed,D,E00224
+975,1575,Fictional blood panel,2022-04-14 05:00:00,FictionalTechnician05,Fictional result for educational use,Completed,D,E00225
+976,1576,Fictional imaging,2022-04-14 16:00:00,FictionalTechnician06,Fictional result for educational use,Completed,D,E00226
+977,1577,Fictional screening,2022-04-15 03:00:00,FictionalTechnician07,Fictional result for educational use,Completed,D,E00227
+978,1578,Fictional blood panel,2022-04-15 14:00:00,FictionalTechnician08,Fictional result for educational use,Completed,D,E00228
+979,1579,Fictional imaging,2022-04-16 01:00:00,FictionalTechnician09,Fictional result for educational use,Completed,D,E00229
+980,1580,Fictional screening,2022-04-16 12:00:00,FictionalTechnician10,Fictional result for educational use,Completed,D,E00230
+981,1581,Fictional blood panel,2022-04-16 23:00:00,FictionalTechnician11,Fictional result for educational use,Completed,D,E00231
+982,1582,Fictional imaging,2022-04-17 10:00:00,FictionalTechnician12,Fictional result for educational use,Completed,D,E00232
+983,1583,Fictional screening,2022-04-17 21:00:00,FictionalTechnician13,Fictional result for educational use,Completed,D,E00233
+984,1584,Fictional blood panel,2022-04-18 08:00:00,FictionalTechnician14,Fictional result for educational use,Completed,D,E00234
+985,1585,Fictional imaging,2022-04-18 19:00:00,FictionalTechnician15,Fictional result for educational use,Completed,D,E00235
+986,1586,Fictional screening,2022-04-19 06:00:00,FictionalTechnician16,Fictional result for educational use,Completed,D,E00236
+987,1587,Fictional blood panel,2022-04-19 17:00:00,FictionalTechnician17,Fictional result for educational use,Completed,D,E00237
+988,1588,Fictional imaging,2022-04-20 04:00:00,FictionalTechnician18,Fictional result for educational use,Completed,D,E00238
+989,1589,Fictional screening,2022-04-20 15:00:00,FictionalTechnician19,Fictional result for educational use,Completed,D,E00239
+990,1590,Fictional blood panel,2022-04-21 02:00:00,FictionalTechnician00,Fictional result for educational use,Completed,D,E00240
+991,1591,Fictional imaging,2022-04-21 13:00:00,FictionalTechnician01,Fictional result for educational use,Completed,D,E00241
+992,1592,Fictional screening,2022-04-22 00:00:00,FictionalTechnician02,Fictional result for educational use,Completed,D,E00242
+993,1593,Fictional blood panel,2022-04-22 11:00:00,FictionalTechnician03,Fictional result for educational use,Completed,D,E00243
+994,1594,Fictional imaging,2022-04-22 22:00:00,FictionalTechnician04,Fictional result for educational use,Completed,D,E00244
+995,1595,Fictional screening,2022-04-23 09:00:00,FictionalTechnician05,Fictional result for educational use,Completed,D,E00245
+996,1596,Fictional blood panel,2022-04-23 20:00:00,FictionalTechnician06,Fictional result for educational use,Completed,D,E00246
+997,1597,Fictional imaging,2022-04-24 07:00:00,FictionalTechnician07,Fictional result for educational use,Completed,D,E00247
+998,1598,Fictional screening,2022-04-24 18:00:00,FictionalTechnician08,Fictional result for educational use,Completed,D,E00248
+999,1599,Fictional blood panel,2022-04-25 05:00:00,FictionalTechnician09,Fictional result for educational use,Completed,D,E00249
+1000,1600,Fictional imaging,2022-04-25 16:00:00,FictionalTechnician10,Fictional result for educational use,Completed,D,E00250
