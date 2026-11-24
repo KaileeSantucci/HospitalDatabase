@@ -1,0 +1,701 @@
+unit_stay_id,admission_id,unit_type,ward,room,bed_number,entry_datetime,exit_datetime,responsible_physician,transfer_reason
+U00001,A00001,Emergency Department,Fictional Ward 01,02,2,2022-01-01 18:00:00,2022-01-01 23:00:00,FictionalClinician01,Initial placement
+U00002,A00001,ICU,Fictional Ward 02,03,3,2022-01-02 01:00:00,2022-01-02 11:00:00,FictionalClinician02,Fictional unit transfer
+U00003,A00001,CCU,Fictional Ward 03,04,4,2022-01-02 13:00:00,2022-01-03 13:00:00,FictionalClinician03,Fictional unit transfer
+U00004,A00002,Emergency Department,Fictional Ward 04,05,1,2022-01-02 05:00:00,2022-01-02 10:00:00,FictionalClinician04,Initial placement
+U00005,A00002,ICU,Fictional Ward 05,06,2,2022-01-02 12:00:00,2022-01-02 22:00:00,FictionalClinician05,Fictional unit transfer
+U00006,A00002,CCU,Fictional Ward 06,07,3,2022-01-03 00:00:00,2022-01-04 00:00:00,FictionalClinician06,Fictional unit transfer
+U00007,A00003,Emergency Department,Fictional Ward 07,08,4,2022-01-02 16:00:00,2022-01-02 21:00:00,FictionalClinician07,Initial placement
+U00008,A00003,ICU,Fictional Ward 00,09,1,2022-01-02 23:00:00,2022-01-03 09:00:00,FictionalClinician08,Fictional unit transfer
+U00009,A00003,CCU,Fictional Ward 01,10,2,2022-01-03 11:00:00,2022-01-04 11:00:00,FictionalClinician09,Fictional unit transfer
+U00010,A00004,Emergency Department,Fictional Ward 02,11,3,2022-01-03 03:00:00,2022-01-03 08:00:00,FictionalClinician10,Initial placement
+U00011,A00004,ICU,Fictional Ward 03,12,4,2022-01-03 10:00:00,2022-01-03 20:00:00,FictionalClinician11,Fictional unit transfer
+U00012,A00004,CCU,Fictional Ward 04,13,1,2022-01-03 22:00:00,2022-01-04 22:00:00,FictionalClinician12,Fictional unit transfer
+U00013,A00005,Emergency Department,Fictional Ward 05,14,2,2022-01-03 14:00:00,2022-01-03 19:00:00,FictionalClinician13,Initial placement
+U00014,A00005,ICU,Fictional Ward 06,15,3,2022-01-03 21:00:00,2022-01-04 07:00:00,FictionalClinician14,Fictional unit transfer
+U00015,A00005,CCU,Fictional Ward 07,16,4,2022-01-04 09:00:00,2022-01-05 09:00:00,FictionalClinician15,Fictional unit transfer
+U00016,A00006,Emergency Department,Fictional Ward 00,17,1,2022-01-04 01:00:00,2022-01-04 06:00:00,FictionalClinician16,Initial placement
+U00017,A00006,ICU,Fictional Ward 01,18,2,2022-01-04 08:00:00,2022-01-04 18:00:00,FictionalClinician17,Fictional unit transfer
+U00018,A00006,CCU,Fictional Ward 02,19,3,2022-01-04 20:00:00,2022-01-05 20:00:00,FictionalClinician18,Fictional unit transfer
+U00019,A00007,Emergency Department,Fictional Ward 03,20,4,2022-01-04 12:00:00,2022-01-04 17:00:00,FictionalClinician19,Initial placement
+U00020,A00007,ICU,Fictional Ward 04,21,1,2022-01-04 19:00:00,2022-01-05 05:00:00,FictionalClinician20,Fictional unit transfer
+U00021,A00007,CCU,Fictional Ward 05,22,2,2022-01-05 07:00:00,2022-01-06 07:00:00,FictionalClinician21,Fictional unit transfer
+U00022,A00008,Emergency Department,Fictional Ward 06,23,3,2022-01-04 23:00:00,2022-01-05 04:00:00,FictionalClinician22,Initial placement
+U00023,A00008,ICU,Fictional Ward 07,24,4,2022-01-05 06:00:00,2022-01-05 16:00:00,FictionalClinician23,Fictional unit transfer
+U00024,A00008,CCU,Fictional Ward 00,25,1,2022-01-05 18:00:00,2022-01-06 18:00:00,FictionalClinician24,Fictional unit transfer
+U00025,A00009,Emergency Department,Fictional Ward 01,26,2,2022-01-05 10:00:00,2022-01-05 15:00:00,FictionalClinician25,Initial placement
+U00026,A00009,ICU,Fictional Ward 02,27,3,2022-01-05 17:00:00,2022-01-06 03:00:00,FictionalClinician26,Fictional unit transfer
+U00027,A00009,CCU,Fictional Ward 03,28,4,2022-01-06 05:00:00,2022-01-07 05:00:00,FictionalClinician27,Fictional unit transfer
+U00028,A00010,Emergency Department,Fictional Ward 04,29,1,2022-01-05 21:00:00,2022-01-06 02:00:00,FictionalClinician28,Initial placement
+U00029,A00010,ICU,Fictional Ward 05,30,2,2022-01-06 04:00:00,2022-01-06 14:00:00,FictionalClinician29,Fictional unit transfer
+U00030,A00010,CCU,Fictional Ward 06,31,3,2022-01-06 16:00:00,2022-01-07 16:00:00,FictionalClinician30,Fictional unit transfer
+U00031,A00011,Emergency Department,Fictional Ward 07,32,4,2022-01-06 08:00:00,2022-01-06 13:00:00,FictionalClinician31,Initial placement
+U00032,A00011,ICU,Fictional Ward 00,33,1,2022-01-06 15:00:00,2022-01-07 01:00:00,FictionalClinician32,Fictional unit transfer
+U00033,A00011,CCU,Fictional Ward 01,34,2,2022-01-07 03:00:00,2022-01-08 03:00:00,FictionalClinician33,Fictional unit transfer
+U00034,A00012,Emergency Department,Fictional Ward 02,35,3,2022-01-06 19:00:00,2022-01-07 00:00:00,FictionalClinician34,Initial placement
+U00035,A00012,ICU,Fictional Ward 03,36,4,2022-01-07 02:00:00,2022-01-07 12:00:00,FictionalClinician35,Fictional unit transfer
+U00036,A00012,CCU,Fictional Ward 04,37,1,2022-01-07 14:00:00,2022-01-08 14:00:00,FictionalClinician36,Fictional unit transfer
+U00037,A00013,Emergency Department,Fictional Ward 05,38,2,2022-01-07 06:00:00,2022-01-07 11:00:00,FictionalClinician37,Initial placement
+U00038,A00013,ICU,Fictional Ward 06,39,3,2022-01-07 13:00:00,2022-01-07 23:00:00,FictionalClinician38,Fictional unit transfer
+U00039,A00013,CCU,Fictional Ward 07,40,4,2022-01-08 01:00:00,2022-01-09 01:00:00,FictionalClinician39,Fictional unit transfer
+U00040,A00014,Emergency Department,Fictional Ward 00,41,1,2022-01-07 17:00:00,2022-01-07 22:00:00,FictionalClinician00,Initial placement
+U00041,A00014,ICU,Fictional Ward 01,42,2,2022-01-08 00:00:00,2022-01-08 10:00:00,FictionalClinician01,Fictional unit transfer
+U00042,A00014,CCU,Fictional Ward 02,43,3,2022-01-08 12:00:00,2022-01-09 12:00:00,FictionalClinician02,Fictional unit transfer
+U00043,A00015,Emergency Department,Fictional Ward 03,44,4,2022-01-08 04:00:00,2022-01-08 09:00:00,FictionalClinician03,Initial placement
+U00044,A00015,ICU,Fictional Ward 04,45,1,2022-01-08 11:00:00,2022-01-08 21:00:00,FictionalClinician04,Fictional unit transfer
+U00045,A00015,CCU,Fictional Ward 05,46,2,2022-01-08 23:00:00,2022-01-09 23:00:00,FictionalClinician05,Fictional unit transfer
+U00046,A00016,Emergency Department,Fictional Ward 06,47,3,2022-01-08 15:00:00,2022-01-08 20:00:00,FictionalClinician06,Initial placement
+U00047,A00016,ICU,Fictional Ward 07,48,4,2022-01-08 22:00:00,2022-01-09 08:00:00,FictionalClinician07,Fictional unit transfer
+U00048,A00016,CCU,Fictional Ward 00,49,1,2022-01-09 10:00:00,2022-01-10 10:00:00,FictionalClinician08,Fictional unit transfer
+U00049,A00017,Emergency Department,Fictional Ward 01,50,2,2022-01-09 02:00:00,2022-01-09 07:00:00,FictionalClinician09,Initial placement
+U00050,A00017,ICU,Fictional Ward 02,51,3,2022-01-09 09:00:00,2022-01-09 19:00:00,FictionalClinician10,Fictional unit transfer
+U00051,A00017,CCU,Fictional Ward 03,52,4,2022-01-09 21:00:00,2022-01-10 21:00:00,FictionalClinician11,Fictional unit transfer
+U00052,A00018,Emergency Department,Fictional Ward 04,53,1,2022-01-09 13:00:00,2022-01-09 18:00:00,FictionalClinician12,Initial placement
+U00053,A00018,ICU,Fictional Ward 05,54,2,2022-01-09 20:00:00,2022-01-10 06:00:00,FictionalClinician13,Fictional unit transfer
+U00054,A00018,CCU,Fictional Ward 06,55,3,2022-01-10 08:00:00,2022-01-11 08:00:00,FictionalClinician14,Fictional unit transfer
+U00055,A00019,Emergency Department,Fictional Ward 07,56,4,2022-01-10 00:00:00,2022-01-10 05:00:00,FictionalClinician15,Initial placement
+U00056,A00019,ICU,Fictional Ward 00,57,1,2022-01-10 07:00:00,2022-01-10 17:00:00,FictionalClinician16,Fictional unit transfer
+U00057,A00019,CCU,Fictional Ward 01,58,2,2022-01-10 19:00:00,2022-01-11 19:00:00,FictionalClinician17,Fictional unit transfer
+U00058,A00020,Emergency Department,Fictional Ward 02,59,3,2022-01-10 11:00:00,2022-01-10 16:00:00,FictionalClinician18,Initial placement
+U00059,A00020,ICU,Fictional Ward 03,60,4,2022-01-10 18:00:00,2022-01-11 04:00:00,FictionalClinician19,Fictional unit transfer
+U00060,A00020,CCU,Fictional Ward 04,01,1,2022-01-11 06:00:00,2022-01-12 06:00:00,FictionalClinician20,Fictional unit transfer
+U00061,A00021,Emergency Department,Fictional Ward 05,02,2,2022-01-10 22:00:00,2022-01-11 03:00:00,FictionalClinician21,Initial placement
+U00062,A00021,General Medical Ward,Fictional Ward 06,03,3,2022-01-11 05:00:00,2022-01-11 21:00:00,FictionalClinician22,Fictional unit transfer
+U00063,A00021,ICU,Fictional Ward 07,04,4,2022-01-12 05:00:00,2022-01-19 21:00:00,FictionalClinician23,Fictional unit transfer
+U00064,A00022,Emergency Department,Fictional Ward 00,05,1,2022-01-11 09:00:00,2022-01-11 14:00:00,FictionalClinician24,Initial placement
+U00065,A00022,General Medical Ward,Fictional Ward 01,06,2,2022-01-11 16:00:00,2022-01-12 08:00:00,FictionalClinician25,Fictional unit transfer
+U00066,A00022,ICU,Fictional Ward 02,07,3,2022-01-12 16:00:00,2022-01-20 08:00:00,FictionalClinician26,Fictional unit transfer
+U00067,A00023,Emergency Department,Fictional Ward 03,08,4,2022-01-11 20:00:00,2022-01-12 01:00:00,FictionalClinician27,Initial placement
+U00068,A00023,General Medical Ward,Fictional Ward 04,09,1,2022-01-12 03:00:00,2022-01-12 19:00:00,FictionalClinician28,Fictional unit transfer
+U00069,A00023,ICU,Fictional Ward 05,10,2,2022-01-13 03:00:00,2022-01-20 19:00:00,FictionalClinician29,Fictional unit transfer
+U00070,A00024,Emergency Department,Fictional Ward 06,11,3,2022-01-12 07:00:00,2022-01-12 12:00:00,FictionalClinician30,Initial placement
+U00071,A00024,General Medical Ward,Fictional Ward 07,12,4,2022-01-12 14:00:00,2022-01-13 06:00:00,FictionalClinician31,Fictional unit transfer
+U00072,A00024,ICU,Fictional Ward 00,13,1,2022-01-13 14:00:00,2022-01-21 06:00:00,FictionalClinician32,Fictional unit transfer
+U00073,A00025,Emergency Department,Fictional Ward 01,14,2,2022-01-12 18:00:00,2022-01-12 23:00:00,FictionalClinician33,Initial placement
+U00074,A00025,General Medical Ward,Fictional Ward 02,15,3,2022-01-13 01:00:00,2022-01-13 17:00:00,FictionalClinician34,Fictional unit transfer
+U00075,A00025,ICU,Fictional Ward 03,16,4,2022-01-14 01:00:00,2022-01-21 17:00:00,FictionalClinician35,Fictional unit transfer
+U00076,A00026,Emergency Department,Fictional Ward 04,17,1,2022-01-13 05:00:00,2022-01-13 10:00:00,FictionalClinician36,Initial placement
+U00077,A00026,General Medical Ward,Fictional Ward 05,18,2,2022-01-13 12:00:00,2022-01-14 04:00:00,FictionalClinician37,Fictional unit transfer
+U00078,A00026,ICU,Fictional Ward 06,19,3,2022-01-14 12:00:00,2022-01-22 04:00:00,FictionalClinician38,Fictional unit transfer
+U00079,A00027,Emergency Department,Fictional Ward 07,20,4,2022-01-13 16:00:00,2022-01-13 21:00:00,FictionalClinician39,Initial placement
+U00080,A00027,General Medical Ward,Fictional Ward 00,21,1,2022-01-13 23:00:00,2022-01-14 15:00:00,FictionalClinician00,Fictional unit transfer
+U00081,A00027,ICU,Fictional Ward 01,22,2,2022-01-14 23:00:00,2022-01-22 15:00:00,FictionalClinician01,Fictional unit transfer
+U00082,A00028,Emergency Department,Fictional Ward 02,23,3,2022-01-14 03:00:00,2022-01-14 08:00:00,FictionalClinician02,Initial placement
+U00083,A00028,General Medical Ward,Fictional Ward 03,24,4,2022-01-14 10:00:00,2022-01-15 02:00:00,FictionalClinician03,Fictional unit transfer
+U00084,A00028,ICU,Fictional Ward 04,25,1,2022-01-15 10:00:00,2022-01-23 02:00:00,FictionalClinician04,Fictional unit transfer
+U00085,A00029,Emergency Department,Fictional Ward 05,26,2,2022-01-14 14:00:00,2022-01-14 19:00:00,FictionalClinician05,Initial placement
+U00086,A00029,General Medical Ward,Fictional Ward 06,27,3,2022-01-14 21:00:00,2022-01-15 13:00:00,FictionalClinician06,Fictional unit transfer
+U00087,A00029,ICU,Fictional Ward 07,28,4,2022-01-15 21:00:00,2022-01-23 13:00:00,FictionalClinician07,Fictional unit transfer
+U00088,A00030,Emergency Department,Fictional Ward 00,29,1,2022-01-15 01:00:00,2022-01-15 06:00:00,FictionalClinician08,Initial placement
+U00089,A00030,General Medical Ward,Fictional Ward 01,30,2,2022-01-15 08:00:00,2022-01-16 00:00:00,FictionalClinician09,Fictional unit transfer
+U00090,A00030,ICU,Fictional Ward 02,31,3,2022-01-16 08:00:00,2022-01-24 00:00:00,FictionalClinician10,Fictional unit transfer
+U00091,A00031,Emergency Department,Fictional Ward 03,32,4,2022-01-15 12:00:00,2022-01-15 17:00:00,FictionalClinician11,Initial placement
+U00092,A00031,General Medical Ward,Fictional Ward 04,33,1,2022-01-15 19:00:00,2022-01-16 06:00:00,FictionalClinician12,Fictional unit transfer
+U00093,A00031,SICU,Fictional Ward 05,34,2,2022-01-16 07:00:00,2022-01-16 19:00:00,FictionalClinician13,Fictional unit transfer
+U00094,A00032,Emergency Department,Fictional Ward 06,35,3,2022-01-15 23:00:00,2022-01-16 04:00:00,FictionalClinician14,Initial placement
+U00095,A00032,General Medical Ward,Fictional Ward 07,36,4,2022-01-16 06:00:00,2022-01-16 17:00:00,FictionalClinician15,Fictional unit transfer
+U00096,A00032,ICU,Fictional Ward 00,37,1,2022-01-16 18:00:00,2022-01-17 06:00:00,FictionalClinician16,Fictional unit transfer
+U00097,A00033,Emergency Department,Fictional Ward 01,38,2,2022-01-16 10:00:00,2022-01-16 15:00:00,FictionalClinician17,Initial placement
+U00098,A00033,General Medical Ward,Fictional Ward 02,39,3,2022-01-16 17:00:00,2022-01-17 04:00:00,FictionalClinician18,Fictional unit transfer
+U00099,A00033,CCU,Fictional Ward 03,40,4,2022-01-17 05:00:00,2022-01-17 17:00:00,FictionalClinician19,Fictional unit transfer
+U00100,A00034,Emergency Department,Fictional Ward 04,41,1,2022-01-16 21:00:00,2022-01-17 02:00:00,FictionalClinician20,Initial placement
+U00101,A00034,General Medical Ward,Fictional Ward 05,42,2,2022-01-17 04:00:00,2022-01-17 15:00:00,FictionalClinician21,Fictional unit transfer
+U00102,A00034,MICU,Fictional Ward 06,43,3,2022-01-17 16:00:00,2022-01-18 04:00:00,FictionalClinician22,Fictional unit transfer
+U00103,A00035,Emergency Department,Fictional Ward 07,44,4,2022-01-17 08:00:00,2022-01-17 13:00:00,FictionalClinician23,Initial placement
+U00104,A00035,General Medical Ward,Fictional Ward 00,45,1,2022-01-17 15:00:00,2022-01-18 02:00:00,FictionalClinician24,Fictional unit transfer
+U00105,A00035,SICU,Fictional Ward 01,46,2,2022-01-18 03:00:00,2022-01-18 15:00:00,FictionalClinician25,Fictional unit transfer
+U00106,A00036,Emergency Department,Fictional Ward 02,47,3,2022-01-17 19:00:00,2022-01-18 00:00:00,FictionalClinician26,Initial placement
+U00107,A00036,General Medical Ward,Fictional Ward 03,48,4,2022-01-18 02:00:00,2022-01-18 13:00:00,FictionalClinician27,Fictional unit transfer
+U00108,A00036,ICU,Fictional Ward 04,49,1,2022-01-18 14:00:00,2022-01-19 02:00:00,FictionalClinician28,Fictional unit transfer
+U00109,A00037,Emergency Department,Fictional Ward 05,50,2,2022-01-18 06:00:00,2022-01-18 11:00:00,FictionalClinician29,Initial placement
+U00110,A00037,General Medical Ward,Fictional Ward 06,51,3,2022-01-18 13:00:00,2022-01-19 00:00:00,FictionalClinician30,Fictional unit transfer
+U00111,A00037,CCU,Fictional Ward 07,52,4,2022-01-19 01:00:00,2022-01-19 13:00:00,FictionalClinician31,Fictional unit transfer
+U00112,A00038,Emergency Department,Fictional Ward 00,53,1,2022-01-18 17:00:00,2022-01-18 22:00:00,FictionalClinician32,Initial placement
+U00113,A00038,General Medical Ward,Fictional Ward 01,54,2,2022-01-19 00:00:00,2022-01-19 11:00:00,FictionalClinician33,Fictional unit transfer
+U00114,A00038,MICU,Fictional Ward 02,55,3,2022-01-19 12:00:00,2022-01-20 00:00:00,FictionalClinician34,Fictional unit transfer
+U00115,A00039,Emergency Department,Fictional Ward 03,56,4,2022-01-19 04:00:00,2022-01-19 09:00:00,FictionalClinician35,Initial placement
+U00116,A00039,General Medical Ward,Fictional Ward 04,57,1,2022-01-19 11:00:00,2022-01-19 22:00:00,FictionalClinician36,Fictional unit transfer
+U00117,A00039,SICU,Fictional Ward 05,58,2,2022-01-19 23:00:00,2022-01-20 11:00:00,FictionalClinician37,Fictional unit transfer
+U00118,A00040,Emergency Department,Fictional Ward 06,59,3,2022-01-19 15:00:00,2022-01-19 20:00:00,FictionalClinician38,Initial placement
+U00119,A00040,General Medical Ward,Fictional Ward 07,60,4,2022-01-19 22:00:00,2022-01-20 09:00:00,FictionalClinician39,Fictional unit transfer
+U00120,A00040,ICU,Fictional Ward 00,01,1,2022-01-20 10:00:00,2022-01-20 22:00:00,FictionalClinician00,Fictional unit transfer
+U00121,A00041,Emergency Department,Fictional Ward 01,02,2,2022-01-20 02:00:00,2022-01-20 07:00:00,FictionalClinician01,Initial placement
+U00122,A00041,General Medical Ward,Fictional Ward 02,03,3,2022-01-20 09:00:00,2022-01-20 20:00:00,FictionalClinician02,Fictional unit transfer
+U00123,A00041,CCU,Fictional Ward 03,04,4,2022-01-20 21:00:00,2022-01-21 09:00:00,FictionalClinician03,Fictional unit transfer
+U00124,A00042,Emergency Department,Fictional Ward 04,05,1,2022-01-20 13:00:00,2022-01-20 18:00:00,FictionalClinician04,Initial placement
+U00125,A00042,General Medical Ward,Fictional Ward 05,06,2,2022-01-20 20:00:00,2022-01-21 07:00:00,FictionalClinician05,Fictional unit transfer
+U00126,A00042,MICU,Fictional Ward 06,07,3,2022-01-21 08:00:00,2022-01-21 20:00:00,FictionalClinician06,Fictional unit transfer
+U00127,A00043,Emergency Department,Fictional Ward 07,08,4,2022-01-21 00:00:00,2022-01-21 05:00:00,FictionalClinician07,Initial placement
+U00128,A00043,General Medical Ward,Fictional Ward 00,09,1,2022-01-21 07:00:00,2022-01-21 18:00:00,FictionalClinician08,Fictional unit transfer
+U00129,A00043,SICU,Fictional Ward 01,10,2,2022-01-21 19:00:00,2022-01-22 07:00:00,FictionalClinician09,Fictional unit transfer
+U00130,A00044,Emergency Department,Fictional Ward 02,11,3,2022-01-21 11:00:00,2022-01-21 16:00:00,FictionalClinician10,Initial placement
+U00131,A00044,General Medical Ward,Fictional Ward 03,12,4,2022-01-21 18:00:00,2022-01-22 05:00:00,FictionalClinician11,Fictional unit transfer
+U00132,A00044,ICU,Fictional Ward 04,13,1,2022-01-22 06:00:00,2022-01-22 18:00:00,FictionalClinician12,Fictional unit transfer
+U00133,A00045,Emergency Department,Fictional Ward 05,14,2,2022-01-21 22:00:00,2022-01-22 03:00:00,FictionalClinician13,Initial placement
+U00134,A00045,General Medical Ward,Fictional Ward 06,15,3,2022-01-22 05:00:00,2022-01-22 16:00:00,FictionalClinician14,Fictional unit transfer
+U00135,A00045,CCU,Fictional Ward 07,16,4,2022-01-22 17:00:00,2022-01-23 05:00:00,FictionalClinician15,Fictional unit transfer
+U00136,A00046,Emergency Department,Fictional Ward 00,17,1,2022-01-22 09:00:00,2022-01-22 14:00:00,FictionalClinician16,Initial placement
+U00137,A00046,General Medical Ward,Fictional Ward 01,18,2,2022-01-22 16:00:00,2022-01-23 03:00:00,FictionalClinician17,Fictional unit transfer
+U00138,A00046,MICU,Fictional Ward 02,19,3,2022-01-23 04:00:00,2022-01-23 16:00:00,FictionalClinician18,Fictional unit transfer
+U00139,A00047,Emergency Department,Fictional Ward 03,20,4,2022-01-22 20:00:00,2022-01-23 01:00:00,FictionalClinician19,Initial placement
+U00140,A00047,General Medical Ward,Fictional Ward 04,21,1,2022-01-23 03:00:00,2022-01-23 14:00:00,FictionalClinician20,Fictional unit transfer
+U00141,A00047,SICU,Fictional Ward 05,22,2,2022-01-23 15:00:00,2022-01-24 03:00:00,FictionalClinician21,Fictional unit transfer
+U00142,A00048,Emergency Department,Fictional Ward 06,23,3,2022-01-23 07:00:00,2022-01-23 12:00:00,FictionalClinician22,Initial placement
+U00143,A00048,General Medical Ward,Fictional Ward 07,24,4,2022-01-23 14:00:00,2022-01-24 01:00:00,FictionalClinician23,Fictional unit transfer
+U00144,A00048,ICU,Fictional Ward 00,25,1,2022-01-24 02:00:00,2022-01-24 14:00:00,FictionalClinician24,Fictional unit transfer
+U00145,A00049,Emergency Department,Fictional Ward 01,26,2,2022-01-23 18:00:00,2022-01-23 23:00:00,FictionalClinician25,Initial placement
+U00146,A00049,General Medical Ward,Fictional Ward 02,27,3,2022-01-24 01:00:00,2022-01-24 12:00:00,FictionalClinician26,Fictional unit transfer
+U00147,A00049,CCU,Fictional Ward 03,28,4,2022-01-24 13:00:00,2022-01-25 01:00:00,FictionalClinician27,Fictional unit transfer
+U00148,A00050,Emergency Department,Fictional Ward 04,29,1,2022-01-24 05:00:00,2022-01-24 10:00:00,FictionalClinician28,Initial placement
+U00149,A00050,General Medical Ward,Fictional Ward 05,30,2,2022-01-24 12:00:00,2022-01-24 23:00:00,FictionalClinician29,Fictional unit transfer
+U00150,A00050,MICU,Fictional Ward 06,31,3,2022-01-25 00:00:00,2022-01-25 12:00:00,FictionalClinician30,Fictional unit transfer
+U00151,A00051,Emergency Department,Fictional Ward 07,32,4,2022-01-24 16:00:00,2022-01-24 21:00:00,FictionalClinician31,Initial placement
+U00152,A00051,General Medical Ward,Fictional Ward 00,33,1,2022-01-24 23:00:00,2022-01-25 10:00:00,FictionalClinician32,Fictional unit transfer
+U00153,A00051,SICU,Fictional Ward 01,34,2,2022-01-25 11:00:00,2022-01-25 23:00:00,FictionalClinician33,Fictional unit transfer
+U00154,A00052,Emergency Department,Fictional Ward 02,35,3,2022-01-25 03:00:00,2022-01-25 08:00:00,FictionalClinician34,Initial placement
+U00155,A00052,General Medical Ward,Fictional Ward 03,36,4,2022-01-25 10:00:00,2022-01-25 21:00:00,FictionalClinician35,Fictional unit transfer
+U00156,A00052,ICU,Fictional Ward 04,37,1,2022-01-25 22:00:00,2022-01-26 10:00:00,FictionalClinician36,Fictional unit transfer
+U00157,A00053,Emergency Department,Fictional Ward 05,38,2,2022-01-25 14:00:00,2022-01-25 19:00:00,FictionalClinician37,Initial placement
+U00158,A00053,General Medical Ward,Fictional Ward 06,39,3,2022-01-25 21:00:00,2022-01-26 08:00:00,FictionalClinician38,Fictional unit transfer
+U00159,A00053,CCU,Fictional Ward 07,40,4,2022-01-26 09:00:00,2022-01-26 21:00:00,FictionalClinician39,Fictional unit transfer
+U00160,A00054,Emergency Department,Fictional Ward 00,41,1,2022-01-26 01:00:00,2022-01-26 06:00:00,FictionalClinician00,Initial placement
+U00161,A00054,General Medical Ward,Fictional Ward 01,42,2,2022-01-26 08:00:00,2022-01-26 19:00:00,FictionalClinician01,Fictional unit transfer
+U00162,A00054,MICU,Fictional Ward 02,43,3,2022-01-26 20:00:00,2022-01-27 08:00:00,FictionalClinician02,Fictional unit transfer
+U00163,A00055,Emergency Department,Fictional Ward 03,44,4,2022-01-26 12:00:00,2022-01-26 17:00:00,FictionalClinician03,Initial placement
+U00164,A00055,General Medical Ward,Fictional Ward 04,45,1,2022-01-26 19:00:00,2022-01-27 06:00:00,FictionalClinician04,Fictional unit transfer
+U00165,A00055,SICU,Fictional Ward 05,46,2,2022-01-27 07:00:00,2022-01-27 19:00:00,FictionalClinician05,Fictional unit transfer
+U00166,A00056,Emergency Department,Fictional Ward 06,47,3,2022-01-26 23:00:00,2022-01-27 04:00:00,FictionalClinician06,Initial placement
+U00167,A00056,General Medical Ward,Fictional Ward 07,48,4,2022-01-27 06:00:00,2022-01-27 17:00:00,FictionalClinician07,Fictional unit transfer
+U00168,A00056,ICU,Fictional Ward 00,49,1,2022-01-27 18:00:00,2022-01-28 06:00:00,FictionalClinician08,Fictional unit transfer
+U00169,A00057,Emergency Department,Fictional Ward 01,50,2,2022-01-27 10:00:00,2022-01-27 15:00:00,FictionalClinician09,Initial placement
+U00170,A00057,General Medical Ward,Fictional Ward 02,51,3,2022-01-27 17:00:00,2022-01-28 04:00:00,FictionalClinician10,Fictional unit transfer
+U00171,A00057,CCU,Fictional Ward 03,52,4,2022-01-28 05:00:00,2022-01-28 17:00:00,FictionalClinician11,Fictional unit transfer
+U00172,A00058,Emergency Department,Fictional Ward 04,53,1,2022-01-27 21:00:00,2022-01-28 02:00:00,FictionalClinician12,Initial placement
+U00173,A00058,General Medical Ward,Fictional Ward 05,54,2,2022-01-28 04:00:00,2022-01-28 15:00:00,FictionalClinician13,Fictional unit transfer
+U00174,A00058,MICU,Fictional Ward 06,55,3,2022-01-28 16:00:00,2022-01-29 04:00:00,FictionalClinician14,Fictional unit transfer
+U00175,A00059,Emergency Department,Fictional Ward 07,56,4,2022-01-28 08:00:00,2022-01-28 13:00:00,FictionalClinician15,Initial placement
+U00176,A00059,General Medical Ward,Fictional Ward 00,57,1,2022-01-28 15:00:00,2022-01-29 02:00:00,FictionalClinician16,Fictional unit transfer
+U00177,A00059,SICU,Fictional Ward 01,58,2,2022-01-29 03:00:00,2022-01-29 15:00:00,FictionalClinician17,Fictional unit transfer
+U00178,A00060,Emergency Department,Fictional Ward 02,59,3,2022-01-28 19:00:00,2022-01-29 00:00:00,FictionalClinician18,Initial placement
+U00179,A00060,General Medical Ward,Fictional Ward 03,60,4,2022-01-29 02:00:00,2022-01-29 13:00:00,FictionalClinician19,Fictional unit transfer
+U00180,A00060,ICU,Fictional Ward 04,01,1,2022-01-29 14:00:00,2022-01-30 02:00:00,FictionalClinician20,Fictional unit transfer
+U00181,A00061,Emergency Department,Fictional Ward 05,02,2,2022-01-29 06:00:00,2022-01-29 11:00:00,FictionalClinician21,Initial placement
+U00182,A00061,General Medical Ward,Fictional Ward 06,03,3,2022-01-29 13:00:00,2022-01-30 00:00:00,FictionalClinician22,Fictional unit transfer
+U00183,A00061,CCU,Fictional Ward 07,04,4,2022-01-30 01:00:00,2022-01-30 13:00:00,FictionalClinician23,Fictional unit transfer
+U00184,A00062,Emergency Department,Fictional Ward 00,05,1,2022-01-29 17:00:00,2022-01-29 22:00:00,FictionalClinician24,Initial placement
+U00185,A00062,General Medical Ward,Fictional Ward 01,06,2,2022-01-30 00:00:00,2022-01-30 11:00:00,FictionalClinician25,Fictional unit transfer
+U00186,A00062,MICU,Fictional Ward 02,07,3,2022-01-30 12:00:00,2022-01-31 00:00:00,FictionalClinician26,Fictional unit transfer
+U00187,A00063,Emergency Department,Fictional Ward 03,08,4,2022-01-30 04:00:00,2022-01-30 09:00:00,FictionalClinician27,Initial placement
+U00188,A00063,General Medical Ward,Fictional Ward 04,09,1,2022-01-30 11:00:00,2022-01-30 22:00:00,FictionalClinician28,Fictional unit transfer
+U00189,A00063,SICU,Fictional Ward 05,10,2,2022-01-30 23:00:00,2022-01-31 11:00:00,FictionalClinician29,Fictional unit transfer
+U00190,A00064,Emergency Department,Fictional Ward 06,11,3,2022-01-30 15:00:00,2022-01-30 20:00:00,FictionalClinician30,Initial placement
+U00191,A00064,General Medical Ward,Fictional Ward 07,12,4,2022-01-30 22:00:00,2022-01-31 09:00:00,FictionalClinician31,Fictional unit transfer
+U00192,A00064,ICU,Fictional Ward 00,13,1,2022-01-31 10:00:00,2022-01-31 22:00:00,FictionalClinician32,Fictional unit transfer
+U00193,A00065,Emergency Department,Fictional Ward 01,14,2,2022-01-31 02:00:00,2022-01-31 07:00:00,FictionalClinician33,Initial placement
+U00194,A00065,General Medical Ward,Fictional Ward 02,15,3,2022-01-31 09:00:00,2022-01-31 20:00:00,FictionalClinician34,Fictional unit transfer
+U00195,A00065,CCU,Fictional Ward 03,16,4,2022-01-31 21:00:00,2022-02-01 09:00:00,FictionalClinician35,Fictional unit transfer
+U00196,A00066,Emergency Department,Fictional Ward 04,17,1,2022-01-31 13:00:00,2022-01-31 18:00:00,FictionalClinician36,Initial placement
+U00197,A00066,General Medical Ward,Fictional Ward 05,18,2,2022-01-31 20:00:00,2022-02-01 07:00:00,FictionalClinician37,Fictional unit transfer
+U00198,A00066,MICU,Fictional Ward 06,19,3,2022-02-01 08:00:00,2022-02-01 20:00:00,FictionalClinician38,Fictional unit transfer
+U00199,A00067,Emergency Department,Fictional Ward 07,20,4,2022-02-01 00:00:00,2022-02-01 05:00:00,FictionalClinician39,Initial placement
+U00200,A00067,General Medical Ward,Fictional Ward 00,21,1,2022-02-01 07:00:00,2022-02-01 18:00:00,FictionalClinician00,Fictional unit transfer
+U00201,A00067,SICU,Fictional Ward 01,22,2,2022-02-01 19:00:00,2022-02-02 07:00:00,FictionalClinician01,Fictional unit transfer
+U00202,A00068,Emergency Department,Fictional Ward 02,23,3,2022-02-01 11:00:00,2022-02-01 16:00:00,FictionalClinician02,Initial placement
+U00203,A00068,General Medical Ward,Fictional Ward 03,24,4,2022-02-01 18:00:00,2022-02-02 05:00:00,FictionalClinician03,Fictional unit transfer
+U00204,A00068,ICU,Fictional Ward 04,25,1,2022-02-02 06:00:00,2022-02-02 18:00:00,FictionalClinician04,Fictional unit transfer
+U00205,A00069,Emergency Department,Fictional Ward 05,26,2,2022-02-01 22:00:00,2022-02-02 03:00:00,FictionalClinician05,Initial placement
+U00206,A00069,General Medical Ward,Fictional Ward 06,27,3,2022-02-02 05:00:00,2022-02-02 16:00:00,FictionalClinician06,Fictional unit transfer
+U00207,A00069,CCU,Fictional Ward 07,28,4,2022-02-02 17:00:00,2022-02-03 05:00:00,FictionalClinician07,Fictional unit transfer
+U00208,A00070,Emergency Department,Fictional Ward 00,29,1,2022-02-02 09:00:00,2022-02-02 14:00:00,FictionalClinician08,Initial placement
+U00209,A00070,General Medical Ward,Fictional Ward 01,30,2,2022-02-02 16:00:00,2022-02-03 03:00:00,FictionalClinician09,Fictional unit transfer
+U00210,A00070,MICU,Fictional Ward 02,31,3,2022-02-03 04:00:00,2022-02-03 16:00:00,FictionalClinician10,Fictional unit transfer
+U00211,A00071,Emergency Department,Fictional Ward 03,32,4,2022-02-02 20:00:00,2022-02-03 01:00:00,FictionalClinician11,Initial placement
+U00212,A00071,General Medical Ward,Fictional Ward 04,33,1,2022-02-03 03:00:00,2022-02-03 14:00:00,FictionalClinician12,Fictional unit transfer
+U00213,A00071,SICU,Fictional Ward 05,34,2,2022-02-03 15:00:00,2022-02-04 03:00:00,FictionalClinician13,Fictional unit transfer
+U00214,A00072,Emergency Department,Fictional Ward 06,35,3,2022-02-03 07:00:00,2022-02-03 12:00:00,FictionalClinician14,Initial placement
+U00215,A00072,General Medical Ward,Fictional Ward 07,36,4,2022-02-03 14:00:00,2022-02-04 01:00:00,FictionalClinician15,Fictional unit transfer
+U00216,A00072,ICU,Fictional Ward 00,37,1,2022-02-04 02:00:00,2022-02-04 14:00:00,FictionalClinician16,Fictional unit transfer
+U00217,A00073,Emergency Department,Fictional Ward 01,38,2,2022-02-03 18:00:00,2022-02-03 23:00:00,FictionalClinician17,Initial placement
+U00218,A00073,General Medical Ward,Fictional Ward 02,39,3,2022-02-04 01:00:00,2022-02-04 12:00:00,FictionalClinician18,Fictional unit transfer
+U00219,A00073,CCU,Fictional Ward 03,40,4,2022-02-04 13:00:00,2022-02-05 01:00:00,FictionalClinician19,Fictional unit transfer
+U00220,A00074,Emergency Department,Fictional Ward 04,41,1,2022-02-04 05:00:00,2022-02-04 10:00:00,FictionalClinician20,Initial placement
+U00221,A00074,General Medical Ward,Fictional Ward 05,42,2,2022-02-04 12:00:00,2022-02-04 23:00:00,FictionalClinician21,Fictional unit transfer
+U00222,A00074,MICU,Fictional Ward 06,43,3,2022-02-05 00:00:00,2022-02-05 12:00:00,FictionalClinician22,Fictional unit transfer
+U00223,A00075,Emergency Department,Fictional Ward 07,44,4,2022-02-04 16:00:00,2022-02-04 21:00:00,FictionalClinician23,Initial placement
+U00224,A00075,General Medical Ward,Fictional Ward 00,45,1,2022-02-04 23:00:00,2022-02-05 10:00:00,FictionalClinician24,Fictional unit transfer
+U00225,A00075,SICU,Fictional Ward 01,46,2,2022-02-05 11:00:00,2022-02-05 23:00:00,FictionalClinician25,Fictional unit transfer
+U00226,A00076,Emergency Department,Fictional Ward 02,47,3,2022-02-05 03:00:00,2022-02-05 08:00:00,FictionalClinician26,Initial placement
+U00227,A00076,General Medical Ward,Fictional Ward 03,48,4,2022-02-05 10:00:00,2022-02-05 21:00:00,FictionalClinician27,Fictional unit transfer
+U00228,A00076,ICU,Fictional Ward 04,49,1,2022-02-05 22:00:00,2022-02-06 10:00:00,FictionalClinician28,Fictional unit transfer
+U00229,A00077,Emergency Department,Fictional Ward 05,50,2,2022-02-05 14:00:00,2022-02-05 19:00:00,FictionalClinician29,Initial placement
+U00230,A00077,General Medical Ward,Fictional Ward 06,51,3,2022-02-05 21:00:00,2022-02-06 08:00:00,FictionalClinician30,Fictional unit transfer
+U00231,A00077,CCU,Fictional Ward 07,52,4,2022-02-06 09:00:00,2022-02-06 21:00:00,FictionalClinician31,Fictional unit transfer
+U00232,A00078,Emergency Department,Fictional Ward 00,53,1,2022-02-06 01:00:00,2022-02-06 06:00:00,FictionalClinician32,Initial placement
+U00233,A00078,General Medical Ward,Fictional Ward 01,54,2,2022-02-06 08:00:00,2022-02-06 19:00:00,FictionalClinician33,Fictional unit transfer
+U00234,A00078,MICU,Fictional Ward 02,55,3,2022-02-06 20:00:00,2022-02-07 08:00:00,FictionalClinician34,Fictional unit transfer
+U00235,A00079,Emergency Department,Fictional Ward 03,56,4,2022-02-06 12:00:00,2022-02-06 17:00:00,FictionalClinician35,Initial placement
+U00236,A00079,General Medical Ward,Fictional Ward 04,57,1,2022-02-06 19:00:00,2022-02-07 06:00:00,FictionalClinician36,Fictional unit transfer
+U00237,A00079,SICU,Fictional Ward 05,58,2,2022-02-07 07:00:00,2022-02-07 19:00:00,FictionalClinician37,Fictional unit transfer
+U00238,A00080,Emergency Department,Fictional Ward 06,59,3,2022-02-06 23:00:00,2022-02-07 04:00:00,FictionalClinician38,Initial placement
+U00239,A00080,General Medical Ward,Fictional Ward 07,60,4,2022-02-07 06:00:00,2022-02-07 17:00:00,FictionalClinician39,Fictional unit transfer
+U00240,A00080,ICU,Fictional Ward 00,01,1,2022-02-07 18:00:00,2022-02-08 06:00:00,FictionalClinician00,Fictional unit transfer
+U00241,A00081,Emergency Department,Fictional Ward 01,02,2,2022-02-07 10:00:00,2022-02-07 15:00:00,FictionalClinician01,Initial placement
+U00242,A00081,General Medical Ward,Fictional Ward 02,03,3,2022-02-07 17:00:00,2022-02-08 04:00:00,FictionalClinician02,Fictional unit transfer
+U00243,A00081,CCU,Fictional Ward 03,04,4,2022-02-08 05:00:00,2022-02-08 17:00:00,FictionalClinician03,Fictional unit transfer
+U00244,A00082,Emergency Department,Fictional Ward 04,05,1,2022-02-07 21:00:00,2022-02-08 02:00:00,FictionalClinician04,Initial placement
+U00245,A00082,General Medical Ward,Fictional Ward 05,06,2,2022-02-08 04:00:00,2022-02-08 15:00:00,FictionalClinician05,Fictional unit transfer
+U00246,A00082,MICU,Fictional Ward 06,07,3,2022-02-08 16:00:00,2022-02-09 04:00:00,FictionalClinician06,Fictional unit transfer
+U00247,A00083,Emergency Department,Fictional Ward 07,08,4,2022-02-08 08:00:00,2022-02-08 13:00:00,FictionalClinician07,Initial placement
+U00248,A00083,General Medical Ward,Fictional Ward 00,09,1,2022-02-08 15:00:00,2022-02-09 02:00:00,FictionalClinician08,Fictional unit transfer
+U00249,A00083,SICU,Fictional Ward 01,10,2,2022-02-09 03:00:00,2022-02-09 15:00:00,FictionalClinician09,Fictional unit transfer
+U00250,A00084,Emergency Department,Fictional Ward 02,11,3,2022-02-08 19:00:00,2022-02-09 00:00:00,FictionalClinician10,Initial placement
+U00251,A00084,General Medical Ward,Fictional Ward 03,12,4,2022-02-09 02:00:00,2022-02-09 13:00:00,FictionalClinician11,Fictional unit transfer
+U00252,A00084,ICU,Fictional Ward 04,13,1,2022-02-09 14:00:00,2022-02-10 02:00:00,FictionalClinician12,Fictional unit transfer
+U00253,A00085,Emergency Department,Fictional Ward 05,14,2,2022-02-09 06:00:00,2022-02-09 11:00:00,FictionalClinician13,Initial placement
+U00254,A00085,General Medical Ward,Fictional Ward 06,15,3,2022-02-09 13:00:00,2022-02-10 00:00:00,FictionalClinician14,Fictional unit transfer
+U00255,A00085,CCU,Fictional Ward 07,16,4,2022-02-10 01:00:00,2022-02-10 13:00:00,FictionalClinician15,Fictional unit transfer
+U00256,A00086,Emergency Department,Fictional Ward 00,17,1,2022-02-09 17:00:00,2022-02-09 22:00:00,FictionalClinician16,Initial placement
+U00257,A00086,General Medical Ward,Fictional Ward 01,18,2,2022-02-10 00:00:00,2022-02-10 11:00:00,FictionalClinician17,Fictional unit transfer
+U00258,A00086,MICU,Fictional Ward 02,19,3,2022-02-10 12:00:00,2022-02-11 00:00:00,FictionalClinician18,Fictional unit transfer
+U00259,A00087,Emergency Department,Fictional Ward 03,20,4,2022-02-10 04:00:00,2022-02-10 09:00:00,FictionalClinician19,Initial placement
+U00260,A00087,General Medical Ward,Fictional Ward 04,21,1,2022-02-10 11:00:00,2022-02-10 22:00:00,FictionalClinician20,Fictional unit transfer
+U00261,A00087,SICU,Fictional Ward 05,22,2,2022-02-10 23:00:00,2022-02-11 11:00:00,FictionalClinician21,Fictional unit transfer
+U00262,A00088,Emergency Department,Fictional Ward 06,23,3,2022-02-10 15:00:00,2022-02-10 20:00:00,FictionalClinician22,Initial placement
+U00263,A00088,General Medical Ward,Fictional Ward 07,24,4,2022-02-10 22:00:00,2022-02-11 09:00:00,FictionalClinician23,Fictional unit transfer
+U00264,A00088,ICU,Fictional Ward 00,25,1,2022-02-11 10:00:00,2022-02-11 22:00:00,FictionalClinician24,Fictional unit transfer
+U00265,A00089,Emergency Department,Fictional Ward 01,26,2,2022-02-11 02:00:00,2022-02-11 07:00:00,FictionalClinician25,Initial placement
+U00266,A00089,General Medical Ward,Fictional Ward 02,27,3,2022-02-11 09:00:00,2022-02-11 20:00:00,FictionalClinician26,Fictional unit transfer
+U00267,A00089,CCU,Fictional Ward 03,28,4,2022-02-11 21:00:00,2022-02-12 09:00:00,FictionalClinician27,Fictional unit transfer
+U00268,A00090,Emergency Department,Fictional Ward 04,29,1,2022-02-11 13:00:00,2022-02-11 18:00:00,FictionalClinician28,Initial placement
+U00269,A00090,General Medical Ward,Fictional Ward 05,30,2,2022-02-11 20:00:00,2022-02-12 07:00:00,FictionalClinician29,Fictional unit transfer
+U00270,A00090,MICU,Fictional Ward 06,31,3,2022-02-12 08:00:00,2022-02-12 20:00:00,FictionalClinician30,Fictional unit transfer
+U00271,A00091,Emergency Department,Fictional Ward 07,32,4,2022-02-12 00:00:00,2022-02-12 05:00:00,FictionalClinician31,Initial placement
+U00272,A00091,General Medical Ward,Fictional Ward 00,33,1,2022-02-12 07:00:00,2022-02-12 18:00:00,FictionalClinician32,Fictional unit transfer
+U00273,A00091,SICU,Fictional Ward 01,34,2,2022-02-12 19:00:00,2022-02-13 07:00:00,FictionalClinician33,Fictional unit transfer
+U00274,A00092,Emergency Department,Fictional Ward 02,35,3,2022-02-12 11:00:00,2022-02-12 16:00:00,FictionalClinician34,Initial placement
+U00275,A00092,General Medical Ward,Fictional Ward 03,36,4,2022-02-12 18:00:00,2022-02-13 05:00:00,FictionalClinician35,Fictional unit transfer
+U00276,A00092,ICU,Fictional Ward 04,37,1,2022-02-13 06:00:00,2022-02-13 18:00:00,FictionalClinician36,Fictional unit transfer
+U00277,A00093,Emergency Department,Fictional Ward 05,38,2,2022-02-12 22:00:00,2022-02-13 03:00:00,FictionalClinician37,Initial placement
+U00278,A00093,General Medical Ward,Fictional Ward 06,39,3,2022-02-13 05:00:00,2022-02-13 16:00:00,FictionalClinician38,Fictional unit transfer
+U00279,A00093,CCU,Fictional Ward 07,40,4,2022-02-13 17:00:00,2022-02-14 05:00:00,FictionalClinician39,Fictional unit transfer
+U00280,A00094,Emergency Department,Fictional Ward 00,41,1,2022-02-13 09:00:00,2022-02-13 14:00:00,FictionalClinician00,Initial placement
+U00281,A00094,General Medical Ward,Fictional Ward 01,42,2,2022-02-13 16:00:00,2022-02-14 03:00:00,FictionalClinician01,Fictional unit transfer
+U00282,A00094,MICU,Fictional Ward 02,43,3,2022-02-14 04:00:00,2022-02-14 16:00:00,FictionalClinician02,Fictional unit transfer
+U00283,A00095,Emergency Department,Fictional Ward 03,44,4,2022-02-13 20:00:00,2022-02-14 01:00:00,FictionalClinician03,Initial placement
+U00284,A00095,General Medical Ward,Fictional Ward 04,45,1,2022-02-14 03:00:00,2022-02-14 14:00:00,FictionalClinician04,Fictional unit transfer
+U00285,A00095,SICU,Fictional Ward 05,46,2,2022-02-14 15:00:00,2022-02-15 03:00:00,FictionalClinician05,Fictional unit transfer
+U00286,A00096,Emergency Department,Fictional Ward 06,47,3,2022-02-14 07:00:00,2022-02-14 12:00:00,FictionalClinician06,Initial placement
+U00287,A00096,General Medical Ward,Fictional Ward 07,48,4,2022-02-14 14:00:00,2022-02-15 01:00:00,FictionalClinician07,Fictional unit transfer
+U00288,A00096,ICU,Fictional Ward 00,49,1,2022-02-15 02:00:00,2022-02-15 14:00:00,FictionalClinician08,Fictional unit transfer
+U00289,A00097,Emergency Department,Fictional Ward 01,50,2,2022-02-14 18:00:00,2022-02-14 23:00:00,FictionalClinician09,Initial placement
+U00290,A00097,General Medical Ward,Fictional Ward 02,51,3,2022-02-15 01:00:00,2022-02-15 12:00:00,FictionalClinician10,Fictional unit transfer
+U00291,A00097,CCU,Fictional Ward 03,52,4,2022-02-15 13:00:00,2022-02-16 01:00:00,FictionalClinician11,Fictional unit transfer
+U00292,A00098,Emergency Department,Fictional Ward 04,53,1,2022-02-15 05:00:00,2022-02-15 10:00:00,FictionalClinician12,Initial placement
+U00293,A00098,General Medical Ward,Fictional Ward 05,54,2,2022-02-15 12:00:00,2022-02-15 23:00:00,FictionalClinician13,Fictional unit transfer
+U00294,A00098,MICU,Fictional Ward 06,55,3,2022-02-16 00:00:00,2022-02-16 12:00:00,FictionalClinician14,Fictional unit transfer
+U00295,A00099,Emergency Department,Fictional Ward 07,56,4,2022-02-15 16:00:00,2022-02-15 21:00:00,FictionalClinician15,Initial placement
+U00296,A00099,General Medical Ward,Fictional Ward 00,57,1,2022-02-15 23:00:00,2022-02-16 10:00:00,FictionalClinician16,Fictional unit transfer
+U00297,A00099,SICU,Fictional Ward 01,58,2,2022-02-16 11:00:00,2022-02-16 23:00:00,FictionalClinician17,Fictional unit transfer
+U00298,A00100,Emergency Department,Fictional Ward 02,59,3,2022-02-16 03:00:00,2022-02-16 08:00:00,FictionalClinician18,Initial placement
+U00299,A00100,General Medical Ward,Fictional Ward 03,60,4,2022-02-16 10:00:00,2022-02-16 21:00:00,FictionalClinician19,Fictional unit transfer
+U00300,A00100,ICU,Fictional Ward 04,01,1,2022-02-16 22:00:00,2022-02-17 10:00:00,FictionalClinician20,Fictional unit transfer
+U00301,A00101,Emergency Department,Fictional Ward 05,02,2,2022-02-16 14:00:00,2022-02-16 19:00:00,FictionalClinician21,Initial placement
+U00302,A00101,General Medical Ward,Fictional Ward 06,03,3,2022-02-16 21:00:00,2022-02-17 08:00:00,FictionalClinician22,Fictional unit transfer
+U00303,A00101,CCU,Fictional Ward 07,04,4,2022-02-17 09:00:00,2022-02-17 21:00:00,FictionalClinician23,Fictional unit transfer
+U00304,A00102,Emergency Department,Fictional Ward 00,05,1,2022-02-17 01:00:00,2022-02-17 06:00:00,FictionalClinician24,Initial placement
+U00305,A00102,General Medical Ward,Fictional Ward 01,06,2,2022-02-17 08:00:00,2022-02-17 19:00:00,FictionalClinician25,Fictional unit transfer
+U00306,A00102,MICU,Fictional Ward 02,07,3,2022-02-17 20:00:00,2022-02-18 08:00:00,FictionalClinician26,Fictional unit transfer
+U00307,A00103,Emergency Department,Fictional Ward 03,08,4,2022-02-17 12:00:00,2022-02-17 17:00:00,FictionalClinician27,Initial placement
+U00308,A00103,General Medical Ward,Fictional Ward 04,09,1,2022-02-17 19:00:00,2022-02-18 06:00:00,FictionalClinician28,Fictional unit transfer
+U00309,A00103,SICU,Fictional Ward 05,10,2,2022-02-18 07:00:00,2022-02-18 19:00:00,FictionalClinician29,Fictional unit transfer
+U00310,A00104,Emergency Department,Fictional Ward 06,11,3,2022-02-17 23:00:00,2022-02-18 04:00:00,FictionalClinician30,Initial placement
+U00311,A00104,General Medical Ward,Fictional Ward 07,12,4,2022-02-18 06:00:00,2022-02-18 17:00:00,FictionalClinician31,Fictional unit transfer
+U00312,A00104,ICU,Fictional Ward 00,13,1,2022-02-18 18:00:00,2022-02-19 06:00:00,FictionalClinician32,Fictional unit transfer
+U00313,A00105,Emergency Department,Fictional Ward 01,14,2,2022-02-18 10:00:00,2022-02-18 15:00:00,FictionalClinician33,Initial placement
+U00314,A00105,General Medical Ward,Fictional Ward 02,15,3,2022-02-18 17:00:00,2022-02-19 04:00:00,FictionalClinician34,Fictional unit transfer
+U00315,A00105,CCU,Fictional Ward 03,16,4,2022-02-19 05:00:00,2022-02-19 17:00:00,FictionalClinician35,Fictional unit transfer
+U00316,A00106,Emergency Department,Fictional Ward 04,17,1,2022-02-18 21:00:00,2022-02-19 02:00:00,FictionalClinician36,Initial placement
+U00317,A00106,General Medical Ward,Fictional Ward 05,18,2,2022-02-19 04:00:00,2022-02-19 15:00:00,FictionalClinician37,Fictional unit transfer
+U00318,A00106,MICU,Fictional Ward 06,19,3,2022-02-19 16:00:00,2022-02-20 04:00:00,FictionalClinician38,Fictional unit transfer
+U00319,A00107,Emergency Department,Fictional Ward 07,20,4,2022-02-19 08:00:00,2022-02-19 13:00:00,FictionalClinician39,Initial placement
+U00320,A00107,General Medical Ward,Fictional Ward 00,21,1,2022-02-19 15:00:00,2022-02-20 02:00:00,FictionalClinician00,Fictional unit transfer
+U00321,A00107,SICU,Fictional Ward 01,22,2,2022-02-20 03:00:00,2022-02-20 15:00:00,FictionalClinician01,Fictional unit transfer
+U00322,A00108,Emergency Department,Fictional Ward 02,23,3,2022-02-19 19:00:00,2022-02-20 00:00:00,FictionalClinician02,Initial placement
+U00323,A00108,General Medical Ward,Fictional Ward 03,24,4,2022-02-20 02:00:00,2022-02-20 13:00:00,FictionalClinician03,Fictional unit transfer
+U00324,A00108,ICU,Fictional Ward 04,25,1,2022-02-20 14:00:00,2022-02-21 02:00:00,FictionalClinician04,Fictional unit transfer
+U00325,A00109,Emergency Department,Fictional Ward 05,26,2,2022-02-20 06:00:00,2022-02-20 11:00:00,FictionalClinician05,Initial placement
+U00326,A00109,General Medical Ward,Fictional Ward 06,27,3,2022-02-20 13:00:00,2022-02-21 00:00:00,FictionalClinician06,Fictional unit transfer
+U00327,A00109,CCU,Fictional Ward 07,28,4,2022-02-21 01:00:00,2022-02-21 13:00:00,FictionalClinician07,Fictional unit transfer
+U00328,A00110,Emergency Department,Fictional Ward 00,29,1,2022-02-20 17:00:00,2022-02-20 22:00:00,FictionalClinician08,Initial placement
+U00329,A00110,General Medical Ward,Fictional Ward 01,30,2,2022-02-21 00:00:00,2022-02-21 11:00:00,FictionalClinician09,Fictional unit transfer
+U00330,A00110,MICU,Fictional Ward 02,31,3,2022-02-21 12:00:00,2022-02-22 00:00:00,FictionalClinician10,Fictional unit transfer
+U00331,A00111,Emergency Department,Fictional Ward 03,32,4,2022-02-21 04:00:00,2022-02-21 09:00:00,FictionalClinician11,Initial placement
+U00332,A00111,General Medical Ward,Fictional Ward 04,33,1,2022-02-21 11:00:00,2022-02-21 22:00:00,FictionalClinician12,Fictional unit transfer
+U00333,A00111,SICU,Fictional Ward 05,34,2,2022-02-21 23:00:00,2022-02-22 11:00:00,FictionalClinician13,Fictional unit transfer
+U00334,A00112,Emergency Department,Fictional Ward 06,35,3,2022-02-21 15:00:00,2022-02-21 20:00:00,FictionalClinician14,Initial placement
+U00335,A00112,General Medical Ward,Fictional Ward 07,36,4,2022-02-21 22:00:00,2022-02-22 09:00:00,FictionalClinician15,Fictional unit transfer
+U00336,A00112,ICU,Fictional Ward 00,37,1,2022-02-22 10:00:00,2022-02-22 22:00:00,FictionalClinician16,Fictional unit transfer
+U00337,A00113,Emergency Department,Fictional Ward 01,38,2,2022-02-22 02:00:00,2022-02-22 07:00:00,FictionalClinician17,Initial placement
+U00338,A00113,General Medical Ward,Fictional Ward 02,39,3,2022-02-22 09:00:00,2022-02-22 20:00:00,FictionalClinician18,Fictional unit transfer
+U00339,A00113,CCU,Fictional Ward 03,40,4,2022-02-22 21:00:00,2022-02-23 09:00:00,FictionalClinician19,Fictional unit transfer
+U00340,A00114,Emergency Department,Fictional Ward 04,41,1,2022-02-22 13:00:00,2022-02-22 18:00:00,FictionalClinician20,Initial placement
+U00341,A00114,General Medical Ward,Fictional Ward 05,42,2,2022-02-22 20:00:00,2022-02-23 07:00:00,FictionalClinician21,Fictional unit transfer
+U00342,A00114,MICU,Fictional Ward 06,43,3,2022-02-23 08:00:00,2022-02-23 20:00:00,FictionalClinician22,Fictional unit transfer
+U00343,A00115,Emergency Department,Fictional Ward 07,44,4,2022-02-23 00:00:00,2022-02-23 05:00:00,FictionalClinician23,Initial placement
+U00344,A00115,General Medical Ward,Fictional Ward 00,45,1,2022-02-23 07:00:00,2022-02-23 18:00:00,FictionalClinician24,Fictional unit transfer
+U00345,A00115,SICU,Fictional Ward 01,46,2,2022-02-23 19:00:00,2022-02-24 07:00:00,FictionalClinician25,Fictional unit transfer
+U00346,A00116,Emergency Department,Fictional Ward 02,47,3,2022-02-23 11:00:00,2022-02-23 16:00:00,FictionalClinician26,Initial placement
+U00347,A00116,General Medical Ward,Fictional Ward 03,48,4,2022-02-23 18:00:00,2022-02-24 05:00:00,FictionalClinician27,Fictional unit transfer
+U00348,A00116,ICU,Fictional Ward 04,49,1,2022-02-24 06:00:00,2022-02-24 18:00:00,FictionalClinician28,Fictional unit transfer
+U00349,A00117,Emergency Department,Fictional Ward 05,50,2,2022-02-23 22:00:00,2022-02-24 03:00:00,FictionalClinician29,Initial placement
+U00350,A00117,General Medical Ward,Fictional Ward 06,51,3,2022-02-24 05:00:00,2022-02-24 16:00:00,FictionalClinician30,Fictional unit transfer
+U00351,A00117,CCU,Fictional Ward 07,52,4,2022-02-24 17:00:00,2022-02-25 05:00:00,FictionalClinician31,Fictional unit transfer
+U00352,A00118,Emergency Department,Fictional Ward 00,53,1,2022-02-24 09:00:00,2022-02-24 14:00:00,FictionalClinician32,Initial placement
+U00353,A00118,General Medical Ward,Fictional Ward 01,54,2,2022-02-24 16:00:00,2022-02-25 03:00:00,FictionalClinician33,Fictional unit transfer
+U00354,A00118,MICU,Fictional Ward 02,55,3,2022-02-25 04:00:00,2022-02-25 16:00:00,FictionalClinician34,Fictional unit transfer
+U00355,A00119,Emergency Department,Fictional Ward 03,56,4,2022-02-24 20:00:00,2022-02-25 01:00:00,FictionalClinician35,Initial placement
+U00356,A00119,General Medical Ward,Fictional Ward 04,57,1,2022-02-25 03:00:00,2022-02-25 14:00:00,FictionalClinician36,Fictional unit transfer
+U00357,A00119,SICU,Fictional Ward 05,58,2,2022-02-25 15:00:00,2022-02-26 03:00:00,FictionalClinician37,Fictional unit transfer
+U00358,A00120,Emergency Department,Fictional Ward 06,59,3,2022-02-25 07:00:00,2022-02-25 12:00:00,FictionalClinician38,Initial placement
+U00359,A00120,General Medical Ward,Fictional Ward 07,60,4,2022-02-25 14:00:00,2022-02-26 01:00:00,FictionalClinician39,Fictional unit transfer
+U00360,A00120,ICU,Fictional Ward 00,01,1,2022-02-26 02:00:00,2022-02-26 14:00:00,FictionalClinician00,Fictional unit transfer
+U00361,A00121,Emergency Department,Fictional Ward 01,02,2,2022-02-25 18:00:00,2022-02-25 23:00:00,FictionalClinician01,Initial placement
+U00362,A00121,General Medical Ward,Fictional Ward 02,03,3,2022-02-26 01:00:00,2022-02-26 12:00:00,FictionalClinician02,Fictional unit transfer
+U00363,A00121,CCU,Fictional Ward 03,04,4,2022-02-26 13:00:00,2022-02-27 01:00:00,FictionalClinician03,Fictional unit transfer
+U00364,A00122,Emergency Department,Fictional Ward 04,05,1,2022-02-26 05:00:00,2022-02-26 10:00:00,FictionalClinician04,Initial placement
+U00365,A00122,General Medical Ward,Fictional Ward 05,06,2,2022-02-26 12:00:00,2022-02-26 23:00:00,FictionalClinician05,Fictional unit transfer
+U00366,A00122,MICU,Fictional Ward 06,07,3,2022-02-27 00:00:00,2022-02-27 12:00:00,FictionalClinician06,Fictional unit transfer
+U00367,A00123,Emergency Department,Fictional Ward 07,08,4,2022-02-26 16:00:00,2022-02-26 21:00:00,FictionalClinician07,Initial placement
+U00368,A00123,General Medical Ward,Fictional Ward 00,09,1,2022-02-26 23:00:00,2022-02-27 10:00:00,FictionalClinician08,Fictional unit transfer
+U00369,A00123,SICU,Fictional Ward 01,10,2,2022-02-27 11:00:00,2022-02-27 23:00:00,FictionalClinician09,Fictional unit transfer
+U00370,A00124,Emergency Department,Fictional Ward 02,11,3,2022-02-27 03:00:00,2022-02-27 08:00:00,FictionalClinician10,Initial placement
+U00371,A00124,General Medical Ward,Fictional Ward 03,12,4,2022-02-27 10:00:00,2022-02-27 21:00:00,FictionalClinician11,Fictional unit transfer
+U00372,A00124,ICU,Fictional Ward 04,13,1,2022-02-27 22:00:00,2022-02-28 10:00:00,FictionalClinician12,Fictional unit transfer
+U00373,A00125,Emergency Department,Fictional Ward 05,14,2,2022-02-27 14:00:00,2022-02-27 19:00:00,FictionalClinician13,Initial placement
+U00374,A00125,General Medical Ward,Fictional Ward 06,15,3,2022-02-27 21:00:00,2022-02-28 08:00:00,FictionalClinician14,Fictional unit transfer
+U00375,A00125,CCU,Fictional Ward 07,16,4,2022-02-28 09:00:00,2022-02-28 21:00:00,FictionalClinician15,Fictional unit transfer
+U00376,A00126,Emergency Department,Fictional Ward 00,17,1,2022-02-28 01:00:00,2022-02-28 06:00:00,FictionalClinician16,Initial placement
+U00377,A00126,General Medical Ward,Fictional Ward 01,18,2,2022-02-28 08:00:00,2022-02-28 19:00:00,FictionalClinician17,Fictional unit transfer
+U00378,A00126,MICU,Fictional Ward 02,19,3,2022-02-28 20:00:00,2022-03-01 08:00:00,FictionalClinician18,Fictional unit transfer
+U00379,A00127,Emergency Department,Fictional Ward 03,20,4,2022-02-28 12:00:00,2022-02-28 17:00:00,FictionalClinician19,Initial placement
+U00380,A00127,General Medical Ward,Fictional Ward 04,21,1,2022-02-28 19:00:00,2022-03-01 06:00:00,FictionalClinician20,Fictional unit transfer
+U00381,A00127,SICU,Fictional Ward 05,22,2,2022-03-01 07:00:00,2022-03-01 19:00:00,FictionalClinician21,Fictional unit transfer
+U00382,A00128,Emergency Department,Fictional Ward 06,23,3,2022-02-28 23:00:00,2022-03-01 04:00:00,FictionalClinician22,Initial placement
+U00383,A00128,General Medical Ward,Fictional Ward 07,24,4,2022-03-01 06:00:00,2022-03-01 17:00:00,FictionalClinician23,Fictional unit transfer
+U00384,A00128,ICU,Fictional Ward 00,25,1,2022-03-01 18:00:00,2022-03-02 06:00:00,FictionalClinician24,Fictional unit transfer
+U00385,A00129,Emergency Department,Fictional Ward 01,26,2,2022-03-01 10:00:00,2022-03-01 15:00:00,FictionalClinician25,Initial placement
+U00386,A00129,General Medical Ward,Fictional Ward 02,27,3,2022-03-01 17:00:00,2022-03-02 04:00:00,FictionalClinician26,Fictional unit transfer
+U00387,A00129,CCU,Fictional Ward 03,28,4,2022-03-02 05:00:00,2022-03-02 17:00:00,FictionalClinician27,Fictional unit transfer
+U00388,A00130,Emergency Department,Fictional Ward 04,29,1,2022-03-01 21:00:00,2022-03-02 02:00:00,FictionalClinician28,Initial placement
+U00389,A00130,General Medical Ward,Fictional Ward 05,30,2,2022-03-02 04:00:00,2022-03-02 15:00:00,FictionalClinician29,Fictional unit transfer
+U00390,A00130,MICU,Fictional Ward 06,31,3,2022-03-02 16:00:00,2022-03-03 04:00:00,FictionalClinician30,Fictional unit transfer
+U00391,A00131,Emergency Department,Fictional Ward 07,32,4,2022-03-02 08:00:00,2022-03-02 13:00:00,FictionalClinician31,Initial placement
+U00392,A00131,General Medical Ward,Fictional Ward 00,33,1,2022-03-02 15:00:00,2022-03-03 02:00:00,FictionalClinician32,Fictional unit transfer
+U00393,A00131,Surgical Ward,Fictional Ward 01,34,2,2022-03-03 03:00:00,2022-03-03 19:00:00,FictionalClinician33,Fictional unit transfer
+U00394,A00132,Emergency Department,Fictional Ward 02,35,3,2022-03-02 19:00:00,2022-03-03 00:00:00,FictionalClinician34,Initial placement
+U00395,A00132,General Medical Ward,Fictional Ward 03,36,4,2022-03-03 02:00:00,2022-03-03 13:00:00,FictionalClinician35,Fictional unit transfer
+U00396,A00132,Surgical Ward,Fictional Ward 04,37,1,2022-03-03 14:00:00,2022-03-04 06:00:00,FictionalClinician36,Fictional unit transfer
+U00397,A00133,Emergency Department,Fictional Ward 05,38,2,2022-03-03 06:00:00,2022-03-03 11:00:00,FictionalClinician37,Initial placement
+U00398,A00133,General Medical Ward,Fictional Ward 06,39,3,2022-03-03 13:00:00,2022-03-04 00:00:00,FictionalClinician38,Fictional unit transfer
+U00399,A00133,Surgical Ward,Fictional Ward 07,40,4,2022-03-04 01:00:00,2022-03-04 17:00:00,FictionalClinician39,Fictional unit transfer
+U00400,A00134,Emergency Department,Fictional Ward 00,41,1,2022-03-03 17:00:00,2022-03-03 22:00:00,FictionalClinician00,Initial placement
+U00401,A00134,General Medical Ward,Fictional Ward 01,42,2,2022-03-04 00:00:00,2022-03-04 11:00:00,FictionalClinician01,Fictional unit transfer
+U00402,A00134,Surgical Ward,Fictional Ward 02,43,3,2022-03-04 12:00:00,2022-03-05 04:00:00,FictionalClinician02,Fictional unit transfer
+U00403,A00135,Emergency Department,Fictional Ward 03,44,4,2022-03-04 04:00:00,2022-03-04 09:00:00,FictionalClinician03,Initial placement
+U00404,A00135,General Medical Ward,Fictional Ward 04,45,1,2022-03-04 11:00:00,2022-03-04 22:00:00,FictionalClinician04,Fictional unit transfer
+U00405,A00135,Surgical Ward,Fictional Ward 05,46,2,2022-03-04 23:00:00,2022-03-05 15:00:00,FictionalClinician05,Fictional unit transfer
+U00406,A00136,Emergency Department,Fictional Ward 06,47,3,2022-03-04 15:00:00,2022-03-04 20:00:00,FictionalClinician06,Initial placement
+U00407,A00136,General Medical Ward,Fictional Ward 07,48,4,2022-03-04 22:00:00,2022-03-05 09:00:00,FictionalClinician07,Fictional unit transfer
+U00408,A00136,Surgical Ward,Fictional Ward 00,49,1,2022-03-05 10:00:00,2022-03-06 02:00:00,FictionalClinician08,Fictional unit transfer
+U00409,A00137,Emergency Department,Fictional Ward 01,50,2,2022-03-05 02:00:00,2022-03-05 07:00:00,FictionalClinician09,Initial placement
+U00410,A00137,General Medical Ward,Fictional Ward 02,51,3,2022-03-05 09:00:00,2022-03-05 20:00:00,FictionalClinician10,Fictional unit transfer
+U00411,A00137,Surgical Ward,Fictional Ward 03,52,4,2022-03-05 21:00:00,2022-03-06 13:00:00,FictionalClinician11,Fictional unit transfer
+U00412,A00138,Emergency Department,Fictional Ward 04,53,1,2022-03-05 13:00:00,2022-03-05 18:00:00,FictionalClinician12,Initial placement
+U00413,A00138,General Medical Ward,Fictional Ward 05,54,2,2022-03-05 20:00:00,2022-03-06 07:00:00,FictionalClinician13,Fictional unit transfer
+U00414,A00138,Surgical Ward,Fictional Ward 06,55,3,2022-03-06 08:00:00,2022-03-07 00:00:00,FictionalClinician14,Fictional unit transfer
+U00415,A00139,Emergency Department,Fictional Ward 07,56,4,2022-03-06 00:00:00,2022-03-06 05:00:00,FictionalClinician15,Initial placement
+U00416,A00139,General Medical Ward,Fictional Ward 00,57,1,2022-03-06 07:00:00,2022-03-06 18:00:00,FictionalClinician16,Fictional unit transfer
+U00417,A00139,Surgical Ward,Fictional Ward 01,58,2,2022-03-06 19:00:00,2022-03-07 11:00:00,FictionalClinician17,Fictional unit transfer
+U00418,A00140,Emergency Department,Fictional Ward 02,59,3,2022-03-06 11:00:00,2022-03-06 16:00:00,FictionalClinician18,Initial placement
+U00419,A00140,General Medical Ward,Fictional Ward 03,60,4,2022-03-06 18:00:00,2022-03-07 05:00:00,FictionalClinician19,Fictional unit transfer
+U00420,A00140,Surgical Ward,Fictional Ward 04,01,1,2022-03-07 06:00:00,2022-03-07 22:00:00,FictionalClinician20,Fictional unit transfer
+U00421,A00141,Emergency Department,Fictional Ward 05,02,2,2022-03-06 22:00:00,2022-03-07 03:00:00,FictionalClinician21,Initial placement
+U00422,A00141,General Medical Ward,Fictional Ward 06,03,3,2022-03-07 05:00:00,2022-03-07 16:00:00,FictionalClinician22,Fictional unit transfer
+U00423,A00141,Surgical Ward,Fictional Ward 07,04,4,2022-03-07 17:00:00,2022-03-08 09:00:00,FictionalClinician23,Fictional unit transfer
+U00424,A00142,Emergency Department,Fictional Ward 00,05,1,2022-03-07 09:00:00,2022-03-07 14:00:00,FictionalClinician24,Initial placement
+U00425,A00142,General Medical Ward,Fictional Ward 01,06,2,2022-03-07 16:00:00,2022-03-08 03:00:00,FictionalClinician25,Fictional unit transfer
+U00426,A00142,Surgical Ward,Fictional Ward 02,07,3,2022-03-08 04:00:00,2022-03-08 20:00:00,FictionalClinician26,Fictional unit transfer
+U00427,A00143,Emergency Department,Fictional Ward 03,08,4,2022-03-07 20:00:00,2022-03-08 01:00:00,FictionalClinician27,Initial placement
+U00428,A00143,General Medical Ward,Fictional Ward 04,09,1,2022-03-08 03:00:00,2022-03-08 14:00:00,FictionalClinician28,Fictional unit transfer
+U00429,A00143,Surgical Ward,Fictional Ward 05,10,2,2022-03-08 15:00:00,2022-03-09 07:00:00,FictionalClinician29,Fictional unit transfer
+U00430,A00144,Emergency Department,Fictional Ward 06,11,3,2022-03-08 07:00:00,2022-03-08 12:00:00,FictionalClinician30,Initial placement
+U00431,A00144,General Medical Ward,Fictional Ward 07,12,4,2022-03-08 14:00:00,2022-03-09 01:00:00,FictionalClinician31,Fictional unit transfer
+U00432,A00144,Surgical Ward,Fictional Ward 00,13,1,2022-03-09 02:00:00,2022-03-09 18:00:00,FictionalClinician32,Fictional unit transfer
+U00433,A00145,Emergency Department,Fictional Ward 01,14,2,2022-03-08 18:00:00,2022-03-08 23:00:00,FictionalClinician33,Initial placement
+U00434,A00145,General Medical Ward,Fictional Ward 02,15,3,2022-03-09 01:00:00,2022-03-09 12:00:00,FictionalClinician34,Fictional unit transfer
+U00435,A00145,Surgical Ward,Fictional Ward 03,16,4,2022-03-09 13:00:00,2022-03-10 05:00:00,FictionalClinician35,Fictional unit transfer
+U00436,A00146,Emergency Department,Fictional Ward 04,17,1,2022-03-09 05:00:00,2022-03-09 10:00:00,FictionalClinician36,Initial placement
+U00437,A00146,General Medical Ward,Fictional Ward 05,18,2,2022-03-09 12:00:00,2022-03-09 23:00:00,FictionalClinician37,Fictional unit transfer
+U00438,A00146,Surgical Ward,Fictional Ward 06,19,3,2022-03-10 00:00:00,2022-03-10 16:00:00,FictionalClinician38,Fictional unit transfer
+U00439,A00147,Emergency Department,Fictional Ward 07,20,4,2022-03-09 16:00:00,2022-03-09 21:00:00,FictionalClinician39,Initial placement
+U00440,A00147,General Medical Ward,Fictional Ward 00,21,1,2022-03-09 23:00:00,2022-03-10 10:00:00,FictionalClinician00,Fictional unit transfer
+U00441,A00147,Surgical Ward,Fictional Ward 01,22,2,2022-03-10 11:00:00,2022-03-11 03:00:00,FictionalClinician01,Fictional unit transfer
+U00442,A00148,Emergency Department,Fictional Ward 02,23,3,2022-03-10 03:00:00,2022-03-10 08:00:00,FictionalClinician02,Initial placement
+U00443,A00148,General Medical Ward,Fictional Ward 03,24,4,2022-03-10 10:00:00,2022-03-10 21:00:00,FictionalClinician03,Fictional unit transfer
+U00444,A00148,Surgical Ward,Fictional Ward 04,25,1,2022-03-10 22:00:00,2022-03-11 14:00:00,FictionalClinician04,Fictional unit transfer
+U00445,A00149,Emergency Department,Fictional Ward 05,26,2,2022-03-10 14:00:00,2022-03-10 19:00:00,FictionalClinician05,Initial placement
+U00446,A00149,General Medical Ward,Fictional Ward 06,27,3,2022-03-10 21:00:00,2022-03-11 08:00:00,FictionalClinician06,Fictional unit transfer
+U00447,A00149,Surgical Ward,Fictional Ward 07,28,4,2022-03-11 09:00:00,2022-03-12 01:00:00,FictionalClinician07,Fictional unit transfer
+U00448,A00150,Emergency Department,Fictional Ward 00,29,1,2022-03-11 01:00:00,2022-03-11 06:00:00,FictionalClinician08,Initial placement
+U00449,A00150,General Medical Ward,Fictional Ward 01,30,2,2022-03-11 08:00:00,2022-03-11 19:00:00,FictionalClinician09,Fictional unit transfer
+U00450,A00150,Surgical Ward,Fictional Ward 02,31,3,2022-03-11 20:00:00,2022-03-12 12:00:00,FictionalClinician10,Fictional unit transfer
+U00451,A00151,Emergency Department,Fictional Ward 03,32,4,2022-03-11 12:00:00,2022-03-11 17:00:00,FictionalClinician11,Initial placement
+U00452,A00151,General Medical Ward,Fictional Ward 04,33,1,2022-03-11 19:00:00,2022-03-12 06:00:00,FictionalClinician12,Fictional unit transfer
+U00453,A00151,SICU,Fictional Ward 05,34,2,2022-03-12 07:00:00,2022-03-12 19:00:00,FictionalClinician13,Fictional unit transfer
+U00454,A00152,Emergency Department,Fictional Ward 06,35,3,2022-03-11 23:00:00,2022-03-12 04:00:00,FictionalClinician14,Initial placement
+U00455,A00152,General Medical Ward,Fictional Ward 07,36,4,2022-03-12 06:00:00,2022-03-12 17:00:00,FictionalClinician15,Fictional unit transfer
+U00456,A00152,ICU,Fictional Ward 00,37,1,2022-03-12 18:00:00,2022-03-13 06:00:00,FictionalClinician16,Fictional unit transfer
+U00457,A00153,Emergency Department,Fictional Ward 01,38,2,2022-03-12 10:00:00,2022-03-12 15:00:00,FictionalClinician17,Initial placement
+U00458,A00153,General Medical Ward,Fictional Ward 02,39,3,2022-03-12 17:00:00,2022-03-13 04:00:00,FictionalClinician18,Fictional unit transfer
+U00459,A00153,CCU,Fictional Ward 03,40,4,2022-03-13 05:00:00,2022-03-13 17:00:00,FictionalClinician19,Fictional unit transfer
+U00460,A00154,Emergency Department,Fictional Ward 04,41,1,2022-03-12 21:00:00,2022-03-13 02:00:00,FictionalClinician20,Initial placement
+U00461,A00154,General Medical Ward,Fictional Ward 05,42,2,2022-03-13 04:00:00,2022-03-13 15:00:00,FictionalClinician21,Fictional unit transfer
+U00462,A00154,MICU,Fictional Ward 06,43,3,2022-03-13 16:00:00,2022-03-14 04:00:00,FictionalClinician22,Fictional unit transfer
+U00463,A00155,Emergency Department,Fictional Ward 07,44,4,2022-03-13 08:00:00,2022-03-13 13:00:00,FictionalClinician23,Initial placement
+U00464,A00155,General Medical Ward,Fictional Ward 00,45,1,2022-03-13 15:00:00,2022-03-14 02:00:00,FictionalClinician24,Fictional unit transfer
+U00465,A00155,SICU,Fictional Ward 01,46,2,2022-03-14 03:00:00,2022-03-14 15:00:00,FictionalClinician25,Fictional unit transfer
+U00466,A00156,Emergency Department,Fictional Ward 02,47,3,2022-03-13 19:00:00,2022-03-14 00:00:00,FictionalClinician26,Initial placement
+U00467,A00156,General Medical Ward,Fictional Ward 03,48,4,2022-03-14 02:00:00,2022-03-14 13:00:00,FictionalClinician27,Fictional unit transfer
+U00468,A00156,ICU,Fictional Ward 04,49,1,2022-03-14 14:00:00,2022-03-15 02:00:00,FictionalClinician28,Fictional unit transfer
+U00469,A00157,Emergency Department,Fictional Ward 05,50,2,2022-03-14 06:00:00,2022-03-14 11:00:00,FictionalClinician29,Initial placement
+U00470,A00157,General Medical Ward,Fictional Ward 06,51,3,2022-03-14 13:00:00,2022-03-15 00:00:00,FictionalClinician30,Fictional unit transfer
+U00471,A00157,CCU,Fictional Ward 07,52,4,2022-03-15 01:00:00,2022-03-15 13:00:00,FictionalClinician31,Fictional unit transfer
+U00472,A00158,Emergency Department,Fictional Ward 00,53,1,2022-03-14 17:00:00,2022-03-14 22:00:00,FictionalClinician32,Initial placement
+U00473,A00158,General Medical Ward,Fictional Ward 01,54,2,2022-03-15 00:00:00,2022-03-15 11:00:00,FictionalClinician33,Fictional unit transfer
+U00474,A00158,MICU,Fictional Ward 02,55,3,2022-03-15 12:00:00,2022-03-16 00:00:00,FictionalClinician34,Fictional unit transfer
+U00475,A00159,Emergency Department,Fictional Ward 03,56,4,2022-03-15 04:00:00,2022-03-15 09:00:00,FictionalClinician35,Initial placement
+U00476,A00159,General Medical Ward,Fictional Ward 04,57,1,2022-03-15 11:00:00,2022-03-15 22:00:00,FictionalClinician36,Fictional unit transfer
+U00477,A00159,SICU,Fictional Ward 05,58,2,2022-03-15 23:00:00,2022-03-16 11:00:00,FictionalClinician37,Fictional unit transfer
+U00478,A00160,Emergency Department,Fictional Ward 06,59,3,2022-03-15 15:00:00,2022-03-15 20:00:00,FictionalClinician38,Initial placement
+U00479,A00160,General Medical Ward,Fictional Ward 07,60,4,2022-03-15 22:00:00,2022-03-16 09:00:00,FictionalClinician39,Fictional unit transfer
+U00480,A00160,ICU,Fictional Ward 00,01,1,2022-03-16 10:00:00,2022-03-16 22:00:00,FictionalClinician00,Fictional unit transfer
+U00481,A00161,Emergency Department,Fictional Ward 01,02,2,2022-03-16 02:00:00,2022-03-16 07:00:00,FictionalClinician01,Initial placement
+U00482,A00161,General Medical Ward,Fictional Ward 02,03,3,2022-03-16 09:00:00,2022-03-16 20:00:00,FictionalClinician02,Fictional unit transfer
+U00483,A00161,CCU,Fictional Ward 03,04,4,2022-03-16 21:00:00,2022-03-17 09:00:00,FictionalClinician03,Fictional unit transfer
+U00484,A00162,Emergency Department,Fictional Ward 04,05,1,2022-03-16 13:00:00,2022-03-16 18:00:00,FictionalClinician04,Initial placement
+U00485,A00162,General Medical Ward,Fictional Ward 05,06,2,2022-03-16 20:00:00,2022-03-17 07:00:00,FictionalClinician05,Fictional unit transfer
+U00486,A00162,MICU,Fictional Ward 06,07,3,2022-03-17 08:00:00,2022-03-17 20:00:00,FictionalClinician06,Fictional unit transfer
+U00487,A00163,Emergency Department,Fictional Ward 07,08,4,2022-03-17 00:00:00,2022-03-17 05:00:00,FictionalClinician07,Initial placement
+U00488,A00163,General Medical Ward,Fictional Ward 00,09,1,2022-03-17 07:00:00,2022-03-17 18:00:00,FictionalClinician08,Fictional unit transfer
+U00489,A00163,SICU,Fictional Ward 01,10,2,2022-03-17 19:00:00,2022-03-18 07:00:00,FictionalClinician09,Fictional unit transfer
+U00490,A00164,Emergency Department,Fictional Ward 02,11,3,2022-03-17 11:00:00,2022-03-17 16:00:00,FictionalClinician10,Initial placement
+U00491,A00164,General Medical Ward,Fictional Ward 03,12,4,2022-03-17 18:00:00,2022-03-18 05:00:00,FictionalClinician11,Fictional unit transfer
+U00492,A00164,ICU,Fictional Ward 04,13,1,2022-03-18 06:00:00,2022-03-18 18:00:00,FictionalClinician12,Fictional unit transfer
+U00493,A00165,Emergency Department,Fictional Ward 05,14,2,2022-03-17 22:00:00,2022-03-18 03:00:00,FictionalClinician13,Initial placement
+U00494,A00165,General Medical Ward,Fictional Ward 06,15,3,2022-03-18 05:00:00,2022-03-18 16:00:00,FictionalClinician14,Fictional unit transfer
+U00495,A00165,CCU,Fictional Ward 07,16,4,2022-03-18 17:00:00,2022-03-19 05:00:00,FictionalClinician15,Fictional unit transfer
+U00496,A00166,Emergency Department,Fictional Ward 00,17,1,2022-03-18 09:00:00,2022-03-18 14:00:00,FictionalClinician16,Initial placement
+U00497,A00166,General Medical Ward,Fictional Ward 01,18,2,2022-03-18 16:00:00,2022-03-19 03:00:00,FictionalClinician17,Fictional unit transfer
+U00498,A00166,MICU,Fictional Ward 02,19,3,2022-03-19 04:00:00,2022-03-19 16:00:00,FictionalClinician18,Fictional unit transfer
+U00499,A00167,Emergency Department,Fictional Ward 03,20,4,2022-03-18 20:00:00,2022-03-19 01:00:00,FictionalClinician19,Initial placement
+U00500,A00167,General Medical Ward,Fictional Ward 04,21,1,2022-03-19 03:00:00,2022-03-19 14:00:00,FictionalClinician20,Fictional unit transfer
+U00501,A00167,SICU,Fictional Ward 05,22,2,2022-03-19 15:00:00,2022-03-20 03:00:00,FictionalClinician21,Fictional unit transfer
+U00502,A00168,Emergency Department,Fictional Ward 06,23,3,2022-03-19 07:00:00,2022-03-19 12:00:00,FictionalClinician22,Initial placement
+U00503,A00168,General Medical Ward,Fictional Ward 07,24,4,2022-03-19 14:00:00,2022-03-20 01:00:00,FictionalClinician23,Fictional unit transfer
+U00504,A00168,ICU,Fictional Ward 00,25,1,2022-03-20 02:00:00,2022-03-20 14:00:00,FictionalClinician24,Fictional unit transfer
+U00505,A00169,Emergency Department,Fictional Ward 01,26,2,2022-03-19 18:00:00,2022-03-19 23:00:00,FictionalClinician25,Initial placement
+U00506,A00169,General Medical Ward,Fictional Ward 02,27,3,2022-03-20 01:00:00,2022-03-20 12:00:00,FictionalClinician26,Fictional unit transfer
+U00507,A00169,CCU,Fictional Ward 03,28,4,2022-03-20 13:00:00,2022-03-21 01:00:00,FictionalClinician27,Fictional unit transfer
+U00508,A00170,Emergency Department,Fictional Ward 04,29,1,2022-03-20 05:00:00,2022-03-20 10:00:00,FictionalClinician28,Initial placement
+U00509,A00170,General Medical Ward,Fictional Ward 05,30,2,2022-03-20 12:00:00,2022-03-20 23:00:00,FictionalClinician29,Fictional unit transfer
+U00510,A00170,MICU,Fictional Ward 06,31,3,2022-03-21 00:00:00,2022-03-21 12:00:00,FictionalClinician30,Fictional unit transfer
+U00511,A00171,Emergency Department,Fictional Ward 07,32,4,2022-03-20 16:00:00,2022-03-20 21:00:00,FictionalClinician31,Initial placement
+U00512,A00171,General Medical Ward,Fictional Ward 00,33,1,2022-03-20 23:00:00,2022-03-21 10:00:00,FictionalClinician32,Fictional unit transfer
+U00513,A00171,SICU,Fictional Ward 01,34,2,2022-03-21 11:00:00,2022-03-21 23:00:00,FictionalClinician33,Fictional unit transfer
+U00514,A00172,Emergency Department,Fictional Ward 02,35,3,2022-03-21 03:00:00,2022-03-21 08:00:00,FictionalClinician34,Initial placement
+U00515,A00172,General Medical Ward,Fictional Ward 03,36,4,2022-03-21 10:00:00,2022-03-21 21:00:00,FictionalClinician35,Fictional unit transfer
+U00516,A00172,ICU,Fictional Ward 04,37,1,2022-03-21 22:00:00,2022-03-22 10:00:00,FictionalClinician36,Fictional unit transfer
+U00517,A00173,Emergency Department,Fictional Ward 05,38,2,2022-03-21 14:00:00,2022-03-21 19:00:00,FictionalClinician37,Initial placement
+U00518,A00173,General Medical Ward,Fictional Ward 06,39,3,2022-03-21 21:00:00,2022-03-22 08:00:00,FictionalClinician38,Fictional unit transfer
+U00519,A00173,CCU,Fictional Ward 07,40,4,2022-03-22 09:00:00,2022-03-22 21:00:00,FictionalClinician39,Fictional unit transfer
+U00520,A00174,Emergency Department,Fictional Ward 00,41,1,2022-03-22 01:00:00,2022-03-22 06:00:00,FictionalClinician00,Initial placement
+U00521,A00174,General Medical Ward,Fictional Ward 01,42,2,2022-03-22 08:00:00,2022-03-22 19:00:00,FictionalClinician01,Fictional unit transfer
+U00522,A00174,MICU,Fictional Ward 02,43,3,2022-03-22 20:00:00,2022-03-23 08:00:00,FictionalClinician02,Fictional unit transfer
+U00523,A00175,Emergency Department,Fictional Ward 03,44,4,2022-03-22 12:00:00,2022-03-22 17:00:00,FictionalClinician03,Initial placement
+U00524,A00175,General Medical Ward,Fictional Ward 04,45,1,2022-03-22 19:00:00,2022-03-23 06:00:00,FictionalClinician04,Fictional unit transfer
+U00525,A00175,SICU,Fictional Ward 05,46,2,2022-03-23 07:00:00,2022-03-23 19:00:00,FictionalClinician05,Fictional unit transfer
+U00526,A00176,Emergency Department,Fictional Ward 06,47,3,2022-03-22 23:00:00,2022-03-23 04:00:00,FictionalClinician06,Initial placement
+U00527,A00176,General Medical Ward,Fictional Ward 07,48,4,2022-03-23 06:00:00,2022-03-23 17:00:00,FictionalClinician07,Fictional unit transfer
+U00528,A00176,ICU,Fictional Ward 00,49,1,2022-03-23 18:00:00,2022-03-24 06:00:00,FictionalClinician08,Fictional unit transfer
+U00529,A00177,Emergency Department,Fictional Ward 01,50,2,2022-03-23 10:00:00,2022-03-23 15:00:00,FictionalClinician09,Initial placement
+U00530,A00177,General Medical Ward,Fictional Ward 02,51,3,2022-03-23 17:00:00,2022-03-24 04:00:00,FictionalClinician10,Fictional unit transfer
+U00531,A00177,CCU,Fictional Ward 03,52,4,2022-03-24 05:00:00,2022-03-24 17:00:00,FictionalClinician11,Fictional unit transfer
+U00532,A00178,Emergency Department,Fictional Ward 04,53,1,2022-03-23 21:00:00,2022-03-24 02:00:00,FictionalClinician12,Initial placement
+U00533,A00178,General Medical Ward,Fictional Ward 05,54,2,2022-03-24 04:00:00,2022-03-24 15:00:00,FictionalClinician13,Fictional unit transfer
+U00534,A00178,MICU,Fictional Ward 06,55,3,2022-03-24 16:00:00,2022-03-25 04:00:00,FictionalClinician14,Fictional unit transfer
+U00535,A00179,Emergency Department,Fictional Ward 07,56,4,2022-03-24 08:00:00,2022-03-24 13:00:00,FictionalClinician15,Initial placement
+U00536,A00179,General Medical Ward,Fictional Ward 00,57,1,2022-03-24 15:00:00,2022-03-25 02:00:00,FictionalClinician16,Fictional unit transfer
+U00537,A00179,SICU,Fictional Ward 01,58,2,2022-03-25 03:00:00,2022-03-25 15:00:00,FictionalClinician17,Fictional unit transfer
+U00538,A00180,Emergency Department,Fictional Ward 02,59,3,2022-03-24 19:00:00,2022-03-25 00:00:00,FictionalClinician18,Initial placement
+U00539,A00180,General Medical Ward,Fictional Ward 03,60,4,2022-03-25 02:00:00,2022-03-25 13:00:00,FictionalClinician19,Fictional unit transfer
+U00540,A00180,ICU,Fictional Ward 04,01,1,2022-03-25 14:00:00,2022-03-26 02:00:00,FictionalClinician20,Fictional unit transfer
+U00541,A00181,Emergency Department,Fictional Ward 05,02,2,2022-03-25 06:00:00,2022-03-25 11:00:00,FictionalClinician21,Initial placement
+U00542,A00181,General Medical Ward,Fictional Ward 06,03,3,2022-03-25 13:00:00,2022-03-26 00:00:00,FictionalClinician22,Fictional unit transfer
+U00543,A00181,CCU,Fictional Ward 07,04,4,2022-03-26 01:00:00,2022-03-26 13:00:00,FictionalClinician23,Fictional unit transfer
+U00544,A00182,Emergency Department,Fictional Ward 00,05,1,2022-03-25 17:00:00,2022-03-25 22:00:00,FictionalClinician24,Initial placement
+U00545,A00182,General Medical Ward,Fictional Ward 01,06,2,2022-03-26 00:00:00,2022-03-26 11:00:00,FictionalClinician25,Fictional unit transfer
+U00546,A00182,MICU,Fictional Ward 02,07,3,2022-03-26 12:00:00,2022-03-27 00:00:00,FictionalClinician26,Fictional unit transfer
+U00547,A00183,Emergency Department,Fictional Ward 03,08,4,2022-03-26 04:00:00,2022-03-26 09:00:00,FictionalClinician27,Initial placement
+U00548,A00183,General Medical Ward,Fictional Ward 04,09,1,2022-03-26 11:00:00,2022-03-26 22:00:00,FictionalClinician28,Fictional unit transfer
+U00549,A00183,SICU,Fictional Ward 05,10,2,2022-03-26 23:00:00,2022-03-27 11:00:00,FictionalClinician29,Fictional unit transfer
+U00550,A00184,Emergency Department,Fictional Ward 06,11,3,2022-03-26 15:00:00,2022-03-26 20:00:00,FictionalClinician30,Initial placement
+U00551,A00184,General Medical Ward,Fictional Ward 07,12,4,2022-03-26 22:00:00,2022-03-27 09:00:00,FictionalClinician31,Fictional unit transfer
+U00552,A00184,ICU,Fictional Ward 00,13,1,2022-03-27 10:00:00,2022-03-27 22:00:00,FictionalClinician32,Fictional unit transfer
+U00553,A00185,Emergency Department,Fictional Ward 01,14,2,2022-03-27 02:00:00,2022-03-27 07:00:00,FictionalClinician33,Initial placement
+U00554,A00185,General Medical Ward,Fictional Ward 02,15,3,2022-03-27 09:00:00,2022-03-27 20:00:00,FictionalClinician34,Fictional unit transfer
+U00555,A00185,CCU,Fictional Ward 03,16,4,2022-03-27 21:00:00,2022-03-28 09:00:00,FictionalClinician35,Fictional unit transfer
+U00556,A00186,Emergency Department,Fictional Ward 04,17,1,2022-03-27 13:00:00,2022-03-27 18:00:00,FictionalClinician36,Initial placement
+U00557,A00186,General Medical Ward,Fictional Ward 05,18,2,2022-03-27 20:00:00,2022-03-28 07:00:00,FictionalClinician37,Fictional unit transfer
+U00558,A00186,MICU,Fictional Ward 06,19,3,2022-03-28 08:00:00,2022-03-28 20:00:00,FictionalClinician38,Fictional unit transfer
+U00559,A00187,Emergency Department,Fictional Ward 07,20,4,2022-03-28 00:00:00,2022-03-28 05:00:00,FictionalClinician39,Initial placement
+U00560,A00187,General Medical Ward,Fictional Ward 00,21,1,2022-03-28 07:00:00,2022-03-28 18:00:00,FictionalClinician00,Fictional unit transfer
+U00561,A00187,SICU,Fictional Ward 01,22,2,2022-03-28 19:00:00,2022-03-29 07:00:00,FictionalClinician01,Fictional unit transfer
+U00562,A00188,Emergency Department,Fictional Ward 02,23,3,2022-03-28 11:00:00,2022-03-28 16:00:00,FictionalClinician02,Initial placement
+U00563,A00188,General Medical Ward,Fictional Ward 03,24,4,2022-03-28 18:00:00,2022-03-29 05:00:00,FictionalClinician03,Fictional unit transfer
+U00564,A00188,ICU,Fictional Ward 04,25,1,2022-03-29 06:00:00,2022-03-29 18:00:00,FictionalClinician04,Fictional unit transfer
+U00565,A00189,Emergency Department,Fictional Ward 05,26,2,2022-03-28 22:00:00,2022-03-29 03:00:00,FictionalClinician05,Initial placement
+U00566,A00189,General Medical Ward,Fictional Ward 06,27,3,2022-03-29 05:00:00,2022-03-29 16:00:00,FictionalClinician06,Fictional unit transfer
+U00567,A00189,CCU,Fictional Ward 07,28,4,2022-03-29 17:00:00,2022-03-30 05:00:00,FictionalClinician07,Fictional unit transfer
+U00568,A00190,Emergency Department,Fictional Ward 00,29,1,2022-03-29 09:00:00,2022-03-29 14:00:00,FictionalClinician08,Initial placement
+U00569,A00190,General Medical Ward,Fictional Ward 01,30,2,2022-03-29 16:00:00,2022-03-30 03:00:00,FictionalClinician09,Fictional unit transfer
+U00570,A00190,MICU,Fictional Ward 02,31,3,2022-03-30 04:00:00,2022-03-30 16:00:00,FictionalClinician10,Fictional unit transfer
+U00571,A00191,Emergency Department,Fictional Ward 03,32,4,2022-03-29 20:00:00,2022-03-30 01:00:00,FictionalClinician11,Initial placement
+U00572,A00191,General Medical Ward,Fictional Ward 04,33,1,2022-03-30 03:00:00,2022-03-30 14:00:00,FictionalClinician12,Fictional unit transfer
+U00573,A00191,SICU,Fictional Ward 05,34,2,2022-03-30 15:00:00,2022-03-31 03:00:00,FictionalClinician13,Fictional unit transfer
+U00574,A00192,Emergency Department,Fictional Ward 06,35,3,2022-03-30 07:00:00,2022-03-30 12:00:00,FictionalClinician14,Initial placement
+U00575,A00192,General Medical Ward,Fictional Ward 07,36,4,2022-03-30 14:00:00,2022-03-31 01:00:00,FictionalClinician15,Fictional unit transfer
+U00576,A00192,ICU,Fictional Ward 00,37,1,2022-03-31 02:00:00,2022-03-31 14:00:00,FictionalClinician16,Fictional unit transfer
+U00577,A00193,Emergency Department,Fictional Ward 01,38,2,2022-03-30 18:00:00,2022-03-30 23:00:00,FictionalClinician17,Initial placement
+U00578,A00193,General Medical Ward,Fictional Ward 02,39,3,2022-03-31 01:00:00,2022-03-31 12:00:00,FictionalClinician18,Fictional unit transfer
+U00579,A00193,CCU,Fictional Ward 03,40,4,2022-03-31 13:00:00,2022-04-01 01:00:00,FictionalClinician19,Fictional unit transfer
+U00580,A00194,Emergency Department,Fictional Ward 04,41,1,2022-03-31 05:00:00,2022-03-31 10:00:00,FictionalClinician20,Initial placement
+U00581,A00194,General Medical Ward,Fictional Ward 05,42,2,2022-03-31 12:00:00,2022-03-31 23:00:00,FictionalClinician21,Fictional unit transfer
+U00582,A00194,MICU,Fictional Ward 06,43,3,2022-04-01 00:00:00,2022-04-01 12:00:00,FictionalClinician22,Fictional unit transfer
+U00583,A00195,Emergency Department,Fictional Ward 07,44,4,2022-03-31 16:00:00,2022-03-31 21:00:00,FictionalClinician23,Initial placement
+U00584,A00195,General Medical Ward,Fictional Ward 00,45,1,2022-03-31 23:00:00,2022-04-01 10:00:00,FictionalClinician24,Fictional unit transfer
+U00585,A00195,SICU,Fictional Ward 01,46,2,2022-04-01 11:00:00,2022-04-01 23:00:00,FictionalClinician25,Fictional unit transfer
+U00586,A00196,Emergency Department,Fictional Ward 02,47,3,2022-04-01 03:00:00,2022-04-01 08:00:00,FictionalClinician26,Initial placement
+U00587,A00196,General Medical Ward,Fictional Ward 03,48,4,2022-04-01 10:00:00,2022-04-01 21:00:00,FictionalClinician27,Fictional unit transfer
+U00588,A00196,ICU,Fictional Ward 04,49,1,2022-04-01 22:00:00,2022-04-02 10:00:00,FictionalClinician28,Fictional unit transfer
+U00589,A00197,Emergency Department,Fictional Ward 05,50,2,2022-04-01 14:00:00,2022-04-01 19:00:00,FictionalClinician29,Initial placement
+U00590,A00197,General Medical Ward,Fictional Ward 06,51,3,2022-04-01 21:00:00,2022-04-02 08:00:00,FictionalClinician30,Fictional unit transfer
+U00591,A00197,CCU,Fictional Ward 07,52,4,2022-04-02 09:00:00,2022-04-02 21:00:00,FictionalClinician31,Fictional unit transfer
+U00592,A00198,Emergency Department,Fictional Ward 00,53,1,2022-04-02 01:00:00,2022-04-02 06:00:00,FictionalClinician32,Initial placement
+U00593,A00198,General Medical Ward,Fictional Ward 01,54,2,2022-04-02 08:00:00,2022-04-02 19:00:00,FictionalClinician33,Fictional unit transfer
+U00594,A00198,MICU,Fictional Ward 02,55,3,2022-04-02 20:00:00,2022-04-03 08:00:00,FictionalClinician34,Fictional unit transfer
+U00595,A00199,Emergency Department,Fictional Ward 03,56,4,2022-04-02 12:00:00,2022-04-02 17:00:00,FictionalClinician35,Initial placement
+U00596,A00199,General Medical Ward,Fictional Ward 04,57,1,2022-04-02 19:00:00,2022-04-03 06:00:00,FictionalClinician36,Fictional unit transfer
+U00597,A00199,SICU,Fictional Ward 05,58,2,2022-04-03 07:00:00,2022-04-03 19:00:00,FictionalClinician37,Fictional unit transfer
+U00598,A00200,Emergency Department,Fictional Ward 06,59,3,2022-04-02 23:00:00,2022-04-03 04:00:00,FictionalClinician38,Initial placement
+U00599,A00200,General Medical Ward,Fictional Ward 07,60,4,2022-04-03 06:00:00,2022-04-03 17:00:00,FictionalClinician39,Fictional unit transfer
+U00600,A00200,ICU,Fictional Ward 00,01,1,2022-04-03 18:00:00,2022-04-04 06:00:00,FictionalClinician00,Fictional unit transfer
+U00601,A00201,CCU,Fictional Ward 01,02,2,2022-04-03 12:00:00,2022-04-04 00:00:00,FictionalClinician01,Initial placement
+U00602,A00202,MICU,Fictional Ward 02,03,3,2022-04-03 23:00:00,2022-04-04 11:00:00,FictionalClinician02,Fictional unit transfer
+U00603,A00203,SICU,Fictional Ward 03,04,4,2022-04-04 10:00:00,2022-04-04 22:00:00,FictionalClinician03,Fictional unit transfer
+U00604,A00204,ICU,Fictional Ward 04,05,1,2022-04-04 21:00:00,2022-04-05 09:00:00,FictionalClinician04,Initial placement
+U00605,A00205,CCU,Fictional Ward 05,06,2,2022-04-05 08:00:00,2022-04-05 20:00:00,FictionalClinician05,Fictional unit transfer
+U00606,A00206,MICU,Fictional Ward 06,07,3,2022-04-05 19:00:00,2022-04-06 07:00:00,FictionalClinician06,Fictional unit transfer
+U00607,A00207,SICU,Fictional Ward 07,08,4,2022-04-06 06:00:00,2022-04-06 18:00:00,FictionalClinician07,Initial placement
+U00608,A00208,ICU,Fictional Ward 00,09,1,2022-04-06 17:00:00,2022-04-07 05:00:00,FictionalClinician08,Fictional unit transfer
+U00609,A00209,CCU,Fictional Ward 01,10,2,2022-04-07 04:00:00,2022-04-07 16:00:00,FictionalClinician09,Fictional unit transfer
+U00610,A00210,MICU,Fictional Ward 02,11,3,2022-04-07 15:00:00,2022-04-08 03:00:00,FictionalClinician10,Initial placement
+U00611,A00211,SICU,Fictional Ward 03,12,4,2022-04-08 02:00:00,2022-04-08 14:00:00,FictionalClinician11,Fictional unit transfer
+U00612,A00212,ICU,Fictional Ward 04,13,1,2022-04-08 13:00:00,2022-04-09 01:00:00,FictionalClinician12,Fictional unit transfer
+U00613,A00213,CCU,Fictional Ward 05,14,2,2022-04-09 00:00:00,2022-04-09 12:00:00,FictionalClinician13,Initial placement
+U00614,A00214,MICU,Fictional Ward 06,15,3,2022-04-09 11:00:00,2022-04-09 23:00:00,FictionalClinician14,Fictional unit transfer
+U00615,A00215,SICU,Fictional Ward 07,16,4,2022-04-09 22:00:00,2022-04-10 10:00:00,FictionalClinician15,Fictional unit transfer
+U00616,A00216,ICU,Fictional Ward 00,17,1,2022-04-10 09:00:00,2022-04-10 21:00:00,FictionalClinician16,Initial placement
+U00617,A00217,CCU,Fictional Ward 01,18,2,2022-04-10 20:00:00,2022-04-11 08:00:00,FictionalClinician17,Fictional unit transfer
+U00618,A00218,MICU,Fictional Ward 02,19,3,2022-04-11 07:00:00,2022-04-11 19:00:00,FictionalClinician18,Fictional unit transfer
+U00619,A00219,SICU,Fictional Ward 03,20,4,2022-04-11 18:00:00,2022-04-12 06:00:00,FictionalClinician19,Initial placement
+U00620,A00220,ICU,Fictional Ward 04,21,1,2022-04-12 05:00:00,2022-04-12 17:00:00,FictionalClinician20,Fictional unit transfer
+U00621,A00221,CCU,Fictional Ward 05,22,2,2022-04-12 16:00:00,2022-04-13 04:00:00,FictionalClinician21,Fictional unit transfer
+U00622,A00222,MICU,Fictional Ward 06,23,3,2022-04-13 03:00:00,2022-04-13 15:00:00,FictionalClinician22,Initial placement
+U00623,A00223,SICU,Fictional Ward 07,24,4,2022-04-13 14:00:00,2022-04-14 02:00:00,FictionalClinician23,Fictional unit transfer
+U00624,A00224,ICU,Fictional Ward 00,25,1,2022-04-14 01:00:00,2022-04-14 13:00:00,FictionalClinician24,Fictional unit transfer
+U00625,A00225,CCU,Fictional Ward 01,26,2,2022-04-14 12:00:00,2022-04-15 00:00:00,FictionalClinician25,Initial placement
+U00626,A00226,MICU,Fictional Ward 02,27,3,2022-04-14 23:00:00,2022-04-15 11:00:00,FictionalClinician26,Fictional unit transfer
+U00627,A00227,SICU,Fictional Ward 03,28,4,2022-04-15 10:00:00,2022-04-15 22:00:00,FictionalClinician27,Fictional unit transfer
+U00628,A00228,ICU,Fictional Ward 04,29,1,2022-04-15 21:00:00,2022-04-16 09:00:00,FictionalClinician28,Initial placement
+U00629,A00229,CCU,Fictional Ward 05,30,2,2022-04-16 08:00:00,2022-04-16 20:00:00,FictionalClinician29,Fictional unit transfer
+U00630,A00230,MICU,Fictional Ward 06,31,3,2022-04-16 19:00:00,2022-04-17 07:00:00,FictionalClinician30,Fictional unit transfer
+U00631,A00231,SICU,Fictional Ward 07,32,4,2022-04-17 06:00:00,2022-04-17 18:00:00,FictionalClinician31,Initial placement
+U00632,A00232,ICU,Fictional Ward 00,33,1,2022-04-17 17:00:00,2022-04-18 05:00:00,FictionalClinician32,Fictional unit transfer
+U00633,A00233,CCU,Fictional Ward 01,34,2,2022-04-18 04:00:00,2022-04-18 16:00:00,FictionalClinician33,Fictional unit transfer
+U00634,A00234,MICU,Fictional Ward 02,35,3,2022-04-18 15:00:00,2022-04-19 03:00:00,FictionalClinician34,Initial placement
+U00635,A00235,SICU,Fictional Ward 03,36,4,2022-04-19 02:00:00,2022-04-19 14:00:00,FictionalClinician35,Fictional unit transfer
+U00636,A00236,ICU,Fictional Ward 04,37,1,2022-04-19 13:00:00,2022-04-20 01:00:00,FictionalClinician36,Fictional unit transfer
+U00637,A00237,CCU,Fictional Ward 05,38,2,2022-04-20 00:00:00,2022-04-20 12:00:00,FictionalClinician37,Initial placement
+U00638,A00238,MICU,Fictional Ward 06,39,3,2022-04-20 11:00:00,2022-04-20 23:00:00,FictionalClinician38,Fictional unit transfer
+U00639,A00239,SICU,Fictional Ward 07,40,4,2022-04-20 22:00:00,2022-04-21 10:00:00,FictionalClinician39,Fictional unit transfer
+U00640,A00240,ICU,Fictional Ward 00,41,1,2022-04-21 09:00:00,2022-04-21 21:00:00,FictionalClinician00,Initial placement
+U00641,A00241,CCU,Fictional Ward 01,42,2,2022-04-21 20:00:00,2022-04-22 08:00:00,FictionalClinician01,Fictional unit transfer
+U00642,A00242,MICU,Fictional Ward 02,43,3,2022-04-22 07:00:00,2022-04-22 19:00:00,FictionalClinician02,Fictional unit transfer
+U00643,A00243,SICU,Fictional Ward 03,44,4,2022-04-22 18:00:00,2022-04-23 06:00:00,FictionalClinician03,Initial placement
+U00644,A00244,ICU,Fictional Ward 04,45,1,2022-04-23 05:00:00,2022-04-23 17:00:00,FictionalClinician04,Fictional unit transfer
+U00645,A00245,CCU,Fictional Ward 05,46,2,2022-04-23 16:00:00,2022-04-24 04:00:00,FictionalClinician05,Fictional unit transfer
+U00646,A00246,MICU,Fictional Ward 06,47,3,2022-04-24 03:00:00,2022-04-24 15:00:00,FictionalClinician06,Initial placement
+U00647,A00247,SICU,Fictional Ward 07,48,4,2022-04-24 14:00:00,2022-04-25 02:00:00,FictionalClinician07,Fictional unit transfer
+U00648,A00248,ICU,Fictional Ward 00,49,1,2022-04-25 01:00:00,2022-04-25 13:00:00,FictionalClinician08,Fictional unit transfer
+U00649,A00249,CCU,Fictional Ward 01,50,2,2022-04-25 12:00:00,2022-04-26 00:00:00,FictionalClinician09,Initial placement
+U00650,A00250,MICU,Fictional Ward 02,51,3,2022-04-25 23:00:00,2022-04-26 11:00:00,FictionalClinician10,Fictional unit transfer
+U00651,A00251,SICU,Fictional Ward 03,52,4,2022-04-26 10:00:00,2022-04-26 22:00:00,FictionalClinician11,Fictional unit transfer
+U00652,A00252,ICU,Fictional Ward 04,53,1,2022-04-26 21:00:00,2022-04-27 09:00:00,FictionalClinician12,Initial placement
+U00653,A00253,CCU,Fictional Ward 05,54,2,2022-04-27 08:00:00,2022-04-27 20:00:00,FictionalClinician13,Fictional unit transfer
+U00654,A00254,MICU,Fictional Ward 06,55,3,2022-04-27 19:00:00,2022-04-28 07:00:00,FictionalClinician14,Fictional unit transfer
+U00655,A00255,SICU,Fictional Ward 07,56,4,2022-04-28 06:00:00,2022-04-28 18:00:00,FictionalClinician15,Initial placement
+U00656,A00256,ICU,Fictional Ward 00,57,1,2022-04-28 17:00:00,2022-04-29 05:00:00,FictionalClinician16,Fictional unit transfer
+U00657,A00257,CCU,Fictional Ward 01,58,2,2022-04-29 04:00:00,2022-04-29 16:00:00,FictionalClinician17,Fictional unit transfer
+U00658,A00258,MICU,Fictional Ward 02,59,3,2022-04-29 15:00:00,2022-04-30 03:00:00,FictionalClinician18,Initial placement
+U00659,A00259,SICU,Fictional Ward 03,60,4,2022-04-30 02:00:00,2022-04-30 14:00:00,FictionalClinician19,Fictional unit transfer
+U00660,A00260,ICU,Fictional Ward 04,01,1,2022-04-30 13:00:00,2022-05-01 01:00:00,FictionalClinician20,Fictional unit transfer
+U00661,A00261,CCU,Fictional Ward 05,02,2,2022-05-01 00:00:00,2022-05-01 12:00:00,FictionalClinician21,Initial placement
+U00662,A00262,MICU,Fictional Ward 06,03,3,2022-05-01 11:00:00,2022-05-01 23:00:00,FictionalClinician22,Fictional unit transfer
+U00663,A00263,SICU,Fictional Ward 07,04,4,2022-05-01 22:00:00,2022-05-02 10:00:00,FictionalClinician23,Fictional unit transfer
+U00664,A00264,ICU,Fictional Ward 00,05,1,2022-05-02 09:00:00,2022-05-02 21:00:00,FictionalClinician24,Initial placement
+U00665,A00265,CCU,Fictional Ward 01,06,2,2022-05-02 20:00:00,2022-05-03 08:00:00,FictionalClinician25,Fictional unit transfer
+U00666,A00266,MICU,Fictional Ward 02,07,3,2022-05-03 07:00:00,2022-05-03 19:00:00,FictionalClinician26,Fictional unit transfer
+U00667,A00267,SICU,Fictional Ward 03,08,4,2022-05-03 18:00:00,2022-05-04 06:00:00,FictionalClinician27,Initial placement
+U00668,A00268,ICU,Fictional Ward 04,09,1,2022-05-04 05:00:00,2022-05-04 17:00:00,FictionalClinician28,Fictional unit transfer
+U00669,A00269,CCU,Fictional Ward 05,10,2,2022-05-04 16:00:00,2022-05-05 04:00:00,FictionalClinician29,Fictional unit transfer
+U00670,A00270,MICU,Fictional Ward 06,11,3,2022-05-05 03:00:00,2022-05-05 15:00:00,FictionalClinician30,Initial placement
+U00671,A00271,SICU,Fictional Ward 07,12,4,2022-05-05 14:00:00,2022-05-06 02:00:00,FictionalClinician31,Fictional unit transfer
+U00672,A00272,ICU,Fictional Ward 00,13,1,2022-05-06 01:00:00,2022-05-06 13:00:00,FictionalClinician32,Fictional unit transfer
+U00673,A00273,CCU,Fictional Ward 01,14,2,2022-05-06 12:00:00,2022-05-07 00:00:00,FictionalClinician33,Initial placement
+U00674,A00274,MICU,Fictional Ward 02,15,3,2022-05-06 23:00:00,2022-05-07 11:00:00,FictionalClinician34,Fictional unit transfer
+U00675,A00275,SICU,Fictional Ward 03,16,4,2022-05-07 10:00:00,2022-05-07 22:00:00,FictionalClinician35,Fictional unit transfer
+U00676,A00276,ICU,Fictional Ward 04,17,1,2022-05-07 21:00:00,2022-05-08 09:00:00,FictionalClinician36,Initial placement
+U00677,A00277,CCU,Fictional Ward 05,18,2,2022-05-08 08:00:00,2022-05-08 20:00:00,FictionalClinician37,Fictional unit transfer
+U00678,A00278,MICU,Fictional Ward 06,19,3,2022-05-08 19:00:00,2022-05-09 07:00:00,FictionalClinician38,Fictional unit transfer
+U00679,A00279,SICU,Fictional Ward 07,20,4,2022-05-09 06:00:00,2022-05-09 18:00:00,FictionalClinician39,Initial placement
+U00680,A00280,ICU,Fictional Ward 00,21,1,2022-05-09 17:00:00,2022-05-10 05:00:00,FictionalClinician00,Fictional unit transfer
+U00681,A00281,CCU,Fictional Ward 01,22,2,2022-05-10 04:00:00,2022-05-10 16:00:00,FictionalClinician01,Fictional unit transfer
+U00682,A00282,MICU,Fictional Ward 02,23,3,2022-05-10 15:00:00,2022-05-11 03:00:00,FictionalClinician02,Initial placement
+U00683,A00283,SICU,Fictional Ward 03,24,4,2022-05-11 02:00:00,2022-05-11 14:00:00,FictionalClinician03,Fictional unit transfer
+U00684,A00284,ICU,Fictional Ward 04,25,1,2022-05-11 13:00:00,2022-05-12 01:00:00,FictionalClinician04,Fictional unit transfer
+U00685,A00285,CCU,Fictional Ward 05,26,2,2022-05-12 00:00:00,2022-05-12 12:00:00,FictionalClinician05,Initial placement
+U00686,A00286,MICU,Fictional Ward 06,27,3,2022-05-12 11:00:00,2022-05-12 23:00:00,FictionalClinician06,Fictional unit transfer
+U00687,A00287,SICU,Fictional Ward 07,28,4,2022-05-12 22:00:00,2022-05-13 10:00:00,FictionalClinician07,Fictional unit transfer
+U00688,A00288,ICU,Fictional Ward 00,29,1,2022-05-13 09:00:00,2022-05-13 21:00:00,FictionalClinician08,Initial placement
+U00689,A00289,CCU,Fictional Ward 01,30,2,2022-05-13 20:00:00,2022-05-14 08:00:00,FictionalClinician09,Fictional unit transfer
+U00690,A00290,MICU,Fictional Ward 02,31,3,2022-05-14 07:00:00,2022-05-14 19:00:00,FictionalClinician10,Fictional unit transfer
+U00691,A00291,SICU,Fictional Ward 03,32,4,2022-05-14 18:00:00,2022-05-15 06:00:00,FictionalClinician11,Initial placement
+U00692,A00292,ICU,Fictional Ward 04,33,1,2022-05-15 05:00:00,2022-05-15 17:00:00,FictionalClinician12,Fictional unit transfer
+U00693,A00293,CCU,Fictional Ward 05,34,2,2022-05-15 16:00:00,2022-05-16 04:00:00,FictionalClinician13,Fictional unit transfer
+U00694,A00294,MICU,Fictional Ward 06,35,3,2022-05-16 03:00:00,2022-05-16 15:00:00,FictionalClinician14,Initial placement
+U00695,A00295,SICU,Fictional Ward 07,36,4,2022-05-16 14:00:00,2022-05-17 02:00:00,FictionalClinician15,Fictional unit transfer
+U00696,A00296,ICU,Fictional Ward 00,37,1,2022-05-17 01:00:00,2022-05-17 13:00:00,FictionalClinician16,Fictional unit transfer
+U00697,A00297,CCU,Fictional Ward 01,38,2,2022-05-17 12:00:00,2022-05-18 00:00:00,FictionalClinician17,Initial placement
+U00698,A00298,MICU,Fictional Ward 02,39,3,2022-05-17 23:00:00,2022-05-18 11:00:00,FictionalClinician18,Fictional unit transfer
+U00699,A00299,SICU,Fictional Ward 03,40,4,2022-05-18 10:00:00,2022-05-18 22:00:00,FictionalClinician19,Fictional unit transfer
+U00700,A00300,ICU,Fictional Ward 04,41,1,2022-05-18 21:00:00,2022-05-19 09:00:00,FictionalClinician20,Initial placement
